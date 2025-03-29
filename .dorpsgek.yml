@@ -1,0 +1,11 @@
+notifications:
+  global:
+    irc:
+      - openttd
+      - openttd.notice
+
+  pull-request:
+    except-by:
+      - dependabot\[bot\]
+  issue:
+  tag-created:
