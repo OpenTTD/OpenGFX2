@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2+ Trams. Freely available under the terms of th
 
 STR_GRF_NAME            :OpenGFX2+ Trams
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX+ Trams. Trams in the OpenGFX2 style.{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1      :Broom Mk1 Tram
 STR_TRAM_NAME_GEN2      :Manley-Morel 'T' Tram

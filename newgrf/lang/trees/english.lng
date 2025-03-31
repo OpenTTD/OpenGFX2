@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2+ LandscTreesape. Freely available under the te
 
 STR_GRF_NAME            :OpenGFX2+ Trees
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX+ Trees. Trees in the OpenGFX2 style.{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_PARAM_VALUE_TEMPERATE             :Temperate
 STR_PARAM_VALUE_ARCTIC                :Arctic

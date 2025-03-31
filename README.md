@@ -1,5 +1,5 @@
 # OpenGFX2
-# ![opengfx2_titletext](https://github.com/zephyris/opengfx2/assets/2762690/1adabdf4-baf8-48b2-ae35-279c3d808d0e)
+# ![opengfx2_titletext](https://github.com/OpenTTD/OpenGFX2/assets/2762690/1adabdf4-baf8-48b2-ae35-279c3d808d0e)
 
 "OpenGFX2" graphics base set for [OpenTTD](https://github.com/OpenTTD/OpenTTD). It is drawn in a classic 8-bit pixel art style and trys to capture the feel of the original Transport Tycoon graphics by using similar colour schemes, building and object designs, etc. There are two variants:
 * `OpenGFX2 Classic`: An original graphics-style base set, 8-bit at 1x zoom (64 px wide tiles).
@@ -25,7 +25,7 @@ To install, search for `OpenGFX2`, tick the checkbox next to "OpenGFX2 Classic" 
 To set as the base graphics set, go to `Game Options > (Graphics) > Base Graphics` from the OpenTTD main menu. Select `OpenGFX2 Classic`, then close the `Game Options` window.
 
 ### Manual download
-Download a release from [the prebuilt GRF releases](https://github.com/zephyris/opengfx2/tags) and install using the instructions below.
+Download a release from [the prebuilt GRF releases](https://github.com/OpenTTD/OpenGFX2/tags) and install using the instructions below.
 
 These are early release previews not available in the in-game content downloader. This includes base set versions (the "High Def" 32-bit 4x zoom version) and NewGRFs not yet available through the in-game downloader.
 
@@ -69,7 +69,7 @@ Image processing makes a bunch of intermediate files, particularly `*_8bpp.png` 
 
 Files processed by `python` and encoded by `nml` are `.png` files, but those may be derived from other sources. Raw sprites were variously drawn\generated in Paint.NET, Aseprite, Blender and more. Conversion from those raw sources to `.png` files is not part of the build process - it must be done manually.
 
-All sprite sheets are generated from source `png` files by `graphics/generate_graphics.py`. However, [OpenTTD-TTF](https://github.com/zephyris/openttd-ttf) must have first been cloned to `graphics/fonts/openttd-ttf`. `make all` or `make graphcis` handles this for you though.
+All sprite sheets are generated from source `png` files by `graphics/generate_graphics.py`. However, [OpenTTD-TTF](https://github.com/OpenTTD/OpenTTD-TTF) must have first been cloned to `graphics/fonts/openttd-ttf`. `make all` or `make graphcis` handles this for you though.
 
 ## Development
 These notes are to help development. If you are just downloading or building OpenGFX2 then you don't need to worry about these.

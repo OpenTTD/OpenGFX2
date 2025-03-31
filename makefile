@@ -120,7 +120,7 @@ graphics_%.tmp: graphics/fonts/openttd-ttf FORCE
 
 # Get font git dependencies
 graphics/fonts/openttd-ttf:
-	cd graphics/fonts && git clone https://github.com/zephyris/openttd-ttf
+	cd graphics/fonts && git clone https://github.com/OpenTTD/OpenTTD-TTF
 
 # Clean
 .PHONY: clean

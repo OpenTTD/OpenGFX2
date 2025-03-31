@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2+ Landscape. Freely available under the terms o
 
 STR_GRF_NAME            :OpenGFX2+ Landscape
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX+ Landscape. Landscapes in the OpenGFX2 style.{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_PARAM_GRIDLINE_NAME               :Terrain gridlines
 STR_PARAM_GRIDLINE_DESC               :Whether or not to show gridlines on the edges of ground and water tiles.

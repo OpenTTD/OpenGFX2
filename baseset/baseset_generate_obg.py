@@ -234,7 +234,7 @@ def generate_obg(base_path, type_string):
       obg.write(pad(file["name"] + ".grf", 23, pad_left=False) + "= " + md5)
     obg.write("\n")
     obg.write("[origin]" + "\n")
-    obg.write("default = Available from the in-game content download system (BaNaNaS) or https://github.com/zephyris/opengfx2/")
+    obg.write("default = Available from the in-game content download system (BaNaNaS) or https://github.com/OpenTTD/OpenGFX2/")
     obg.write("\n")
 
 if __name__ == "__main__":
