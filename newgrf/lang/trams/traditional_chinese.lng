@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2+ 電車。根據 GNU 通用公共授權第 2 �
 
 STR_GRF_NAME            :OpenGFX2+ 電車
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX+ 電車。 OpenGFX2 款式的電車。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1      :Broom Mk1 型電車
 STR_TRAM_NAME_GEN2      :Manley-Morel 'T' 型電車

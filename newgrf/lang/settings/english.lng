@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2 Settings. Freely available under the terms of 
 
 STR_GRF_NAME            :OpenGFX2 Settings
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 Settings. Alters parameters used by the OpenGFX2 extra grf, hack to allow setting of baseset extra grf parameters.{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Settings NewGRF is not recommended for OpenTTD 14.0 and later. Base set parameters are recommended instead!
 

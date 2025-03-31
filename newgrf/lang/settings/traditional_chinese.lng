@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2 設定。根據 GNU 通用公共授權第 2 �
 
 STR_GRF_NAME            :OpenGFX2 設定
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 設定。更改 OpenGFX2 額外 GRF 使用的參數，修改以允許設定基本集額外 GRF 參數。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenTTD 14.0 及更高版本不推薦使用 OpenGFX2 設置 NewGRF 。建議設定為預設參數！
 

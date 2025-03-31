@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2+ 物件。根據 GNU 通用公共授權第 2 �
 
 STR_GRF_NAME            :OpenGFX2+ 物件
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2+ 物件。在 OpenGFX2 的物件款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK          :岩石
 STR_OBJECT_ROCKS        :灰色的岩石

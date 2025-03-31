@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2+ 樹木景觀。根據 GNU 通用公共授權�
 
 STR_GRF_NAME            :OpenGFX2+ 樹木
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX+ 樹木。在 OpenGFX2 的樹木款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_PARAM_VALUE_TEMPERATE             :溫帶
 STR_PARAM_VALUE_ARCTIC                :寒帶

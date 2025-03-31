@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2 base graphics set for OpenTTD. Freely availabl
 
 STR_GRF_NAME            :OpenGFX2Base
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 # notranslate starts
 STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]

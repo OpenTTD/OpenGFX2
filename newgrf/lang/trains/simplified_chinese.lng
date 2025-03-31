@@ -3,7 +3,7 @@ STR_GENERAL_DESC        :OpenGFX2+ 火车、单轨列车和磁悬浮列车，在
 
 STR_GRF_NAME            :OpenGFX2+ 火车
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX+ 火车、单轨列车和磁悬浮列车。 OpenGFX2 风格的铁路列车。{BLACK}{}作者：Zephyris，站在 OpenGFX 团队的肩膀上{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/zephyris/opengfx2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 STR_RAIL_NAME_WAGON_PASS:旅客车厢
 STR_RAIL_NAME_WAGON_MAIL:邮政车厢
