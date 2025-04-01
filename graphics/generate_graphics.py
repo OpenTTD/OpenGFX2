@@ -141,7 +141,7 @@ for scale in scale_range([1, 4]):
 
 # selectors
 for scale in scale_range([0.25, 0.5, 1, 2, 4]):
-    custom_dither_directory(os.path.join(base_path, "selectors", str(scale * 64)))
+    custom_dither_directory(os.path.join(base_path, "selectors", str(int(scale * 64))))
 
 # vehicles
 for scale in scale_range([1, 4]):
