@@ -50,7 +50,7 @@ template template_spr2429(z) {
     template_sprite_matrix_nocrop(20, 20, 0, 0, 4, 12, z) // construction toolbar: maglev tunnel
 }
 base_graphics spr2429(2429, "../graphics/icons/1/icons_20px_8bpp.png") { template_spr2429(1) }
-#ez alternative_sprites(spr2429, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_20px_8bpp.png") { template_spr2429(2) }
+alternative_sprites(spr2429, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_20px_8bpp.png") { template_spr2429(2) }
 
 //2433-2439 tunnel cursors
 base_graphics spr2433( 2433, "../graphics/cursors/1/pygen/default_8bpp.png") {
