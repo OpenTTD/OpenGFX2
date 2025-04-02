@@ -16,6 +16,7 @@ __pycache__/
 *.obg
 *.md5
 *.tar
+*.zip
 
 # OpenGFX-derived working directories
 OpenGFX/

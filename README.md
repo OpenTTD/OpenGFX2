@@ -54,7 +54,7 @@ Requires a system with `make`, `nmlc`, `git` and  `python3` with `PIL`, `blend-m
 ### To build
 Clone the repository, navigate to the repository root directory and run `make all`. It will take a long time...
 
-The built baseset will be in `baseset/`, making different versions called `opengfx2_<version>.tar`.
+The built baseset will be in `baseset/`, making different versions called `OpenGFX2_<variant>-<version>.tar` and `.zip`.
 You can (re)build only the "Classic" 8bpp 1x zoom baseset using `make baseset` or the "High Def" 32bpp 4x zoom baseset using `make baseset_highdef`.
 
 The built NewGRF(s) will be in `newgrf/`, making various `.grf` files.
@@ -69,7 +69,7 @@ Image processing makes a bunch of intermediate files, particularly `*_8bpp.png` 
 
 Files processed by `python` and encoded by `nml` are `.png` files, but those may be derived from other sources. Raw sprites were variously drawn\generated in Paint.NET, Aseprite, Blender and more. Conversion from those raw sources to `.png` files is not part of the build process - it must be done manually.
 
-All sprite sheets are generated from source `png` files by `graphics/generate_graphics.py`. However, [OpenTTD-TTF](https://github.com/OpenTTD/OpenTTD-TTF) must have first been cloned to `graphics/fonts/openttd-ttf`. `make all` or `make graphcis` handles this for you though.
+All sprite sheets are generated from source `png` files by `graphics/generate_graphics.py`. However, [OpenTTD-TTF](https://github.com/OpenTTD/OpenTTD-TTF) must have first been cloned to `graphics/fonts/openttd-ttf`. `make all` or `make graphics` handles this for you though.
 
 ## Development
 These notes are to help development. If you are just downloading or building OpenGFX2 then you don't need to worry about these.
@@ -78,7 +78,8 @@ These notes are to help development. If you are just downloading or building Ope
 Remember to update the changelog:
 * `CHANGELOG.md` with key fixes and features
 
-Remember to bump the versions: 
+Remember to bump the versions:
+* User facing version in `makefile`
 * Base set version in `baseset/baseset_generate_obg.py`
 * Base set version string in `baseset/lang/english.lng`
 * Base set `extra.grf` version in `baseset/nml/extra-header.pnml`
