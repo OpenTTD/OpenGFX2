@@ -2,7 +2,7 @@
 //2692-2707 bus stop
 base_graphics spr2692(2692, "../graphics/infrastructure/64/pygen/road_general_concrete_8bpp.png") { template_roadstoptiles(0, 0, 1) } // ground tiles
 #ez alternative_sprites(spr2692, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/infrastructure/256/pygen/road_general_concrete_8bpp.png") { template_roadstoptiles(0, 0, 4) }
-//#32 alternative_sprites(spr2692, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/infrastructure/64/pygen/road_general_concrete_bt32bpp.png") { template_roadstoptiles(0, 0, 1) }
+#32 alternative_sprites(spr2692, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/infrastructure/64/pygen/road_general_concrete_bt32bpp.png") { template_roadstoptiles(0, 0, 1) }
 #32 #ez alternative_sprites(spr2692, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/infrastructure/256/pygen/road_general_concrete_bt32bpp.png") { template_roadstoptiles(0, 0, 4) }
 base_graphics spr2696(2696, "../graphics/stations/general/64/pygen/roadstops_8bpp.png") { template_busstop(325, 0, 1) } // building sprites
 #32 alternative_sprites(spr2696, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/stations/general/64/pygen/roadstops_rm32bpp.png", "../graphics/stations/general/64/pygen/roadstops_8bpp.png") { template_busstop(325, 0, 1) }
@@ -12,8 +12,8 @@ base_graphics spr2696(2696, "../graphics/stations/general/64/pygen/roadstops_8bp
 //2708-2723 lorry stop
 base_graphics spr2708(2708, "../graphics/infrastructure/64/pygen/road_general_concrete_8bpp.png") { template_roadstoptiles(0, 0, 1) } // ground tiles
 #ez alternative_sprites(spr2708, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/infrastructure/256/pygen/road_general_concrete_8bpp.png") { template_roadstoptiles(0, 0, 4) }
-#32 alternative_sprites(spr2692, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/infrastructure/64/pygen/road_general_concrete_bt32bpp.png") { template_roadstoptiles(0, 0, 1) }
-#32 #ez alternative_sprites(spr2692, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/infrastructure/256/pygen/road_general_concrete_bt32bpp.png") { template_roadstoptiles(0, 0, 4) }
+#32 alternative_sprites(spr2708, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/infrastructure/64/pygen/road_general_concrete_bt32bpp.png") { template_roadstoptiles(0, 0, 1) }
+#32 #ez alternative_sprites(spr2708, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/infrastructure/256/pygen/road_general_concrete_bt32bpp.png") { template_roadstoptiles(0, 0, 4) }
 base_graphics spr2712(2712, "../graphics/stations/general/64/pygen/roadstops_8bpp.png") { template_lorrystop(0, 0, 1) } // building sprites
 #32 alternative_sprites(spr2712, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/stations/general/64/pygen/roadstops_rm32bpp.png", "../graphics/stations/general/64/pygen/roadstops_8bpp.png") { template_lorrystop(0, 0, 1) }
 #ez alternative_sprites(spr2712, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/stations/general/256/pygen/roadstops_8bpp.png") { template_lorrystop(0, 0, 4) }
