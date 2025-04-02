@@ -4,7 +4,7 @@ base_graphics spr134(134, "../graphics/infrastructure/64/pygen/road_toyland_conc
 
 //153-171 roads
 base_graphics spr153(153, "../graphics/infrastructure/64/pygen/road_toyland_grass_8bpp.png") { template_roadtiles(0, 0, 1) }
-#32 alternative_sprites(spr134, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/infrastructure/64/pygen/road_toyland_grass_rm32bpp.png", "../graphics/infrastructure/64/pygen/road_toyland_grass_8bpp.png") { template_roadtiles(0, 0, 1) }
+#32 alternative_sprites(spr153, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/infrastructure/64/pygen/road_toyland_grass_rm32bpp.png", "../graphics/infrastructure/64/pygen/road_toyland_grass_8bpp.png") { template_roadtiles(0, 0, 1) }
 
 //172-173 streetlights
 base_graphics spr172(172, "../graphics/towns/streetfurniture/64/town_lamp_toyland_8bpp.png") { template_road_lights_tall(0, 0, 1) }
