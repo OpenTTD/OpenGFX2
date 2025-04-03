@@ -18,8 +18,8 @@ def make_8bpp(src32bpp, palmask):
     palmask = Image.new("P", (src32bpp.size), 0)
     palmask.putpalette(palimage.getpalette())
 
-  # 'Normal' palette entries, everything expect action colours
-  colors_normal = [x for x in range(256) if x not in openttd_palette_animated]
+  # 'Normal' palette entries, everything expect action colours and pure white (index 255)
+  colors_normal = [x for x in range(255) if x not in openttd_palette_animated]
 
   # Start by making sure the images are the correct mode
   # Source must be RGBA
