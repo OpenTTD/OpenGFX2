@@ -262,17 +262,27 @@ replacenew ottd_gui137(OTTD_GUI, "../graphics/cursors/1/pygen/default_8bpp.png",
 	template_cursor_matrix(3, 13, 1) // cursor waterways: build rivers
 }
 
-// OTTD_GUI 148-143 small icons (unknown use?)
+// OTTD_GUI 138-143 onscreen keyboard icons
 template template_ottd_gui138(z) {
-	template_sprite_matrix_nocrop(8, 8, 0, 0, 1, 2, z) // (?) arrow left
-	template_sprite_matrix_nocrop(8, 8, 0, 0, 2, 2, z) // (?) arrow right
-	template_sprite_matrix_nocrop(8, 8, 0, 0, 3, 3, z) // (?) open arrow down
-	template_sprite_matrix_nocrop(8, 8, 0, 0, 2, 3, z) // (?) open arrow up
-	template_sprite_matrix_nocrop(8, 8, 0, 0, 0, 3, z) // (?) open arrow left
-	template_sprite_matrix_nocrop(8, 8, 0, 0, 4, 3, z) // (?) command symbol
+	template_sprite_matrix_nocrop(8, 8, 0, 0, 0, 2, z) // cursor left
+	template_sprite_matrix_nocrop(8, 8, 0, 0, 1, 2, z) // cursor right
+	template_sprite_matrix_nocrop(8, 8, 0, 0, 7, 3, z) // caps lock
+	template_sprite_matrix_nocrop(8, 8, 0, 0, 2, 3, z) // shift
 }
 replacenew ottd_gui138(OTTD_GUI, "../graphics/icons/1/icons_8px_8bpp.png", 138) { template_ottd_gui138(1) }
 alternative_sprites (ottd_gui138, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_8px_8bpp.png") { template_ottd_gui138(2) }
+
+template template_ottd_gui142(z) {
+	template_sprite_matrix_nocrop(14, 8, 0, 0, 2, 0, z) // backspace
+}
+replacenew ottd_gui142(OTTD_GUI, "../graphics/icons/1/icons_textdelete_8bpp.png", 142) { template_ottd_gui142(1) }
+alternative_sprites (ottd_gui142, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_textdelete_8bpp.png") { template_ottd_gui142(2) }
+
+template template_ottd_gui143(z) {
+	template_sprite_matrix_nocrop(8, 8, 0, 0, 4, 3, z) // meta/command
+}
+replacenew template_ottd_gui143(OTTD_GUI, "../graphics/icons/1/icons_8px_8bpp.png", 143) { template_ottd_gui143(1) }
+alternative_sprites (template_ottd_gui143, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_8px_8bpp.png") { template_ottd_gui143(2) }
 
 // OTTD_GUI 144-145 more icons
 template template_ottd_gui144(z) {
