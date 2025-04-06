@@ -1,3 +1,7 @@
+# Versions
+# nice user-facing version naming
+NAMING_VERSION := 0.7
+
 # Default target
 .PHONY: all
 all: baseset baseset_highdef newgrf
@@ -5,102 +9,91 @@ all: baseset baseset_highdef newgrf
 # Basesets
 # "Classic" 8bpp 1x zoom baseset
 .PHONY: baseset
-baseset: baseset/opengfx2_8.tar
+baseset: baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip
+
+baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip: baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar
+	cd baseset && zip -9 -r OpenGFX2_Classic-$(NAMING_VERSION).zip OpenGFX2_Classic-$(NAMING_VERSION).tar
 
 # "High Def" 32bpp 4x zoom baseset
 .PHONY: baseset_highdef
-baseset_highdef: baseset/opengfx2_32ez.tar
+baseset_highdef: baseset/OpenGFX2_HighDef-$(NAMING_VERSION).zip
 
-# All baseset variants
-.PHONY: baseset_32 baseset_8ez
-baseset_8: baseset/opengfx2_8.tar
-baseset_32: baseset/opengfx2_32.tar
-baseset_8ez: baseset/opengfx2_8ez.tar
-baseset_32ez: baseset/opengfx2_32ez.tar
+baseset/OpenGFX2_HighDef-$(NAMING_VERSION).zip: baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar
+	cd baseset && zip -9 -r OpenGFX2_HighDef-$(NAMING_VERSION).zip OpenGFX2_HighDef-$(NAMING_VERSION).tar
 
-# Generalised baseset
-.PRECIOUS: opengfx2_%.tar
-baseset/opengfx2_%.tar: baseset/opengfx2_%.obg README.md LICENSE CHANGELOG.md baseset/ogfx2c_arctic_%.grf baseset/ogfx2e_extra_%.grf baseset/ogfx2h_tropical_%.grf baseset/ogfx2i_logos_%.grf baseset/ogfx2t_toyland_%.grf baseset/ogfx21_base_%.grf baseset/ogfx2c_arctic_%.md5 baseset/ogfx2e_extra_%.md5 baseset/ogfx2h_tropical_%.md5 baseset/ogfx2i_logos_%.md5 baseset/ogfx2t_toyland_%.md5 baseset/ogfx21_base_%.md5
-	$(eval TMP=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
-	mkdir -p baseset/opengfx2_$(TMP)
-	cp README.md baseset/opengfx2_$(TMP)/readme.md
-	cp LICENSE baseset/opengfx2_$(TMP)/license.txt
-	cp CHANGELOG.md baseset/opengfx2_$(TMP)/changelog.md
-	cp baseset/*_$(TMP).grf baseset/opengfx2_$(TMP)/
-	cp baseset/opengfx2_$(TMP).obg baseset/opengfx2_$(TMP)/
-	cd baseset && tar -cf opengfx2_$(TMP).tar opengfx2_$(TMP)/
-	rm -r baseset/opengfx2_$(TMP)
+# Base set packaging
+.PRECIOUS: OpenGFX2_Classic-$(NAMING_VERSION).tar OpenGFX2_HighDef-$(NAMING_VERSION).tar
+BASESET_GRFS = ogfx2c_arctic ogfx2e_extra ogfx2h_tropical ogfx2i_logos ogfx2t_toyland ogfx21_base
+BASESET_DOCS = README.md LICENSE CHANGELOG.md
+
+baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar: baseset/opengfx2_8.obg $(BASESET_DOCS) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.grf)
+	mkdir -p baseset/OpenGFX2_Classic-$(NAMING_VERSION)
+	cp README.md baseset/OpenGFX2_Classic-$(NAMING_VERSION)/readme.md
+	cp LICENSE baseset/OpenGFX2_Classic-$(NAMING_VERSION)/license.txt
+	cp CHANGELOG.md baseset/OpenGFX2_Classic-$(NAMING_VERSION)/changelog.md
+	cp $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.grf) baseset/OpenGFX2_Classic-$(NAMING_VERSION)/
+	cp baseset/opengfx2_8.obg baseset/OpenGFX2_Classic-$(NAMING_VERSION)/
+	cd baseset && tar -cf OpenGFX2_Classic-$(NAMING_VERSION).tar OpenGFX2_Classic-$(NAMING_VERSION)/
+	rm -r baseset/OpenGFX2_Classic-$(NAMING_VERSION)
+
+baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar: baseset/opengfx2_32ez.obg $(BASESET_DOCS) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf)
+	mkdir -p baseset/OpenGFX2_HighDef-$(NAMING_VERSION)
+	cp README.md baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/readme.md
+	cp LICENSE baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/license.txt
+	cp CHANGELOG.md baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/changelog.md
+	cp $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf) baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/
+	cp baseset/opengfx2_32ez.obg baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/
+	cd baseset && tar -cf OpenGFX2_HighDef-$(NAMING_VERSION).tar OpenGFX2_HighDef-$(NAMING_VERSION)/
+	rm -r baseset/OpenGFX2_HighDef-$(NAMING_VERSION)
 
 # OBG for baseset
-# FORCE, as baseset_generate_obg check for necessary updates
-.PRECIOUS: baseset/opengfx2_%.obg
-baseset/opengfx2_%.obg: baseset/ogfx2c_arctic_%.grf baseset/ogfx2e_extra_%.grf baseset/ogfx2h_tropical_%.grf baseset/ogfx2i_logos_%.grf baseset/ogfx2t_toyland_%.grf baseset/ogfx21_base_%.grf baseset/ogfx2c_arctic_%.md5 baseset/ogfx2e_extra_%.md5 baseset/ogfx2h_tropical_%.md5 baseset/ogfx2i_logos_%.md5 baseset/ogfx2t_toyland_%.md5 baseset/ogfx21_base_%.md5 baseset/baseset_generate_obg.py baseset/lang/*.lng
-	$(eval TMP=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
-	python3 baseset/baseset_generate_obg.py $(TMP) baseset/
+# FORCE, as baseset_generate_obg checks for necessary updates
+.PRECIOUS: baseset/opengfx2_8.obg baseset/opengfx2_32ez.obg
 
-# GRF and MD5 for baseset
-.PRECIOUS: baseset/%.grf baseset/%.md5
-baseset/%.grf: baseset/%.nml graphics_4.tmp baseset/lang/*.lng
-	cd baseset && nmlc -p DOS --quiet -c $(notdir $<) --md5 $(basename $(notdir $<)).md5
+baseset/opengfx2_8.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.md5)
+	python3 baseset/baseset_generate_obg.py 8 baseset/
 
-#baseset/%.md5: baseset/%.nml graphics
-#	cd baseset && nmlc -p DOS --quiet -c $(notdir $<) --md5 $(basename $(notdir $<)).md5
+baseset/opengfx2_32ez.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.md5)
+	python3 baseset/baseset_generate_obg.py 32ez baseset/
 
-# NML for baseset
-# FORCE, as nml_preprocessor.py will check if updates are necessary
-# TODO: Use variables/parameters somehow to avoid duplication
-.PRECIOUS: baseset/%_8.nml
-baseset/%_8.nml: baseset/%.pnml templates/nml_preprocessor.py FORCE
-	$(eval TMP=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
-	python3 templates/nml_preprocessor.py $< $(TMP)
+# GRF and MD5, via NML intermediate, for baseset
+# FORCE, as nml_preprocessor includes arbitrary pnml files
+.PRECIOUS: baseset/%.grf baseset/%.md5 baseset/%.nml
 
-.PRECIOUS: baseset/%_8ez.nml
-baseset/%_8ez.nml: baseset/%.pnml templates/nml_preprocessor.py FORCE
-	$(eval TMP=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
-	python3 templates/nml_preprocessor.py $< $(TMP)
+baseset/%_8.grf: graphics_1 baseset/lang/*.lng FORCE
+	$(eval PREF=$(word 1, $(subst _, ,$(basename $(notdir $@)))))
+	$(eval NAME=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
+	$(eval ZOOM=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
+	python3 templates/nml_preprocessor.py baseset/$(PREF)_$(NAME).pnml $(ZOOM)
+	cd baseset && nmlc -p DOS --quiet -c $(PREF)_$(NAME)_$(ZOOM).nml --md5 $(PREF)_$(NAME)_$(ZOOM).md5
 
-.PRECIOUS: baseset/%_32.nml
-baseset/%_32.nml: baseset/%.pnml templates/nml_preprocessor.py FORCE
-	$(eval TMP=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
-	python3 templates/nml_preprocessor.py $< $(TMP)
-
-.PRECIOUS: baseset/%_32ez.nml
-baseset/%_32ez.nml: baseset/%.pnml templates/nml_preprocessor.py FORCE
-	$(eval TMP=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
-	python3 templates/nml_preprocessor.py $< $(TMP)
-
-# Constructs input pnml name from parsing output _-delimited ogfx2<basestr>_<basename>_<nmltype>.nml name
-#.PRECIOUS: baseset/%.nml
-#baseset/%.nml: baseset/$(word 1, $(subst _, ,$(basename $(notdir $<))))_$(word 2, $(subst _, ,$(basename $(notdir $<)))).pnml templates/nml_preprocessor.py FORCE
-#	$(eval TMP=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
-#	python3 templates/nml_preprocessor.py $< $(TMP)
+baseset/%_32ez.grf: graphics_4 baseset/lang/*.lng FORCE
+	$(eval PREF=$(word 1, $(subst _, ,$(basename $(notdir $@)))))
+	$(eval NAME=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
+	$(eval ZOOM=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
+	echo $(PREF) $(NAME) $(ZOOM)
+	python3 templates/nml_preprocessor.py baseset/$(PREF)_$(NAME).pnml $(ZOOM)
+	cd baseset && nmlc -p DOS --quiet -c $(PREF)_$(NAME)_$(ZOOM).nml --md5 $(PREF)_$(NAME)_$(ZOOM).md5
 
 # NewGRFs
-.PNONY: newgrf
-newgrf: newgrf/ogfx2_landscape.grf newgrf/ogfx2_objects.grf newgrf/ogfx2_settings.grf newgrf/ogfx2_stations.grf newgrf/ogfx2_trees.grf newgrf/ogfx2_trams.grf newgrf/ogfx2_trains.grf
+.PHONY: newgrf
+NEWGRFS = landscape objects settings stations trees trams trains
+newgrf: $(foreach grf,$(NEWGRFS),newgrf/ogfx2_$(grf).grf)
 
-# GRF for NewGRFs
-.PRECIOUS: newgrf/ogfx2_%.grf
-newgrf/ogfx2_%.grf: newgrf/ogfx2_%.nml graphics_4.tmp newgrf/lang/%/*.lng
-	$(eval TMP=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
-	cd newgrf && nmlc -p DOS --quiet -c -l lang/$(TMP) $(notdir $<)
+# GRF, via NML intermediate, for NewGRFs
+# FORCE, as nml_preprocessor includes arbitrary pnml files
+.PRECIOUS: newgrf/ogfx2_%.grf newgrf/ogfx2_%.nml
 
-# NML for NewGRFs
-.PRECIOUS: newgrf/ogfx2_%.nml FORCE
-newgrf/ogfx2_%.nml: newgrf/ogfx2_%.pnml templates/nml_preprocessor.py FORCE
-	python3 templates/nml_preprocessor.py $< 32ez exclude_name_suffix
+newgrf/%.grf: graphics_4 FORCE
+	$(eval PREF=$(word 1, $(subst _, ,$(basename $(notdir $@)))))
+	$(eval NAME=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
+	echo $(PREF) $(NAME)
+	python3 templates/nml_preprocessor.py newgrf/$(PREF)_$(NAME).pnml 32ez
+	mv newgrf/$(PREF)_$(NAME)_32ez.nml newgrf/$(PREF)_$(NAME).nml
+	cd newgrf && nmlc -p DOS --quiet -c -l lang/$(NAME) $(PREF)_$(NAME).nml
 
 # Graphics
 # Python generation of all graphics from PNG sources
-dependencies: dependencies.tmp
-
-.PRECIOUS: dependencies.tmp
-dependencies.tmp:
-	python3 install_dependencies.py
-	python3 -m pip freeze > dependencies.tmp
-
-clean_dependencies:
-	rm -f dependencies.tmp
 
 # FORCE as generate_graphics.py will check what updates are necessary
 .PHONY: graphics
@@ -115,8 +108,8 @@ graphics_1: graphics_1.tmp
 .PRECIOUS: graphics_%.tmp
 graphics_%.tmp: graphics/fonts/openttd-ttf FORCE
 	cd graphics/fonts/openttd-ttf && git pull
-	$(eval TMP=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
-	python3 graphics/generate_graphics.py $(TMP)
+	$(eval ZOOM=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
+	python3 graphics/generate_graphics.py $(ZOOM)
 
 # Get font git dependencies
 graphics/fonts/openttd-ttf:
