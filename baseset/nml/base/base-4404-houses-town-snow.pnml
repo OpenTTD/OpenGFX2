@@ -15,7 +15,7 @@ base_graphics spr4411(4411, "../graphics/towns/temperate/64/pygen/2x2_mallandsta
 
 //4418-4427 double house
 base_graphics spr4418(4418, "../graphics/towns/arctic/64/pygen/largehouses_base_8bpp.png") { template_house_short(  0,  0, 1) }
-#32 alternative_sprites(spr4404, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_base_bt32bpp.png") {  template_house_short(  0,  0, 1) }
+#32 alternative_sprites(spr4418, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_base_bt32bpp.png") {  template_house_short(  0,  0, 1) }
 base_graphics spr4419(4419, "../graphics/towns/arctic/64/pygen/largehouses_snow_base_8bpp.png") { template_house_short(  0,  0, 1) }
 #32 alternative_sprites(spr4419, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_snow_base_bt32bpp.png") { template_house_short(  0,  0, 1) }
 template template_spr4420(z) {
@@ -26,14 +26,14 @@ template template_spr4420(z) {
 base_graphics spr4420(4420, "../graphics/towns/arctic/64/pygen/largehouses_8bpp.png") { template_spr4420(1) }
 #32 alternative_sprites(spr4420, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_bt32bpp.png") { template_spr4420(1) }
 base_graphics spr4423(4423, "../graphics/towns/arctic/64/pygen/largehouses_snow_8bpp.png") { template_house_short(  0,  0, 1) }
-#32 alternative_sprites(spr4420, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_snow_bt32bpp.png") { template_house_short(  0,  0, 1) }
+#32 alternative_sprites(spr4423, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_snow_bt32bpp.png") { template_house_short(  0,  0, 1) }
 template template_spr4424(z) {
 	template_house_short( 65, 96, z)
 	template_house_short( 65, 48, z)
 	template_house_short( 65,  0, z)
 }
 base_graphics spr4424(4424, "../graphics/towns/arctic/64/pygen/largehouses_8bpp.png") { template_spr4424(1) }
-#32 alternative_sprites(spr4420, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_bt32bpp.png") { template_spr4424(1) }
+#32 alternative_sprites(spr4424, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_bt32bpp.png") { template_spr4424(1) }
 base_graphics spr4427(4427, "../graphics/towns/arctic/64/pygen/largehouses_snow_8bpp.png") { template_house_short( 65,  0, 1) }
 #32 alternative_sprites(spr4427, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/largehouses_snow_bt32bpp.png") { template_house_short( 65,  0, 1) }
 
@@ -119,7 +119,7 @@ base_graphics spr4457(4457, "../graphics/towns/arctic/64/pygen/houses_snow_8bpp.
 base_graphics spr4458(4458, "../graphics/towns/arctic/64/pygen/shopsandoffices_base_8bpp.png") { template_house_1x1( 65,  0, 1, 95) }
 #32 alternative_sprites(spr4458, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/shopsandoffices_base_bt32bpp.png") { template_house_1x1( 65,  0, 1, 95) }
 base_graphics spr4459(4459, "../graphics/towns/arctic/64/pygen/shopsandoffices_combo_8bpp.png") { template_house_1x1( 65,192, 1, 95) }
-#32 alternative_sprites(spr4462, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/shopsandoffices_combo_bt32bpp.png") { template_house_1x1( 65,192, 1, 95) }
+#32 alternative_sprites(spr4459, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/shopsandoffices_combo_bt32bpp.png") { template_house_1x1( 65,192, 1, 95) }
 template template_spr4460(z) {
 	template_house_1x1( 65, 96, z, 95)
 	template_house_1x1( 65,  0, z, 95)
@@ -177,17 +177,17 @@ base_graphics spr4477(4477, "../graphics/towns/arctic/64/pygen/shopsandoffices_8
 
 //4480-4484 tall office block
 base_graphics spr4480(4480, "../graphics/towns/arctic/64/pygen/tallofficeblock_base_8bpp.png") { template_house_1x1(195,124, 1, 123) }
-#32 alternative_sprites(spr4487, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/tallofficeblock_base_bt32bpp.png") { template_house_1x1(195,124, 1, 123) }
+#32 alternative_sprites(spr4480, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/tallofficeblock_base_bt32bpp.png") { template_house_1x1(195,124, 1, 123) }
 template template_spr4481(z) {
 	template_house_1x1(195,248, z, 123)
 	template_house_1x1(195,124, z, 123)
 }
 base_graphics spr4481(4481, "../graphics/towns/arctic/64/pygen/tallofficeblock_8bpp.png") { template_spr4481(1) }
-#32 alternative_sprites(spr4487, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/tallofficeblock_base_bt32bpp.png") { template_spr4481(1) }
+#32 alternative_sprites(spr4481, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/tallofficeblock_base_bt32bpp.png") { template_spr4481(1) }
 base_graphics spr4483(4483, "../graphics/towns/arctic/64/pygen/tallofficeblock_base_8bpp.png") { template_house_1x1(195,  0, 1, 123) }
-#32 alternative_sprites(spr4487, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/tallofficeblock_base_bt32bpp.png") { template_house_1x1(195,  0, 1, 123) }
+#32 alternative_sprites(spr4483, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/tallofficeblock_base_bt32bpp.png") { template_house_1x1(195,  0, 1, 123) }
 base_graphics spr4484(4484, "../graphics/towns/arctic/64/pygen/tallofficeblock_8bpp.png") { template_house_1x1(195,  0, 1, 123) }
-#32 alternative_sprites(spr4487, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/tallofficeblock_bt32bpp.png") { template_house_1x1(195,  0, 1, 123) }
+#32 alternative_sprites(spr4484, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/tallofficeblock_bt32bpp.png") { template_house_1x1(195,  0, 1, 123) }
 
 //4485-4492 tall 1x2 office block
 template template_spr4485(z) {
@@ -195,7 +195,7 @@ template template_spr4485(z) {
 	template_house_1x1( 65,  0, z, 115)
 }
 base_graphics spr4485(4485, "../graphics/towns/arctic/64/pygen/1x2_tallofficeblock_base_tiles_8bpp.png") { template_spr4485(1) }
-#32 alternative_sprites(spr4487, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/1x2_tallofficeblock_base_tiles_bt32bpp.png") { template_spr4485(1) }
+#32 alternative_sprites(spr4485, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/arctic/64/pygen/1x2_tallofficeblock_base_tiles_bt32bpp.png") { template_spr4485(1) }
 template template_spr4487(z) {
 	template_house_1x1(  0,232, z, 115)
 	template_house_1x1( 65,232, z, 115)
