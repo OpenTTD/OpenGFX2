@@ -42,7 +42,8 @@ def terrain_gridoverlay(scale, base_path=".", verbose=True):
     "toyland_yellowtiles": "toyland_yellowtiles_32bpp.png"
   }
 
-  gridline_opacity = 40/255
+  gridline_opacity_normal = 15/255
+  gridline_overlay_overlay = 55/255
 
   # Dithering borders of terrain tiles for smoothing of slopes
   do_dithering = False
@@ -83,7 +84,8 @@ def terrain_gridoverlay(scale, base_path=".", verbose=True):
       gridline_overlay = target_image.copy()
       for i in range(0, int(target_h / (repeat_y * scale)) + 1):
         gridline_overlay = paste_to(gridline_image, 0, 0, target_w / scale, repeat_y, gridline_overlay, 0, i * repeat_y, scale)
-      target_image = blendmode_overlay(target_image, gridline_overlay, gridline_opacity, "normal")
+      target_image = blendmode_overlay(target_image, gridline_overlay, gridline_opacity_normal, "normal")
+      target_image = blendmode_overlay(target_image, gridline_overlay, gridline_overlay_overlay, "overlay")
       # Save
       target_image.save(output_grid_path)
     else:
