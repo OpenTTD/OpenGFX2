@@ -45,12 +45,12 @@ def terrain_watergridoverlay(scale, mode, base_path=".", verbose=True):
     terrain_list = {
       "toyland_watertile": "toyland_watertile_32bpp.png",
       "toyland_watertiles": "toyland_watertiles_32bpp.png",
-      "toyland_rivertiles": "universal_rivertiles_32bpp.png",
+      "toyland_rivertiles": "toyland_rivertiles_32bpp.png",
     }
     palmask_paths = {
       "toyland_watertile": "toyland_watertile_palmask.png",
       "toyland_watertiles": "toyland_watertiles_palmask.png",
-      "toyland_rivertiles": "universal_rivertiles_palmask.png",
+      "toyland_rivertiles": "toyland_rivertiles_palmask.png",
     }
     gridline_overlay_path = "toyland_watertiles_cornermarkers.png"
 
