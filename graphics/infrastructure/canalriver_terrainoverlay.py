@@ -108,11 +108,12 @@ def intrastructure_canalriver_terrainoverlay(scale, mode, base_path=".", verbose
           target_image = paste_to(terrain_image, tile_positions[i][0], tile_positions[i][1], tile_positions[i][2], tile_positions[i][3], target_image, i * (tile_size // scale + 1) + 1, 1, scale)
         for i in range(rows):
           target_image = paste_to(target_image, 0, 1, output_width, row_height, target_image, 0, i * row_height + 1, scale)
-        # Make a plmask image from terrain background palmask images, if they exists
+        # Make a palmask image from terrain background palmask images, if they exists
         if os.path.isfile(terrain_palmask_path):
+          target_image_palmask = openttd_palettise(Image.new("RGB", target_image.size, (0, 0, 255)))
           terrain_image_palmask = openttd_palettise(Image.open(terrain_palmask_path))
           for i in range(len(tile_positions)):
-            target_image_palmask = paste_to(terrain_image_palmask, tile_positions[i][0], tile_positions[i][1], tile_positions[i][2], tile_positions[i][3], target_image_palmask,i * (tile_size // scale + 1) + 1, 1, scale)
+            target_image_palmask = paste_to(terrain_image_palmask, tile_positions[i][0], tile_positions[i][1], tile_positions[i][2], tile_positions[i][3], target_image_palmask, i * (tile_size // scale + 1) + 1, 1, scale)
           for i in range(rows):
             target_image_palmask = paste_to(target_image_palmask, 0, 0, output_width, row_height, target_image_palmask, 0, i * row_height, scale)
         else:
