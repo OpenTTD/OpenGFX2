@@ -1,9 +1,13 @@
 ##grflangid 0x0c
+##plural 1
 STR_GENERAL_DESC        :供 OpenTTD 使用的 OpenGFX2 基本圖形集。根據 GNU 通用公共授權第 2 版的許可下自由使用。[OpenGFX2Base]
 
 STR_GRF_NAME            :OpenGFX2 基本圖形集
 STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 基本圖形集{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
 STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+
+# notranslate starts
+# notranslate ends
 
 STR_OBG_DESCRIPTION_MAIN              :為 OpenTTD 提供的 OpenGFX2 像素風基本圖形集，
 STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :經典風格。
