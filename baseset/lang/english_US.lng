@@ -1,0 +1,84 @@
+##grflangid 0x00
+##plural 0
+STR_GENERAL_DESC        :OpenGFX2 base graphics set for OpenTTD. Freely available under the terms of the GNU General Public License version 2. [OpenGFX2Base]
+
+STR_GRF_NAME            :OpenGFX2Base
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+
+# notranslate starts
+STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
+# notranslate ends
+
+STR_OBG_DESCRIPTION_MAIN              :OpenGFX2, a pixel art style base graphics set for OpenTTD,
+STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Classic version.
+STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :High definition version.
+STR_OBG_DESCRIPTION_EXTRA             :Freely available under the terms of the GNU General Public License version 2.
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Settings NewGRF version does not match this version of the OpenGFX baseset. You may see unusual results!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Settings NewGRF is not recommended for OpenTTD 14.0 and later. Base set parameters are recommended instead!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Baseset parameters.
+STR_WARN_SETTINGSGRF_HARDCODED        :Hardcoded parameters.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Settings NewGRF parameters.
+
+STR_PARAM_CURSOR_NAME                 :Mouse cursor
+STR_PARAM_CURSOR_DESC                 :Style and color of the mouse cursor/pointer.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Classic-style, yellow (Default)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Classic-style, gray
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-style, yellow
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-style, white
+
+STR_PARAM_GRIDLINE_NAME               :Terrain gridlines
+STR_PARAM_GRIDLINE_DESC               :Whether or not to show gridlines on the edges of ground and water tiles.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Ground gridlines only (Default)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :No gridlines
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Ground and water gridlines
+
+STR_PARAM_LOGO_NAME                   :Logo style
+STR_PARAM_LOGO_DESC                   :OpenTTD logo style for the title screen.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Default
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Underground
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Streamliner
+
+STR_PARAM_VALUE_TEMPERATE             :Temperate
+STR_PARAM_VALUE_ARCTIC                :Arctic
+STR_PARAM_VALUE_TROPICAL              :Tropical
+STR_PARAM_VALUE_TOYLAND               :Toyland
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Temperate (Default)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctic (Default)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Default)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Toyland (Default)
+
+STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :Temperate (Alternate style)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctic (Alternate style)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Alternate style)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Toyland (Alternate style)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Temperate foundations
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Foundation style to use in the temperate climate.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arctic foundations
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Foundation style to use in the arctic climate.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropical foundations
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Foundation style to use in the tropical climate.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Toyland foundations
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Foundation style to use in the toyland climate.
+
+STR_PARAM_GRASS_TEMPERATE_NAME  :Temperate grass
+STR_PARAM_GRASS_TEMPERATE_DESC  :Grass style to use in the temperate climate.
+STR_PARAM_GRASS_ARCTIC_NAME     :Arctic grass
+STR_PARAM_GRASS_ARCTIC_DESC     :Grass style to use in the arctic climate.
+STR_PARAM_GRASS_TROPICAL_NAME   :Tropical grass
+STR_PARAM_GRASS_TROPICAL_DESC   :Grass style to use in the tropical climate.
+STR_PARAM_GRASS_TOYLAND_NAME    :Toyland grass
+STR_PARAM_GRASS_TOYLAND_DESC    :Grass style to use in the toyland climate.
+
+STR_PARAM_TREES_TEMPERATE_NAME  :Temperate trees
+STR_PARAM_TREES_TEMPERATE_DESC  :Tree style to use in the temperate climate.
+STR_PARAM_TREES_ARCTIC_NAME     :Arctic trees
+STR_PARAM_TREES_ARCTIC_DESC     :Tree style to use in the arctic climate.
+STR_PARAM_TREES_TROPICAL_NAME   :Tropical trees
+STR_PARAM_TREES_TROPICAL_DESC   :Tree style to use in the tropical climate (does not replace the palm trees and cacti).
+STR_PARAM_TREES_TOYLAND_NAME    :Toyland trees
+STR_PARAM_TREES_TOYLAND_DESC    :Tree style to use in the toyland climate.

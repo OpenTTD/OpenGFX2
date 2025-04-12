@@ -1,0 +1,86 @@
+##grflangid 0x07
+##plural 6
+##gender n m f p
+##case nom f pre n p gen abl m acc dat
+STR_GENERAL_DESC        :OpenGFX2, основной графический набор для OpenTTD. Свободно распространяется в соответствии с условиями GNU General Public License версии 2. [OpenGFX2Base]
+
+STR_GRF_NAME            :OpenGFX2Base
+STR_GRF_DESCRIPTION     :{ORANGE}Набор основной графики OpenGFX2{BLACK}{}Автор Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+
+# notranslate starts
+STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
+# notranslate ends
+
+STR_OBG_DESCRIPTION_MAIN              :OpenGFX2, основной графический набор в стиле пиксель-арт для OpenTTD,
+STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Классическая версия.
+STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :Версия с высоким разрешением.
+STR_OBG_DESCRIPTION_EXTRA             :свободно распространяемый в соответствии с условиями GNU General Public License версии 2.
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Модуль настроек OpenGFX2 не соответствует версии OpenGFX. Это может привести к непредсказуемым эффектам.
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Использование модуля настроек OpenGFX2 не рекомендуется для OpenTTD версии 14.0 и более поздних. Лучше использовать основные настройки.
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Основные параметры.
+STR_WARN_SETTINGSGRF_HARDCODED        :Неизменяемые параметры.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Настройки NewGRF.
+
+STR_PARAM_CURSOR_NAME                 :Курсор мыши
+STR_PARAM_CURSOR_DESC                 :Стиль и цвет курсора/указателя.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Классический жёлтый (по умолчанию)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Классический серый
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX, жёлтый
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows, белый
+
+STR_PARAM_GRIDLINE_NAME               :Сетка
+STR_PARAM_GRIDLINE_DESC               :Настройка отображения линий сетки на краях клеток игрового поля.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Только на суше (по умолчанию)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Нет
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :На суше и на воде
+
+STR_PARAM_LOGO_NAME                   :Стиль логотипа
+STR_PARAM_LOGO_DESC                   :Стиль логотипа OpenTTD для начального экрана.
+STR_PARAM_LOGO_VALUE_DEFAULT          :По умолчанию
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Метро
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Экспресс
+
+STR_PARAM_VALUE_TEMPERATE             :Умеренный
+STR_PARAM_VALUE_ARCTIC                :Арктический
+STR_PARAM_VALUE_TROPICAL              :Тропический
+STR_PARAM_VALUE_TOYLAND               :Игрушечный
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Умеренный (по умолчанию)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Арктический (по умолчанию)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Тропический (по умолчанию)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Игрушечный (по умолчанию)
+
+STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :Умеренный (альтернативный стиль)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Арктический (альтернативный стиль)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Тропический (альтернативный стиль)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Игрушечный (альтернативный стиль)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Обычные фундаменты
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Стиль фундаментов, используемых в умеренном климате.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Морозостойкие фундаменты
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Стиль фундаментов, используемых в арктическом климате.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Тропические фундаменты
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Стиль фундаментов, используемых в тропическом климате.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Игрушечные фундаменты
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Стиль фундаментов, используемых в игрушечном окружении.
+
+STR_PARAM_GRASS_TEMPERATE_NAME  :Обычная трава
+STR_PARAM_GRASS_TEMPERATE_DESC  :Стиль для травы в умеренном климате.
+STR_PARAM_GRASS_ARCTIC_NAME     :Арктическая трава
+STR_PARAM_GRASS_ARCTIC_DESC     :Стиль для травы в арктическом климате.
+STR_PARAM_GRASS_TROPICAL_NAME   :Тропическая трава
+STR_PARAM_GRASS_TROPICAL_DESC   :Стиль для травы в тропическом климате.
+STR_PARAM_GRASS_TOYLAND_NAME    :Игрушечная трава
+STR_PARAM_GRASS_TOYLAND_DESC    :Стиль для травы в игрушечном окружении.
+
+STR_PARAM_TREES_TEMPERATE_NAME  :Обычные деревья
+STR_PARAM_TREES_TEMPERATE_DESC  :Стиль для деревьев в умеренном климате.
+STR_PARAM_TREES_ARCTIC_NAME     :Арктические деревья
+STR_PARAM_TREES_ARCTIC_DESC     :Стиль для деревьев в арктическом климате.
+STR_PARAM_TREES_TROPICAL_NAME   :Тропические деревья
+STR_PARAM_TREES_TROPICAL_DESC   :Стиль для деревьев в тропическом климате (не заменяет пальмы и кактусы).
+STR_PARAM_TREES_TOYLAND_NAME    :Игрушечные деревья
+STR_PARAM_TREES_TOYLAND_DESC    :Стиль для деревьев в игрушечном окружении.

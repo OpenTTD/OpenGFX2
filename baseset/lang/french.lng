@@ -1,0 +1,34 @@
+##grflangid 0x03
+##plural 2
+##gender m f m2
+STR_GENERAL_DESC        :Graphismes de base OpenGFX2 pour OpenTTD. Disponibles librement selon les termes de la Licence Publique Générale GNU version 2. [OpenGFX2Base]
+
+
+# notranslate starts
+# notranslate ends
+
+
+
+
+STR_PARAM_CURSOR_NAME                 :Curseur de souris
+STR_PARAM_CURSOR_DESC                 :Style et couleur du curseur/pointeur de souris.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Style classique, jaune (Défaut)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Style classique, gris
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Style OpenGFX, jaune
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Style Windows, blanc
+
+
+
+
+
+
+
+STR_PARAM_GRASS_TEMPERATE_NAME  :Herbe «{NBSP}Tempéré{NBSP}»
+STR_PARAM_GRASS_TEMPERATE_DESC  :Style d'herbe à utiliser dans l'environnement «{NBSP}Tempéré{NBSP}».
+STR_PARAM_GRASS_ARCTIC_NAME     :Herbe «{NBSP}Arctique{NBSP}»
+STR_PARAM_GRASS_ARCTIC_DESC     :Style d'herbe à utiliser dans l'environnement «{NBSP}Arctique{NBSP}».
+STR_PARAM_GRASS_TROPICAL_NAME   :Herbe «{NBSP}Tropical{NBSP}»
+STR_PARAM_GRASS_TROPICAL_DESC   :Style d'herbe à utiliser dans l'environnement «{NBSP}Tropical{NBSP}».
+STR_PARAM_GRASS_TOYLAND_NAME    :Herbe «{NBSP}Monde des jouets{NBSP}»
+STR_PARAM_GRASS_TOYLAND_DESC    :Style d'herbe à utiliser dans l'environnement «{NBSP}Monde des jouets{NBSP}».
+

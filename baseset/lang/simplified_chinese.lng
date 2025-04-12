@@ -7,6 +7,7 @@ STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 基本图形集{BLACK}{}作者：Zephy
 STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 # notranslate starts
+STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
 # notranslate ends
 
 STR_OBG_DESCRIPTION_MAIN              :为 OpenTTD 提供的 OpenGFX2 像素风基本图形集，
