@@ -1,0 +1,85 @@
+##grflangid 0x36
+##plural 0
+##gender f n m fp mp
+STR_GENERAL_DESC        :Conjunto de gráficos base OpenGFX2 para OpenTTD. Disponível livremente sob os termos da Licença Pública Geral GNU versão 2. [OpenGFX2Base]
+
+STR_GRF_NAME            :Base OpenGFX2
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 Conjunto de gráficos base{BLACK}{}De Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Sítio Web: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+
+# notranslate starts
+STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
+# notranslate ends
+
+STR_OBG_DESCRIPTION_MAIN              :OpenGFX2, um conjunto de gráficos base estilo arte de pixéis para OpenTTD,
+STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Versão clássica.
+STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :Versão de alta definição.
+STR_OBG_DESCRIPTION_EXTRA             :Disponível gratuitamente sob os termos da Licença Pública Geral GNU versão 2.
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :A versão das configurações NewGRF do OpenGFX2 não corresponde à versão do conjunto base do OpenGFX. Poderá ter resultados inesperados!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Configurações NewGRF do OpenGFX2 não são recomendadas para o OpenTTD 14.0 e outras versões mais recentes. Recomenda-se a utilização dos parâmetros do conjunto base!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Parâmetros do conjunto base.
+STR_WARN_SETTINGSGRF_HARDCODED        :Parâmetros em código rígido
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Definições dos Parâmetros de NewGRF.
+
+STR_PARAM_CURSOR_NAME                 :Cursor do rato
+STR_PARAM_CURSOR_DESC                 :Estilo e cor do cursor/ponteiro do rato.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Estilo clássico, amarelo (Predefinição)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Estilo clássico, cinzento
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Estilo OpenGFX, amarelo
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Estilo Windows, branco
+
+STR_PARAM_GRIDLINE_NAME               :Linhas de grelha do terreno
+STR_PARAM_GRIDLINE_DESC               :Mostrar ou não linhas de grelha nas margens dos mosaicos de solo e água.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Apenas linhas de grelha do solo (Predefinição)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Sem linhas de grelha
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Linhas de grelha do solo e da água
+
+STR_PARAM_LOGO_NAME                   :Estilo do logótipo
+STR_PARAM_LOGO_DESC                   :Estilo do logótipo OpenTTD para o ecrã de título.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Predefinição
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Subterrâneo
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Aerodinâmico
+
+STR_PARAM_VALUE_TEMPERATE             :Temperado
+STR_PARAM_VALUE_ARCTIC                :Ártico
+STR_PARAM_VALUE_TROPICAL              :Tropical
+STR_PARAM_VALUE_TOYLAND               :Terra dos brinquedos
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Temperado (Predefinição)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Ártico (Predefinição)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Predefinição)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Terra dos brinquedos (Predefinição)
+
+STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :Temperado (Estilo alternativo)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Ártico (Estilo alternativo)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estilo alternativo)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Toyland (Estilo alternativo)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Fundações do clima temperado
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Estilo de fundação para usar no clima temperado.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Fundações do Ártico
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Estilo de fundação a utilizar no clima ártico.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Fundações tropicais
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Estilo de fundação a utilizar no clima tropical.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fundações da terra dos brinquedos
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Estilo de fundação a utilizar no clima da terra dos brinquedos.
+
+STR_PARAM_GRASS_TEMPERATE_NAME  :Relva do clima temperado
+STR_PARAM_GRASS_TEMPERATE_DESC  :Estilo de relva para utilizar no clima temperado.
+STR_PARAM_GRASS_ARCTIC_NAME     :Relva árctica
+STR_PARAM_GRASS_ARCTIC_DESC     :Estilo de relva a utilizar no clima ártico.
+STR_PARAM_GRASS_TROPICAL_NAME   :Relva tropical
+STR_PARAM_GRASS_TROPICAL_DESC   :Estilo de relva para utilizar no clima tropical.
+STR_PARAM_GRASS_TOYLAND_NAME    :Relva da terra dos brinquedos
+STR_PARAM_GRASS_TOYLAND_DESC    :Estilo de relva para utilizar no clima da terra dos brinquedos.
+
+STR_PARAM_TREES_TEMPERATE_NAME  :Árvores de clima temperado
+STR_PARAM_TREES_TEMPERATE_DESC  :Estilo de árvore a utilizar no clima temperado.
+STR_PARAM_TREES_ARCTIC_NAME     :Árvores árcticas
+STR_PARAM_TREES_ARCTIC_DESC     :Estilo de árvore a utilizar no clima ártico.
+STR_PARAM_TREES_TROPICAL_NAME   :Árvores tropicais
+STR_PARAM_TREES_TROPICAL_DESC   :Estilo de árvore a utilizar no clima tropical (não substitui as palmeiras e os cactos).
+STR_PARAM_TREES_TOYLAND_NAME    :Árvores da terra dos brinquedos
+STR_PARAM_TREES_TOYLAND_DESC    :Estilo de árvore a utilizar no clima da terra dos brinquedos.
