@@ -191,7 +191,7 @@ switch (FEAT_CANALS, SELF, switch_waterfeature_river_climate, [
 	1 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==0) || (climate==CLIMATE_ARCTIC && param_grass_arctic==0) || (climate==CLIMATE_TROPICAL && param_grass_tropical==0) || (climate==CLIMATE_TOYLAND && param_grass_toyland==0)) +
 	2 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==1) || (climate==CLIMATE_ARCTIC && param_grass_arctic==1) || (climate==CLIMATE_TROPICAL && param_grass_tropical==1) || (climate==CLIMATE_TOYLAND && param_grass_toyland==1)) +
 	3 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==2) || (climate==CLIMATE_ARCTIC && param_grass_arctic==2) || (climate==CLIMATE_TROPICAL && param_grass_tropical==2) || (climate==CLIMATE_TOYLAND && param_grass_toyland==2)) +
-	4 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==3) || (climate==CLIMATE_ARCTIC && param_grass_arctic==3) || (climate==CLIMATE_TROPICAL && param_grass_tropical==3) || (climate==CLIMATE_TOYLAND && param_grass_toyland==3))
+	4 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==3) || (climate==CLIMATE_ARCTIC && param_grass_arctic==3) || (climate==CLIMATE_TROPICAL && param_grass_tropical==3) || (climate==CLIMATE_TOYLAND && param_grass_toyland==3) || (climate==CLIMATE_TOYLAND && param_grass_toyland==4))
 ]) {
 	1: switch_waterfeature_river_temperate_elevation;
 	2: switch_waterfeature_river_arctic_elevation;
@@ -247,7 +247,7 @@ switch (FEAT_CANALS, SELF, switch_waterfeature_river_climate_nogridline, [
 	1 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==0) || (climate==CLIMATE_ARCTIC && param_grass_arctic==0) || (climate==CLIMATE_TROPICAL && param_grass_tropical==0) || (climate==CLIMATE_TOYLAND && param_grass_toyland==0)) +
 	2 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==1) || (climate==CLIMATE_ARCTIC && param_grass_arctic==1) || (climate==CLIMATE_TROPICAL && param_grass_tropical==1) || (climate==CLIMATE_TOYLAND && param_grass_toyland==1)) +
 	3 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==2) || (climate==CLIMATE_ARCTIC && param_grass_arctic==2) || (climate==CLIMATE_TROPICAL && param_grass_tropical==2) || (climate==CLIMATE_TOYLAND && param_grass_toyland==2)) +
-	4 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==3) || (climate==CLIMATE_ARCTIC && param_grass_arctic==3) || (climate==CLIMATE_TROPICAL && param_grass_tropical==3) || (climate==CLIMATE_TOYLAND && param_grass_toyland==3))
+	4 * ((climate==CLIMATE_TEMPERATE && param_grass_temperate==3) || (climate==CLIMATE_ARCTIC && param_grass_arctic==3) || (climate==CLIMATE_TROPICAL && param_grass_tropical==3) || (climate==CLIMATE_TOYLAND && param_grass_toyland==3) || (climate==CLIMATE_TOYLAND && param_grass_toyland==4))
 ]) {
 	1: switch_waterfeature_river_temperate_elevation_nogridline;
 	2: switch_waterfeature_river_arctic_elevation_nogridline;

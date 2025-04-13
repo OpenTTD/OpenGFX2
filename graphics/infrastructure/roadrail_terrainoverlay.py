@@ -50,7 +50,9 @@ def infrastructure_roadrail_terrainoverlay(scale, mode, base_path=".", verbose=T
       }
       terrain_list = {
         "toyland_grass": os.path.join("pygen", "toyland_groundtiles_gridline_32bpp.png"),
+        "toyland_alt_grass": os.path.join("pygen", "toyland_alt_groundtiles_gridline_32bpp.png"),
         "toyland_grass_nogridline": os.path.join("pygen", "toyland_groundtiles_nogridline_32bpp.png"),
+        "toyland_alt_grass_nogridline": os.path.join("pygen", "toyland_alt_groundtiles_nogridline_32bpp.png"),
         "toyland_concrete": "toyland_concretetiles_32bpp.png",
         "toyland_bridge": "general_bridgetiles_32bpp.png"
       }
@@ -137,7 +139,9 @@ def infrastructure_roadrail_terrainoverlay(scale, mode, base_path=".", verbose=T
       # Terrain sprites to use
       terrain_list = {
         "toyland_grass": os.path.join("pygen", "toyland_groundtiles_gridline_32bpp.png"),
+        "toyland_alt_grass": os.path.join("pygen", "toyland_alt_groundtiles_gridline_32bpp.png"),
         "toyland_grass_nogridline": os.path.join("pygen", "toyland_groundtiles_nogridline_32bpp.png"),
+        "toyland_alt_grass_nogridline": os.path.join("pygen", "toyland_alt_groundtiles_nogridline_32bpp.png"),
         "toyland_bridge": "general_bridgetiles_32bpp.png"
       }
   elif mode == "road_town" or mode == "road_town_toyland":
@@ -199,12 +203,14 @@ def infrastructure_roadrail_terrainoverlay(scale, mode, base_path=".", verbose=T
       "tropical_desert": os.path.join("pygen", "tropical_groundtiles_desert_gridline_32bpp.png"),
       "temperate_grass": os.path.join("pygen", "temperate_groundtiles_gridline_32bpp.png"),
       "toyland_grass": os.path.join("pygen", "toyland_groundtiles_gridline_32bpp.png"),
+      "toyland_alt_grass": os.path.join("pygen", "toyland_alt_groundtiles_gridline_32bpp.png"),
       "arctic_grass_nogridline": os.path.join("pygen", "arctic_groundtiles_nogridline_32bpp.png"),
       "arctic_snow_nogridline": os.path.join("pygen", "arctic_groundtiles_snow_nogridline_32bpp.png"),
       "tropical_grass_nogridline": os.path.join("pygen", "tropical_groundtiles_nogridline_32bpp.png"),
       "tropical_desert_nogridline": os.path.join("pygen", "tropical_groundtiles_desert_nogridline_32bpp.png"),
       "temperate_grass_nogridline": os.path.join("pygen", "temperate_groundtiles_nogridline_32bpp.png"),
-      "toyland_grass_nogridline": os.path.join("pygen", "toyland_groundtiles_nogridline_32bpp.png")
+      "toyland_grass_nogridline": os.path.join("pygen", "toyland_groundtiles_nogridline_32bpp.png"),
+      "toyland_alt_grass_nogridline": os.path.join("pygen", "toyland_alt_groundtiles_nogridline_32bpp.png")
     }
 
   # Output image properties

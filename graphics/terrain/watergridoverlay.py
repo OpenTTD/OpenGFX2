@@ -37,7 +37,8 @@ def terrain_watergridoverlay(scale, mode, base_path=".", verbose=True):
     gridline_overlay_path = "watertiles_cornermarkers.png"
   elif mode == "shoretoyland":
     terrain_list = {
-      "toyland_grass_gridline_shoretiles": os.path.join("pygen", "toyland_grass_gridline_shoretiles_32bpp.png")
+      "toyland_grass_gridline_shoretiles": os.path.join("pygen", "toyland_grass_gridline_shoretiles_32bpp.png"),
+      "toyland_alt_grass_gridline_shoretiles": os.path.join("pygen", "toyland_alt_grass_gridline_shoretiles_32bpp.png"),
     }
     palmask_path = "shorelines_toyland_overlaynormal.png"
     gridline_overlay_path = "shorelines_toyland_cornermarkers.png"

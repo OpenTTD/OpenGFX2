@@ -31,7 +31,9 @@ def terrain_shoreoverlay(scale, mode, base_path=".", verbose=True):
   elif mode == "toyland":
     terrain_list = {
       "toyland_grass_gridline": os.path.join("pygen", "toyland_shoretiles_gridline_32bpp.png"),
-      "toyland_grass_nogridline": os.path.join("pygen", "toyland_shoretiles_nogridline_32bpp.png")
+      "toyland_grass_nogridline": os.path.join("pygen", "toyland_shoretiles_nogridline_32bpp.png"),
+      "toyland_alt_grass_gridline": os.path.join("pygen", "toyland_alt_shoretiles_gridline_32bpp.png"),
+      "toyland_alt_grass_nogridline": os.path.join("pygen", "toyland_alt_shoretiles_nogridline_32bpp.png"),
     }
     shoreline_overlay_path = "shorelines_toyland_overlaynormal.png"
 

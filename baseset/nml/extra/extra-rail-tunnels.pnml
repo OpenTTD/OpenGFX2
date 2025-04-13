@@ -22,6 +22,11 @@ if (param_gridlines==1) {
 		#ez alternative_sprites(railtypetunnels_toyland_grass_nogrid, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/stations/general/256/pygen/tunnels_none_toyland_grass_nogridline_8bpp.png") { template_tunnels_general(0, 0, 4) }
 		#32 alternative_sprites(railtypetunnels_toyland_grass_nogrid, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/stations/general/64/pygen/tunnels_none_toyland_grass_nogridline_bt32bpp.png") { template_tunnels_general(0, 0, 1) }
 		#32 #ez alternative_sprites(railtypetunnels_toyland_grass_nogrid, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/stations/general/256/pygen/tunnels_none_toyland_grass_nogridline_bt32bpp.png") { template_tunnels_general(0, 0, 4) }
+	} else if (climate==CLIMATE_TOYLAND && param_grass_toyland==4) {
+		replacenew railtypetunnels_toyland_alt_grass_nogrid(RAILTYPE_TUNNELS, "../graphics/stations/general/64/pygen/tunnels_none_toyland_alt_grass_nogridline_8bpp.png", 0) { template_tunnels_general(0, 0, 1) }
+		#ez alternative_sprites(railtypetunnels_toyland_alt_grass_nogrid, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/stations/general/256/pygen/tunnels_none_toyland_alt_grass_nogridline_8bpp.png") { template_tunnels_general(0, 0, 4) }
+		#32 alternative_sprites(railtypetunnels_toyland_alt_grass_nogrid, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/stations/general/64/pygen/tunnels_none_toyland_alt_grass_nogridline_bt32bpp.png") { template_tunnels_general(0, 0, 1) }
+		#32 #ez alternative_sprites(railtypetunnels_toyland_alt_grass_nogrid, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/stations/general/256/pygen/tunnels_none_toyland_alt_grass_nogridline_bt32bpp.png") { template_tunnels_general(0, 0, 4) }
 	}
 	// Snow/desert overlays
 	if (climate==CLIMATE_ARCTIC) {
@@ -58,6 +63,11 @@ if (param_gridlines==1) {
 		#ez alternative_sprites(railtypetunnels_toyland_grass, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/stations/general/256/pygen/tunnels_none_toyland_grass_8bpp.png") { template_tunnels_general(0, 0, 4) }
 		#32 alternative_sprites(railtypetunnels_toyland_grass, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/stations/general/64/pygen/tunnels_none_toyland_grass_bt32bpp.png") { template_tunnels_general(0, 0, 1) }
 		#32 #ez alternative_sprites(railtypetunnels_toyland_grass, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/stations/general/256/pygen/tunnels_none_toyland_grass_bt32bpp.png") { template_tunnels_general(0, 0, 4) }
+	} else if (climate==CLIMATE_TOYLAND && param_grass_toyland==4) {
+		replacenew railtypetunnels_toyland_alt_grass(RAILTYPE_TUNNELS, "../graphics/stations/general/64/pygen/tunnels_none_toyland_alt_grass_8bpp.png", 0) { template_tunnels_general(0, 0, 1) }
+		#ez alternative_sprites(railtypetunnels_toyland_alt_grass, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/stations/general/256/pygen/tunnels_none_toyland_alt_grass_8bpp.png") { template_tunnels_general(0, 0, 4) }
+		#32 alternative_sprites(railtypetunnels_toyland_alt_grass, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/stations/general/64/pygen/tunnels_none_toyland_alt_grass_bt32bpp.png") { template_tunnels_general(0, 0, 1) }
+		#32 #ez alternative_sprites(railtypetunnels_toyland_alt_grass, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/stations/general/256/pygen/tunnels_none_toyland_alt_grass_bt32bpp.png") { template_tunnels_general(0, 0, 4) }
 	}
 	// Snow/desert overlays
 	if (climate==CLIMATE_ARCTIC) {

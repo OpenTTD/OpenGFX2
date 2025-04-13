@@ -203,12 +203,13 @@ grf {
 			type: int;
 			def_value: 3;
 			min_value: 3;
-			max_value: 3;
+			max_value: 4;
 			names: {
 				//0: string(STR_PARAM_VALUE_TEMPERATE);
 				//1: string(STR_PARAM_VALUE_ARCTIC);
 				//2: string(STR_PARAM_VALUE_TROPICAL);
 				3: string(STR_PARAM_VALUE_TOYLAND_DEFAULT);
+				4: string(STR_PARAM_VALUE_TOYLAND_ALTERNATE);
 			};
 		}
 	}
