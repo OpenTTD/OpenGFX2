@@ -40,6 +40,7 @@ def infrastructure_levelcrossing_infrastructureoverlay(scale, base_path=".", ver
     "tropical_desert": "tropical_desert",
     "temperate_grass": "temperate_grass",
     "toyland_grass": "toyland_grass",
+    "toyland_alt_grass": "toyland_alt_grass",
     "concrete": "general_concrete",
     "toyland_concrete": "toyland_concrete",
     "arctic_grass_nogridline": "arctic_grass_nogridline",
@@ -48,6 +49,7 @@ def infrastructure_levelcrossing_infrastructureoverlay(scale, base_path=".", ver
     "tropical_desert_nogridline": "tropical_desert_nogridline",
     "temperate_grass_nogridline": "temperate_grass_nogridline",
     "toyland_grass_nogridline": "toyland_grass_nogridline",
+    "toyland_alt_grass_nogridline": "toyland_alt_grass_nogridline",
   }
 
   # Output image properties
