@@ -32,7 +32,7 @@ if os.path.exists(touchfile_path):
     if old_file_count == "":
         old_file_count = 0
     else:
-        old_file_count = int()
+        old_file_count = int(old_file_count)
     # check if any files modified or file number changed since last run
     if os.path.getmtime(latest_file) < os.path.getmtime(touchfile_path) and os.path.getmtime(__file__) < os.path.getmtime(touchfile_path) and file_count == old_file_count:
         print("Skipping all processing, output up-to-date")
