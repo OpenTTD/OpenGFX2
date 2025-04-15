@@ -1,18 +1,12 @@
 ##grflangid 0x01
-STR_GENERAL_DESC        :OpenGFX2 base graphics set for OpenTTD. Freely available under the terms of the GNU General Public License version 2. [OpenGFX2Base]
+STR_GENERAL_DESC                      :OpenGFX2 base graphics set for OpenTTD. Freely available under the terms of the GNU General Public License version 2. [OpenGFX2Base]
 
-STR_GRF_NAME            :OpenGFX2Base
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
-# notranslate starts
-STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
-# notranslate ends
-
-STR_OBG_DESCRIPTION_MAIN              :OpenGFX2, a pixel art style base graphics set for OpenTTD,
-STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Classic version.
-STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :High definition version.
-STR_OBG_DESCRIPTION_EXTRA             :Freely available under the terms of the GNU General Public License version 2.
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 pixel art style base graphics set for OpenTTD, classic variant (normal zoom 8bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art style base graphics set for OpenTTD, high definition variant (extra zoom 32bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Settings NewGRF version does not match this version of the OpenGFX baseset. You may see unusual results!
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Settings NewGRF is not recommended for OpenTTD 14.0 and later. Base set parameters are recommended instead!
@@ -24,7 +18,7 @@ STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Settings NewGRF parameters.
 STR_PARAM_CURSOR_NAME                 :Mouse cursor
 STR_PARAM_CURSOR_DESC                 :Style and colour of the mouse cursor/pointer.
 STR_PARAM_CURSOR_VALUE_DEFAULT        :Classic-style, yellow (Default)
-STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Classic-style, gray
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Classic-style, grey
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-style, yellow
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-style, white
 
@@ -50,7 +44,7 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctic (Default)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Default)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :Toyland (Default)
 
-STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :Temperate (Alternate style)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Temperate (Alternate style)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctic (Alternate style)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Alternate style)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Toyland (Alternate style)
@@ -64,20 +58,20 @@ STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Foundation style to use in the tropical c
 STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Toyland foundations
 STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Foundation style to use in the toyland climate.
 
-STR_PARAM_GRASS_TEMPERATE_NAME  :Temperate grass
-STR_PARAM_GRASS_TEMPERATE_DESC  :Grass style to use in the temperate climate.
-STR_PARAM_GRASS_ARCTIC_NAME     :Arctic grass
-STR_PARAM_GRASS_ARCTIC_DESC     :Grass style to use in the arctic climate.
-STR_PARAM_GRASS_TROPICAL_NAME   :Tropical grass
-STR_PARAM_GRASS_TROPICAL_DESC   :Grass style to use in the tropical climate.
-STR_PARAM_GRASS_TOYLAND_NAME    :Toyland grass
-STR_PARAM_GRASS_TOYLAND_DESC    :Grass style to use in the toyland climate.
+STR_PARAM_GRASS_TEMPERATE_NAME        :Temperate grass
+STR_PARAM_GRASS_TEMPERATE_DESC        :Grass style to use in the temperate climate.
+STR_PARAM_GRASS_ARCTIC_NAME           :Arctic grass
+STR_PARAM_GRASS_ARCTIC_DESC           :Grass style to use in the arctic climate.
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropical grass
+STR_PARAM_GRASS_TROPICAL_DESC         :Grass style to use in the tropical climate.
+STR_PARAM_GRASS_TOYLAND_NAME          :Toyland grass
+STR_PARAM_GRASS_TOYLAND_DESC          :Grass style to use in the toyland climate.
 
-STR_PARAM_TREES_TEMPERATE_NAME  :Temperate trees
-STR_PARAM_TREES_TEMPERATE_DESC  :Tree style to use in the temperate climate.
-STR_PARAM_TREES_ARCTIC_NAME     :Arctic trees
-STR_PARAM_TREES_ARCTIC_DESC     :Tree style to use in the arctic climate.
-STR_PARAM_TREES_TROPICAL_NAME   :Tropical trees
-STR_PARAM_TREES_TROPICAL_DESC   :Tree style to use in the tropical climate (does not replace the palm trees and cacti).
-STR_PARAM_TREES_TOYLAND_NAME    :Toyland trees
-STR_PARAM_TREES_TOYLAND_DESC    :Tree style to use in the toyland climate.
+STR_PARAM_TREES_TEMPERATE_NAME        :Temperate trees
+STR_PARAM_TREES_TEMPERATE_DESC        :Tree style to use in the temperate climate.
+STR_PARAM_TREES_ARCTIC_NAME           :Arctic trees
+STR_PARAM_TREES_ARCTIC_DESC           :Tree style to use in the arctic climate.
+STR_PARAM_TREES_TROPICAL_NAME         :Tropical trees
+STR_PARAM_TREES_TROPICAL_DESC         :Tree style to use in the tropical climate (does not replace the palm trees and cacti).
+STR_PARAM_TREES_TOYLAND_NAME          :Toyland trees
+STR_PARAM_TREES_TOYLAND_DESC          :Tree style to use in the toyland climate.
