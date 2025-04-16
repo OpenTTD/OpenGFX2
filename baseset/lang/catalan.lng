@@ -1,0 +1,85 @@
+##grflangid 0x22
+##plural 0
+##gender Femenin Masculin
+STR_GENERAL_DESC        :Paquet de gràfics OpenGFX2 per a l'OpenTTD. Disponible de forma gratuïta sota els termes de la llicència GNU GPL versió 2 (GNU General Public License version 2). [OpenGFX2Base]
+
+STR_GRF_NAME            :OpenGFX2Base
+STR_GRF_DESCRIPTION     :{ORANGE}Paquet de gràfics OpenGFX2 Base{BLACK}{}Autor: Zephyris, gràcies a la feina prèvia de l’equip d’OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+
+# notranslate starts
+STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
+# notranslate ends
+
+STR_OBG_DESCRIPTION_MAIN              :OpenGFX2 és un paquet de gràfics d'estil pixel art per a l'OpenTTD.
+STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Versió clàssica.
+STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :Versió d'alta resolució.
+STR_OBG_DESCRIPTION_EXTRA             :Disponible de forma gratuïta sota els termes de la llicència GNU GPL versió 2 (GNU General Public License version 2).
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :La versió dels paràmetres OpenGFX2 NewGRF i la versió dels paràmetres base OpenGFX són diferents. Això pot resultar en comportaments inesperats!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Els paràmetres OpenGFX2 NewGRF no es recomanen per a l'OpenTTD 14.0 i superiors. Utilitzeu els paràmetres base!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Paràmetres base.
+STR_WARN_SETTINGSGRF_HARDCODED        :Paràmetres fixats al codi (hardcoded).
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Paràmetres de configuració NewGRF.
+
+STR_PARAM_CURSOR_NAME                 :Punter del ratolí
+STR_PARAM_CURSOR_DESC                 :Estil i color del punter del ratolí.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Estil clàssic, groc (Per defecte)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Estil clàssic, gris
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Estil OpenGFX, groc
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Estil de Windows, blanc
+
+STR_PARAM_GRIDLINE_NAME               :Línies de graella del terreny
+STR_PARAM_GRIDLINE_DESC               :Mostrar línies de graella als marges de les cel·les de terra i aigua.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Només línies de graella del terra (Per defecte)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Sense línies de graella
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Línies de graella del terra i l'aigua
+
+STR_PARAM_LOGO_NAME                   :Estil del logotip
+STR_PARAM_LOGO_DESC                   :Estil del logotip de l'OpenTTD a la pantalla del títol.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Per defecte
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Subterrani
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Aerodinàmic
+
+STR_PARAM_VALUE_TEMPERATE             :Temperat
+STR_PARAM_VALUE_ARCTIC                :Polar
+STR_PARAM_VALUE_TROPICAL              :Tropical
+STR_PARAM_VALUE_TOYLAND               :Joguines
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Temperat (Per defecte)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Polar (Per defecte)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Per defecte)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Joguines (Per defecte)
+
+STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :Temperat (Estil alternatiu)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Polar (Estil alternatiu)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estil alternatiu)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Joguines (Estil alternatiu)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Fonaments en clima temperat
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Estil dels fonaments en clima temperat.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Fonaments en clima polar
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Estil dels fonaments en clima polar.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Fonaments en clima tropical
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Estil dels fonaments en clima tropical.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fonaments en paisatge de joguines
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Estil dels fonaments en paisatge de joguines.
+
+STR_PARAM_GRASS_TEMPERATE_NAME  :Herba en clima temperat
+STR_PARAM_GRASS_TEMPERATE_DESC  :Estil de l'herba en clima temperat.
+STR_PARAM_GRASS_ARCTIC_NAME     :Herba en clima polar
+STR_PARAM_GRASS_ARCTIC_DESC     :Estil de l'herba en clima polar
+STR_PARAM_GRASS_TROPICAL_NAME   :Herba en clima tropical
+STR_PARAM_GRASS_TROPICAL_DESC   :Estil de l'herba en clima tropical.
+STR_PARAM_GRASS_TOYLAND_NAME    :Herba del paisatge de joguines
+STR_PARAM_GRASS_TOYLAND_DESC    :Estil de l'herba en paisatge de joguines.
+
+STR_PARAM_TREES_TEMPERATE_NAME  :Arbres de zones temperades
+STR_PARAM_TREES_TEMPERATE_DESC  :Estil d'arbres per a zones de clima temperat.
+STR_PARAM_TREES_ARCTIC_NAME     :Arbres de clima polar
+STR_PARAM_TREES_ARCTIC_DESC     :Estil d'arbres per a zones de clima polar.
+STR_PARAM_TREES_TROPICAL_NAME   :Arbres de clima tropical
+STR_PARAM_TREES_TROPICAL_DESC   :Estil d'arbres per a zones de clima tropical (no substitueix les palmeres ni els cactus).
+STR_PARAM_TREES_TOYLAND_NAME    :Arbres del paisatge de joguines
+STR_PARAM_TREES_TOYLAND_DESC    :Estil d'arbres del paisatge de joguines.
