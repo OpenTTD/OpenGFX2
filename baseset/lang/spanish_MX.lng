@@ -1,0 +1,26 @@
+##grflangid 0x55
+##plural 0
+##gender m f
+STR_GENERAL_DESC        :Paquete de gráficos base OpenGFX2 para OpenTTD. Disponible de forma libre bajo los términos de la GNU General Public License version 2. [OpenGFX2Base]
+
+STR_GRF_NAME            :OpenGFX2Base
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+
+# notranslate starts
+# notranslate ends
+
+STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Versión clásica.
+STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :Versión de alta definición.
+STR_OBG_DESCRIPTION_EXTRA             :Disponible de forma libre bajo los términos de la GNU General Public License version 2.
+
+
+
+STR_PARAM_CURSOR_DESC                 :Estilo y color del puntero y el cursor.
+
+
+
+
+
+
+
+
