@@ -39,7 +39,10 @@ def terrain_gridoverlay(scale, base_path=".", verbose=True):
     "toyland_groundtiles_rocks": "toyland_groundtiles_rocks_32bpp.png",
     "toyland_groundtiles_rough": "toyland_groundtiles_rough_32bpp.png",
     "toyland_shoretiles": "toyland_shoretiles_32bpp.png",
-    "toyland_yellowtiles": "toyland_yellowtiles_32bpp.png"
+    "toyland_yellowtiles": "toyland_yellowtiles_32bpp.png",
+    "toyland_alt_groundtiles": "toyland_alt_groundtiles_32bpp.png",
+    "toyland_alt_groundtiles_rocks": "toyland_alt_groundtiles_rocks_32bpp.png",
+    "toyland_alt_shoretiles": "toyland_alt_shoretiles_32bpp.png",
   }
 
   gridline_opacity_normal = 15/255

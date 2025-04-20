@@ -21,6 +21,11 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctic (Default)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Default)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :Toyland (Default)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Temperate (Alternate style)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctic (Alternate style)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Alternate style)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Toyland (Alternate style)
+
 STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Temperate foundations
 STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Foundation style to use in the temperate climate.
 STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arctic foundations
