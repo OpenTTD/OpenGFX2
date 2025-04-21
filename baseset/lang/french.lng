@@ -3,12 +3,25 @@
 ##gender m f m2
 STR_GENERAL_DESC        :Graphismes de base OpenGFX2 pour OpenTTD. Disponibles librement selon les termes de la Licence Publique Générale GNU version 2. [OpenGFX2Base]
 
+STR_GRF_NAME            :OpenGFX2Base
+STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 : Graphismes de base{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
 
 # notranslate starts
+STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
 # notranslate ends
 
+STR_OBG_DESCRIPTION_MAIN              :OpenGFX2, un set de graphismes de bases en pixel art pour OpenTTD,
+STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Version classique.
+STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :Version haute définition.
+STR_OBG_DESCRIPTION_EXTRA             :Disponibles librement selon les termes de la Licence Publique Générale GNU version 2.
 
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :La version des paramètres NewGRF de OpenGFX2 ne correspond à la version du set de base de OpenGFX. Des résultats inattendus pourraient survenir !
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Les paramètres NewGRF de OpenGFX2 ne sont pas recommandés pour OpenTTD 14.0 et ultérieur. Les paramètres de base du set sont plutôt recommandés !
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Paramètres de base du set.
+STR_WARN_SETTINGSGRF_HARDCODED        :Paramètres codés en dur.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Paramètres NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Curseur de souris
 STR_PARAM_CURSOR_DESC                 :Style et couleur du curseur/pointeur de souris.
@@ -17,11 +30,41 @@ STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Style classique, gris
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Style OpenGFX, jaune
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Style Windows, blanc
 
+STR_PARAM_GRIDLINE_NAME               :Grille de terrain
+STR_PARAM_GRIDLINE_DESC               :Afficher la grille ou non sur les bords des cases de sol et d'eau
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Grille au sol seulement (Défaut)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Pas de grille
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Grille au sol et en eau
 
+STR_PARAM_LOGO_NAME                   :Style de logo
+STR_PARAM_LOGO_DESC                   :Style du logo OpenTTD pour l'écran titre.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Défaut
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :« Underground »
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Profilé
 
+STR_PARAM_VALUE_TEMPERATE             :Tempéré
+STR_PARAM_VALUE_ARCTIC                :Arctique
+STR_PARAM_VALUE_TROPICAL              :Tropical
+STR_PARAM_VALUE_TOYLAND               :Monde des jouets
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Tempéré (Défaut)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctique (Défaut)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Défaut)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Monde des jouets (Défaut)
 
+STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :Tempéré (Style alternatif)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctique (Style alternatif)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Style alternatif)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Monde des jouets (Style alternatif)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Fondations de l'environnement «{NBSP}Tempéré{NBSP}»
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Style de fondations à utiliser dans l'environnement «{NBSP}Tempéré{NBSP}».
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Fondations de l'environnement «{NBSP}Arctique{NBSP}».
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Style de fondations à utiliser dans l'environnement «{NBSP}Arctique{NBSP}».
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Fondations de l'environnement «{NBSP}Tropical{NBSP}»
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Style de fondations à utiliser dans l'environnement «{NBSP}Tropical{NBSP}».
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fondations de l'environnement «{NBSP}Monde des Jouets{NBSP}»
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Style de fondations à utiliser dans l'environnement «{NBSP}Monde des Jouets{NBSP}».
 
 STR_PARAM_GRASS_TEMPERATE_NAME  :Herbe «{NBSP}Tempéré{NBSP}»
 STR_PARAM_GRASS_TEMPERATE_DESC  :Style d'herbe à utiliser dans l'environnement «{NBSP}Tempéré{NBSP}».
@@ -32,3 +75,11 @@ STR_PARAM_GRASS_TROPICAL_DESC   :Style d'herbe à utiliser dans l'environnement 
 STR_PARAM_GRASS_TOYLAND_NAME    :Herbe «{NBSP}Monde des jouets{NBSP}»
 STR_PARAM_GRASS_TOYLAND_DESC    :Style d'herbe à utiliser dans l'environnement «{NBSP}Monde des jouets{NBSP}».
 
+STR_PARAM_TREES_TEMPERATE_NAME  :Arbres de l'environnement «{NBSP}Tempéré{NBSP}»
+STR_PARAM_TREES_TEMPERATE_DESC  :Style d'arbre à utiliser dans l'environnement «{NBSP}Tempéré{NBSP}».
+STR_PARAM_TREES_ARCTIC_NAME     :Arbres de l'environnement «{NBSP}Arctique{NBSP}»
+STR_PARAM_TREES_ARCTIC_DESC     :Style d'arbre à utiliser dans l'environnement «{NBSP}Arctique{NBSP}».
+STR_PARAM_TREES_TROPICAL_NAME   :Arbres de l'environnement «{NBSP}Tropical{NBSP}»
+STR_PARAM_TREES_TROPICAL_DESC   :Style d'arbre à utiliser dans l'environnement «{NBSP}Tropical{NBSP}» (ne remplace pas les palmiers et cactus).
+STR_PARAM_TREES_TOYLAND_NAME    :Arbres de l'environnement «{NBSP}Monde des Jouets{NBSP}»
+STR_PARAM_TREES_TOYLAND_DESC    :Style d'arbre à utiliser dans l'environnement «{NBSP}Monde des Jouets{NBSP}».
