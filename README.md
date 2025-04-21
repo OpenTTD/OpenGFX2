@@ -1,7 +1,7 @@
 # OpenGFX2
 # ![opengfx2_titletext](https://github.com/OpenTTD/OpenGFX2/assets/2762690/1adabdf4-baf8-48b2-ae35-279c3d808d0e)
 
-"OpenGFX2" graphics base set for [OpenTTD](https://github.com/OpenTTD/OpenTTD). It is drawn in a classic 8-bit pixel art style and trys to capture the feel of the original Transport Tycoon graphics by using similar colour schemes, building and object designs, etc. There are two variants:
+"OpenGFX2" graphics base set for [OpenTTD](https://github.com/OpenTTD/OpenTTD). It is drawn in a classic 8-bit pixel art style and tries to capture the feel of the original Transport Tycoon graphics by using similar colour schemes, building and object designs, etc. There are two variants:
 * `OpenGFX2 Classic`: An original graphics-style base set, 8-bit at 1x zoom (64 px wide tiles).
 * `OpenGFX2 High Def`: An enhanced base set, using 32-bit images for smoother shading at 4x zoom (256 px wide tiles) for more detail when zooming in.
 
@@ -11,9 +11,9 @@ OpenGFX2 is a totally separate graphics set to zBase. zBase is my old and outdat
 
 ## Current Status
 
-`OpenGFX2 Classic` is complete and ready to use. There might be bugs though, please post any you find on Github.
+`OpenGFX2 Classic` is complete and ready to use. There might be bugs though, please post any you find [on GitHub](https://github.com/OpenTTD/OpenGFX2/issues).
 
-`OpenGFX2 High Def` isn't complete, but can be used. The landscape (grass, water, trees) and infrastructure (road, rail, bridges) are mostly complete, but the vehicles and houses are generally not. Please post any bugs to Github, except for missing 4x zoom sprites - I know which are missing!
+`OpenGFX2 High Def` isn't complete, but can be used. The landscape (grass, water, trees) and infrastructure (road, rail, bridges) are mostly complete, but the vehicles and houses are generally not. Please post any bugs [to GitHub](https://github.com/OpenTTD/OpenGFX2/issues), except for missing 4x zoom sprites - we know which are missing!
 
 ## Quick start
 
