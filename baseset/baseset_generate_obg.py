@@ -8,18 +8,18 @@ def generate_obg(base_path, type_string):
 
   # define settings variables
   blitter = 8
-  typelong = "8-bit"
+  typelong = "8bpp"
   typeshort = "8"
   # settings
   if "32" in type_string:
     blitter = 32
-    typelong = "32-bit"
+    typelong = "32bpp"
     typeshort = "32"
   if "ez" in type_string:
     typeshort += "ez"
-    typelong += " Extra Zoom"
+    typelong += " extra zoom"
   else:
-    typelong += " Normal Zoom"
+    typelong += " normal zoom"
   
   # define paths
   obg_path = os.path.join(base_path, "opengfx2_" + typeshort + ".obg")
@@ -142,18 +142,26 @@ def generate_obg(base_path, type_string):
 
   # catch specific variant cases, release cases (8, 32ez), for string lookup
   if typeshort == "8":
-    descriptionstrid = "STR_OBG_DESCRIPTION_VARIANT_CLASSIC"
+    descriptionstrid = "STR_OBG_DESCRIPTION_CLASSIC"
     namesuffix = "Classic"
   elif typeshort == "32ez":
-    descriptionstrid = "STR_OBG_DESCRIPTION_VARIANT_HIGHDEF"
+    descriptionstrid = "STR_OBG_DESCRIPTION_HIGHDEF"
     namesuffix = "High Def"
   else:
-    description = typelong
+    descriptionstrid = None
     namesuffix = typelong
 
   # define unique short (4 character) names
   # lower case og, f vs. F for 8bpp vs. 32bpp, x vs X for normal vs. extra zoom
   namelookup = {"8": "ogfx", "8ez": "ogfX", "32": "ogFx", "32ez": "ogFX"}
+
+  # general, non-translateable, version string
+  # version, never translated
+  descriptionversion = "OpenGFX2 0.7 " + typeshort
+  # used for the origin string
+  descriptionorigin = "Available from the in-game content download system (BaNaNaS) or https://github.com/OpenTTD/OpenGFX2/"
+  # fallback description for non-standard zoom and bit depth combinations, should never be in player-facing standard builds
+  descriptionauto = "OpenGFX2 pixel art style base graphics set for OpenTTD, (" + typelong + "). Freely available under the terms of the GNU General Public License version 2. {STRING}"
 
   def pad(string, length, character=" ", pad_left=True):
     """
@@ -206,19 +214,16 @@ def generate_obg(base_path, type_string):
     obg.write(pad("palette", pad_length, pad_left=False) + "= DOS" + "\n")
     obg.write(pad("blitter", pad_length, pad_left=False) + "= "+str(blitter)+"bpp" + "\n")
     # write all non-default languages with translations available
-    for lng in lngs:
-      if lng != defaultlngid:
-        descriptionmain = lngs[lng]["STR_OBG_DESCRIPTION_MAIN"] if "STR_OBG_DESCRIPTION_MAIN" in lngs[lng] else lngs[defaultlngid]["STR_OBG_DESCRIPTION_MAIN"]
-        descriptionvariant = lngs[lng][descriptionstrid] if descriptionstrid in lngs[lng] else lngs[defaultlngid][descriptionstrid]
-        descriptionextra = lngs[lng]["STR_OBG_DESCRIPTION_EXTRA"] if "STR_OBG_DESCRIPTION_EXTRA" in lngs[lng] else lngs[defaultlngid]["STR_OBG_DESCRIPTION_EXTRA"]
-        descriptionversion = lngs[defaultlngid]["STR_OBG_DESCRIPTION_VERSION"]
-        if lng == "0x56" or lng == "0x0c":
-          # Some languages' punctuations are different. They don't have spaces after commas and periods. In this case it's zh_CN and zh_TW.
-          obg.write(pad("description." + lngids[lng], pad_length, pad_left=False) + "= " + descriptionmain + descriptionvariant + descriptionextra + "(" + typelong + ")" + descriptionversion + "\n")
-        else:
-          obg.write(pad("description." + lngids[lng], pad_length, pad_left=False) + "= " + descriptionmain + " " + descriptionvariant + " " + descriptionextra + "(" + typelong + ")" + descriptionversion + "\n")
-    # write default language as special case
-    obg.write(pad("description", pad_length, pad_left=False) + "= " + lngs[defaultlngid]["STR_OBG_DESCRIPTION_MAIN"] + " " + lngs[defaultlngid][descriptionstrid] + " " + lngs[defaultlngid]["STR_OBG_DESCRIPTION_EXTRA"] + "(" + typelong + ")" + lngs[defaultlngid]["STR_OBG_DESCRIPTION_VERSION"] + "\n")
+    if descriptionstrid is not None:
+      for lng in lngs:
+        if lng != defaultlngid:
+          description = lngs[lng][descriptionstrid] if descriptionstrid in lngs[lng] else lngs[defaultlngid][descriptionstrid]
+          description = description.replace("{STRING}", descriptionversion)
+          obg.write(pad("description." + lngids[lng], pad_length, pad_left=False) + "= " + description + "\n")
+      # write default language as special case
+      obg.write(pad("description", pad_length, pad_left=False) + "= " + lngs[defaultlngid][descriptionstrid].replace("{STRING}", descriptionversion) + "\n")
+    else:
+      obg.write(pad("description", pad_length, pad_left=False) + "= " + descriptionauto.replace("{STRING}", descriptionversion) + "\n")
     obg.write("\n")
     obg.write("[files]" + "\n")
     for file in files:
@@ -231,11 +236,10 @@ def generate_obg(base_path, type_string):
       else:
         with open(os.path.join(base_path, file["name"] + ".md5"), "r") as md5_file:
           md5 = md5_file.read()
-      obg.write(pad(file["name"] + ".grf", 23, pad_left=False) + "= " + md5)
+      obg.write(pad(file["name"] + ".grf", 25, pad_left=False) + "= " + md5)
     obg.write("\n")
     obg.write("[origin]" + "\n")
-    obg.write("default = Available from the in-game content download system (BaNaNaS) or https://github.com/OpenTTD/OpenGFX2/")
-    obg.write("\n")
+    obg.write("default = " + descriptionorigin + "\n")
 
 if __name__ == "__main__":
   if len(sys.argv) > 1:
