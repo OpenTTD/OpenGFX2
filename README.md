@@ -5,9 +5,9 @@
 * `OpenGFX2 Classic`: An original graphics-style base set, 8-bit at 1x zoom (64 px wide tiles).
 * `OpenGFX2 High Def`: An enhanced base set, using 32-bit images for smoother shading at 4x zoom (256 px wide tiles) for more detail when zooming in.
 
-OpenGFX2 is a spiritual successor to [OpenGFX](https://github.com/OpenTTD/OpenGFX). Think of it as "OpenGFX version 2", or maybe that should be "OpenGFX director's edition", "refactored OpenGFX", or perhaps "OpenGFX extra zoom" or "OpenGFX 32-bit". Or some combination of all of them. OpenGFX2 is derived from OpenGFX, but extensively redrawn or revised from my original 32-bit sources. Almost all sprites have been updated or revised. It features far better organisation of sprites, extensive use of automated composite sprite generation (using Python of dubious quality) and is drawn and coded with extra zoom levels and 32-bit in mind.
+OpenGFX2 is a spiritual successor to [OpenGFX](https://github.com/OpenTTD/OpenGFX). Think of it as "OpenGFX version 2", or maybe that should be "OpenGFX director's edition", "refactored OpenGFX", or perhaps "OpenGFX extra zoom" or "OpenGFX 32-bit". Or some combination of all of them. OpenGFX2 is derived from OpenGFX, but extensively redrawn or revised from original 32-bit sources. Almost all sprites have been updated or revised. It features far better organisation of sprites, extensive use of automated composite sprite generation (using Python of dubious quality) and is drawn and coded with extra zoom levels and 32-bit in mind.
 
-OpenGFX2 is a totally separate graphics set to zBase. zBase is my old and outdated attempt to kick-start a high definition base set using 3D graphics - I think OpenGFX2 is a better style and a better set overall.
+OpenGFX2 is a totally separate graphics set to zBase.
 
 ## Current Status
 
