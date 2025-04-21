@@ -1,7 +1,7 @@
 //1178-1181 tunnel icons
 template template_spr1178(z) {
-    template_sprite_matrix_nocrop(20, 20, 0, 0, 4, 9, z) // construction toolbar: road tunnel
-    template_sprite_matrix_nocrop(20, 20, 0, 0, 4, 11, z) // construction toolbar: rail tunnel
+    template_sprite_matrix_nocrop(20, 20, 0, 0, 4, 14, z) // construction toolbar: road tunnel
+    template_sprite_matrix_nocrop(20, 20, 0, 0, 4, 9, z) // construction toolbar: rail tunnel
     template_sprite_matrix_nocrop(20, 20, 0, 0, 4, 11, z) // construction toolbar: monorail tunnel
     template_sprite_matrix_nocrop(20, 20, 0, 0, 4, 12, z) // construction toolbar: maglev tunnel
 }
@@ -10,8 +10,8 @@ alternative_sprites(spr1178, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icon
 
 //1182-1185 tunnel cursors
 base_graphics spr1182(1182, "../graphics/cursors/1/pygen/default_8bpp.png") {
-    template_cursor_matrix(5, 8, 1) // road tunnel
-    template_cursor_matrix(5, 10, 1) // rail tunnel
+    template_cursor_matrix(5, 6, 1) // road tunnel
+    template_cursor_matrix(5, 8, 1) // rail tunnel
     template_cursor_matrix(5, 10, 1) // monorail tunnel
     template_cursor_matrix(5, 11, 1) // maglev tunnel
 }
