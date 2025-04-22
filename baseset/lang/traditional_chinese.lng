@@ -1,19 +1,11 @@
 ##grflangid 0x0c
 ##plural 1
-STR_GENERAL_DESC        :供 OpenTTD 使用的 OpenGFX2 基本圖形集。根據 GNU 通用公共授權第 2 版的許可下自由使用。[OpenGFX2Base]
+STR_GENERAL_DESC                      :供 OpenTTD 使用的 OpenGFX2 基本圖形集。根據 GNU 通用公共授權第 2 版的許可下自由使用。[OpenGFX2Base]
 
-STR_GRF_NAME            :OpenGFX2 基本圖形集
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 基本圖形集{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+STR_GRF_NAME                          :OpenGFX2 基本圖形集
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基本圖形集{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
-# notranslate starts
-STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
-# notranslate ends
-
-STR_OBG_DESCRIPTION_MAIN              :為 OpenTTD 提供的 OpenGFX2 像素風基本圖形集，
-STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :經典風格。
-STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :高畫質風格。
-STR_OBG_DESCRIPTION_EXTRA             :在 GNU 通用公共授權第 2 版授權下自由使用。
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 設置 NewGRF 版本與此版本的 OpenGFX 基本圖形集不符合。您可能會看到不正常的情況！
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenTTD 14.0 及更高版本不推薦使用 OpenGFX2 設置 NewGRF。建議使用基本圖形集參數替代！
@@ -51,7 +43,6 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :寒帶（預設）
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :亞熱帶（預設）
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :玩具樂園（預設）
 
-STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :溫帶（另類款式）
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :寒帶（另類款式）
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :亞熱帶（另類款式）
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :玩具樂園（另類款式）
@@ -65,20 +56,20 @@ STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :在亞熱帶景觀下使用的地貌款�
 STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :玩具樂園地貌
 STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :在玩具樂園景觀下使用的地貌款式。
 
-STR_PARAM_GRASS_TEMPERATE_NAME  :溫帶草地
-STR_PARAM_GRASS_TEMPERATE_DESC  :在溫帶景觀下使用的草地品種。
-STR_PARAM_GRASS_ARCTIC_NAME     :寒帶草地
-STR_PARAM_GRASS_ARCTIC_DESC     :在寒帶景觀下使用的草地品種。
-STR_PARAM_GRASS_TROPICAL_NAME   :亞熱帶草地
-STR_PARAM_GRASS_TROPICAL_DESC   :在亞熱帶景觀下使用的草地品種。
-STR_PARAM_GRASS_TOYLAND_NAME    :玩具樂園草地
-STR_PARAM_GRASS_TOYLAND_DESC    :在玩具樂園景觀下使用的草地品種。
+STR_PARAM_GRASS_TEMPERATE_NAME        :溫帶草地
+STR_PARAM_GRASS_TEMPERATE_DESC        :在溫帶景觀下使用的草地品種。
+STR_PARAM_GRASS_ARCTIC_NAME           :寒帶草地
+STR_PARAM_GRASS_ARCTIC_DESC           :在寒帶景觀下使用的草地品種。
+STR_PARAM_GRASS_TROPICAL_NAME         :亞熱帶草地
+STR_PARAM_GRASS_TROPICAL_DESC         :在亞熱帶景觀下使用的草地品種。
+STR_PARAM_GRASS_TOYLAND_NAME          :玩具樂園草地
+STR_PARAM_GRASS_TOYLAND_DESC          :在玩具樂園景觀下使用的草地品種。
 
-STR_PARAM_TREES_TEMPERATE_NAME  :溫帶樹木
-STR_PARAM_TREES_TEMPERATE_DESC  :在溫帶景觀下使用的樹木品種。
-STR_PARAM_TREES_ARCTIC_NAME     :寒帶樹木
-STR_PARAM_TREES_ARCTIC_DESC     :在寒帶景觀下使用的樹木品種。
-STR_PARAM_TREES_TROPICAL_NAME   :亞熱帶樹木
-STR_PARAM_TREES_TROPICAL_DESC   :在亞熱帶景觀下使用的樹木品種（不取代棕櫚樹和仙人掌）。
-STR_PARAM_TREES_TOYLAND_NAME    :玩具樂園樹木
-STR_PARAM_TREES_TOYLAND_DESC    :在玩具樂園景觀下使用的樹木品種。
+STR_PARAM_TREES_TEMPERATE_NAME        :溫帶樹木
+STR_PARAM_TREES_TEMPERATE_DESC        :在溫帶景觀下使用的樹木品種。
+STR_PARAM_TREES_ARCTIC_NAME           :寒帶樹木
+STR_PARAM_TREES_ARCTIC_DESC           :在寒帶景觀下使用的樹木品種。
+STR_PARAM_TREES_TROPICAL_NAME         :亞熱帶樹木
+STR_PARAM_TREES_TROPICAL_DESC         :在亞熱帶景觀下使用的樹木品種（不取代棕櫚樹和仙人掌）。
+STR_PARAM_TREES_TOYLAND_NAME          :玩具樂園樹木
+STR_PARAM_TREES_TOYLAND_DESC          :在玩具樂園景觀下使用的樹木品種。

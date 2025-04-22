@@ -1,19 +1,11 @@
 ##grflangid 0x56
 ##plural 1
-STR_GENERAL_DESC        :在 OpenTTD 中使用的 OpenGFX2 基本图形集，在 GNU General Public License 第 2 版授权下自由使用。[OpenGFX2Base]
+STR_GENERAL_DESC                      :在 OpenTTD 中使用的 OpenGFX2 基本图形集，在 GNU General Public License 第 2 版授权下自由使用。[OpenGFX2Base]
 
-STR_GRF_NAME            :OpenGFX2 基本图形集
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2 基本图形集{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+STR_GRF_NAME                          :OpenGFX2 基本图形集
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基本图形集{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
-# notranslate starts
-STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
-# notranslate ends
-
-STR_OBG_DESCRIPTION_MAIN              :在 OpenTTD 中使用的 OpenGFX2 像素风基本图形集，
-STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :经典风格。
-STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :高清风格。
-STR_OBG_DESCRIPTION_EXTRA             :在 GNU General Public License 第 2 版授权下自由使用。
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :“OpenGFX2 设置 NewGRF” 的版本与此版本的 OpenGFX 基本图形集不符合。您可能会看到不正常的结果！
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenTTD 14.0 及更高版本不推荐使用 OpenGFX2 设置 NewGRF。建议使用基本图形集参数替代！
@@ -51,7 +43,6 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :寒带（默认）
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :热带（默认）
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :奇幻（默认）
 
-STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :温带（另类）
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :寒带（另类）
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :热带（另类）
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :奇幻（另类）
@@ -65,20 +56,20 @@ STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :在热带景观下使用的地基样式�
 STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :奇幻地基
 STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :在奇幻景观下使用的地基样式。
 
-STR_PARAM_GRASS_TEMPERATE_NAME  :温带草地
-STR_PARAM_GRASS_TEMPERATE_DESC  :在温带景观下使用的草地品种。
-STR_PARAM_GRASS_ARCTIC_NAME     :寒带草地
-STR_PARAM_GRASS_ARCTIC_DESC     :在寒带景观下使用的草地品种。
-STR_PARAM_GRASS_TROPICAL_NAME   :热带草地
-STR_PARAM_GRASS_TROPICAL_DESC   :在热带景观下使用的草地品种。
-STR_PARAM_GRASS_TOYLAND_NAME    :奇幻草地
-STR_PARAM_GRASS_TOYLAND_DESC    :在奇幻景观下使用的草地品种。
+STR_PARAM_GRASS_TEMPERATE_NAME        :温带草地
+STR_PARAM_GRASS_TEMPERATE_DESC        :在温带景观下使用的草地品种。
+STR_PARAM_GRASS_ARCTIC_NAME           :寒带草地
+STR_PARAM_GRASS_ARCTIC_DESC           :在寒带景观下使用的草地品种。
+STR_PARAM_GRASS_TROPICAL_NAME         :热带草地
+STR_PARAM_GRASS_TROPICAL_DESC         :在热带景观下使用的草地品种。
+STR_PARAM_GRASS_TOYLAND_NAME          :奇幻草地
+STR_PARAM_GRASS_TOYLAND_DESC          :在奇幻景观下使用的草地品种。
 
-STR_PARAM_TREES_TEMPERATE_NAME  :温带树木
-STR_PARAM_TREES_TEMPERATE_DESC  :在温带景观下使用的树木品种
-STR_PARAM_TREES_ARCTIC_NAME     :寒带树木
-STR_PARAM_TREES_ARCTIC_DESC     :在寒带景观下使用的树木品种
-STR_PARAM_TREES_TROPICAL_NAME   :热带树木
-STR_PARAM_TREES_TROPICAL_DESC   :在热带景观下使用的树木品种（不取代棕榈树和仙人掌）。
-STR_PARAM_TREES_TOYLAND_NAME    :奇幻树木
-STR_PARAM_TREES_TOYLAND_DESC    :在奇幻景观下使用的树木品种
+STR_PARAM_TREES_TEMPERATE_NAME        :温带树木
+STR_PARAM_TREES_TEMPERATE_DESC        :在温带景观下使用的树木品种
+STR_PARAM_TREES_ARCTIC_NAME           :寒带树木
+STR_PARAM_TREES_ARCTIC_DESC           :在寒带景观下使用的树木品种
+STR_PARAM_TREES_TROPICAL_NAME         :热带树木
+STR_PARAM_TREES_TROPICAL_DESC         :在热带景观下使用的树木品种（不取代棕榈树和仙人掌）。
+STR_PARAM_TREES_TOYLAND_NAME          :奇幻树木
+STR_PARAM_TREES_TOYLAND_DESC          :在奇幻景观下使用的树木品种

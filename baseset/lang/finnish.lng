@@ -1,19 +1,11 @@
 ##grflangid 0x35
 ##plural 0
-STR_GENERAL_DESC        :OpenGFX2-perusgrafiikat OpenTTD:lle. Vapaasti saatavilla GNU General Public License version 2 -lisenssin ehdoin. [OpenGFX2Base]
+STR_GENERAL_DESC                      :OpenGFX2-perusgrafiikat OpenTTD:lle. Vapaasti saatavilla GNU General Public License version 2 -lisenssin ehdoin. [OpenGFX2Base]
 
-STR_GRF_NAME            :OpenGFX2Base
-STR_GRF_DESCRIPTION     :{ORANGE}OpenGFX2-perusgrafiikkakokoelma{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2-perusgrafiikkakokoelma{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
-# notranslate starts
-STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
-# notranslate ends
-
-STR_OBG_DESCRIPTION_MAIN              :OpenGFX2, pikselitaidetyylinen perusgrafiikkakokoelma OpenTTD:lle,
-STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Perinteinen versio.
-STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :Teräväpiirtoversio.
-STR_OBG_DESCRIPTION_EXTRA             :Vapaasti saatavilla GNU General Public License version 2 -lisenssin ehdoin.
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Settings -NewGRF:n versio ei vastaa OpenGFX-perusgrafiikkakokoelman tätä versiota. Tulokset saattavat olla odottamattomia!
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Settings -NewGRF:ää ei suositella OpenTTD 14.0:n ja uudempien kanssa käytettäväksi. Suotavampaa on käyttää perusgrafiikan parametreja!
@@ -51,7 +43,6 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :Pohjoinen (oletus)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Subtrooppinen (oletus)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :Lelumaa (oletus)
 
-STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :Lauhkea (vaihtoehtoinen tyyli)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Pohjoinen (vaihtoehtoinen tyyli)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Subtrooppinen (vaihtoehtoinen tyyli)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Lelumaa (vaihtoehtoinen tyyli)
@@ -65,20 +56,20 @@ STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Perustusten tyyli, jota käytetään subt
 STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Perustukset lelumaassa
 STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Perustusten tyyli, jota käytetään lelumaan maastotyypissä.
 
-STR_PARAM_GRASS_TEMPERATE_NAME  :Ruohikko lauhkeassa
-STR_PARAM_GRASS_TEMPERATE_DESC  :Ruohikoiden tyyli, jota käytetään lauhkeassa maastotyypissä.
-STR_PARAM_GRASS_ARCTIC_NAME     :Ruohikko pohjoisessa
-STR_PARAM_GRASS_ARCTIC_DESC     :Ruohikoiden tyyli, jota käytetään pohjoisessa maastotyypissä.
-STR_PARAM_GRASS_TROPICAL_NAME   :Ruohikko subtrooppisessa
-STR_PARAM_GRASS_TROPICAL_DESC   :Ruohikoiden tyyli, jota käytetään subtrooppisessa maastotyypissä.
-STR_PARAM_GRASS_TOYLAND_NAME    :Ruohikko lelumaassa
-STR_PARAM_GRASS_TOYLAND_DESC    :Ruohikoiden tyyli, jota käytetään lelumaan maastotyypissä.
+STR_PARAM_GRASS_TEMPERATE_NAME        :Ruohikko lauhkeassa
+STR_PARAM_GRASS_TEMPERATE_DESC        :Ruohikoiden tyyli, jota käytetään lauhkeassa maastotyypissä.
+STR_PARAM_GRASS_ARCTIC_NAME           :Ruohikko pohjoisessa
+STR_PARAM_GRASS_ARCTIC_DESC           :Ruohikoiden tyyli, jota käytetään pohjoisessa maastotyypissä.
+STR_PARAM_GRASS_TROPICAL_NAME         :Ruohikko subtrooppisessa
+STR_PARAM_GRASS_TROPICAL_DESC         :Ruohikoiden tyyli, jota käytetään subtrooppisessa maastotyypissä.
+STR_PARAM_GRASS_TOYLAND_NAME          :Ruohikko lelumaassa
+STR_PARAM_GRASS_TOYLAND_DESC          :Ruohikoiden tyyli, jota käytetään lelumaan maastotyypissä.
 
-STR_PARAM_TREES_TEMPERATE_NAME  :Puut lauhkeassa
-STR_PARAM_TREES_TEMPERATE_DESC  :Puiden tyyli, jota käytetään lauhkeassa maastotyypissä.
-STR_PARAM_TREES_ARCTIC_NAME     :Puut pohjoisessa
-STR_PARAM_TREES_ARCTIC_DESC     :Puiden tyyli, jota käytetään pohjoisessa maastotyypissä.
-STR_PARAM_TREES_TROPICAL_NAME   :Puut subtrooppisessa
-STR_PARAM_TREES_TROPICAL_DESC   :Puiden tyyli, jota käytetään subtrooppisessa maastotyypissä (ei korvaa palmuja eikä kaktuksia).
-STR_PARAM_TREES_TOYLAND_NAME    :Puut lelumaassa
-STR_PARAM_TREES_TOYLAND_DESC    :Puiden tyyli, jota käytetään lelumaan maastotyypissä.
+STR_PARAM_TREES_TEMPERATE_NAME        :Puut lauhkeassa
+STR_PARAM_TREES_TEMPERATE_DESC        :Puiden tyyli, jota käytetään lauhkeassa maastotyypissä.
+STR_PARAM_TREES_ARCTIC_NAME           :Puut pohjoisessa
+STR_PARAM_TREES_ARCTIC_DESC           :Puiden tyyli, jota käytetään pohjoisessa maastotyypissä.
+STR_PARAM_TREES_TROPICAL_NAME         :Puut subtrooppisessa
+STR_PARAM_TREES_TROPICAL_DESC         :Puiden tyyli, jota käytetään subtrooppisessa maastotyypissä (ei korvaa palmuja eikä kaktuksia).
+STR_PARAM_TREES_TOYLAND_NAME          :Puut lelumaassa
+STR_PARAM_TREES_TOYLAND_DESC          :Puiden tyyli, jota käytetään lelumaan maastotyypissä.

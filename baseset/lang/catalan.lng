@@ -1,20 +1,12 @@
 ##grflangid 0x22
 ##plural 0
 ##gender Femenin Masculin
-STR_GENERAL_DESC        :Paquet de gràfics OpenGFX2 per a l'OpenTTD. Disponible de forma gratuïta sota els termes de la llicència GNU GPL versió 2 (GNU General Public License version 2). [OpenGFX2Base]
+STR_GENERAL_DESC                      :Paquet de gràfics OpenGFX2 per a l'OpenTTD. Disponible de forma gratuïta sota els termes de la llicència GNU GPL versió 2 (GNU General Public License version 2). [OpenGFX2Base]
 
-STR_GRF_NAME            :OpenGFX2Base
-STR_GRF_DESCRIPTION     :{ORANGE}Paquet de gràfics OpenGFX2 Base{BLACK}{}Autor: Zephyris, gràcies a la feina prèvia de l’equip d’OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/zephyris/OpenGFX2
-STR_GRF_URL             :https://github.com/OpenTTD/OpenGFX2
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}Paquet de gràfics OpenGFX2 Base{BLACK}{}Autor: Zephyris, gràcies a la feina prèvia de l’equip d’OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
-# notranslate starts
-STR_OBG_DESCRIPTION_VERSION           :[OpenGFX2 0.7]
-# notranslate ends
-
-STR_OBG_DESCRIPTION_MAIN              :OpenGFX2 és un paquet de gràfics d'estil pixel art per a l'OpenTTD.
-STR_OBG_DESCRIPTION_VARIANT_CLASSIC   :Versió clàssica.
-STR_OBG_DESCRIPTION_VARIANT_HIGHDEF   :Versió d'alta resolució.
-STR_OBG_DESCRIPTION_EXTRA             :Disponible de forma gratuïta sota els termes de la llicència GNU GPL versió 2 (GNU General Public License version 2).
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :La versió dels paràmetres OpenGFX2 NewGRF i la versió dels paràmetres base OpenGFX són diferents. Això pot resultar en comportaments inesperats!
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Els paràmetres OpenGFX2 NewGRF no es recomanen per a l'OpenTTD 14.0 i superiors. Utilitzeu els paràmetres base!
@@ -52,7 +44,6 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :Polar (Per defecte)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Per defecte)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :Joguines (Per defecte)
 
-STR_PARAM_VALUE_TEMPERATE_DALTERNATE  :Temperat (Estil alternatiu)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Polar (Estil alternatiu)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estil alternatiu)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Joguines (Estil alternatiu)
@@ -66,20 +57,20 @@ STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Estil dels fonaments en clima tropical.
 STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fonaments en paisatge de joguines
 STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Estil dels fonaments en paisatge de joguines.
 
-STR_PARAM_GRASS_TEMPERATE_NAME  :Herba en clima temperat
-STR_PARAM_GRASS_TEMPERATE_DESC  :Estil de l'herba en clima temperat.
-STR_PARAM_GRASS_ARCTIC_NAME     :Herba en clima polar
-STR_PARAM_GRASS_ARCTIC_DESC     :Estil de l'herba en clima polar
-STR_PARAM_GRASS_TROPICAL_NAME   :Herba en clima tropical
-STR_PARAM_GRASS_TROPICAL_DESC   :Estil de l'herba en clima tropical.
-STR_PARAM_GRASS_TOYLAND_NAME    :Herba del paisatge de joguines
-STR_PARAM_GRASS_TOYLAND_DESC    :Estil de l'herba en paisatge de joguines.
+STR_PARAM_GRASS_TEMPERATE_NAME        :Herba en clima temperat
+STR_PARAM_GRASS_TEMPERATE_DESC        :Estil de l'herba en clima temperat.
+STR_PARAM_GRASS_ARCTIC_NAME           :Herba en clima polar
+STR_PARAM_GRASS_ARCTIC_DESC           :Estil de l'herba en clima polar
+STR_PARAM_GRASS_TROPICAL_NAME         :Herba en clima tropical
+STR_PARAM_GRASS_TROPICAL_DESC         :Estil de l'herba en clima tropical.
+STR_PARAM_GRASS_TOYLAND_NAME          :Herba del paisatge de joguines
+STR_PARAM_GRASS_TOYLAND_DESC          :Estil de l'herba en paisatge de joguines.
 
-STR_PARAM_TREES_TEMPERATE_NAME  :Arbres de zones temperades
-STR_PARAM_TREES_TEMPERATE_DESC  :Estil d'arbres per a zones de clima temperat.
-STR_PARAM_TREES_ARCTIC_NAME     :Arbres de clima polar
-STR_PARAM_TREES_ARCTIC_DESC     :Estil d'arbres per a zones de clima polar.
-STR_PARAM_TREES_TROPICAL_NAME   :Arbres de clima tropical
-STR_PARAM_TREES_TROPICAL_DESC   :Estil d'arbres per a zones de clima tropical (no substitueix les palmeres ni els cactus).
-STR_PARAM_TREES_TOYLAND_NAME    :Arbres del paisatge de joguines
-STR_PARAM_TREES_TOYLAND_DESC    :Estil d'arbres del paisatge de joguines.
+STR_PARAM_TREES_TEMPERATE_NAME        :Arbres de zones temperades
+STR_PARAM_TREES_TEMPERATE_DESC        :Estil d'arbres per a zones de clima temperat.
+STR_PARAM_TREES_ARCTIC_NAME           :Arbres de clima polar
+STR_PARAM_TREES_ARCTIC_DESC           :Estil d'arbres per a zones de clima polar.
+STR_PARAM_TREES_TROPICAL_NAME         :Arbres de clima tropical
+STR_PARAM_TREES_TROPICAL_DESC         :Estil d'arbres per a zones de clima tropical (no substitueix les palmeres ni els cactus).
+STR_PARAM_TREES_TOYLAND_NAME          :Arbres del paisatge de joguines
+STR_PARAM_TREES_TOYLAND_DESC          :Estil d'arbres del paisatge de joguines.
