@@ -1,0 +1,19 @@
+name: Testing
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  testing:
+    name: Testing
+    uses: OpenTTD/actions/.github/workflows/rw-entry-testing-baseset.yml@v5
+    with:
+      apt-packages: git
+      name: opengfx2
+      pip-packages: nml pillow blend-modes numpy skimage tqdm
+      problem-matcher: .github/workflows/nml-problem-matcher.json
