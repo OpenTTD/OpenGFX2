@@ -3,7 +3,7 @@ These notes are for if you want to build OpenGFX2 from the source files. If you 
 
 Requires `git lfs` for large file handling. Once `git lfs` is installed then clone using `git` as normal.
 
-Requires a system with `make`, `nmlc`, `git` and  `python3` with `PIL`, `blend-modes`, `numpy`, `skimage`, `tqdm`. This has been developed using Windows Subsystem for Linux (WSL) and might have peculiarities (eg. incorrect file permissions) on a real Linux install.
+Requires a system with `make`, `nmlc`, `git` and  `python3` (3.11+) with `PIL`, `blend-modes`, `numpy`, `scikit-image`, `tqdm`. This has been developed using Windows Subsystem for Linux (WSL) and might have peculiarities (eg. incorrect file permissions) on a real Linux install.
 
 ### To build
 Clone the repository, navigate to the repository root directory and run `make all`. It will take a long time...
