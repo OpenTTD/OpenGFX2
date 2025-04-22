@@ -1,4 +1,0 @@
-#include "nml/trains/trains-header.pnml"
-#include "../templates/zoom-sensitive.pnml"
-
-#include "nml/trains/rail-wagons.pnml"
