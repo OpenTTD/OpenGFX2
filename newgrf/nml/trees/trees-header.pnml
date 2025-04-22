@@ -1,7 +1,7 @@
 grf {
 	grfid: "OGZ\4";
-	name: string(STR_GRF_NAME);
-	desc: string(STR_GRF_DESCRIPTION);
+	name: string(STR_GRF_TREES_NAME);
+	desc: string(STR_GRF_TREES_DESCRIPTION);
 	url:  string(STR_GRF_URL);
 	version: 7;
 	min_compatible_version: version_openttd(1, 3, 0);
