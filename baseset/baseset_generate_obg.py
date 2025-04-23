@@ -213,6 +213,7 @@ def generate_obg(base_path, type_string):
     obg.write(pad("version", pad_length, pad_left=False) + "= 7" + "\n")
     obg.write(pad("palette", pad_length, pad_left=False) + "= DOS" + "\n")
     obg.write(pad("blitter", pad_length, pad_left=False) + "= "+str(blitter)+"bpp" + "\n")
+    obg.write(pad("url", pad_length, pad_left=False) + "= https://github.com/OpenTTD/OpenGFX2/" + "\n")
     # write all non-default languages with translations available
     if descriptionstrid is not None:
       for lng in lngs:
