@@ -5,9 +5,11 @@
 STR_GENERAL_DESC                      :OpenGFX2, основной графический набор для OpenTTD. Свободно распространяется в соответствии с условиями GNU General Public License версии 2. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
-STR_GRF_DESCRIPTION                   :{ORANGE}Набор основной графики OpenGFX2{BLACK}{}Автор Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}Набор основной графики OpenGFX2{BLACK}{}Автор Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2, основной графический набор для OpenTTD в стиле пиксель-арт; классический вариант. Свободно распространяется в соответствии с условиями GNU General Public License версии 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2, основной графический набор для OpenTTD в стиле пиксель-арт; вариант в высоком разрешении. Свободно распространяется в соответствии с условиями GNU General Public License версии 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Модуль настроек OpenGFX2 не соответствует версии OpenGFX. Это может привести к непредсказуемым эффектам.
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Использование модуля настроек OpenGFX2 не рекомендуется для OpenTTD версии 14.0 и более поздних. Лучше использовать основные настройки.
@@ -19,7 +21,7 @@ STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Настройки NewGRF.
 STR_PARAM_CURSOR_NAME                 :Курсор мыши
 STR_PARAM_CURSOR_DESC                 :Стиль и цвет курсора/указателя.
 STR_PARAM_CURSOR_VALUE_DEFAULT        :Классический жёлтый (по умолчанию)
-STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Классический серый
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Классический, серый
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX, жёлтый
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows, белый
 
@@ -45,6 +47,7 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :Арктический (по умолча
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Тропический (по умолчанию)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :Игрушечный (по умолчанию)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Умеренный (альтернативный стиль)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Арктический (альтернативный стиль)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Тропический (альтернативный стиль)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Игрушечный (альтернативный стиль)

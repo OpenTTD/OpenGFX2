@@ -6,6 +6,8 @@ STR_GRF_NAME                          :OpenGFX2 基本图形集
 STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基本图形集{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/zephyris/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :在 OpenTTD 中使用的 OpenGFX2 基本图形集，经典版本（正常缩放，8bpp）。在 GNU General Public License 第 2 版及以上版本授权下自由使用。[{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :在 OpenTTD 中使用的 OpenGFX2 基本图形集，高清版本（额外缩放，32bpp）。在 GNU General Public License 第 2 版及以上版本授权下自由使用。[{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :“OpenGFX2 设置 NewGRF” 的版本与此版本的 OpenGFX 基本图形集不符合。您可能会看到不正常的结果！
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenTTD 14.0 及更高版本不推荐使用 OpenGFX2 设置 NewGRF。建议使用基本图形集参数替代！
@@ -43,6 +45,7 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :寒带（默认）
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :热带（默认）
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :奇幻（默认）
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :温带（另类）
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :寒带（另类）
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :热带（另类）
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :奇幻（另类）
