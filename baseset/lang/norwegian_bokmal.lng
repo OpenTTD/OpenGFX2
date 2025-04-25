@@ -1,0 +1,81 @@
+##grflangid 0x2f
+##plural 0
+##gender masculine feminine neuter
+##case small
+STR_GENERAL_DESC                      :OpenGFX2 grunngrafikkpakke for OpenTTD. Fritt tilgjengelig under vilkårene til GNU General Public License version 2. [OpenGFX2Base]
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 grunngrafikkpakke{BLACK}{}Av Zephyris, stående på skuldrene til OpenGFX-teamet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Nettsted: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
+
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 pixel-art grafikkstilgrunnpakke for OpenTTD, høyoppløst variant (normal zoom 8bpp). Fritt tilgjengelig under vilkårene til GNU General Public License version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel-art grafikkstilgrunnpakke for OpenTTD, høyoppløst variant (ekstra zoom 32bpp). Fritt tilgjengelig under vilkårene til GNU General Public License version 2+. [{STRING}]
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 innstilinger NewGRF-versjon stemmer ikke med denne versjonen av OpenGFX grunnpakke. Uvanlige resultater kan oppstå!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 innstillinger NewGRF er ikke anbefalt for OpenTTD 14.0 og nyere. Parametere for grunnpakke anbefales i stedet!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Grunnpakke parametere.
+STR_WARN_SETTINGSGRF_HARDCODED        :Hardkodede parametere.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Innstillinger NewGRF parametere.
+
+STR_PARAM_CURSOR_NAME                 :Musepeker
+STR_PARAM_CURSOR_DESC                 :Stil og farge for musepekeren.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klassisk stil, gul (standard)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klassisk stil, grå
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-stil, gul
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-stil, hvit
+
+STR_PARAM_GRIDLINE_NAME               :Rutenettlinjer for terreng
+STR_PARAM_GRIDLINE_DESC               :Vis rutenettlinjer på kantene til land- og vannfliser eller ikke
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Kun rutenettlinjer på land (Standard)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Ingen rutenettlinjer
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Rutenettlinjer for land og vann
+
+STR_PARAM_LOGO_NAME                   :Logostil
+STR_PARAM_LOGO_DESC                   :OpenTTD logostil for tittelbilde.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Standard
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Undergrunn
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Strømlinjet
+
+STR_PARAM_VALUE_TEMPERATE             :Temperert
+STR_PARAM_VALUE_ARCTIC.small          :Arktisk
+STR_PARAM_VALUE_ARCTIC                :Arktisk
+STR_PARAM_VALUE_TROPICAL              :Tropisk
+STR_PARAM_VALUE_TOYLAND               :Lekeland
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Temperert (Standard)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arktisk (Standard)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropisk (Standard)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Lekeland (Standard)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Temperert (Alternativ stil)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktisk (Alternativ stil)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropisk (Alternativ stil)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Lekeland (Alternativ stil)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Temperert grunn
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Grunnstil å bruke i temperert klima.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arktisk grunn
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Grunnstil å bruke i arktisk klima.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropisk grunn
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Grunnstil å bruke i tropisk klima.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Lekeland grunn
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Grunnstil å bruke i lekeland-klima.
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :Temperert gress
+STR_PARAM_GRASS_TEMPERATE_DESC        :Gresstil å bruke i temperert klima.
+STR_PARAM_GRASS_ARCTIC_NAME           :Arktisk gress
+STR_PARAM_GRASS_ARCTIC_DESC           :Gresstil å bruke i arktisk klima.
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropisk gress
+STR_PARAM_GRASS_TROPICAL_DESC         :Gresstil å bruke i tropisk klima.
+STR_PARAM_GRASS_TOYLAND_NAME          :Lekeland-gress
+STR_PARAM_GRASS_TOYLAND_DESC          :Gresstil å bruke i lekeland-klima.
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Tempererte trær
+STR_PARAM_TREES_TEMPERATE_DESC        :Trestil å bruke i temperert klima.
+STR_PARAM_TREES_ARCTIC_NAME           :Arktiske trær
+STR_PARAM_TREES_ARCTIC_DESC           :Trestil å bruke i arktisk klima.
+STR_PARAM_TREES_TROPICAL_NAME         :Tropiske trær
+STR_PARAM_TREES_TROPICAL_DESC         :Trestil å bruke i tropisk klima (erstatter ikke palmetrær og kaktus).
+STR_PARAM_TREES_TOYLAND_NAME          :Lekeland-trær
+STR_PARAM_TREES_TOYLAND_DESC          :Trestil å bruke i lekeland-klima.

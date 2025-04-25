@@ -3,7 +3,7 @@
 STR_GENERAL_DESC                      :適用於 OpenTTD 使用的 OpenGFX2 基本圖形集。根據 GNU 通用公共授權條款第 2 版的許可下自由使用。［OpenGFX2Base］
 
 STR_GRF_NAME                          :OpenGFX2 基本圖形集
-STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基本圖形集{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基本圖形集{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 STR_OBG_DESCRIPTION_CLASSIC           :適用於 OpenTTD 使用的 OpenGFX2 像素藝術風格基本圖形集，經典變體（正常縮放 8bpp）。根據 GNU 通用公共授權條款第 2 版及以上之版本的許可下自由使用。［{STRING}］

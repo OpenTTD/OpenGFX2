@@ -4,9 +4,11 @@
 STR_GENERAL_DESC                      :Graphismes de base OpenGFX2 pour OpenTTD. Disponibles librement selon les termes de la Licence Publique Générale GNU version 2. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
-STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 : Graphismes de base{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 : Graphismes de base{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2, un set de graphismes de base en pixel art pour OpenTTD, dans sa variante classique (zoom normal 8bpp). Disponibles librement selon les termes de la Licence Publique Générale GNU version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2, un set de graphismes de base en pixel art pour OpenTTD, dans sa variante haute définition (zoom extra 32bpp). Disponibles librement selon les termes de la Licence Publique Générale GNU version 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :La version des paramètres NewGRF de OpenGFX2 ne correspond à la version du set de base de OpenGFX. Des résultats inattendus pourraient survenir !
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Les paramètres NewGRF de OpenGFX2 ne sont pas recommandés pour OpenTTD 14.0 et ultérieur. Les paramètres de base du set sont plutôt recommandés !
@@ -44,6 +46,7 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctique (Défaut)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Défaut)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :Monde des jouets (Défaut)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Tempéré (Style alternatif)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctique (Style alternatif)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Style alternatif)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Monde des jouets (Style alternatif)
