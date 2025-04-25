@@ -16,4 +16,4 @@ jobs:
       apt-packages: git
       name: opengfx2
       pip-packages: nml pillow blend-modes numpy skimage tqdm
-      problem-matcher: .github/workflows/nml-problem-matcher.json
+      problem-matcher: .github/workflows/problem-matcher.json

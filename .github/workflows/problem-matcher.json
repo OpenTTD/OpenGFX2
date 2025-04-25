@@ -1,0 +1,33 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "nml",
+            "pattern": [
+                {
+                    "regexp": "^.*nmlc (\\w+): \"(.*)\", line (\\d+): (.*)$",
+                    "file": 2,
+                    "line": 3,
+                    "severity": 1,
+                    "message": 4
+                }
+            ]
+        },
+        {
+            "owner": "python",
+            "pattern": [
+                {
+                    "regexp": "^.*File \\\"([^\\\"]|.*)\\\", line (\\d+).*",
+                    "file": 1,
+                    "line": 2
+                },
+                {
+                    "regexp": "^.*raise.*$"
+                },
+                {
+                    "regexp": "^\\s*(.*)\\s*$",
+                    "message": 1
+                }
+            ]
+        }
+    ]
+}
