@@ -3,9 +3,11 @@
 STR_GENERAL_DESC                      :OpenGFX2 base graphics set for OpenTTD. Freely available under the terms of the GNU General Public License version 2. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
-STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 pixel art style base graphics set for OpenTTD, classic variant (normal zoom 8bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art style base graphics set for OpenTTD, high definition variant (extra zoom 32bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Settings NewGRF version does not match this version of the OpenGFX baseset. You may see unusual results!
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Settings NewGRF is not recommended for OpenTTD 14.0 and later. Base set parameters are recommended instead!
@@ -43,6 +45,7 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctic (Default)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Default)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :Toyland (Default)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Temperate (Alternate style)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctic (Alternate style)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Alternate style)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Toyland (Alternate style)

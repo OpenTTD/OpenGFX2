@@ -38,8 +38,8 @@ STR_PARAM_LOGO_VALUE_UNDERGROUND      :Undergrunn
 STR_PARAM_LOGO_VALUE_CABRIOLET        :Strømlinjet
 
 STR_PARAM_VALUE_TEMPERATE             :Temperert
-STR_PARAM_VALUE_ARCTIC.small          :Arktisk
 STR_PARAM_VALUE_ARCTIC                :Arktisk
+STR_PARAM_VALUE_ARCTIC.small          :Arktisk
 STR_PARAM_VALUE_TROPICAL              :Tropisk
 STR_PARAM_VALUE_TOYLAND               :Lekeland
 
