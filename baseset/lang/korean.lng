@@ -4,9 +4,11 @@
 STR_GENERAL_DESC                      :OpenTTD용 OpenGFX2 기본 그래픽 세트입니다. GNU 일반 공중 라이선스(GPL) 버전 2의 약관에 의거하여 자유롭게 사용할 수 있습니다. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
-STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 기본 그래픽 세트{BLACK}{}제작: Zephyris, OpenGFX 팀의 작업을 바탕으로 제작{}{BLACK}라이선스: {SILVER}GPL v2+{}{BLACK}웹사이트: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 기본 그래픽 세트{BLACK}{}제작: Zephyris, OpenGFX 팀의 작업을 바탕으로 제작{}{BLACK}라이선스: {SILVER}GPL v2+{}{BLACK}웹사이트: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :OpenTTD용 클래식 버전 (8bpp) OpenGFX2 픽셀 아트 스타일 기본 그래픽 세트입니다. GNU 일반 공중 라이선스(GPL) 버전 2 이상의 약관에 의거하여 자유롭게 사용할 수 있습니다. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenTTD용 고해상도 버전 (32bpp) OpenGFX2 픽셀 아트 스타일 기본 그래픽 세트입니다. GNU 일반 공중 라이선스(GPL) 버전 2 이상의 약관에 의거하여 자유롭게 사용할 수 있습니다. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 설정 NewGRF 버전이 이 OpenGFX 기본 세트의 버전과 일치하지 않습니다. 예기치 않은 결과를 목격할 수도 있습니다!
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 설정 NewGRF는 OpenTTD 14.0 이상의 버전에서 사용하는 것을 추천하지 않습니다. 대신 기본 세트 매개 변수를 사용하는 것을 추천합니다!
@@ -44,6 +46,7 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :아한대 (기본)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :아열대 (기본)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :장난감나라 (기본)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :온대 (다른 스타일)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :아한대 (다른 스타일)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :아열대 (다른 스타일)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :장난감나라 (다른 스타일)
