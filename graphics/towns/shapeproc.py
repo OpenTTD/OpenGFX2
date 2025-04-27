@@ -80,7 +80,7 @@ def buildings_shapeproc(scale, climate, snow, base_path, verbose=True):
 
   # Special palette details
   # Values to exclude during dithering
-  palette_exclude = [0,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,245,246,247,248,249,250,251,252,253,254,254,255]
+  palette_exclude = [0,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,245,246,247,248,249,250,251,252,253,254,254,255]
   palette_generalmask = [0, 255]
 
 
