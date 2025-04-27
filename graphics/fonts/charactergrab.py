@@ -31,8 +31,8 @@ def fonts_charactergrab(base_path):
       "ascent": 8, # ascent (px at 1x)
       "descent": 2, # descent (px at 1x)
       "space": 3, # space width (px at 1x)
-      "yoffs": 0, # vertical position for NML
-      "ydrawoffs": 1
+      "yoffs": 0, # vertical position for NML (will be multiplied by scale)
+      "ydrawoffs": 0 # additional vertical offset (px) for drawing
     },
     {
       "name": "small",
@@ -56,11 +56,11 @@ def fonts_charactergrab(base_path):
       "basesetoffs": 450,
       "path": "openttd-ttf/openttd-serif/OpenTTD-Serif.ttf",
       "size": 18,
-      "ascent": 14,
+      "ascent": 16,
       "descent": 4,
       "space": 6,
-      "yoffs": 0,
-      "ydrawoffs": 2
+      "yoffs": -1,
+      "ydrawoffs": 2 # hack: top pixels can be lost, noticed for capitals with diacritics.
     },
     {
       "name": "mono",
@@ -69,11 +69,11 @@ def fonts_charactergrab(base_path):
       "base": False,
       "path": "openttd-ttf/openttd-mono/OpenTTD-Mono.ttf",
       "size": 10,
-      "ascent": 8, #11,
+      "ascent": 8,
       "descent": 2,
       "space": 7,
       "yoffs": 0,
-      "ydrawoffs": 0 #3
+      "ydrawoffs": 0
     }
   ]
 
@@ -157,42 +157,37 @@ def fonts_charactergrab(base_path):
     if font["name"] == "medium":
       shadowoffset = 1
     # alignment hacks
-    additionalyoffs = 0
     additionalstring = ""
-    additionalheight = 0
     if font["name"] == "medium":
-      additionalyoffs = 1 # hack: top pixel can be lost, noticed for i and j tittle.
       additionalstring = "                i" # hack: characters can be one off in vertical direction unless forced with presence of i in the string.
     if font["name"] == "large":
-      additionalyoffs = 2 # hack: top pixels can be lost, noticed for capitals with diacritics.
       additionalstring = "                O" # hack: characters can be one off in vertical direction unless forced with presence of O (or other tall, rounded, character) in the string, noticed for eg. N vs O.
-      additionalheight = 1 # hack: to make sure long descenders aren't lost
     # make output image and setup font
-    image = Image.new("RGBA", (font["size"] * scale * maxwidthfactor, (font["ascent"] + font["descent"] + shadowoffset + additionalheight) * scale), (0, 0, 0, 0))
+    image = Image.new("RGBA", (font["size"] * scale * maxwidthfactor, (font["ascent"] + font["descent"] + shadowoffset) * scale), (0, 0, 0, 0))
     draw = ImageDraw.Draw(image)
     draw.fontmode = "1" # aliased
     if font["name"] == "medium":
-      draw.text((shadowoffset * scale, shadowoffset * scale + font["ydrawoffs"]), chr(code) + additionalstring, font=font["imfont"], fill=(32, 32, 32, 255))
-    draw.text((0, 0 + font["ydrawoffs"]), chr(code) + additionalstring, font=font["imfont"], fill=(16, 16, 16, 255))
+      draw.text((shadowoffset * scale, shadowoffset * scale + font["ydrawoffs"] * scale), chr(code) + additionalstring, font=font["imfont"], fill=(32, 32, 32, 255))
+    draw.text((0, 0 + font["ydrawoffs"] * scale), chr(code) + additionalstring, font=font["imfont"], fill=(16, 16, 16, 255))
     imagebox = image.getbbox()
     if imagebox is None:
       # if no bounding box then no glyph
       if code == 32 or code == 160:
         # handle spaces
-        imagebox = (0, 0, font["space"] * scale, (font["ascent"] + font["descent"] + shadowoffset + additionalheight) * scale)
+        imagebox = (0, 0, font["space"] * scale, (font["ascent"] + font["descent"] + shadowoffset) * scale)
       else:
         # width 1 and force blank
-        draw.rectangle((0, 0, font["size"] * scale * maxwidthfactor, (font["ascent"] + font["descent"] + shadowoffset + additionalheight) * scale), fill=(0, 0, 0, 0), outline=None)
+        draw.rectangle((0, 0, font["size"] * scale * maxwidthfactor, (font["ascent"] + font["descent"] + shadowoffset) * scale), fill=(0, 0, 0, 0), outline=None)
         imagebox = (0, 0, 1 * scale, (font["ascent"] + font["descent"]) * scale)
     else:
       # force width 1 for control characters and force blank
       if code in range(0, 31 + 1) or code in range(127, 159 + 1):
-        draw.rectangle((0, 0, font["size"] * scale * maxwidthfactor, (font["ascent"] + font["descent"] + shadowoffset + additionalheight) * scale), fill=(0, 0, 0, 0), outline=None)
-        imagebox = (0, 0, 1 * scale, (font["ascent"] + font["descent"] + shadowoffset + additionalheight) * scale)
-    imagebox = (0, 0, imagebox[2], (font["ascent"] + font["descent"] + shadowoffset + additionalheight) * scale)
+        draw.rectangle((0, 0, font["size"] * scale * maxwidthfactor, (font["ascent"] + font["descent"] + shadowoffset) * scale), fill=(0, 0, 0, 0), outline=None)
+        imagebox = (0, 0, 1 * scale, (font["ascent"] + font["descent"] + shadowoffset) * scale)
+    imagebox = (0, 0, imagebox[2], (font["ascent"] + font["descent"] + shadowoffset) * scale)
     if font["mono"]:
       # override with constant width for monospace fonts
-      imagebox = (0, 0, font["space"] * scale, (font["ascent"] + font["descent"] + shadowoffset + additionalheight) * scale)
+      imagebox = (0, 0, font["space"] * scale, (font["ascent"] + font["descent"] + shadowoffset) * scale)
     crop = image.crop(imagebox)
     return crop, imagebox[2], imagebox[3] # return width-cropped glyph sprite, width and height
 
