@@ -90,7 +90,7 @@ newgrf/%.grf: graphics_4 FORCE
 	echo $(PREF) $(NAME)
 	python3 templates/nml_preprocessor.py newgrf/$(PREF)_$(NAME).pnml 32ez
 	mv newgrf/$(PREF)_$(NAME)_32ez.nml newgrf/$(PREF)_$(NAME).nml
-	cd newgrf && nmlc -p DOS --quiet -c -l lang/$(NAME) $(PREF)_$(NAME).nml
+	cd newgrf && nmlc -p DOS --quiet -c -l ../baseset/lang $(PREF)_$(NAME).nml
 
 # Graphics
 # Python generation of all graphics from PNG sources

@@ -76,3 +76,63 @@ STR_PARAM_TREES_TROPICAL_NAME         :亞熱帶樹木
 STR_PARAM_TREES_TROPICAL_DESC         :在亞熱帶景觀下使用的樹木品種（不取代棕櫚樹和仙人掌）。
 STR_PARAM_TREES_TOYLAND_NAME          :玩具樂園樹木
 STR_PARAM_TREES_TOYLAND_DESC          :在玩具樂園景觀下使用的樹木品種。
+
+STR_GRF_SETTINGS_NAME                 :OpenGFX2 設定
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 設定。更改 OpenGFX2 額外 GRF 使用的參數，修改以允許設定基本集額外 GRF 參數。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ 景觀
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ 景觀。在 OpenGFX2 的景觀款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_GRF_TREES_NAME                    :OpenGFX2+ 樹木
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ 樹木。在 OpenGFX2 的樹木款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ 物件
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ 物件。在 OpenGFX2 的物件款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_CLASS_ROCK                        :岩石
+STR_OBJECT_ROCKS                      :灰色的岩石
+STR_OBJECT_ROCKS_BLACK                :黑色的岩石
+STR_OBJECT_ROCKS_DARKGRAY             :深灰色的岩石
+STR_OBJECT_ROCKS_BROWN1               :紅棕色的岩石
+STR_OBJECT_ROCKS_BROWN2               :棕色的岩石
+STR_OBJECT_ROCKS_BUY                  :岩石地形方塊。可以建在陸地、海岸、海上、斜坡和積雪之中。
+
+STR_CLASS_FLD_                        :平原
+STR_OBJECT_FIELD                      :平原
+STR_OBJECT_FIELD_BUY                  :平原地形方塊。在斜坡和積雪等的地域範圍內自動設置柵欄或樹籬。
+STR_OBJECT_COMPANY_BARE               :荒蕪之地
+STR_OBJECT_COMPANY_PART1              :稀疏草坪
+STR_OBJECT_COMPANY_PART2              :茂密草叢
+STR_OBJECT_COMPANY_GRASS              :草地
+STR_OBJECT_COMPANY_BUY                :柵欄地形方塊。在斜坡和積雪等的地域範圍內自動設置公司顏色柵欄。
+
+STR_CLASS_FRST                        :森林
+STR_OBJECT_FOREST                     :森林
+STR_OBJECT_FOREST_BUY                 :森林地形方塊。在斜坡和積雪等的地域範圍內自動設置柵欄或樹籬。
+
+STR_CLASS_BLDG                        :建築物
+STR_OBJECT_LIGHTHOUSE                 :燈塔
+STR_OBJECT_TRANSMITTER                :發射機
+STR_OBJECT_SUBSTATION                 :變電站
+STR_OBJECT_GASOMETER                  :瓦斯罐
+
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ 車站及號誌站
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ 車站及號誌站。在 OpenGFX2 鐵道車站及號誌站的款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_WAYP_CLASS                        :號誌站
+STR_WAYP_RAIL                         :鐵道號誌站
+STR_WAYP_MONORAIL                     :單軌鐵道號誌站
+STR_WAYP_MAGLEV                       :磁浮號誌站
+
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ 電車
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ 電車。 OpenGFX2 款式的電車。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之上{}{BLACK}受權：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_TRAM_NAME_GEN1                    :Broom Mk1 型電車
+STR_TRAM_NAME_GEN2                    :Manley-Morel 'T' 型電車
+STR_TRAM_NAME_GEN3                    :Broom D1 型電車
+STR_TRAM_NAME_GEN4                    :Broom Deluxe 型電車
+
+STR_TRAM_NAME_GEN1_TOYL               :Ploddyphut 型電車
+STR_TRAM_NAME_GEN2_TOYL               :Powernaught 型電車
+STR_TRAM_NAME_GEN3_TOYL               :Mightymover 型電車
+STR_TRAM_NAME_GEN4_TOYL               :Wizzowow 型電車
