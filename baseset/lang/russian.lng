@@ -5,7 +5,7 @@
 STR_GENERAL_DESC                      :OpenGFX2, основной графический набор для OpenTTD. Свободно распространяется в соответствии с условиями GNU General Public License версии 2. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
-STR_GRF_DESCRIPTION                   :{ORANGE}Набор основной графики OpenGFX2{BLACK}{}Автор Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}Набор основной графики OpenGFX2{BLACK}{}Автор - Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2, основной графический набор для OpenTTD в стиле пиксель-арт; классический вариант. Свободно распространяется в соответствии с условиями GNU General Public License версии 2+. [{STRING}]
@@ -79,15 +79,63 @@ STR_PARAM_TREES_TROPICAL_DESC         :Стиль для деревьев в т�
 STR_PARAM_TREES_TOYLAND_NAME          :Игрушечные деревья
 STR_PARAM_TREES_TOYLAND_DESC          :Стиль для деревьев в игрушечном окружении.
 
+STR_GRF_SETTINGS_NAME                 :Настройки OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Настройки OpenGFX2. Позволяет изменять параметры модуля OpenGFX2.{BLACK}{}Автор - Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :Ландшафт OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Ландшафт OpenGFX+. Различные ландшафты в стиле OpenGFX2.{BLACK}{}Автор - Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :Деревья OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Деревья OpenGFX+. Различные деревья в стиле OpenGFX2.{BLACK}{}Автор - Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :Объекты OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Объекты OpenGFX2+. Различные объекты в стиле OpenGFX2.{BLACK}{}Автор - Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Камни
+STR_OBJECT_ROCKS                      :Серые камни
+STR_OBJECT_ROCKS_BLACK                :Чёрные камни
+STR_OBJECT_ROCKS_DARKGRAY             :Тёмно-серые камни
+STR_OBJECT_ROCKS_BROWN1               :Красно-коричневые камни
+STR_OBJECT_ROCKS_BROWN2               :Коричневые камни
+STR_OBJECT_ROCKS_YELLOW               :Жёлтые камни
+STR_OBJECT_ROCKS_BUY                  :Каменистый ландшафт. Может быть расположен на суше, на склоне, на берегу или в воде. Может быть покрыт снегом.
 
+STR_CLASS_FLD_                        :Поля
+STR_OBJECT_FIELD                      :Поле
+STR_OBJECT_FIELD_BUY                  :Поля могут располагаться на склонах и быть покрытыми снегом. Окружены заборами или зелёными изгородями.
+STR_OBJECT_COMPANY_BARE               :Пустырь
+STR_OBJECT_COMPANY_PART1              :Невысокая трава
+STR_OBJECT_COMPANY_PART2              :Густая трава
+STR_OBJECT_COMPANY_GRASS              :Трава
+STR_OBJECT_COMPANY_BUY                :Огороженная территория. Может занимать склоны и быть покрыта снегом. Заборы окрашиваются в цвета компании - владельца территории.
 
+STR_CLASS_FRST                        :Леса
+STR_OBJECT_FOREST                     :Лес
+STR_OBJECT_FOREST_BUY                 :Леса могут располагаться на склонах и быть покрытыми снегом. Окружены заборами или зелёными изгородями.
 
+STR_CLASS_BLDG                        :Здания
+STR_OBJECT_LIGHTHOUSE                 :Маяк
+STR_OBJECT_TRANSMITTER                :Передатчик
+STR_OBJECT_SUBSTATION                 :Подстанция
+STR_OBJECT_GASOMETER                  :Газгольдер
 
+STR_GRF_STATIONS_NAME                 :Станции OpenGFX+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Станции OpenGFX+. Железнодорожный вокзалы и маршрутные точки в стиле OpenGFX2.{BLACK}{}Автор - Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Маршрутные точки
+STR_WAYP_RAIL                         :Маршрутная точка на ЖД
+STR_WAYP_MONORAIL                     :Маршрутная точка на монорельсе
+STR_WAYP_MAGLEV                       :Маршрутная точка на магнитной ЖД
 
+STR_GRF_TRAMS_NAME                    :Трамваи OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Трамваи OpenGFX+. Набор трамваев стиле OpenGFX2.{BLACK}{}Автор - Zephyris, при поддержке команды OpenGFX{}{BLACK}Лицензия: {SILVER}GPL v2+{}{BLACK}Веб-сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Трамвай Broom Mk1
+STR_TRAM_NAME_GEN2                    :Трамвай Manley-Morel "T"
+STR_TRAM_NAME_GEN3                    :Трамвай Broom D1
+STR_TRAM_NAME_GEN4                    :Трамвай Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Трамвай Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Трамвай Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Трамвай Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Трамвай Wizzowow

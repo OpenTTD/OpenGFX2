@@ -78,15 +78,63 @@ STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árvore a utilizar no clima tro
 STR_PARAM_TREES_TOYLAND_NAME          :Árvores da terra dos brinquedos
 STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árvore a utilizar no clima da terra dos brinquedos.
 
+STR_GRF_SETTINGS_NAME                 :Configurações OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Configurações do OpenGFX2. Altera os parâmetros utilizados pelo grf extra do OpenGFX2, hack para permitir a definição dos parâmetros do grf extra do conjunto base.{BLACK}{}Por Zephyris, apoiando-se na equipa do OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Paisagem
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Paisagem. Paisagens no estilo OpenGFX2.{BLACK}{}Por Zephyris, apoiando-se na equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Sítio Web:{SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :OpenGFX2+ Árvores
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Árvores. Árvores ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :Objectos OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Objectos OpenGFX2+. Objectos no estilo OpenGFX2.{BLACK}{}Por Zephyris, apoiando-se na equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Rochas
+STR_OBJECT_ROCKS                      :Rochas cinzentas
+STR_OBJECT_ROCKS_BLACK                :Rochas negras
+STR_OBJECT_ROCKS_DARKGRAY             :Rochas cinzentas escuras
+STR_OBJECT_ROCKS_BROWN1               :Rochas castanho-avermelhadas
+STR_OBJECT_ROCKS_BROWN2               :Rochas castanhas
+STR_OBJECT_ROCKS_YELLOW               :Rochas amarelas
+STR_OBJECT_ROCKS_BUY                  :Mosaico de terreno rochoso. Pode ser construído em terra, costa ou mar. Reconhece a inclinação e a neve.
 
+STR_CLASS_FLD_                        :Campos
+STR_OBJECT_FIELD                      :Campo
+STR_OBJECT_FIELD_BUY                  :Mosaico de terreno de campo. Consciente da inclinação e da neve, com cercas ou sebes automáticas à volta de áreas do mesmo tipo de campo.
+STR_OBJECT_COMPANY_BARE               :Terra vazia
+STR_OBJECT_COMPANY_PART1              :Relva pequena
+STR_OBJECT_COMPANY_PART2              :Mais relva
+STR_OBJECT_COMPANY_GRASS              :Relva
+STR_OBJECT_COMPANY_BUY                :Mosaico de terreno vedado. Consciente da inclinação e da neve, com cercas automáticas da cor da empresa à volta de áreas do mesmo tipo de mosaico.
 
+STR_CLASS_FRST                        :Florestas
+STR_OBJECT_FOREST                     :Floresta
+STR_OBJECT_FOREST_BUY                 :Mosaico de terreno florestal. Consciente da inclinação e da neve, com cercas ou sebes automáticas à volta de áreas do mesmo tipo de terreno.
 
+STR_CLASS_BLDG                        :Edifícios
+STR_OBJECT_LIGHTHOUSE                 :Farol
+STR_OBJECT_TRANSMITTER                :Transmissor
+STR_OBJECT_SUBSTATION                 :Sub-estação
+STR_OBJECT_GASOMETER                  :Gasómetro
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Estações e Pontos de passagem
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Estações e Pontos de passagem. Estações ferroviárias e pontos de passagem ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Pontos de passagem
+STR_WAYP_RAIL                         :Ponto de passagem ferroviário
+STR_WAYP_MONORAIL                     :Ponto de passagem de monocarril
+STR_WAYP_MAGLEV                       :Ponto de passagem de Maglev
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Eléctricos
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Eléctricos. Eléctricos ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Elétrico Broom Mk1
+STR_TRAM_NAME_GEN2                    :Elétrico Manley-Morel “T”
+STR_TRAM_NAME_GEN3                    :Elétrico Broom D1
+STR_TRAM_NAME_GEN4                    :Elétrico Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Elétrico Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Elétrico Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Elétrico Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Elétrico Wizzowow

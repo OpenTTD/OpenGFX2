@@ -10,7 +10,7 @@ STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 – pikselitaidetyylinen perusgr
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 – pikselitaidetyylinen perusgrafiikkakokoelma OpenTTD:lle, teräväpiirtomuunnelma (lisälähennys, 32 bittiä/pikseli). Vapaasti saatavilla GNU General Public License version 2+ -lisenssin ehdoin. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Settings -NewGRF:n versio ei vastaa OpenGFX-perusgrafiikkakokoelman tätä versiota. Tulokset saattavat olla odottamattomia!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Settings -NewGRF:ää ei suositella OpenTTD 14.0:n ja uudempien kanssa käytettäväksi. Suotavampaa on käyttää perusgrafiikan parametreja!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2-asetukset-NewGRF:ää ei suositella OpenTTD 14.0:n ja uudempien kanssa käytettäväksi. Suotavampaa on käyttää perusgrafiikan parametreja!
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Perusgrafiikkakokoelman parametrit.
 STR_WARN_SETTINGSGRF_HARDCODED        :Kiinteästi koodatut parametrit.
@@ -77,15 +77,63 @@ STR_PARAM_TREES_TROPICAL_DESC         :Puiden tyyli, jota käytetään subtroopp
 STR_PARAM_TREES_TOYLAND_NAME          :Puut lelumaassa
 STR_PARAM_TREES_TOYLAND_DESC          :Puiden tyyli, jota käytetään lelumaan maastotyypissä.
 
+STR_GRF_SETTINGS_NAME                 :OpenGFX2-asetukset
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2-asetukset. Muuttaa OpenGFX2-lisä-GRF:n parametreja; viritelmä perusgrafiikkalisäpaketin parametrien asettamiseksi.{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+-maisema
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+-maisema. Maisemia OpenGFX2-tyyliin.{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :OpenGFX2+-puut
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+-puut. Puita OpenGFX2-tyyliin.{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+-objektit
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX+-objektit. Objekteja OpenGFX2-tyyliin.{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Kivikot
+STR_OBJECT_ROCKS                      :Harmaita kiviä
+STR_OBJECT_ROCKS_BLACK                :Mustia kiviä
+STR_OBJECT_ROCKS_DARKGRAY             :Tummanharmaita kiviä
+STR_OBJECT_ROCKS_BROWN1               :Punaruskeita kiviä
+STR_OBJECT_ROCKS_BROWN2               :Ruskeita kiviä
+STR_OBJECT_ROCKS_YELLOW               :Keltaisia kiviä
+STR_OBJECT_ROCKS_BUY                  :Kivikkoinen maastoruutu. Voidaan rakentaa maalle, rannoille ja merelle. Tunnistaa rinteet ja lumen.
 
+STR_CLASS_FLD_                        :Pellot
+STR_OBJECT_FIELD                      :Peltoa
+STR_OBJECT_FIELD_BUY                  :Peltoruutu. Tunnistaa rinteet ja lumen, samantyyppisten peltoruutujen muodostamat alueet reunustetaan automaattisesti aidoin tai pensain.
+STR_OBJECT_COMPANY_BARE               :Paljasta maata
+STR_OBJECT_COMPANY_PART1              :Vähän ruohoa
+STR_OBJECT_COMPANY_PART2              :Enemmän ruohoa
+STR_OBJECT_COMPANY_GRASS              :Ruohoa
+STR_OBJECT_COMPANY_BUY                :Aidattu maastoruutu. Tunnistaa rinteet ja lumen, samantyyppisten maastoruutujen muodostamat alueet aidataan automaattisesti yhtiön värein.
 
+STR_CLASS_FRST                        :Metsät
+STR_OBJECT_FOREST                     :Metsää
+STR_OBJECT_FOREST_BUY                 :Metsäruutu. Tunnistaa rinteet ja lumen, samantyyppisten metsäruutujen muodostamat alueet reunustetaan automaattisesti aidoin tai pensain.
 
+STR_CLASS_BLDG                        :Rakennukset
+STR_OBJECT_LIGHTHOUSE                 :Majakka
+STR_OBJECT_TRANSMITTER                :Lähetin
+STR_OBJECT_SUBSTATION                 :Muuntamo
+STR_OBJECT_GASOMETER                  :Kaasukello
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+-asemat ja -reittipisteet
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+-asemat ja -reittipisteet. Asemia ja reittipisteitä OpenGFX2-tyyliin.{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Reittipisteet
+STR_WAYP_RAIL                         :Rautatien reittipiste
+STR_WAYP_MONORAIL                     :Yksiraiteisen reittipiste
+STR_WAYP_MAGLEV                       :Maglevin reittipiste
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+-raitiovaunut
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+-raitiovaunut. Raitiovaunuja OpenGFX2-tyyliin.{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Broom Mk1 -raitiovaunu
+STR_TRAM_NAME_GEN2                    :Manley-Morel ”T” -raitiovaunu
+STR_TRAM_NAME_GEN3                    :Broom D1 -raitiovaunu
+STR_TRAM_NAME_GEN4                    :Broom Deluxe -raitiovaunu
 
+STR_TRAM_NAME_GEN1_TOYL               :Ploddyphut-raitiovaunu
+STR_TRAM_NAME_GEN2_TOYL               :Powernaught-raitiovaunu
+STR_TRAM_NAME_GEN3_TOYL               :Mightymover-raitiovaunu
+STR_TRAM_NAME_GEN4_TOYL               :Wizzowow-raitiovaunu
