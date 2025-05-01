@@ -1,29 +1,140 @@
 ##grflangid 0x24
 ##plural 2
 ##case ba t
+STR_GENERAL_DESC                      :Az OpenGFX2 grafikus alapkészlet az OpenTTD-hez. Szabadon elérhető a GNU General Public License 2-es verziójának feltételei szerint. [OpenGFX2Base]
 
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 grafikus alapcsomag{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Az OpenGFX2 pixelgrafikás grafikus alapkészlet az OpenTTD-hez, klasszikus változat (normál nagyítás, 8bpp). Szabadon elérhető a GNU General Public License 2-es verziójának feltételei szerint. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Az OpenGFX2 pixelgrafikás grafikus alapkészlet az OpenTTD-hez, nagyfelbontású változat (extra nagyítás, 32bpp). Szabadon elérhető a GNU General Public License 2-es verziójának feltételei szerint. [{STRING}]
 
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Az OpenGFX2 beállításai NewGRF verziója nem egyezik meg az OpenGFX alapkészletével. Szokatlan eredményt láthat!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Az OpenGFX2 beállításai NewGRF nem javasolt az OpenTTD 14.0 és újabb esetén. Helyette az alapkészlet paraméterei javasoltak!
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Alapkészlet paraméterei.
+STR_WARN_SETTINGSGRF_HARDCODED        :Beégetett paraméterek.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :A beállítások NewGRF paraméterei.
 
+STR_PARAM_CURSOR_NAME                 :Egérkurzor
+STR_PARAM_CURSOR_DESC                 :Az egérmutató stílusa és színe.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klasszikus stílus, sárga (alapértelmezett)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klasszikus stílus, szürke
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-stílus, sárga
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-stílus, fehér
 
+STR_PARAM_GRIDLINE_NAME               :Terep rácsvonalai
+STR_PARAM_GRIDLINE_DESC               :Megjelenjenek-e a rácsvonalak a szárazföldi és vízi csempék széleinél.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Csak szárazföldi rácsvonalak (alapértelmezett)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Nincsenek rácsvonalak
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Szárazföldi és vízi rácsvonalak
 
+STR_PARAM_LOGO_NAME                   :Logóstílus
+STR_PARAM_LOGO_DESC                   :OpenTTD logóstílus a főképernyőhöz.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Alapértelmezett
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Földalatti
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Streamliner
 
+STR_PARAM_VALUE_TEMPERATE             :Mérsékelt égövi
+STR_PARAM_VALUE_ARCTIC                :Szubarktikus
+STR_PARAM_VALUE_TROPICAL              :Szubtrópusi
+STR_PARAM_VALUE_TOYLAND               :Játékvilág
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Mérsékelt égövi (alapértelmezett)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Szubarktikus (alapértelmezett)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Szubtrópusi (alapértelmezett)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Játékvilág (alapértelmezett)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Mérsékelt égövi (alternatív stílus)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Szubarktikus (alternatív stílus)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Szubtrópusi (alternatív stílus)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Játékvilág (alternatív stílus)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Mérsékelt égövi épületalapok
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Mérsékelt égövi táj esetén használandó épületalap-stílus.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Szubarktikus épületalapok
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Szubarktikus táj esetén használandó épületalap-stílus.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Szubtrópusi épületalapok
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Szubtrópusi táj esetén használandó épületalap-stílus.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Játékvilági épületalapok
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Játékvilág táj esetén használandó épületalap-stílus.
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Mérsékelt égövi fű
+STR_PARAM_GRASS_TEMPERATE_DESC        :Mérsékelt égövi táj esetén használandó fűstílus.
+STR_PARAM_GRASS_ARCTIC_NAME           :Szubarktikus fű
+STR_PARAM_GRASS_ARCTIC_DESC           :Szubarktikus táj esetén használandó fűstílus.
+STR_PARAM_GRASS_TROPICAL_NAME         :Szubtrópusi fű
+STR_PARAM_GRASS_TROPICAL_DESC         :Szubtrópusi táj esetén használandó fűstílus.
+STR_PARAM_GRASS_TOYLAND_NAME          :Játékvilági fű
+STR_PARAM_GRASS_TOYLAND_DESC          :Játékvilág táj esetén használandó fűstílus.
 
+STR_PARAM_TREES_TEMPERATE_NAME        :Mérsékelt égövi fák
+STR_PARAM_TREES_TEMPERATE_DESC        :Mérsékelt égövi táj esetén használandó fastílus.
+STR_PARAM_TREES_ARCTIC_NAME           :Szubarktikus fák
+STR_PARAM_TREES_ARCTIC_DESC           :Szubarktikus táj esetén használandó fastílus.
+STR_PARAM_TREES_TROPICAL_NAME         :Szubtrópusi fák
+STR_PARAM_TREES_TROPICAL_DESC         :Szubtrópusi táj esetén használandó fastílus (nem cseréli le a pálmafákat és a kaktuszokat).
+STR_PARAM_TREES_TOYLAND_NAME          :Játékvilági fák
+STR_PARAM_TREES_TOYLAND_DESC          :Játékvilág táj esetén használandó fastílus.
 
+STR_GRF_SETTINGS_NAME                 :Az OpenGFX2 beállításai
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Az OpenGFX2 beállításai. Módosítja az OpenGFX2 extra GRF-t, módosítsd az alapkészlet extra GRF-paramétereinek megváltoztatásához.{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ táj
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ táj. Tájak az OpenGFX2 stílusában.{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :OpenGFX2+ fák
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ fák. Fák az OpenGFX2 stílusában.{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ objektumok
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX+ objektumok. Objektumok az OpenGFX2 stílusában.{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Sziklák
+STR_OBJECT_ROCKS                      :Szürke sziklák
+STR_OBJECT_ROCKS_BLACK                :Fekete sziklák
+STR_OBJECT_ROCKS_DARKGRAY             :Sötétszürke sziklák
+STR_OBJECT_ROCKS_BROWN1               :Vörösbarna sziklák
+STR_OBJECT_ROCKS_BROWN2               :Barna sziklák
+STR_OBJECT_ROCKS_YELLOW               :Sárga sziklák
+STR_OBJECT_ROCKS_BUY                  :Sziklás terep csempéje. Földön, partra és tengerre építhető. Figyelembe veszi a lejtőket és a havat.
 
+STR_CLASS_FLD_                        :Mezők
+STR_OBJECT_FIELD                      :Mező
+STR_OBJECT_FIELD_BUY                  :Mezős terep csempéje. Figyelembe veszi a lejtőket és a havat, automatikusan kerítéssel vagy sövénnyel veszi körbe az azonos típusú mezőket.
+STR_OBJECT_COMPANY_BARE               :Kopár föld
+STR_OBJECT_COMPANY_PART1              :Kevés fű
+STR_OBJECT_COMPANY_PART2              :Több fű
+STR_OBJECT_COMPANY_GRASS              :Fű
+STR_OBJECT_COMPANY_BUY                :Körbekerített terep csempéje. Figyelembe veszi a lejtőket és a havat, automatikusan vállalati színezésű kerítéssel veszi körbe az azonos típusú mezőket.
 
+STR_CLASS_FRST                        :Erdők
+STR_OBJECT_FOREST                     :Erdő
+STR_OBJECT_FOREST_BUY                 :Erdős terep csempéje. Figyelembe veszi a lejtőket és a havat, automatikusan kerítéssel vagy sövénnyel veszi körbe az azonos típusú mezőket.
 
+STR_CLASS_BLDG                        :Épületek
+STR_OBJECT_LIGHTHOUSE                 :Világítótorony
+STR_OBJECT_TRANSMITTER                :Adótorony
+STR_OBJECT_SUBSTATION                 :Alállomás
+STR_OBJECT_GASOMETER                  :Gáztárazó
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ állomások és ellenőrzőpontok
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ állomások és ellenőrzőpontok. Vasútállomások és ellenőrzőpontok az OpenGFX2 stílusában.{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Ellenőrzőpontok
+STR_WAYP_RAIL                         :Vasúti ellenőrzőpont
+STR_WAYP_MONORAIL                     :Egysínű vasúti ellenőrzőpont
+STR_WAYP_MAGLEV                       :Maglev ellenőrzőpont
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ villamosok
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ villamosok. Villamosok az OpenGFX2 stílusában.{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Broom Mk1 villamos
+STR_TRAM_NAME_GEN2                    :Manley-Morel „T” villamos
+STR_TRAM_NAME_GEN3                    :Broom D1 villamos
+STR_TRAM_NAME_GEN4                    :Broom Deluxe villamos
 
+STR_TRAM_NAME_GEN1_TOYL               :Ploddyphut villamos
+STR_TRAM_NAME_GEN2_TOYL               :Powernaught villamos
+STR_TRAM_NAME_GEN3_TOYL               :Mightymover villamos
+STR_TRAM_NAME_GEN4_TOYL               :Wizzowow villamos
