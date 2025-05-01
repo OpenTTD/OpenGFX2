@@ -139,6 +139,8 @@ def fonts_charactergrab(base_path):
         {"start": 8470, "end": 8471}, # Letter-like symbols
         {"start": 8482, "end": 8482}, # Letter-like symbols
         {"start": 10216, "end": 10217}, # Mathematical symbols
+        # Extended private use range
+        {"start": 58013, "end": 58013},
       ]
     },
   ]
