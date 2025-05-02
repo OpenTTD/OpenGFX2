@@ -3,14 +3,14 @@
 STR_GENERAL_DESC                      :在 OpenTTD 中使用的 OpenGFX2 基本图形集，在 GNU General Public License 第 2 版授权下自由使用。[OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2 基本图形集
-STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基本图形集{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基本图形集{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 STR_OBG_DESCRIPTION_CLASSIC           :在 OpenTTD 中使用的 OpenGFX2 基本图形集，经典版本（正常缩放，8bpp）。在 GNU General Public License 第 2 版及以上版本授权下自由使用。[{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :在 OpenTTD 中使用的 OpenGFX2 基本图形集，高清版本（额外缩放，32bpp）。在 GNU General Public License 第 2 版及以上版本授权下自由使用。[{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :“OpenGFX2 设置 NewGRF” 的版本与此版本的 OpenGFX 基本图形集不符合。您可能会看到不正常的结果！
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenTTD 14.0 及更高版本不推荐使用 OpenGFX2 设置 NewGRF。建议使用基本图形集参数替代！
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :“OpenGFX2 设置” NewGRF 的版本与此版本的 OpenGFX 基本图形集不符合。您可能会看到不正常的结果！
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :不推荐在 OpenTTD 14.0 及更高版本使用“OpenGFX2 设置”NewGRF。建议使用基本图形集参数替代！
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :图形集参数。
 STR_WARN_SETTINGSGRF_HARDCODED        :硬编码参数。
@@ -77,15 +77,63 @@ STR_PARAM_TREES_TROPICAL_DESC         :在热带景观下使用的树木品种�
 STR_PARAM_TREES_TOYLAND_NAME          :奇幻树木
 STR_PARAM_TREES_TOYLAND_DESC          :在奇幻景观下使用的树木品种
 
+STR_GRF_SETTINGS_NAME                 :OpenGFX2 设置
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 设置。本 GRF 可以通过操纵变量设置基本图形组的参数。{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ 地形
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX2+ 地形。OpenGFX2 风格的地形。{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :OpenGFX2+ 树木
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX2+ 树木。OpenGFX2 风格的树木。{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ 物件
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ 物件。OpenGFX2 风格的物件。{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :岩石
+STR_OBJECT_ROCKS                      :灰色岩石
+STR_OBJECT_ROCKS_BLACK                :黑色岩石
+STR_OBJECT_ROCKS_DARKGRAY             :深灰色岩石
+STR_OBJECT_ROCKS_BROWN1               :红棕色岩石
+STR_OBJECT_ROCKS_BROWN2               :棕色岩石
+STR_OBJECT_ROCKS_YELLOW               :黄色岩石
+STR_OBJECT_ROCKS_BUY                  :岩石地块。可以在陆地、海洋、海面之上。形态根据地形和积雪自动调整。
 
+STR_CLASS_FLD_                        :田地
+STR_OBJECT_FIELD                      :田地
+STR_OBJECT_FIELD_BUY                  :田地地块。形态根据地形和积雪自动调整。建设后自动在相连同类地块界限上设置栅栏、树篱。
+STR_OBJECT_COMPANY_BARE               :荒地
+STR_OBJECT_COMPANY_PART1              :稀疏草地
+STR_OBJECT_COMPANY_PART2              :茂密草地
+STR_OBJECT_COMPANY_GRASS              :草地
+STR_OBJECT_COMPANY_BUY                :栅栏地块。形态根据地形和积雪自动调整。建设后自动在相连同类地块界限上设置公司颜色栅栏。
 
+STR_CLASS_FRST                        :森林
+STR_OBJECT_FOREST                     :森林
+STR_OBJECT_FOREST_BUY                 :森林地块。形态根据地形和积雪自动调整。建设后自动在相连同类地块界限上设置栅栏、树篱。
 
+STR_CLASS_BLDG                        :建筑
+STR_OBJECT_LIGHTHOUSE                 :灯塔
+STR_OBJECT_TRANSMITTER                :发射塔
+STR_OBJECT_SUBSTATION                 :变电站
+STR_OBJECT_GASOMETER                  :储气罐
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ 车站与路点
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX2+ 车站与路点。OpenGFX2 风格的铁路车站与路点。{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :路点
+STR_WAYP_RAIL                         :铁路路点
+STR_WAYP_MONORAIL                     :单轨路点
+STR_WAYP_MAGLEV                       :磁浮路点
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ 电车
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX2+ 电车。OpenGFX2 风格的电车。{BLACK}{}作者：Zephyris，依托 OpenGFX 团队的成果{}{BLACK}许可证：{SILVER}GPL v2+{}{BLACK}网站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :布鲁姆一代电车
+STR_TRAM_NAME_GEN2                    :曼利-莫雷尔 T 型电车
+STR_TRAM_NAME_GEN3                    :布鲁姆 D1 型电车
+STR_TRAM_NAME_GEN4                    :布鲁姆豪华电车
 
+STR_TRAM_NAME_GEN1_TOYL               :咔哒扑哧电车
+STR_TRAM_NAME_GEN2_TOYL               :微小动力电车
+STR_TRAM_NAME_GEN3_TOYL               :大力移动电车
+STR_TRAM_NAME_GEN4_TOYL               :威滋哇电车

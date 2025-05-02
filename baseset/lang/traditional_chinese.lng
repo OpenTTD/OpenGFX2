@@ -80,8 +80,8 @@ STR_PARAM_TREES_TOYLAND_DESC          :在玩具樂園景觀下使用的樹木�
 STR_GRF_SETTINGS_NAME                 :OpenGFX2 設定
 STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 設定。更改 OpenGFX2 額外 GRF 使用的參數，修改以允許設定基本圖形集額外 GRF 參數。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
-STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ 景觀
-STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ 景觀。適用於 OpenGFX2 的景觀款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ 地形
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ 地形。適用於 OpenGFX2 的地形款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_TREES_NAME                    :OpenGFX2+ 樹木
 STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ 樹木。適用於 OpenGFX2 的樹木款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
@@ -90,26 +90,26 @@ STR_GRF_OBJECTS_NAME                  :OpenGFX2+ 物件
 STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ 物件。適用於 OpenGFX2 的物件款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :岩石
-STR_OBJECT_ROCKS                      :灰色的岩石
-STR_OBJECT_ROCKS_BLACK                :黑色的岩石
-STR_OBJECT_ROCKS_DARKGRAY             :深灰色的岩石
-STR_OBJECT_ROCKS_BROWN1               :紅棕色的岩石
-STR_OBJECT_ROCKS_BROWN2               :棕色的岩石
-STR_OBJECT_ROCKS_YELLOW               :黃色的岩石
-STR_OBJECT_ROCKS_BUY                  :岩石地形方塊。可以建在陸地、海岸、海上、斜坡和積雪之中。
+STR_OBJECT_ROCKS                      :灰色岩石
+STR_OBJECT_ROCKS_BLACK                :黑色岩石
+STR_OBJECT_ROCKS_DARKGRAY             :深灰色岩石
+STR_OBJECT_ROCKS_BROWN1               :紅棕色岩石
+STR_OBJECT_ROCKS_BROWN2               :棕色岩石
+STR_OBJECT_ROCKS_YELLOW               :黃色岩石
+STR_OBJECT_ROCKS_BUY                  :岩石地塊。可設在陸地、海岸、海面之上。形態根據地形和積雪自動調整。
 
 STR_CLASS_FLD_                        :平原
 STR_OBJECT_FIELD                      :平原
-STR_OBJECT_FIELD_BUY                  :平原地形方塊。在斜坡和積雪等的地域範圍內自動設置柵欄或樹籬。
+STR_OBJECT_FIELD_BUY                  :平原地塊。形態根據地形和積雪自動調整。興建後自動在相連同類地塊的邊緣內設置柵欄或樹籬。
 STR_OBJECT_COMPANY_BARE               :荒蕪之地
 STR_OBJECT_COMPANY_PART1              :稀疏草坪
 STR_OBJECT_COMPANY_PART2              :茂密草叢
 STR_OBJECT_COMPANY_GRASS              :草地
-STR_OBJECT_COMPANY_BUY                :柵欄地形方塊。在斜坡和積雪等的地域範圍內自動設置公司顏色柵欄。
+STR_OBJECT_COMPANY_BUY                :柵欄地塊。形態根據地形和積雪自動調整。興建後自動在相連同類地塊的邊緣內設置公司顏色柵欄。
 
 STR_CLASS_FRST                        :森林
 STR_OBJECT_FOREST                     :森林
-STR_OBJECT_FOREST_BUY                 :森林地形方塊。在斜坡和積雪等的地域範圍內自動設置柵欄或樹籬。
+STR_OBJECT_FOREST_BUY                 :森林地塊。形態根據地形和積雪自動調整。興建後自動在相連同類地塊的邊緣內設置柵欄或樹籬。
 
 STR_CLASS_BLDG                        :建築物
 STR_OBJECT_LIGHTHOUSE                 :燈塔
