@@ -82,7 +82,7 @@ STR_GRF_SETTINGS_NAME                 :Configurações OpenGFX2
 STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Configurações do OpenGFX2. Altera os parâmetros utilizados pelo grf extra do OpenGFX2, hack para permitir a definição dos parâmetros do grf extra do conjunto base.{BLACK}{}Por Zephyris, apoiando-se na equipa do OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Paisagem
-STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Paisagem. Paisagens no estilo OpenGFX2.{BLACK}{}Por Zephyris, apoiando-se na equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Sítio Web:{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Paisagem. Paisagens no estilo OpenGFX2.{BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Sítio Web:{SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_TREES_NAME                    :OpenGFX2+ Árvores
 STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Árvores. Árvores ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
