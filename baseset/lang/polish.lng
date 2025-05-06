@@ -1,0 +1,128 @@
+##grflangid 0x30
+##plural 7
+##gender m f n
+##case c b m d w n
+STR_GENERAL_DESC                      :Podstawowy zestaw grafik OpenGFX2 dla OpenTTD. Dostępny swobodnie na warunkach licencji GNU General Public License w wersji 2. [OpenGFX2Base]
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}Podstawowy Zestaw Grafik OpenGFX2{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
+
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2, podstawowy zestaw grafik dla OpenTTD w stylu „pixel art”, wariant klasyczny (normalne przybliżenie, 8-bitowa paleta kolorów). Dostępny swobodnie na warunkach licencji GNU General Public License w wersji 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2, podstawowy zestaw grafik dla OpenTTD w stylu „pixel art”, wariant wysokiej rozdzielczości (większe przybliżenie, 32-bitowa paleta kolorów). Dostępny swobodnie na warunkach licencji GNU General Public License w wersji 2+. [{STRING}]
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Wersja NewGRF „OpenGFX2 Settings” nie pasuje do tej wersji zestawu podstawowych grafik OpenGFX. Mogą pojawić się nietypowe błędy!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :NewGRF „OpenGFX2 Settings” nie jest zalecany dla OpenTTD 14.0 i nowszych. Zamiast tego zaleca się użycie parametrów zestawu podstawowego!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Parametry podstawowego zestawu.
+STR_WARN_SETTINGSGRF_HARDCODED        :Parametry zakodowane na stałe.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Ustawienia parametrów NewGRF.
+
+STR_PARAM_CURSOR_NAME                 :Kursor myszy
+STR_PARAM_CURSOR_DESC                 :Styl i kolor kursora myszy/wskaźnika.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Styl klasyczny, żółty (Domyślny)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Styl klasyczny, szary
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Styl OpenGFX, żółty
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Styl Windows, biały
+
+STR_PARAM_GRIDLINE_NAME               :Linie siatki terenu
+STR_PARAM_GRIDLINE_DESC               :Czy na krawędziach pól lądu oraz wody mają być wyświetlane linie siatki.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Tylko linie siatki lądu (Domyślnie)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Brak linii siatki
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Linie siatki lądu i wody
+
+STR_PARAM_LOGO_NAME                   :Styl logo
+STR_PARAM_LOGO_DESC                   :Styl logo OpenTTD na ekranie tytułowym.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Domyślne
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Londyńskie Metro
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Retro Streamliner
+
+STR_PARAM_VALUE_TEMPERATE             :Krajobraz umiarkowany
+STR_PARAM_VALUE_ARCTIC                :Krajobraz arktyczny
+STR_PARAM_VALUE_TROPICAL              :Krajobraz tropikalny
+STR_PARAM_VALUE_TOYLAND               :Krajobraz zabawkowy
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Krajobraz umiarkowany (Domyślnie)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Krajobraz arktyczny (Domyślnie)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Krajobraz tropikalny (Domyślnie)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Krajobraz zabawkowy (Domyślnie)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Krajobraz umiarkowany (Styl alternatywny)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Krajobraz arktyczny (Styl alternatywny)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Krajobraz tropikalny (Styl alternatywny)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Krajobraz zabawkowy (Styl alternatywny)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Fundamenty w krajobrazie umiarkowanym
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Styl fundamentów używany w krajobrazie umiarkowanym.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Fundamenty w krajobrazie arktycznym
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Styl fundamentów używany w krajobrazie arktycznym.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Fundamenty w krajobrazie tropikalnym
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Styl fundamentów używany w krajobrazie tropikalnym.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fundamenty w krajobrazie zabawkowym
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Styl fundamentów używany w krajobrazie zabawkowym.
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :Trawa w krajobrazie umiarkowanym
+STR_PARAM_GRASS_TEMPERATE_DESC        :Styl trawy używany w krajobrazie umiarkowanym.
+STR_PARAM_GRASS_ARCTIC_NAME           :Trawa w krajobrazie arktycznym
+STR_PARAM_GRASS_ARCTIC_DESC           :Styl trawy używany w krajobrazie arktycznym.
+STR_PARAM_GRASS_TROPICAL_NAME         :Trawa w krajobrazie tropikalnym
+STR_PARAM_GRASS_TROPICAL_DESC         :Styl trawy używany w krajobrazie tropikalnym.
+STR_PARAM_GRASS_TOYLAND_NAME          :Trawa w krajobrazie zabawkowym
+STR_PARAM_GRASS_TOYLAND_DESC          :Styl trawy używany w krajobrazie zabawkowym.
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Drzewa w krajobrazie umiarkowanym
+STR_PARAM_TREES_TEMPERATE_DESC        :Styl drzew używany w krajobrazie umiarkowanym.
+STR_PARAM_TREES_ARCTIC_NAME           :Drzewa w krajobrazie arktycznym
+STR_PARAM_TREES_ARCTIC_DESC           :Styl drzew używany w krajobrazie arktycznym.
+STR_PARAM_TREES_TROPICAL_NAME         :Drzewa w krajobrazie tropikalnym
+STR_PARAM_TREES_TROPICAL_DESC         :Styl drzew używany w krajobrazie tropikalnym (nie zastępuje palm i kaktusów).
+STR_PARAM_TREES_TOYLAND_NAME          :Drzewa w krajobrazie zabawkowym
+STR_PARAM_TREES_TOYLAND_DESC          :Styl drzew używany w krajobrazie zabawkowym.
+
+STR_GRF_SETTINGS_NAME                 :Ustawienia OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Podmienia parametry używane przez dodatkowe GRF-y OpenGFX2, umożliwiając ustawienie dodatkowych parametrów podstawowego zestawu grafik.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Krajobraz
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Krajobrazy w stylu OpenGFX2.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_GRF_TREES_NAME                    :OpenGFX2+ Drzewa
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Trees. Drzewa w stylu OpenGFX2.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Obiekty
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objects. Obiekty w stylu OpenGFX.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_CLASS_ROCK                        :Skały
+STR_OBJECT_ROCKS                      :Szare skały
+STR_OBJECT_ROCKS_BLACK                :Czarne skały
+STR_OBJECT_ROCKS_DARKGRAY             :Ciemnoszare skały
+STR_OBJECT_ROCKS_BROWN1               :Czerwono-brązowe skały
+STR_OBJECT_ROCKS_BROWN2               :Brązowe skały
+STR_OBJECT_ROCKS_YELLOW               :Żółte skały
+
+STR_CLASS_FLD_                        :Pola
+STR_OBJECT_FIELD                      :Pole
+STR_OBJECT_COMPANY_BARE               :Goła ziemia
+STR_OBJECT_COMPANY_GRASS              :Trawa
+STR_OBJECT_COMPANY_BUY                :Ogrodzone pole terenu. Uwzględnia nachylenie i śnieg, z automatycznym ogrodzeniem w kolorze firmy wokół obszarów tego samego typu pól.
+
+STR_CLASS_FRST                        :Lasy
+STR_OBJECT_FOREST                     :Las
+
+STR_CLASS_BLDG                        :Budynki
+STR_OBJECT_LIGHTHOUSE                 :Latarnia morska
+STR_OBJECT_TRANSMITTER                :Nadajnik
+STR_OBJECT_SUBSTATION                 :Podstacja
+STR_OBJECT_GASOMETER                  :Gazomierz
+
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Stacje i Posterunki
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Stations & Waypoints. Stacje kolejowe i posterunki w stylu OpenGFX2.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
+
+STR_WAYP_CLASS                        :Posterunki
+STR_WAYP_RAIL                         :Posterunek kolejowy
+STR_WAYP_MONORAIL                     :Posterunek jednoszynowy
+STR_WAYP_MAGLEV                       :Posterunek Maglev
+
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Tramwaje
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Trams. Tramwaje w stylu OpenGFX2.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
+
+
