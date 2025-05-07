@@ -80,7 +80,7 @@ STR_PARAM_TREES_TOYLAND_NAME          :Drzewa w krajobrazie zabawkowym
 STR_PARAM_TREES_TOYLAND_DESC          :Styl drzew używany w krajobrazie zabawkowym.
 
 STR_GRF_SETTINGS_NAME                 :Ustawienia OpenGFX2
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Podmienia parametry używane przez dodatkowe GRF-y OpenGFX2, umożliwiając ustawienie dodatkowych parametrów podstawowego zestawu grafik.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Umożliwienie wykorzystania parametrów używanych przez podstawowy zestaw grafik OpenGFX2 jako NewGRF.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Krajobraz
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Krajobrazy w stylu OpenGFX2.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
@@ -98,20 +98,25 @@ STR_OBJECT_ROCKS_DARKGRAY             :Ciemnoszare skały
 STR_OBJECT_ROCKS_BROWN1               :Czerwono-brązowe skały
 STR_OBJECT_ROCKS_BROWN2               :Brązowe skały
 STR_OBJECT_ROCKS_YELLOW               :Żółte skały
+STR_OBJECT_ROCKS_BUY                  :Skalisty teren. Może być umieszczany na lądzie, wybrzeżach oraz na morzu. Uwzględnia nachylenie i śnieg.
 
 STR_CLASS_FLD_                        :Pola
 STR_OBJECT_FIELD                      :Pole
+STR_OBJECT_FIELD_BUY                  :Teren pola uprawnego. Uwzględnia nachylenie i śnieg, z automatycznym ogrodzeniem lub żywopłotem wokół obszarów tego samego typu pól.
 STR_OBJECT_COMPANY_BARE               :Goła ziemia
+STR_OBJECT_COMPANY_PART1              :Mało trawy
+STR_OBJECT_COMPANY_PART2              :Więcej trawy
 STR_OBJECT_COMPANY_GRASS              :Trawa
-STR_OBJECT_COMPANY_BUY                :Ogrodzone pole terenu. Uwzględnia nachylenie i śnieg, z automatycznym ogrodzeniem w kolorze firmy wokół obszarów tego samego typu pól.
+STR_OBJECT_COMPANY_BUY                :Ogrodzony teren. Uwzględnia nachylenie i śnieg, z automatycznym ogrodzeniem w kolorze firmy wokół obszarów tego samego typu pól.
 
 STR_CLASS_FRST                        :Lasy
 STR_OBJECT_FOREST                     :Las
+STR_OBJECT_FOREST_BUY                 :Zalesiony teren. Uwzględnia nachylenie i śnieg, z automatycznym ogrodzeniem lub żywopłotem wokół obszarów tego samego typu pól.
 
 STR_CLASS_BLDG                        :Budynki
 STR_OBJECT_LIGHTHOUSE                 :Latarnia morska
 STR_OBJECT_TRANSMITTER                :Nadajnik
-STR_OBJECT_SUBSTATION                 :Podstacja
+STR_OBJECT_SUBSTATION                 :Podstacja trakcyjna
 STR_OBJECT_GASOMETER                  :Gazomierz
 
 STR_GRF_STATIONS_NAME                 :OpenGFX2+ Stacje i Posterunki
@@ -125,4 +130,12 @@ STR_WAYP_MAGLEV                       :Posterunek Maglev
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ Tramwaje
 STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Trams. Tramwaje w stylu OpenGFX2.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Tramwaj Broom Mk1
+STR_TRAM_NAME_GEN2                    :Tramwaj Manley-Morel „T”
+STR_TRAM_NAME_GEN3                    :Tramwaj Broom D1
+STR_TRAM_NAME_GEN4                    :Tramwaj Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Tramwaj Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Tramwaj Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tramwaj Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tramwaj Wizzowow
