@@ -5,25 +5,84 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 
 
+STR_WARN_SETTINGSGRF_HARDCODED        :Hårdkodade parametrar.
+
+STR_PARAM_CURSOR_NAME                 :Muspekare
+STR_PARAM_CURSOR_DESC                 :Muspekarens stil och färg
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klassisk stil, gul (standard)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klassisk stil, grå
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-stil, gul
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-stil, vit
 
 
+STR_PARAM_LOGO_VALUE_DEFAULT          :Standard
+
+STR_PARAM_VALUE_TEMPERATE             :Tempererat
+STR_PARAM_VALUE_ARCTIC                :Arktiskt
+STR_PARAM_VALUE_TROPICAL              :Tropiskt
+STR_PARAM_VALUE_TOYLAND               :Leksaksland
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Tempererat (standard)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arktiskt (standard)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropiskt (standard)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Leksaksland (standard)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Tempererat (alternativ stil)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktiskt (alternativ stil)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropiskt (alternativ stil)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Leksaksland (alternativ stil)
 
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Tempererat gräs
+STR_PARAM_GRASS_TEMPERATE_DESC        :Grässtil som ska användas i det tempererade klimatet.
+STR_PARAM_GRASS_ARCTIC_NAME           :Arktiskt gräs
+STR_PARAM_GRASS_ARCTIC_DESC           :Grässtil som ska användas i det arktiska klimatet.
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropiskt gräs
+STR_PARAM_GRASS_TROPICAL_DESC         :Grässtil som ska användas i det tropiska klimatet.
+STR_PARAM_GRASS_TOYLAND_NAME          :Leksakslandsgräs
+STR_PARAM_GRASS_TOYLAND_DESC          :Grässtil som ska användas i leksakslandsklimatet.
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Tempererade träd
+STR_PARAM_TREES_TEMPERATE_DESC        :Trädstil som ska användas i det tempererade klimatet.
+STR_PARAM_TREES_ARCTIC_NAME           :Arktiska träd
+STR_PARAM_TREES_ARCTIC_DESC           :Trädstil som ska användas i det arktiska klimatet.
+STR_PARAM_TREES_TROPICAL_NAME         :Tropiska träd
+STR_PARAM_TREES_TROPICAL_DESC         :Trädstil som ska användas i det tropiska klimatet (ersätter inte palmerna och kaktusarna).
+STR_PARAM_TREES_TOYLAND_NAME          :Leksakslandsträd
+STR_PARAM_TREES_TOYLAND_DESC          :Trädstil som ska användas i leksakslandsklimatet.
+
+STR_GRF_SETTINGS_NAME                 :OpenGFX2-inställningar
+
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+-landskap
+
+STR_GRF_TREES_NAME                    :OpenGFX2+-träd
+
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+-objekt
 
 
+STR_CLASS_FLD_                        :Fält
+STR_OBJECT_FIELD                      :Fält
+
+STR_CLASS_FRST                        :Skogar
+STR_OBJECT_FOREST                     :Skog
+
+STR_CLASS_BLDG                        :Byggnader
+STR_OBJECT_LIGHTHOUSE                 :Fyr
 
 
+STR_WAYP_CLASS                        :Riktmärken
+STR_WAYP_RAIL                         :Tågriktmärke
+STR_WAYP_MONORAIL                     :Monorailriktmärke
+STR_WAYP_MAGLEV                       :Maglevriktmärke
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+-spårvagnar
 
+STR_TRAM_NAME_GEN1                    :Broom Mk1-spårvagn
+STR_TRAM_NAME_GEN2                    :Manley-Morel 'T'-spårvagn
+STR_TRAM_NAME_GEN3                    :Broom D1-spårvagn
+STR_TRAM_NAME_GEN4                    :Broom Deluxe-spårvagn
 
-
-
-
-
-
-
-
-
-
-
-
+STR_TRAM_NAME_GEN1_TOYL               :Ploddyphut-spårvagn
+STR_TRAM_NAME_GEN2_TOYL               :Powernaught-spårvagn
+STR_TRAM_NAME_GEN3_TOYL               :Mightymover-spårvagn
+STR_TRAM_NAME_GEN4_TOYL               :Wizzowow-spårvagn
