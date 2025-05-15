@@ -1,0 +1,139 @@
+##grflangid 0x62
+##plural 0
+STR_GENERAL_DESC                      :مجموعه گرافیکی پایه OpenGFX2 برای OpenTTD. به صورت رایگان تحت شرایط مجوز عمومی همگانی گنو نسخه 2 در دسترس است. [OpenGFX2Base]
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}مجموعه گرافیکی پایه OpenGFX2{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
+
+STR_OBG_DESCRIPTION_CLASSIC           :مجموعه گرافیکی پایه OpenGFX2 با سبک هنری پیکسلی برای OpenTTD، نسخه کلاسیک (بزرگنمایی معمولی 8 بیتی). به صورت رایگان تحت شرایط مجوز عمومی همگانی گنو نسخه 2+ در دسترس است. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :مجموعه گرافیکی پایه OpenGFX2 با سبک هنری پیکسلی برای OpenTTD، نسخه با کیفیت بالا (بزرگنمایی اضافی 32 بیتی). به صورت رایگان تحت شرایط مجوز عمومی همگانی گنو نسخه 2+ در دسترس است. [{STRING}]
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :نسخه‌ی NewGRF تنظیمات OpenGFX2 با این نسخه‌ی مجموعه پایه‌ی OpenGFX مطابقت ندارد. ممکن است نتایج غیرمعمولی مشاهده کنید!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :استفاده از NewGRF تنظیمات OpenGFX2 برای OpenTTD 14.0 و نسخه‌های بعدی توصیه نمی‌شود. به جای آن، استفاده از پارامترهای مجموعه پایه توصیه می‌شود!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :پارامترهای مجموعه پایه توصیه
+STR_WARN_SETTINGSGRF_HARDCODED        :پارامترهای کدگذاری شده.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :تنظیمات پارامترهای NewGRF.
+
+STR_PARAM_CURSOR_NAME                 :نشانگر ماوس
+STR_PARAM_CURSOR_DESC                 :سبک و رنگ مکان‌نما/اشاره‌گر ماوس.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :سبک کلاسیک، زرد (پیش‌فرض)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :سبک کلاسیک، خاکستری
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :به سبک OpenGFX، زرد
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :به سبک ویندوز، سفید
+
+STR_PARAM_GRIDLINE_NAME               :خطوط شبکه زمین
+STR_PARAM_GRIDLINE_DESC               :نمایش یا عدم نمایش خطوط شبکه‌ای روی لبه‌های کاشی‌های زمین و آب.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :فقط خطوط شبکه زمینی (پیش‌فرض)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :بدون خطوط شبکه‌ای
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :خطوط شبکه آب و خاک
+
+STR_PARAM_LOGO_NAME                   :سبک لوگو
+STR_PARAM_LOGO_DESC                   :سبک لوگوی OpenTTD برای صفحه عنوان.
+STR_PARAM_LOGO_VALUE_DEFAULT          :پیش‌فرض
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :زیرزمین
+STR_PARAM_LOGO_VALUE_CABRIOLET        :استریم‌لاینر
+
+STR_PARAM_VALUE_TEMPERATE             :معتدل
+STR_PARAM_VALUE_ARCTIC                :قطبی
+STR_PARAM_VALUE_TROPICAL              :گرمسیری
+STR_PARAM_VALUE_TOYLAND               :سرزمین اسباب‌بازی‌ها
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :معتدل (پیشفرض)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :قطبی (پیش‌فرض)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :گرمسیری (پیشفرض)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :سرزمین اسباب‌بازی‌ها (پیشفرض)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :معتدل (سبک جایگزین)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :قطبی (سبک جایگزین)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :گرمسیری (سبک جایگزین)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :سرزمین اسباب‌بازی‌ها (سبک جایگزین)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :پایه های معتدل
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :سبک فونداسیون برای استفاده در آب و هوای معتدل.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :پایه‌های قطبی
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :سبک فونداسیون برای استفاده در آب و هوای قطبی.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :پایه‌های گرمسیری
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :سبک فونداسیون برای استفاده در آب و هوای گرمسیری.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :پایه های سرزمین اسباب‌بازی‌ها.
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :سبک فونداسیون برای استفاده در آب و هوای سرزمین اسباب‌بازی‌ها.
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :چمن آب و هوای معتدل
+STR_PARAM_GRASS_TEMPERATE_DESC        :سبک چمن برای استفاده در آب و هوای معتدل.
+STR_PARAM_GRASS_ARCTIC_NAME           :چمن قطبی
+STR_PARAM_GRASS_ARCTIC_DESC           :سبک چمنی برای استفاده در آب و هوای قطبی.
+STR_PARAM_GRASS_TROPICAL_NAME         :چمن آب و هوای گرمسیری
+STR_PARAM_GRASS_TROPICAL_DESC         :سبک چمن برای استفاده در آب و هوای گرمسیری.
+STR_PARAM_GRASS_TOYLAND_NAME          :چمن سرزمین اسباب‌بازی‌ها
+STR_PARAM_GRASS_TOYLAND_DESC          :سبک چمن برای استفاده در آب و هوای سرزمین اسباب‌بازی‌ها.
+
+STR_PARAM_TREES_TEMPERATE_NAME        :درخت های آب هوای معتدل
+STR_PARAM_TREES_TEMPERATE_DESC        :سبک درختی برای استفاده در آب و هوای معتدل.
+STR_PARAM_TREES_ARCTIC_NAME           :درختان قطبی
+STR_PARAM_TREES_ARCTIC_DESC           :سبک درختی برای استفاده در آب و هوای قطبی.
+STR_PARAM_TREES_TROPICAL_NAME         :درختان گرمسیری
+STR_PARAM_TREES_TROPICAL_DESC         :سبک درختی برای استفاده در آب و هوای گرمسیری (جایگزین درختان نخل و کاکتوس نمی‌شود).
+STR_PARAM_TREES_TOYLAND_NAME          :درخت های سرزمین اسباب بازی ها
+STR_PARAM_TREES_TOYLAND_DESC          :سبک درختی برای استفاده در آب و هوای سرزمین اسباب‌بازی‌ها.
+
+STR_GRF_SETTINGS_NAME                 :تنظیمات OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}تنظیمات OpenGFX2. پارامترهای مورد استفاده توسط grf اضافی OpenGFX2 را تغییر می‌دهد، ترفندی برای اجازه تنظیم پارامترهای grf اضافی مجموعه پایه.{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)
+
+STR_GRF_LANDSCAPE_NAME                :چشم‌انداز OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}چشم‌انداز OpenGFX+. چشم‌اندازهایی به سبک OpenGFX2.{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)
+
+STR_GRF_TREES_NAME                    :درخت های OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}درختان OpenGFX+. درختانی به سبک OpenGFX2.{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)
+
+STR_GRF_OBJECTS_NAME                  :اشیا، OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}اشیاء OpenGFX2+. اشیائی به سبک OpenGFX2.{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)
+
+STR_CLASS_ROCK                        :سنگ‌ها
+STR_OBJECT_ROCKS                      :سنگ‌های خاکستری
+STR_OBJECT_ROCKS_BLACK                :سنگ‌های سیاه
+STR_OBJECT_ROCKS_DARKGRAY             :سنگ‌های خاکستری تیره
+STR_OBJECT_ROCKS_BROWN1               :سنگ‌های قهوه‌ای مایل به قرمز
+STR_OBJECT_ROCKS_BROWN2               :سنگ‌های قهوه‌ای
+STR_OBJECT_ROCKS_YELLOW               :سنگ‌های زرد
+STR_OBJECT_ROCKS_BUY                  :کاشی زمین صخره‌ای. قابل ساخت روی خشکی، سواحل یا دریا. آگاه از شیب و برف.
+
+STR_CLASS_FLD_                        :زمین ها
+STR_OBJECT_FIELD                      :زمین
+STR_OBJECT_FIELD_BUY                  :کاشی زمین مزرعه. آگاه از شیب و برف، با حصارها یا پرچین‌های خودکار در اطراف مناطق با نوع مزرعه یکسان.
+STR_OBJECT_COMPANY_BARE               :زمین لخت
+STR_OBJECT_COMPANY_PART1              :چمن کوچک
+STR_OBJECT_COMPANY_PART2              :چمن بیشتر
+STR_OBJECT_COMPANY_GRASS              :چمن
+STR_OBJECT_COMPANY_BUY                :کاشی زمین حصارکشی شده. آگاه از شیب و برف، با حصارهای رنگی شرکت خودکار در اطراف مناطق با نوع کاشی یکسان.
+
+STR_CLASS_FRST                        :جنگل‌ها
+STR_OBJECT_FOREST                     :جنگل
+STR_OBJECT_FOREST_BUY                 :کاشی زمین جنگلی. آگاه از شیب و برف، با حصارها یا پرچین‌های خودکار در اطراف مناطق با نوع مزرعه یکسان.
+
+STR_CLASS_BLDG                        :ساختمان ها
+STR_OBJECT_LIGHTHOUSE                 :فانوس دریایی
+STR_OBJECT_TRANSMITTER                :فرستنده
+STR_OBJECT_SUBSTATION                 :ایستگاه فرعی
+STR_OBJECT_GASOMETER                  :گازسنج
+
+STR_GRF_STATIONS_NAME                 :ایستگاه‌ها و نقاط مسیر OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}ایستگاه‌ها و نقاط میانی OpenGFX+. ایستگاه‌های راه‌آهن و نقاط میانی به سبک OpenGFX2.{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)
+
+STR_WAYP_CLASS                        :نقاط مسیر
+STR_WAYP_RAIL                         :نقاط مسیر Rail
+STR_WAYP_MONORAIL                     :نقاط مسیر Monorail
+STR_WAYP_MAGLEV                       :نقاط مسیر Maglev
+
+STR_GRF_TRAMS_NAME                    :ترامواهای OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}ترامواهای OpenGFX+. ترامواهایی به سبک OpenGFX2.{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)
+
+STR_TRAM_NAME_GEN1                    :تراموا Broom Mk1
+STR_TRAM_NAME_GEN2                    :تراموا  Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :تراموا Broom D1
+STR_TRAM_NAME_GEN4                    :تراموا Broom Deluxe
+
+STR_TRAM_NAME_GEN1_TOYL               :تراموا Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :تراموا Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :تراموا Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :تراموا Wizzowow
