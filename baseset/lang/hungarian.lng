@@ -10,7 +10,7 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Az OpenGFX2 pixelgrafikás grafikus alapkészlet az OpenTTD-hez, klasszikus változat (normál nagyítás, 8bpp). Szabadon elérhető a GNU General Public License 2-es verziójának feltételei szerint. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Az OpenGFX2 pixelgrafikás grafikus alapkészlet az OpenTTD-hez, nagyfelbontású változat (extra nagyítás, 32bpp). Szabadon elérhető a GNU General Public License 2-es verziójának feltételei szerint. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Az OpenGFX2 beállításai NewGRF verziója nem egyezik meg az OpenGFX alapkészletével. Szokatlan eredményt láthat!
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Az OpenGFX2 beállításainak NewGRF verziója nem egyezik meg az OpenGFX alapkészletével. Szokatlan eredményt láthatsz!
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Az OpenGFX2 beállításai NewGRF nem javasolt az OpenTTD 14.0 és újabb esetén. Helyette az alapkészlet paraméterei javasoltak!
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Alapkészlet paraméterei.

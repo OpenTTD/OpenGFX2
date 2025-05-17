@@ -1,0 +1,139 @@
+##grflangid 0x28
+##plural 14
+STR_GENERAL_DESC                      :Set grafic de bază OpenGFX2 pentru OpenTTD. Disponibil gratuit în conformitate cu termenii GNU General Public License version 2. [OpenGFX2Base]
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}Set grafic de bază OpenGFX2{BLACK}{}De Zephyris, sprijinită de echipa OpenGFX{}{BLACK} Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
+
+STR_OBG_DESCRIPTION_CLASSIC           :Set grafică de bază în stil pixelat OpenGFX2 pentru OpenTTD, varianta clasică (zoom normal 8bpp). Disponibil gratuit în conformitate cu termenii GNU General Public License version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Set grafică de bază în stil pixelat OpenGFX2 pentru OpenTTD, variantă de înaltă definiție (zoom suplimentar 32bpp). Disponibil gratuit în conformitate cu termenii GNU General Public License version 2+. [{STRING}]
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Setări OpenGFX2 Versiunea NewGRF nu corespunde acestei versiuni a setului de bază OpenGFX. Este posibil să vedeți rezultate neobișnuite!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Setările OpenGFX2 NewGRF nu este recomandat pentru OpenTTD 14.0 și versiunile ulterioare. Se recomandă în schimb parametrii de bază!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Parametrii setului de bază.
+STR_WARN_SETTINGSGRF_HARDCODED        :Parametri codați în joc.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Setări pentru parametrii NewGRF.
+
+STR_PARAM_CURSOR_NAME                 :Cursorul
+STR_PARAM_CURSOR_DESC                 :Stilul și culoarea cursorului.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Stil clasic, galben (Implicit)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Stil clasic, gri
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Stil OpenGFX, galben
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Stil Windows, alb
+
+STR_PARAM_GRIDLINE_NAME               :Linii de grilă ale terenului
+STR_PARAM_GRIDLINE_DESC               :Dacă se afișează sau nu linii de grilă pe marginile pătrățelelor cu sol și apă.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Numai liniile de grilă de pe sol (Implicit)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Fără linii de grilă
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Linii de grilă de pe sol și apă
+
+STR_PARAM_LOGO_NAME                   :Stilul siglei
+STR_PARAM_LOGO_DESC                   :Siglă în stil OpenTTD pentru meniul principal.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Implicit
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Sub pământ
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Streamliner
+
+STR_PARAM_VALUE_TEMPERATE             :Temperat
+STR_PARAM_VALUE_ARCTIC                :Arctic
+STR_PARAM_VALUE_TROPICAL              :Tropical
+STR_PARAM_VALUE_TOYLAND               :Tărâmul jucariilor
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Temperat (Implicit)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctic (Implicit)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Implicit)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Tărâmul jucăriilor (Implicit)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Temperat (Stil alternativ)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctic (Stil alternativ)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Stil alternativ)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Tărâmul jucăriilor (Stil alternativ)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Fundație temperată
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Stil de fundație folosit în climat temperat
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Fundații arctice
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Stil de fundație folosit în climat arctic.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Fundație tropicală
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Stil de fundație folosit în climat tropical.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fundații din tărâmul jucăriilor
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Stil de fundație folosit în climatul tărâmului jucăriilor.
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :Iarbă temperată
+STR_PARAM_GRASS_TEMPERATE_DESC        :Stil de iarbă folosit în climat temperat
+STR_PARAM_GRASS_ARCTIC_NAME           :Iarbă arctică
+STR_PARAM_GRASS_ARCTIC_DESC           :Stil de iarbă folosit în climat arctic.
+STR_PARAM_GRASS_TROPICAL_NAME         :Iarbă tropicală
+STR_PARAM_GRASS_TROPICAL_DESC         :Stil de iarbă folosit în climat tropical.
+STR_PARAM_GRASS_TOYLAND_NAME          :Iarba tărâmului jucăriilor
+STR_PARAM_GRASS_TOYLAND_DESC          :Stil de iarbă folosit în climatul tărâmului jucăriilor.
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Copaci temperați
+STR_PARAM_TREES_TEMPERATE_DESC        :Stil de copac folosit în climat temperat.
+STR_PARAM_TREES_ARCTIC_NAME           :Copaci arctici
+STR_PARAM_TREES_ARCTIC_DESC           :Stil de copac folosit în climat arctic.
+STR_PARAM_TREES_TROPICAL_NAME         :Copaci tropicali
+STR_PARAM_TREES_TROPICAL_DESC         :Stil de copac folosit în climat tropical (nu înlocuiește palmieri și cactuși)
+STR_PARAM_TREES_TOYLAND_NAME          :Copaci din tărâmul jucăriilor
+STR_PARAM_TREES_TOYLAND_DESC          :Stil de copac folosit în climatul tărâmului jucariilor.
+
+STR_GRF_SETTINGS_NAME                 :Setări OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Setări OpenGFX2. Modifică parametrii utilizați de grf-ul suplimentar OpenGFX2, modificare pentru a permite setarea parametrilor grf-ului suplimentar din setul de bază.{BLACK}{}De Zephyris, sprijinită de echipa OpenGFX{}{BLACK}Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_LANDSCAPE_NAME                :Peisaj OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Peisaj OpenGFX+. Peisaj în stil OpenGFX2.{BLACK}{}De Zephyris, sprijinită de echipa OpenGFX{}{BLACK} Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_TREES_NAME                    :Copaci OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Copaci OpenGFX+. Copaci în stilul OpenGFX2.{BLACK}{}De Zephyris, susținută de echipa OpenGFX{}{BLACK}Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_OBJECTS_NAME                  :Obiecte OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Obiecte OpenGFX2+. Obiecte în stil OpenGFX2{BLACK}{}De Zephyris, sprijinită de echipa OpenGFX{BLACK}{} Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_CLASS_ROCK                        :Roci
+STR_OBJECT_ROCKS                      :Roci gri
+STR_OBJECT_ROCKS_BLACK                :Roci negre
+STR_OBJECT_ROCKS_DARKGRAY             :Roci gri închis
+STR_OBJECT_ROCKS_BROWN1               :Roci roșu-maroniu
+STR_OBJECT_ROCKS_BROWN2               :Roci maro
+STR_OBJECT_ROCKS_YELLOW               :Roci galbene
+STR_OBJECT_ROCKS_BUY                  :Pătrățică de teren pietros. Poate fi contstruită pe teren, coastă sau mare. Conștientă de pantă și zăpadă
+
+STR_CLASS_FLD_                        :Câmpuri
+STR_OBJECT_FIELD                      :Câmp
+STR_OBJECT_FIELD_BUY                  :Pătrățică de teren cu câmp. Conștientă de pantă și zăpadă, cu preluare automată a culorilor companiei pentru garduri și garduri vii în jurul pătrățelelor de același tip.
+STR_OBJECT_COMPANY_BARE               :Pământ gol
+STR_OBJECT_COMPANY_PART1              :Iarbă mică
+STR_OBJECT_COMPANY_PART2              :Mai multă iarbă
+STR_OBJECT_COMPANY_GRASS              :Iarbă
+STR_OBJECT_COMPANY_BUY                :Pătrățică de teren îngrădită. Conștientă de pantă și zăpadă, cu preluare automată a culorilor companiei pentru garduri în jurul pătrățelelor de același tip.
+
+STR_CLASS_FRST                        :Păduri
+STR_OBJECT_FOREST                     :Pădure
+STR_OBJECT_FOREST_BUY                 :Pătrățică de teren cu pădure. Conștientă de pantă și zăpadă, cu preluare automată a culorilor companiei pentru gardu și garduri vii în jurul pătrățelelor de același tip.
+
+STR_CLASS_BLDG                        :Clădiri
+STR_OBJECT_LIGHTHOUSE                 :Far
+STR_OBJECT_TRANSMITTER                :Transmițător
+STR_OBJECT_SUBSTATION                 :Substație
+STR_OBJECT_GASOMETER                  :Gazometru
+
+STR_GRF_STATIONS_NAME                 :Stații și puncte de referință OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Stații și puncte de referință OpenGFX+. Stații feroviare și puncte de referință în stilul OpenGFX2.{BLACK}{}De Zephyris, sprinjinită de echipa OpenGFX{}{BLACK}Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_WAYP_CLASS                        :Punct de referință
+STR_WAYP_RAIL                         :Punct de referință pentru trenuri
+STR_WAYP_MONORAIL                     :Punct de referință pentru monoșină
+STR_WAYP_MAGLEV                       :Punct de referință pentru maglev
+
+STR_GRF_TRAMS_NAME                    :Tramvaie OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Tramvaie OpenGFX+. Tramvaie în stilul OpenGFX2.{BLACK}{}De Zephyris, sprijinită de echipa OpenGFX{}{BLACK}Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_TRAM_NAME_GEN1                    :Tramvai Broom Mk1
+STR_TRAM_NAME_GEN2                    :Tramvai Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :Tramvai Broom D1
+STR_TRAM_NAME_GEN4                    :Tramvai Broom Deluxe
+
+STR_TRAM_NAME_GEN1_TOYL               :Tramvai Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Tramvai Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tramvai Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tramvai Wizzowow
