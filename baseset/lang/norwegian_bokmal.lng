@@ -98,12 +98,17 @@ STR_OBJECT_ROCKS_BROWN1               :Rødbrune steiner
 STR_OBJECT_ROCKS_BROWN2               :Brune steiner
 
 STR_CLASS_FLD_                        :Åkere
+STR_OBJECT_FIELD                      :Jorde
 STR_OBJECT_COMPANY_BARE               :Bar jord
 
 STR_CLASS_FRST                        :Skoger
 STR_OBJECT_FOREST                     :Skog
 
 STR_CLASS_BLDG                        :Bygninger
+STR_OBJECT_LIGHTHOUSE                 :Fyr
+STR_OBJECT_TRANSMITTER                :Sender
+STR_OBJECT_SUBSTATION                 :Transformatorstasjon
+STR_OBJECT_GASOMETER                  :Gassklokke
 
 STR_GRF_STATIONS_NAME                 :OpenGFX2+ stasjoner & veipunkt
 STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ stasjoner & veipunkt. Jernbanestasjoner og veipunkt i OpenGFX2-stil.{BLACK}{}Av Zephyris, stående på skuldrene til OpenGFX-teamet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Nettsted: {SILVER}https://github.com/OpenTTD/OpenGFX2
@@ -113,6 +118,7 @@ STR_WAYP_RAIL                         :Jernbaneveipunkt
 STR_WAYP_MONORAIL                     :Monorail-veipunkt
 STR_WAYP_MAGLEV                       :Maglev-veipunkt
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Trikker
 
 STR_TRAM_NAME_GEN1                    :Broom Mk1-trikk
 STR_TRAM_NAME_GEN2                    :Manley-Morel 'T'-trikk
