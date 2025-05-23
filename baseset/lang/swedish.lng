@@ -14,6 +14,11 @@ STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klassisk stil, grå
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-stil, gul
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-stil, vit
 
+STR_PARAM_GRIDLINE_NAME               :Terrängrutnät
+STR_PARAM_GRIDLINE_DESC               :Huruvida rutnätslinjer ska visas längs kanterna på mark- och vattenrutor, eller ej.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Rutnät endast på mark (Standard)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Inget rutnät
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Rutnät på mark och vatten
 
 STR_PARAM_LOGO_VALUE_DEFAULT          :Standard
 
