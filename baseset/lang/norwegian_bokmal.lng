@@ -81,6 +81,7 @@ STR_PARAM_TREES_TOYLAND_NAME          :Lekeland-trær
 STR_PARAM_TREES_TOYLAND_DESC          :Trestil å bruke i lekeland-klima.
 
 STR_GRF_SETTINGS_NAME                 :OpenGFX2-innstillinger
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Innstillinger. Endrer parametere brukt av OpenGFX2 extra grf, hack for å tillate å sette parametere til grunngrafikkpakke extra grf.{BLACK}{}Av Zephyris, stående på skuldrene til OpenGFX-teamet{}{BLACK} Lisens: {SILVER}GPL v2+{}{BLACK} Nettsted: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landkskap
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ landskap. Landskap i OpenGFX2-stil.{BLACK}{}Av Zephyris, stående på skuldrene til OpenGFX-teamet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Nettsted: {SILVER}https://github.com/OpenTTD/OpenGFX2
@@ -94,15 +95,24 @@ STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX+ objekter. Objekter i Ope
 STR_CLASS_ROCK                        :Steiner
 STR_OBJECT_ROCKS                      :Grå steiner
 STR_OBJECT_ROCKS_BLACK                :Svarte steiner
+STR_OBJECT_ROCKS_DARKGRAY             :Mørkegrå steiner
 STR_OBJECT_ROCKS_BROWN1               :Rødbrune steiner
 STR_OBJECT_ROCKS_BROWN2               :Brune steiner
+STR_OBJECT_ROCKS_YELLOW               :Gule steiner
+STR_OBJECT_ROCKS_BUY                  :Steinete terrengområde. Kan bygges på land, langs kysten eller til sjøs. Påvirket av helning og snø.
 
 STR_CLASS_FLD_                        :Åkere
 STR_OBJECT_FIELD                      :Jorde
+STR_OBJECT_FIELD_BUY                  :Terrengområde med jorde. Påvirket av helning og snø, med gjerder eller hekker rundt områder av samme type.
 STR_OBJECT_COMPANY_BARE               :Bar jord
+STR_OBJECT_COMPANY_PART1              :Lite gress
+STR_OBJECT_COMPANY_PART2              :Mer gress
+STR_OBJECT_COMPANY_GRASS              :Gress
+STR_OBJECT_COMPANY_BUY                :Inngjerdet terrengområde. Påvirket av helning og snø, med gjerder i selskapsfarge rundt områder av samme type.
 
 STR_CLASS_FRST                        :Skoger
 STR_OBJECT_FOREST                     :Skog
+STR_OBJECT_FOREST_BUY                 :Terrengområde med skog. Påvirket av helning og snø, med gjerder eller hekker rundt områder av samme type.
 
 STR_CLASS_BLDG                        :Bygninger
 STR_OBJECT_LIGHTHOUSE                 :Fyr
@@ -119,6 +129,7 @@ STR_WAYP_MONORAIL                     :Monorail-veipunkt
 STR_WAYP_MAGLEV                       :Maglev-veipunkt
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ Trikker
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ trikker. Trikker i OpenGFX2-stil.{BLACK}{}Av Zephyris, stående på skuldrene til OpenGFX-teamet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Nettsted: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1                    :Broom Mk1-trikk
 STR_TRAM_NAME_GEN2                    :Manley-Morel 'T'-trikk
