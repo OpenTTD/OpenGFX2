@@ -418,3 +418,10 @@ template template_ottd_gui186(z) {
 }
 replacenew ottd_gui186(OTTD_GUI, "../graphics/icons/1/icons_network_8bpp.png", 186) { template_ottd_gui186(1) }
 alternative_sprites (ottd_gui186, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_network_8bpp.png") { template_ottd_gui186(2) }
+
+// OTTD_GUI 191 menu vertical ellipsis
+template template_ottd_gui191(z) {
+	template_sprite_matrix_nocrop(8, 8, 0, 0, 6, 2, z) // menu vertical ellipsis
+}
+replacenew ottd_gui191(OTTD_GUI, "../graphics/icons/1/icons_8px_8bpp.png", 191) { template_ottd_gui191(1) }
+alternative_sprites (ottd_gui191, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_8px_8bpp.png") { template_ottd_gui191(2) }
