@@ -112,6 +112,7 @@ STR_OBJECT_FOREST                     :Forest
 STR_OBJECT_FOREST_BUY                 :Forest terrain tile. Slope and snow-aware, with automatic fences or hedges around areas of the same field type.
 
 STR_CLASS_BLDG                        :Buildings
+STR_OBJECT_LIGHTHOUSE                 :Lighthouse
 STR_OBJECT_TRANSMITTER                :Transmitter
 STR_OBJECT_SUBSTATION                 :Substation
 STR_OBJECT_GASOMETER                  :Gasometer
