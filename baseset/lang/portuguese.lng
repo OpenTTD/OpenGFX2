@@ -49,7 +49,7 @@ STR_PARAM_VALUE_TOYLAND_DEFAULT       :Terra dos brinquedos (Predefinição)
 STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Temperado (Estilo alternativo)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Ártico (Estilo alternativo)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estilo alternativo)
-STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Toyland (Estilo alternativo)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Terra dos brinquedos (Estilo alternativo)
 
 STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Fundações do clima temperado
 STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Estilo de fundação para usar no clima temperado.
@@ -78,7 +78,7 @@ STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árvore a utilizar no clima tro
 STR_PARAM_TREES_TOYLAND_NAME          :Árvores da terra dos brinquedos
 STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árvore a utilizar no clima da terra dos brinquedos.
 
-STR_GRF_SETTINGS_NAME                 :Configurações OpenGFX2
+STR_GRF_SETTINGS_NAME                 :Configurações de OpenGFX2
 STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Configurações do OpenGFX2. Altera os parâmetros utilizados pelo grf extra do OpenGFX2, hack para permitir a definição dos parâmetros do grf extra do conjunto base.{BLACK}{}Por Zephyris, apoiando-se na equipa do OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Paisagem
