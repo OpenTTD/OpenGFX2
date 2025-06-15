@@ -3,7 +3,7 @@
 ##gender f n m fp mp
 STR_GENERAL_DESC                      :Conjunto de gráficos base OpenGFX2 para OpenTTD. Disponível livremente sob os termos da Licença Pública Geral GNU versão 2. [OpenGFX2Base]
 
-STR_GRF_NAME                          :Base OpenGFX2
+STR_GRF_NAME                          :OpenGFX2 Base
 STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Conjunto de gráficos base{BLACK}{}De Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Sítio Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 

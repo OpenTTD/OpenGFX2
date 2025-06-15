@@ -18,10 +18,25 @@
 
 
 
+STR_OBJECT_ROCKS                      :Grå klipper
+STR_OBJECT_ROCKS_BLACK                :Sorte klipper
+STR_OBJECT_ROCKS_BROWN1               :Rødbrune klipper
+STR_OBJECT_ROCKS_BROWN2               :Brune klipper
 
+STR_OBJECT_FIELD                      :Felt
+STR_OBJECT_FIELD_BUY                  :Feltterræn. Skrånings- og snebevidst, med automatiske hegn eller hække omkring områder af samme marktype.
+STR_OBJECT_COMPANY_BARE               :Bar jord
+STR_OBJECT_COMPANY_PART1              :Lidt græs
+STR_OBJECT_COMPANY_PART2              :Mere græs
+STR_OBJECT_COMPANY_GRASS              :Græs
+STR_OBJECT_COMPANY_BUY                :Indhegnet terrænflise. Hældnings- og snebevidst, med automatiske hegn i firmafarver omkring områder af samme flisetype.
 
+STR_OBJECT_FOREST                     :Skov
+STR_OBJECT_FOREST_BUY                 :Skovterrænflise. Skrånings- og snebevidst, med automatiske hegn eller hække omkring områder af samme marktype.
 
 STR_CLASS_BLDG                        :Bygninger
+STR_OBJECT_LIGHTHOUSE                 :Fyrtårn
+STR_OBJECT_GASOMETER                  :Gasometer
 
 
 
