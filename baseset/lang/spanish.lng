@@ -1,0 +1,63 @@
+##grflangid 0x04
+##plural 0
+##gender f m
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :Set de gráficos básico {ORANGE}OpenGFX2+{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+
+
+
+
+
+
+STR_PARAM_VALUE_TEMPERATE             :Templado
+STR_PARAM_VALUE_ARCTIC                :Ártico
+STR_PARAM_VALUE_TROPICAL              :Tropical
+STR_PARAM_VALUE_TOYLAND               :Mundo de juguete
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Templado (Predeterminado)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Ártico (Predeterminado)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Predeterminado)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Mundo de juguete (Predeterminado)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Templado (Estilo alternativo)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Ártico (Estilo alternativo)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estilo alternativo)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Mundo de juguete (Estilo alternativo)
+
+
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Árboles de hoja caduca.
+STR_PARAM_TREES_TEMPERATE_DESC        :Estilo de árbol para usar en el clima templado.
+STR_PARAM_TREES_ARCTIC_NAME           :Árboles árticos.
+STR_PARAM_TREES_ARCTIC_DESC           :Estilo de árbol para utilizar en climas árticos.
+STR_PARAM_TREES_TROPICAL_NAME         :Árboles tropicales
+STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árbol para utilizar en el clima tropical (no reemplaza a palmeras ni cactus).
+STR_PARAM_TREES_TOYLAND_NAME          :Árboles de "mundo de juguete"
+STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árbol para utilizar en el clima "mundo de juguete".
+
+STR_GRF_SETTINGS_NAME                 :Ajustes OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :Ajustes {ORANGE}OpenGFX2+. Altera los parámetros usados por OpenGFX2+ extra grf, hack para permitir la configuración de parámetros baseset extra grf.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_LANDSCAPE_NAME                :Paisaje OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :Paisaje {ORANGE}OpenGFX2+. Paisajes en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+
+STR_GRF_OBJECTS_NAME                  :Objetos OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :Objetos {ORANGE}OpenGFX2+. Objectos en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_CLASS_ROCK                        :Rocas
+
+STR_CLASS_FLD_                        :Campos
+
+STR_CLASS_FRST                        :Bosques
+
+STR_CLASS_BLDG                        :Edificios
+
+STR_GRF_STATIONS_NAME                 :Estaciones y Marcadores OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :Estaciones y Marcadores {ORANGE}OpenGFX2+. Estaciones de tren y marcadores en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+
+
+
