@@ -5,5 +5,5 @@ replace spr2022_toyland(2022, "../graphics/terrain/64/toyland_towntiles_8bpp.png
 #32 alternative_sprites(spr2022_toyland, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/terrain/64/toyland_towntiles_bt32bpp.png") { template_flattile_single(240, 0, 1) }
 
 ////4310 cargo icon, replace tropical water with toyland cola
-replace spr4310_toyland(4310, "../graphics/icons/1/icons_cargo_8bpp.png") { template_sprite_matrix_nocrop(11, 11, 0, 0, 27, 0, 1) }
-alternative_sprites(spr4310_toyland, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_cargo_8bpp.png") { template_sprite_matrix_nocrop(11, 11, 0, 0, 27, 0, 2) }
+replace spr4310_toyland(4310, "../graphics/icons/1/icons_cargo_8bpp.png") { template_sprite_matrix_nocrop(10, 10, 0, 0, 27, 0, 1) }
+alternative_sprites(spr4310_toyland, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "../graphics/icons/2/icons_cargo_8bpp.png") { template_sprite_matrix_nocrop(10, 10, 0, 0, 27, 0, 2) }
