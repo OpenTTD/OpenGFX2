@@ -1,0 +1,25 @@
+name: Commit checker
+
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  commit-checker:
+    name: Commit checker
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 4
+
+    - name: Get pull-request commits
+      uses: OpenTTD/actions/checkout-pull-request@v5
+
+    - name: Check commits
+      uses: OpenTTD/OpenTTD-git-hooks@main
