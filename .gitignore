@@ -25,3 +25,6 @@ previews/
 
 # temporary files for pip
 *.tmp
+
+# outputs for CI
+opengfx2_classic-*

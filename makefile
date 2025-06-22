@@ -1,6 +1,17 @@
+# Always run version detection, so we always have an accurate modified
+# flag
+REPO_VERSIONS := $(shell AWK="$(AWK)" "./findversion.sh")
+REPO_MODIFIED := $(shell echo "$(REPO_VERSIONS)" | cut -f 3 -d'	')
+
+# Use autodetected revisions
+REPO_VERSION := $(shell echo "$(REPO_VERSIONS)" | cut -f 1 -d'	')
+REPO_DATE := $(shell echo "$(REPO_VERSIONS)" | cut -f 2 -d'	')
+REPO_HASH := $(shell echo "$(REPO_VERSIONS)" | cut -f 4 -d'	')
+
 # Versions
 # nice user-facing version naming
-NAMING_VERSION := 0.7
+NAMING_VERSION := $(REPO_VERSION)
+NAMING_CDN := opengfx2_classic
 
 # Default target
 .PHONY: all
@@ -141,5 +152,24 @@ clean_graphics:
 	find graphics -type f -name "*_rm32bpp.png" -exec rm {} +
 	find graphics -type d -name "__pycache__" -exec rm -rf {} +
 	rm -rf graphics/fonts/openttd-ttf
+
+# Glue to work like OpenGFX Makefile
+.PHONY: maintainer-clean
+maintainer-clean: clean
+
+# Glue to work like OpenGFX Makefile
+.PHONY: bundle_zip
+bundle_zip: baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip
+	cp baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip $(NAMING_CDN)-$(NAMING_VERSION)-all.zip
+
+# Glue to work like OpenGFX Makefile
+.PHONY: bundle_xsrc
+bundle_xsrc:
+	mkdir -p $(NAMING_CDN)-$(NAMING_VERSION)-source
+	git archive --format=tar HEAD | tar xf - -C $(NAMING_CDN)-$(NAMING_VERSION)-source/
+	rm -rf $(NAMING_CDN)-$(NAMING_VERSION)-source/.git $(NAMING_CDN)-$(NAMING_VERSION)-source/.gitattributes $(NAMING_CDN)-$(NAMING_VERSION)-source/.gitignore $(NAMING_CDN)-$(NAMING_VERSION)-source/.github
+	./findversion.sh > $(NAMING_CDN)-$(NAMING_VERSION)-source/.ottdrev
+	tar -cf $(NAMING_CDN)-$(NAMING_VERSION)-source.tar $(NAMING_CDN)-$(NAMING_VERSION)-source
+	xz -ef $(NAMING_CDN)-$(NAMING_VERSION)-source.tar
 
 FORCE: ;

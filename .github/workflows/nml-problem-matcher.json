@@ -1,0 +1,16 @@
+{
+    "problemMatcher": [
+        {
+            "owner": "nml",
+            "pattern": [
+                {
+                    "regexp": "^.*nmlc (\\w+): \"(.*)\", line (\\d+): (.*)$",
+                    "file": 2,
+                    "line": 3,
+                    "severity": 1,
+                    "message": 4
+                }
+            ]
+        }
+    ]
+}

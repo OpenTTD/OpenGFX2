@@ -1,0 +1,22 @@
+name: Release
+
+on:
+  release:
+    types:
+    - published
+  schedule:
+  - cron: '0 1 * * 1'  # Run every Monday at 01:00 UTC; as GitLFS isn't free, reduce the number of nightlies.
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Release
+    uses: OpenTTD/actions/.github/workflows/rw-entry-release-baseset.yml@v5
+    secrets: inherit
+    with:
+      apt-packages: git
+      lfs: true
+      name: opengfx2_classic
+      pip-packages: nml pillow blend-modes numpy scikit-image tqdm
+      problem-matcher: .github/workflows/nml-problem-matcher.json
+      python-version: "3.13"
