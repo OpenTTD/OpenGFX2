@@ -44,6 +44,7 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT        :Polar (Per defecte)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Per defecte)
 STR_PARAM_VALUE_TOYLAND_DEFAULT       :Joguines (Per defecte)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Clima temperat (estil alternatiu)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Polar (Estil alternatiu)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estil alternatiu)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Joguines (Estil alternatiu)
@@ -77,13 +78,40 @@ STR_PARAM_TREES_TOYLAND_DESC          :Estil d'arbres del paisatge de joguines.
 
 
 
+STR_GRF_TREES_NAME                    :Arbres de l'OpenGFX2+
 
 
+STR_CLASS_ROCK                        :Roques
+STR_OBJECT_ROCKS                      :Roques grises
+STR_OBJECT_ROCKS_BLACK                :Roques negres
+STR_OBJECT_ROCKS_DARKGRAY             :Roques gris fosc
+STR_OBJECT_ROCKS_BROWN1               :Roques rogenques
+STR_OBJECT_ROCKS_BROWN2               :Roques marró
 
+STR_CLASS_FLD_                        :Camps
+STR_OBJECT_FIELD                      :Camp
+STR_OBJECT_COMPANY_BARE               :Terra rasa
 
+STR_CLASS_FRST                        :Boscos
+STR_OBJECT_FOREST                     :Bosc
 
+STR_CLASS_BLDG                        :Edificis
 
+STR_GRF_STATIONS_NAME                 :Estacions i punts de pas de l'OpenGFX2+
 
+STR_WAYP_CLASS                        :Punts de pas
+STR_WAYP_RAIL                         :Punt de pas de ferrocarril
+STR_WAYP_MONORAIL                     :Punt de pas de monoroail
+STR_WAYP_MAGLEV                       :Punt de pas de maglev
 
+STR_GRF_TRAMS_NAME                    :Tramvies de l'OpenGFX2+
 
+STR_TRAM_NAME_GEN1                    :Tramvia Broom Mk1
+STR_TRAM_NAME_GEN2                    :Tramvia Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :Tramvia Broom D1
+STR_TRAM_NAME_GEN4                    :Tramvia Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Tramvia Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Tramvia Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tramvia Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tramvia Wizzowow
