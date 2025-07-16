@@ -4,7 +4,7 @@
 STR_GENERAL_DESC                      :Paquet de gràfics OpenGFX2 per a l'OpenTTD. Disponible de forma gratuïta sota els termes de la llicència GNU GPL versió 2 (GNU General Public License version 2). [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
-STR_GRF_DESCRIPTION                   :{ORANGE}Paquet de gràfics OpenGFX2 Base{BLACK}{}Autor: Zephyris, gràcies a la feina prèvia de l’equip d’OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/zephyris/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}Paquet de gràfics OpenGFX2 Base{BLACK}{}Autor: Zephyris, gràcies a la feina prèvia de l’equip d’OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 
@@ -76,6 +76,7 @@ STR_PARAM_TREES_TROPICAL_DESC         :Estil d'arbres per a zones de clima tropi
 STR_PARAM_TREES_TOYLAND_NAME          :Arbres del paisatge de joguines
 STR_PARAM_TREES_TOYLAND_DESC          :Estil d'arbres del paisatge de joguines.
 
+STR_GRF_SETTINGS_NAME                 :Configuració de l'OpenGFX2
 
 
 STR_GRF_TREES_NAME                    :Arbres de l'OpenGFX2+
