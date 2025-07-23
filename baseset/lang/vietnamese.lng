@@ -1,28 +1,139 @@
 ##grflangid 0x54
 ##plural 1
+STR_GENERAL_DESC                      :Bộ đồ họa nền tảng OpenGFX2 dành cho OpenTTD. Được phát hành miễn phí dưới các điều khoản của Giấy phép công cộng GNU phiên bản 2. [OpenGFX2Base]
 
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}Bộ đồ họa nền tảng OpenGFX2{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Bộ đồ họa nền tảng OpenGFX2 kiểu pixel art dành cho OpenTTD, phiên bản cổ điển (phóng lên 8bpp). Được phát hành miễn phí dưới các điều khoản của Giấy phép công cộng GNU phiên bản 2 hoặc mọi phiên bản sau. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Bộ đồ họa nền tảng OpenGFX2 kiểu pixel art dành cho OpenTTD, phiên bản độ phân giải cao (phóng lên 32bpp). Được phát hành miễn phí dưới các điều khoản của Giấy phép công cộng GNU phiên bản 2 hoặc mọi phiên bản sau. [{STRING}]
 
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Phiên bản cài đặt OpenGFX2 NewGRF không khớp với phiên bản này của gói cơ sở OpenGFX. Có thể dẫn tới những kết quả bất thường!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Không nên dùng cài đặt NewGRF của OpenGFX2 cho OpenTTD phiên bản 14.0 trở đi. Thay vào đó, dùng thông số gói cơ sở!
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Thông số gói cơ sở.
+STR_WARN_SETTINGSGRF_HARDCODED        :Thông số cố định.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Cài đặt thông số NewGRF.
 
+STR_PARAM_CURSOR_NAME                 :Con trỏ chuột
+STR_PARAM_CURSOR_DESC                 :Kiểu dáng và màu của con trỏ chuột.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Kiểu cổ điển, vàng (Mặc định)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Kiểu cổ điển, xám
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Kiểu OpenGFX, vàng
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Kiểu Windows, trắng
 
+STR_PARAM_GRIDLINE_NAME               :Lưới địa hình
+STR_PARAM_GRIDLINE_DESC               :Có hiển thị lưới hay không xung quanh các mảnh đất và nước.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Chỉ lưới trên mặt đất (Mặc định)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Không hiển thị lưới
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Lưới trên mặt đất và nước
 
+STR_PARAM_LOGO_NAME                   :Kiểu logo
+STR_PARAM_LOGO_DESC                   :Kiểu logo OpenTTD cho màn hình chính.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Mặc định
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Ngầm
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Tàu hỏa dáng thuôn
 
+STR_PARAM_VALUE_TEMPERATE             :Ôn đới
+STR_PARAM_VALUE_ARCTIC                :Hàn đới
+STR_PARAM_VALUE_TROPICAL              :Nhiệt đới
+STR_PARAM_VALUE_TOYLAND               :Đồ chơi
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Ôn đới (Mặc định)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Hàn đới (Mặc định)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Nhiệt đới (Mặc định)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Đồ chơi (Mặc định)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Ôn đới (Kiểu thay thế)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Hàn đới (Kiểu thay thế)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Nhiệt đới (Kiểu thay thế)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Đồ chơi (Kiểu thay thế)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Nền móng ôn đới
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Kiều nền móng dùng trong khí hậu ôn đới.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Nền móng hàn đới
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Kiều nền móng dùng trong khí hậu hàn đới.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Nền móng nhiệt đới
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Kiều nền móng dùng trong khí hậu nhiệt đới.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Nền móng đồ chơi
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Kiều nền móng dùng trong khí hậu đồ chơi.
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Cỏ ôn đới
+STR_PARAM_GRASS_TEMPERATE_DESC        :Kiểu cỏ dùng trong khí hậu ôn đới.
+STR_PARAM_GRASS_ARCTIC_NAME           :Cỏ hàn đới
+STR_PARAM_GRASS_ARCTIC_DESC           :Kiểu cỏ dùng trong khí hậu hàn đới.
+STR_PARAM_GRASS_TROPICAL_NAME         :Cỏ nhiệt đới
+STR_PARAM_GRASS_TROPICAL_DESC         :Kiểu cỏ dùng trong khí hậu nhiệt đới.
+STR_PARAM_GRASS_TOYLAND_NAME          :Cỏ đồ chơi
+STR_PARAM_GRASS_TOYLAND_DESC          :Kiểu cỏ dùng trong khí hậu đồ chơi.
 
+STR_PARAM_TREES_TEMPERATE_NAME        :Cây cối ôn đới
+STR_PARAM_TREES_TEMPERATE_DESC        :Kiểu cây cối dùng trong khí hậu ôn đới.
+STR_PARAM_TREES_ARCTIC_NAME           :Cây cối hàn đới
+STR_PARAM_TREES_ARCTIC_DESC           :Kiểu cây cối dùng trong khí hậu hàn đới.
+STR_PARAM_TREES_TROPICAL_NAME         :Cây cối nhiệt đới
+STR_PARAM_TREES_TROPICAL_DESC         :Kiểu cây cối dùng trong khí hậu nhiệt đới (không thay thế cây cọ và xương rồng)
+STR_PARAM_TREES_TOYLAND_NAME          :Cây cối đồ chơi
+STR_PARAM_TREES_TOYLAND_DESC          :Kiểu cây cối dùng trong khí hậu đồ chơi.
 
+STR_GRF_SETTINGS_NAME                 :Cài đặt OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Cài đặt OpenGFX2. Chỉnh thông số được dùng bởi grf phụ của OpenGFX2, hack để cho phép chỉnh thông số grf phụ của gói cơ sở.{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :Cảnh quan của OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Cảnh quan của OpenGFX+. Những cảnh quan theo phong cách OpenGFX2.{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :Cây cối của OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Cây cối của OpenGFX+. Cây cối theo phong cách OpenGFX2.{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :Đối tượng của OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Đối tượng của OpenGFX2+. Các đối tượng theo phong cách OpenGFX2.{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Đá
+STR_OBJECT_ROCKS                      :Đá xám
+STR_OBJECT_ROCKS_BLACK                :Đá đen
+STR_OBJECT_ROCKS_DARKGRAY             :Đá xám sẫm
+STR_OBJECT_ROCKS_BROWN1               :Đá nâu đỏ
+STR_OBJECT_ROCKS_BROWN2               :Đá nâu
+STR_OBJECT_ROCKS_YELLOW               :Đá vàng
+STR_OBJECT_ROCKS_BUY                  :Mảnh địa hình đá gồ ghề. Có thể xây được trên mặt đất, ven biển và ngoài biển. Nhận biết được dốc và tuyết.
 
+STR_CLASS_FLD_                        :Cánh đồng
+STR_OBJECT_FIELD                      :Cánh đồng
+STR_OBJECT_FIELD_BUY                  :Mảnh địa hình cánh đồng. Nhận biết được dốc và tuyết, với hàng rào hay hàng rào cỏ xung quanh những diện tích có cùng loại mảnh này.
+STR_OBJECT_COMPANY_BARE               :Đất trống
+STR_OBJECT_COMPANY_PART1              :Ít cỏ
+STR_OBJECT_COMPANY_PART2              :Thêm cỏ
+STR_OBJECT_COMPANY_GRASS              :Bãi cỏ
+STR_OBJECT_COMPANY_BUY                :Mảnh địa hình có hàng rào. Nhận biết được dốc và tuyết, với hàng rào có màu của công ty xung quanh những diện tích có cùng loại mảnh này.
 
+STR_CLASS_FRST                        :Rừng
+STR_OBJECT_FOREST                     :Rừng
+STR_OBJECT_FOREST_BUY                 :Mảnh địa hình rừng. Nhận biết được dốc và tuyết, với hàng rào hay hàng rào cỏ xung quanh những diện tích có cùng loại mảnh này.
 
+STR_CLASS_BLDG                        :Công trình
+STR_OBJECT_LIGHTHOUSE                 :Hải đăng
+STR_OBJECT_TRANSMITTER                :Trạm phát sóng
+STR_OBJECT_SUBSTATION                 :Trạm biến áp
+STR_OBJECT_GASOMETER                  :Thùng khí nhiên liệu ngoài trời
 
+STR_GRF_STATIONS_NAME                 :Ga và điểm trung gian của OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Ga và điểm trung gian của OpenGFX+. Ga tàu và các điểm trung gian theo phong cách OpenGFX2.{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Điểm trung gian
+STR_WAYP_RAIL                         :Điểm trung gian đường ray
+STR_WAYP_MONORAIL                     :Điểm trung gian đường ray đơn
+STR_WAYP_MAGLEV                       :Điểm trung gian đường ray đệm từ
 
+STR_GRF_TRAMS_NAME                    :Tàu điện của OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Tàu điện của OpenGFX+. Tàu điện theo phong cách OpenGFX2.{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Tàu điện Broom Mk1
+STR_TRAM_NAME_GEN2                    :Tàu điện Manley-Morel "T"
+STR_TRAM_NAME_GEN3                    :Tàu điện Broom D1
+STR_TRAM_NAME_GEN4                    :Tàu điện Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Tàu điện Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Tàu điện Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tàu điện Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tàu điện Wizzowow
