@@ -1,11 +1,20 @@
 ##grflangid 0x2e
 ##plural 0
+STR_GENERAL_DESC                      :Basgrafik i OpenGFX2 pixelstil för OpenTTD. Fritt tillgänglig under GNU General Public License version 2+. [OpenGFX2Base]
 
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Basgrafik i OpenGFX2 pixelstil för OpenTTD, klassisk (normal zoom 8bpp). Fritt tillgänglig under GNU General Public License version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Basgrafik i OpenGFX2 pixelstil för OpenTTD, högupplöst (extra zoom 32bpp). Fritt tillgänglig under GNU General Public License version 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Inställningar för NewGRF versionen matchar inte OpenGFX versionens gruninställningar. Du kan uppleva ovanliga resultat!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Inställningen NewGRF rekommenderas inte för OpenTTD 14.0 och senare. Grundinställningar rekommenderas!
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Grundparametrar
 STR_WARN_SETTINGSGRF_HARDCODED        :Hårdkodade parametrar.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :NewGRF parametrar.
 
 STR_PARAM_CURSOR_NAME                 :Muspekare
 STR_PARAM_CURSOR_DESC                 :Muspekarens stil och färg
@@ -20,7 +29,11 @@ STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Rutnät endast på mark (Standard)
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Inget rutnät
 STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Rutnät på mark och vatten
 
+STR_PARAM_LOGO_NAME                   :Stil på logotyp
+STR_PARAM_LOGO_DESC                   :Stil på OpenTTD logotyp på titelbild.
 STR_PARAM_LOGO_VALUE_DEFAULT          :Standard
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Tunnelbana
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Strömlinjeformad
 
 STR_PARAM_VALUE_TEMPERATE             :Tempererat
 STR_PARAM_VALUE_ARCTIC                :Arktiskt
@@ -37,6 +50,14 @@ STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktiskt (alternativ stil)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropiskt (alternativ stil)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Leksaksland (alternativ stil)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Tempererat klimat gund
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Grundstil som ska användas i det tempererade klimatet
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arktisk grund
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Grundstil som ska användas i arktiska klimatet
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropisk grund
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Grundstil som ska användas i det tropiska klimatet.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Leksaksland grund
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Grundstil som ska användas i leksakslandsklimatet.
 
 STR_PARAM_GRASS_TEMPERATE_NAME        :Tempererat gräs
 STR_PARAM_GRASS_TEMPERATE_DESC        :Grässtil som ska användas i det tempererade klimatet.
@@ -57,23 +78,47 @@ STR_PARAM_TREES_TOYLAND_NAME          :Leksakslandsträd
 STR_PARAM_TREES_TOYLAND_DESC          :Trädstil som ska användas i leksakslandsklimatet.
 
 STR_GRF_SETTINGS_NAME                 :OpenGFX2-inställningar
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Ändrar inställningar som används av OpenGFX2 extra grf, hack för att tillåta extra grf parametrar.{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+-landskap
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Landskap i OpenGFX2 stil.{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_TREES_NAME                    :OpenGFX2+-träd
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Trees. Träd i OpenGFX2 stil.{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_OBJECTS_NAME                  :OpenGFX2+-objekt
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objects. Objekt i OpenGFX2 stil.{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Stenar
+STR_OBJECT_ROCKS                      :Grå stenar
+STR_OBJECT_ROCKS_BLACK                :Svarta stenar
+STR_OBJECT_ROCKS_DARKGRAY             :Mörkgrå stenar
+STR_OBJECT_ROCKS_BROWN1               :Rödbruna stenar
+STR_OBJECT_ROCKS_BROWN2               :Bruna stenar
+STR_OBJECT_ROCKS_YELLOW               :Gula stenar
+STR_OBJECT_ROCKS_BUY                  :Stenig terrängruta. Kan byggas på land, kuster eller hav. Lutnings- och snömedveten.
 
 STR_CLASS_FLD_                        :Fält
 STR_OBJECT_FIELD                      :Fält
+STR_OBJECT_FIELD_BUY                  :Fältterrängruta. Lutnings- och snömedveten, med automatiska staket eller buskage runt områden med samma terrängtyp.
+STR_OBJECT_COMPANY_BARE               :Barmark
+STR_OBJECT_COMPANY_PART1              :Lite gräs
+STR_OBJECT_COMPANY_PART2              :Mer gräs
+STR_OBJECT_COMPANY_GRASS              :Gräs
+STR_OBJECT_COMPANY_BUY                :Terrängruta med staket. Lutnings- och snömedveten, med automatiska staket i företagsfärger runt områden med samma terrängtyp.
 
 STR_CLASS_FRST                        :Skogar
 STR_OBJECT_FOREST                     :Skog
+STR_OBJECT_FOREST_BUY                 :Skogsterrängruta. Lutnings- och snömedveten, med automatiska staket eller buskage runt områden med samma terrängtyp.
 
 STR_CLASS_BLDG                        :Byggnader
 STR_OBJECT_LIGHTHOUSE                 :Fyr
+STR_OBJECT_TRANSMITTER                :Sändare
+STR_OBJECT_SUBSTATION                 :Transformatorstation
+STR_OBJECT_GASOMETER                  :Gasklocka
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Stations & Waypoints
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Stations & Waypoints. Järnvägsstationer och riktmärken i OpenGFX2 stil.{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Riktmärken
 STR_WAYP_RAIL                         :Tågriktmärke
@@ -81,6 +126,7 @@ STR_WAYP_MONORAIL                     :Monorailriktmärke
 STR_WAYP_MAGLEV                       :Maglevriktmärke
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+-spårvagnar
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Trams. Spårvagnar i OpenGFX2 stil.{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1                    :Broom Mk1-spårvagn
 STR_TRAM_NAME_GEN2                    :Manley-Morel 'T'-spårvagn
