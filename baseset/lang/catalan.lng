@@ -7,6 +7,8 @@ STR_GRF_NAME                          :OpenGFX2Base
 STR_GRF_DESCRIPTION                   :{ORANGE}Paquet de gràfics OpenGFX2 Base{BLACK}{}Autor: Zephyris, gràcies a la feina prèvia de l’equip d’OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Paquet de gràfics base d'estil píxel art OpenGFX2 per a l'OpenTTD amb la variant clàssica (nivell de zoom normal 8bpp). Disponible sota els termes de la GNU General Public License version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Paquet de gràfics base d'estil píxel art OpenGFX2 per a l'OpenTTD amb la variant d'alta definició (nivell de zoom extra de 32bpp). Disponible sota els termes de la GNU General Public License version 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :La versió dels paràmetres OpenGFX2 NewGRF i la versió dels paràmetres base OpenGFX són diferents. Això pot resultar en comportaments inesperats!
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Els paràmetres OpenGFX2 NewGRF no es recomanen per a l'OpenTTD 14.0 i superiors. Utilitzeu els paràmetres base!
@@ -77,10 +79,16 @@ STR_PARAM_TREES_TOYLAND_NAME          :Arbres del paisatge de joguines
 STR_PARAM_TREES_TOYLAND_DESC          :Estil d'arbres del paisatge de joguines.
 
 STR_GRF_SETTINGS_NAME                 :Configuració de l'OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Configuració de l'OpenGFX2. Altera els paràmetres que fa servir el GRF addicional OpenGFX2, que permet establir paràmetres GRF addicionals.{BLACK}{}D'en Zephyris, amb l'ajuda de l'equip de l'OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :Paisatges de l'OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Paisatges de l'OpenGFX+. Paisatges de l'estil de l'OpenGFX2.{BLACK}{}D'en Zephyris, amb l'ajuda de l'equip de l'OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_TREES_NAME                    :Arbres de l'OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Arbres de l'OpenGFX+. Arbres de l'estil de l'OpenGFX2.{BLACK}{}D'en Zephyris, amb l'ajuda de l'equip del'OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :Objectes de l'OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Objectes de l'OpenGFX2+. Objectes de l'estil de l'OpenGFX2.{BLACK}{}D'en Zephyris, amb l'ajuda de l'equip de l'OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :Roques
 STR_OBJECT_ROCKS                      :Roques grises
@@ -88,17 +96,30 @@ STR_OBJECT_ROCKS_BLACK                :Roques negres
 STR_OBJECT_ROCKS_DARKGRAY             :Roques gris fosc
 STR_OBJECT_ROCKS_BROWN1               :Roques rogenques
 STR_OBJECT_ROCKS_BROWN2               :Roques marró
+STR_OBJECT_ROCKS_YELLOW               :Roques grogues
+STR_OBJECT_ROCKS_BUY                  :Casella de terreny rocós. Es pot construir en terra ferma, en costes o al mar. Té en compte les inclinacions del terreny i la neu.
 
 STR_CLASS_FLD_                        :Camps
 STR_OBJECT_FIELD                      :Camp
+STR_OBJECT_FIELD_BUY                  :Casella de terreny de camp. Té en compte les inclinacions del terreny i la neu, amb tanques i arbustos al voltant d'àrees amb el mateix tipus de casella.
 STR_OBJECT_COMPANY_BARE               :Terra rasa
+STR_OBJECT_COMPANY_PART1              :Herba curta
+STR_OBJECT_COMPANY_PART2              :Més herba
+STR_OBJECT_COMPANY_GRASS              :Herba
+STR_OBJECT_COMPANY_BUY                :Casella de terreny amb tanques. Té en compte les inclinacions del terreny i la neu, amb tanques del color de la companyia al voltant d'àrees del mateix tipus de casella.
 
 STR_CLASS_FRST                        :Boscos
 STR_OBJECT_FOREST                     :Bosc
+STR_OBJECT_FOREST_BUY                 :Casella de terreny de bosc. Té en compte les inclinacions del terreny i la neu, amb tanques i arbustos al voltant d'àrees amb el mateix tipus de casella.
 
 STR_CLASS_BLDG                        :Edificis
+STR_OBJECT_LIGHTHOUSE                 :Far
+STR_OBJECT_TRANSMITTER                :Antena
+STR_OBJECT_SUBSTATION                 :Subestació
+STR_OBJECT_GASOMETER                  :Gasòmetre
 
 STR_GRF_STATIONS_NAME                 :Estacions i punts de pas de l'OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Estacions i punts de pas de l'OpenGFX+. Estacions de ferrocarril i punts de pas de l'estil de l'OpenGFX2.{BLACK}{}D'en Zephyris, amb l'ajuda de l'equip de l'OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Punts de pas
 STR_WAYP_RAIL                         :Punt de pas de ferrocarril
@@ -106,6 +127,7 @@ STR_WAYP_MONORAIL                     :Punt de pas de monoroail
 STR_WAYP_MAGLEV                       :Punt de pas de maglev
 
 STR_GRF_TRAMS_NAME                    :Tramvies de l'OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Tramvies de l'OpenGFX+. Tramvies de l'estil de l'OpenGFX2.{BLACK}{}D'en Zephyris, amb l'ajuda de l'equip de l'OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1                    :Tramvia Broom Mk1
 STR_TRAM_NAME_GEN2                    :Tramvia Manley-Morel 'T'
