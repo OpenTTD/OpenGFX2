@@ -1,0 +1,139 @@
+##grflangid 0x40
+##plural 0
+STR_GENERAL_DESC                      :Kohinga whakairoiro mātāmua o OpenGFX2 mō OpenTTD. Kei te wātea noa i ngā ture o te GNU General Public License, whakaputanga 2. [OpenGFX2Base]
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
+
+STR_OBG_DESCRIPTION_CLASSIC           :Kohinga whakairoiro toi tongi mātāmua o OpenGFX2 mō OpenTTD, tangongitanga taketake (topa māori 8bpp). Kei te wātea noa i ngā ture o te GNU General Public License, whakaputanga 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Kohinga whakairoiro toi tongi mātāmua o OpenGFX2 mō OpenTTD, tangongitanga arinui (topa tāpiri 32bpp). Kei te wātea noa i ngā ture o te GNU General Public License, whakaputanga 2+. [{STRING}]
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Kāore te whakaputanga o te newGRF tautuhinga o OpenGFX2 i te taurite ki tēnei whakaputanga o te kohinga mātāmua o OpenGFX. Ka kite pea koe i ētahi otinga whanokē!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Ehara i te pai te newGRF ko OpenGFX2 Settings mō OpenTTD 14.0, muri atu rānei. Whakamahia rā ngā tawhā mātāmua!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Tawhā mātāmua
+STR_WARN_SETTINGSGRF_HARDCODED        :Tawhā tūmau
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Tawhā o te newGRF tautuhinga
+
+STR_PARAM_CURSOR_NAME                 :Pehu
+STR_PARAM_CURSOR_DESC                 :Tāera me te kara o te pehu
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Tāera taketake, kōwhai (Taunoa)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Tāera taketake, kiwikiwi
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Tāera o OpenGFX, kōwhai
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Tāera o Windows, mā
+
+STR_PARAM_GRIDLINE_NAME               :Rārangi tukutuku o te whenua
+STR_PARAM_GRIDLINE_DESC               :Mehemea me whakaaria ngā rārangi tukutuku i ngā tapa o ngā papariki whenua me ngā papariki wai
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Rārangi tukutuku i te whenua anake (Taunoa)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Kāore he rārangi tukutuku
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Rārangi tukutuku i te whenua me te wai
+
+STR_PARAM_LOGO_NAME                   :Tāera o te waitohu
+STR_PARAM_LOGO_DESC                   :Tāera o tō OpenTTD waitohu mō te mata taitara
+STR_PARAM_LOGO_VALUE_DEFAULT          :Taunoa
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Rarowhenua
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Pūkoutata
+
+STR_PARAM_VALUE_TEMPERATE             :Hātai
+STR_PARAM_VALUE_ARCTIC                :Makariri
+STR_PARAM_VALUE_TROPICAL              :Wera
+STR_PARAM_VALUE_TOYLAND               :Taonga tākaro
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Hātai (Taunoa)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Makariri (Taunoa)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Wera (Taunoa)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Taonga tākaro (Taunoa)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Hātai (Tāera arokē)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Makariri (Tāera arokē)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Wera (Tāera arokē)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Taonga tākaro (Tāera arokē)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Tumu hātai
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Tāera tumu hei whakamahi i te taiao hātai
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Tumu makariri
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Tāera tumu hei whakamahi i te taiao makariri
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tumu wera
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Tāera tumu hei whakamahi i te taiao wera
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Tumu taonga tākaro
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Tāera tumu hei whakamahi i te taiao taonga tākaro
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :Pātītī hātai
+STR_PARAM_GRASS_TEMPERATE_DESC        :Te tāera pātītī hei whakamahi i te taiao hātai
+STR_PARAM_GRASS_ARCTIC_NAME           :Pātītī makariri
+STR_PARAM_GRASS_ARCTIC_DESC           :Te tāera pātītī hei whakamahi i te taiao makariri
+STR_PARAM_GRASS_TROPICAL_NAME         :Pātītī wera
+STR_PARAM_GRASS_TROPICAL_DESC         :Te tāera pātītī hei whakamahi i te taiao wera
+STR_PARAM_GRASS_TOYLAND_NAME          :Pātītī taonga tākaro
+STR_PARAM_GRASS_TOYLAND_DESC          :Te tāera pātītī hei whakamahi i te taiao taonga tākaro
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Rākau hātai
+STR_PARAM_TREES_TEMPERATE_DESC        :Te tāera rākau hei whakamahi i te taiao hātai
+STR_PARAM_TREES_ARCTIC_NAME           :Rākau makariri
+STR_PARAM_TREES_ARCTIC_DESC           :Te tāera rākau hei whakamahi i te taiao makariri
+STR_PARAM_TREES_TROPICAL_NAME         :Rākau wera
+STR_PARAM_TREES_TROPICAL_DESC         :Te tāera rākau hei whakamahi i te taiao wera (kāore e whakakapi i ngā nīkau me ngā tātātiotio)
+STR_PARAM_TREES_TOYLAND_NAME          :Rākau taonga tākaro
+STR_PARAM_TREES_TOYLAND_DESC          :Te tāera rākau hei whakamahi i te taiao taonga tākaro
+
+STR_GRF_SETTINGS_NAME                 :OpenGFX2 Settings
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Ka whakarerekē i ētahi tawhā e whakamahia ana e te grf tāpiri o OpenGFX2, he mūrere kia tautuhitia ai ngā tawhā grf tāpiri.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landscape
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Whenua i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_TREES_NAME                    :Rākau nō OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Trees. Rākau i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objects
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objects. Mea i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_CLASS_ROCK                        :Toka
+STR_OBJECT_ROCKS                      :Toka kiwikiwi
+STR_OBJECT_ROCKS_BLACK                :Toka pango
+STR_OBJECT_ROCKS_DARKGRAY             :Toka hinauri
+STR_OBJECT_ROCKS_BROWN1               :Toka ura
+STR_OBJECT_ROCKS_BROWN2               :Toka parauri
+STR_OBJECT_ROCKS_YELLOW               :Toka kōwhai
+STR_OBJECT_ROCKS_BUY                  :Papariki whenua tokatoka. Ka taea te hanga ki te whenua, ngā takutai, me te tai. Ka aroā ki ngā tahataha me te hukarere.
+
+STR_CLASS_FLD_                        :Whīra
+STR_OBJECT_FIELD                      :Whīra
+STR_OBJECT_FIELD_BUY                  :Papariki whīra. Ka aroā ki ngā tahataha me te hukarere, ka aunoa ngā taiapa me ngā hēti ina pātata ki tana momo whīra.
+STR_OBJECT_COMPANY_BARE               :Whenua horehore
+STR_OBJECT_COMPANY_PART1              :Pātītī iti
+STR_OBJECT_COMPANY_PART2              :Pātītī nui
+STR_OBJECT_COMPANY_GRASS              :Pātītī
+STR_OBJECT_COMPANY_BUY                :Papariki whenua me tētahi taiapa. Ka aroā ki ngā tahataha me te hukarere, ka aunoa ngā kara o ngā taiapa o ngā umanga ina pātata ki tana momo parariki.
+
+STR_CLASS_FRST                        :Ngahere
+STR_OBJECT_FOREST                     :Ngahere
+STR_OBJECT_FOREST_BUY                 :Papariki ngahere. Ka aroā ki ngā tahataha me te hukarere, ka aunoa ngā taiapa me ngā hēti ina pātata ki tana momo ngahere.
+
+STR_CLASS_BLDG                        :Whare
+STR_OBJECT_LIGHTHOUSE                 :Whare rama
+STR_OBJECT_TRANSMITTER                :Kaituku
+STR_OBJECT_SUBSTATION                 :Teihana mātārua
+STR_OBJECT_GASOMETER                  :Inerehu
+
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Stations & Waypoints
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Stations & Waypoints. Teihana rerewhenua me ētahi aratohu i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_WAYP_CLASS                        :Aratohu
+STR_WAYP_RAIL                         :Aratohu rerewhenua
+STR_WAYP_MONORAIL                     :Aratohu rēra tōtahi
+STR_WAYP_MAGLEV                       :Aratohu rēra autō
+
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Trams
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Trams. Taramu i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_TRAM_NAME_GEN1                    :Taramu Puruma Mk1
+STR_TRAM_NAME_GEN2                    :Taramu Mānare-Marera T
+STR_TRAM_NAME_GEN3                    :Taramu Puruma D1
+STR_TRAM_NAME_GEN4                    :Taramu Puruma Inati
+
+STR_TRAM_NAME_GEN1_TOYL               :Taramu Parareputu
+STR_TRAM_NAME_GEN2_TOYL               :Taramu Kaipōkaha
+STR_TRAM_NAME_GEN3_TOYL               :Taramu Nekekaha
+STR_TRAM_NAME_GEN4_TOYL               :Taramu Witiauē
