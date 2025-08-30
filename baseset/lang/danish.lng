@@ -1,5 +1,6 @@
 ##grflangid 0x2d
 ##plural 0
+STR_GENERAL_DESC                      :OpenGFX2 basisgrafiksæt til OpenTTD. Frit tilgængelig under vilkårene i GNU General Public License version 2. [OpenGFX2Base]
 
 
 
@@ -15,6 +16,7 @@ STR_PARAM_VALUE_ARCTIC                :Arktis
 
 
 
+STR_GRF_SETTINGS_NAME                 :Åbn GFX2 Indstillinger
 
 
 
