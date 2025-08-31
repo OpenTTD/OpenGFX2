@@ -36,6 +36,7 @@ def generate_obg(base_path, type_string):
     update_required = True
 
   # language ids
+  # from https://github.com/OpenTTD/eints/tree/main/stable_languages
   defaultlngid = "0x01"
   lngids = {
     "0x00": "en_US",
@@ -102,7 +103,7 @@ def generate_obg(base_path, type_string):
     "0x3d": "en_AU",
     "0x3e": "tr_TR",
     #0x3f
-    #0x40
+    "0x40": "mi_NZ",
     #0x41
     "0x42": "th_TH",
     #0x43
@@ -217,6 +218,9 @@ def generate_obg(base_path, type_string):
     # write all non-default languages with translations available
     if descriptionstrid is not None:
       for lng in lngs:
+        if lng not in lngids:
+          print("Warning: language id " + lng + " not known, has a new language been added to OTTD/eints? This id should be added.", file=sys.stderr)
+          continue
         if lng != defaultlngid:
           description = lngs[lng][descriptionstrid] if descriptionstrid in lngs[lng] else lngs[defaultlngid][descriptionstrid]
           description = description.replace("{STRING}", descriptionversion)
