@@ -102,7 +102,7 @@ def generate_obg(base_path, type_string):
     "0x3d": "en_AU",
     "0x3e": "tr_TR",
     #0x3f
-    #0x40
+    "0x40": "mi_NZ",
     #0x41
     "0x42": "th_TH",
     #0x43
