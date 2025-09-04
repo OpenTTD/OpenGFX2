@@ -6,6 +6,12 @@ STR_GENERAL_DESC                      :OpenGFX2 basisgrafiksæt til OpenTTD. Fri
 
 
 
+STR_PARAM_CURSOR_NAME                 :Mussemarkør
+STR_PARAM_CURSOR_DESC                 :Stil og farve på mussemarkør.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klassisk-stil, gul (Standard)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klassisk-stil, grå
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-stil, gul
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-stil, hvid
 
 
 
@@ -18,6 +24,8 @@ STR_PARAM_VALUE_ARCTIC                :Arktis
 
 STR_GRF_SETTINGS_NAME                 :Åbn GFX2 Indstillinger
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landskab
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landskab. Landskaber I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 
 
