@@ -78,24 +78,50 @@ STR_PARAM_TREES_TROPICAL_DESC         :Style d'arbre à utiliser dans l'environn
 STR_PARAM_TREES_TOYLAND_NAME          :Arbres de l'environnement «{NBSP}Monde des Jouets{NBSP}»
 STR_PARAM_TREES_TOYLAND_DESC          :Style d'arbre à utiliser dans l'environnement «{NBSP}Monde des Jouets{NBSP}».
 
+STR_GRF_SETTINGS_NAME                 :Paramètres OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Paramètres OpenGFX2. Modifie les paramètres utilisés par les GRF externes à OpenGFX2, permettant de les régler pour les sets de base d'autres GRF.{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :Environnements OpenGFX2+
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Environnements OpenGFX+. Environnements dans le style OpenGFX2.{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :Arbres OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Arbres OpenGFX+. Arbres dans le style OpenGFX2.{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_OBJECTS_NAME                  :Objets OpenGFX2+
 STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Objets OpenGFX2+. Objets dans le style OpenGFX2.{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Rochers
+STR_OBJECT_ROCKS                      :Roches grises
+STR_OBJECT_ROCKS_BLACK                :Roches noires
+STR_OBJECT_ROCKS_DARKGRAY             :Roches gris foncé
+STR_OBJECT_ROCKS_BROWN1               :Roches rouge-brun
+STR_OBJECT_ROCKS_BROWN2               :Roches marron
+STR_OBJECT_ROCKS_YELLOW               :Roches jaunes
 
+STR_CLASS_FLD_                        :Champs
+STR_OBJECT_FIELD                      :Champ
+STR_OBJECT_COMPANY_BARE               :Terre nue
+STR_OBJECT_COMPANY_PART1              :Peu d'herbe
+STR_OBJECT_COMPANY_PART2              :Plus d'herbe
 
+STR_CLASS_FRST                        :Forêts
+STR_OBJECT_FOREST                     :Forêt
 
 STR_CLASS_BLDG                        :Bâtiments
+STR_OBJECT_LIGHTHOUSE                 :Phare
+STR_OBJECT_TRANSMITTER                :Transmetteur
+STR_OBJECT_SUBSTATION                 :Sous-station
+STR_OBJECT_GASOMETER                  :Gazomètre
 
+STR_GRF_STATIONS_NAME                 :Gares et points de contrôle OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Gares et points de contrôle OpenGFX+. Gares et points de contrôle dans le style OpenGFX2.{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Points de contrôle
 STR_WAYP_RAIL                         :Point de contrôle ferroviaire
 STR_WAYP_MONORAIL                     :Point de contrôle de monorail
 STR_WAYP_MAGLEV                       :Point de contrôle de Maglev
 
+STR_GRF_TRAMS_NAME                    :Tramways OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Tramways OpenGFX+. Tramways dans le style OpenGFX2.{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site Internet : {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 

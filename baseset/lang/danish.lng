@@ -3,6 +3,7 @@
 STR_GENERAL_DESC                      :OpenGFX2 basisgrafiksæt til OpenTTD. Frit tilgængelig under vilkårene i GNU General Public License version 2. [OpenGFX2Base]
 
 
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art-stil baseret grafiksæt til OpenTTD, høj definitions-variant (ekstra zoom 32bpp). Frit tilgængeligt under GNU General Public License version 2+. [{STRING}]
 
 
 
@@ -21,6 +22,9 @@ STR_PARAM_VALUE_ARCTIC                :Arktis
 
 
 
+STR_PARAM_TREES_TEMPERATE_DESC        :Træ-stil til brug i det tempereret klima.
+STR_PARAM_TREES_ARCTIC_NAME           :Arktiske træer
+STR_PARAM_TREES_ARCTIC_DESC           :Træ-stil til brug i det arktiske klima.
 
 STR_GRF_SETTINGS_NAME                 :Åbn GFX2 Indstillinger
 
