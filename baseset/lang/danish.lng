@@ -14,6 +14,11 @@ STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klassisk-stil, grå
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-stil, gul
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-stil, hvid
 
+STR_PARAM_GRIDLINE_NAME               :Terræn-gitterlinjer
+STR_PARAM_GRIDLINE_DESC               :Om man skal eller ikke skal vise gitterlinjer på kanten af jord og vand felter.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Kun land-gitterlinjer (Standard)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Ingen gitterlinjer
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Land og vand gitterlinjer
 
 
 STR_PARAM_VALUE_ARCTIC                :Arktis
@@ -21,6 +26,14 @@ STR_PARAM_VALUE_ARCTIC                :Arktis
 
 
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Tempereret græs
+STR_PARAM_GRASS_TEMPERATE_DESC        :Græs-stil til brug i tempereret klima.
+STR_PARAM_GRASS_ARCTIC_NAME           :Arktisk græs
+STR_PARAM_GRASS_ARCTIC_DESC           :Græs-stil til brug i arktisk klima.
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropisk græs
+STR_PARAM_GRASS_TROPICAL_DESC         :Græs stil til brug i det tropiske klima.
+STR_PARAM_GRASS_TOYLAND_NAME          :Legetøjslandgræs
+STR_PARAM_GRASS_TOYLAND_DESC          :Græs-stil til brug i legetøjsland-klimaet.
 
 STR_PARAM_TREES_TEMPERATE_DESC        :Træ-stil til brug i det tempereret klima.
 STR_PARAM_TREES_ARCTIC_NAME           :Arktiske træer
@@ -36,8 +49,11 @@ STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landskab. Landskaber I O
 STR_CLASS_ROCK                        :Kipper
 STR_OBJECT_ROCKS                      :Grå klipper
 STR_OBJECT_ROCKS_BLACK                :Sorte klipper
+STR_OBJECT_ROCKS_DARKGRAY             :Mørkegrå sten
 STR_OBJECT_ROCKS_BROWN1               :Rødbrune klipper
 STR_OBJECT_ROCKS_BROWN2               :Brune klipper
+STR_OBJECT_ROCKS_YELLOW               :Gule sten
+STR_OBJECT_ROCKS_BUY                  :Klippe terrænfelt. Kan blive bygget på land, kyster og havet. Hældning- og sne-bevidst.
 
 STR_CLASS_FLD_                        :Felter
 STR_OBJECT_FIELD                      :Felt
@@ -54,9 +70,13 @@ STR_OBJECT_FOREST_BUY                 :Skovterrænflise. Skrånings- og snebevid
 
 STR_CLASS_BLDG                        :Bygninger
 STR_OBJECT_LIGHTHOUSE                 :Fyrtårn
+STR_OBJECT_TRANSMITTER                :Sender
+STR_OBJECT_SUBSTATION                 :Understation
 STR_OBJECT_GASOMETER                  :Gasometer
 
 
 
 
+STR_TRAM_NAME_GEN1                    :Broom Mk1 Sporvogn
+STR_TRAM_NAME_GEN4                    :Broom Deluxe Sporvogn
 
