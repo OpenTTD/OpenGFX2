@@ -1,0 +1,107 @@
+##grflangid 0x37
+##plural 2
+##gender f m
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
+
+
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Parâmetros do conjunto básico.
+STR_WARN_SETTINGSGRF_HARDCODED        :Parâmetros codificados.
+
+STR_PARAM_CURSOR_NAME                 :Cursor do mouse
+STR_PARAM_CURSOR_DESC                 :Estilo e cor do cursor/ponteiro do mouse.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Estilo clássico, amarelo (Padrão)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Estilo clássico, cinza
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Estilo OpenGFX, amarelo
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Estilo Windows, branco
+
+
+STR_PARAM_LOGO_NAME                   :Estilo do logotipo
+STR_PARAM_LOGO_DESC                   :Estilo do logotipo do OpenTTD para a tela de título.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Padrão
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Streamline
+
+STR_PARAM_VALUE_TEMPERATE             :Temperado
+STR_PARAM_VALUE_ARCTIC                :Ártico
+STR_PARAM_VALUE_TROPICAL              :Tropical
+STR_PARAM_VALUE_TOYLAND               :Terra dos Brinquedos
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Temperado (Padrão)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Ártico (Padrão)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Padrão)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Terra dos Brinquedos (Padrão)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Temperado (Estilo alternativo)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Ártico (Estilo alternativo)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estilo alternativo)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Terra dos Brinquedos (Estilo alternativo)
+
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :Gramado do clima temperado
+STR_PARAM_GRASS_TEMPERATE_DESC        :Estilo de gramado para usar em clima temperado.
+STR_PARAM_GRASS_ARCTIC_NAME           :Gramado ártico
+STR_PARAM_GRASS_ARCTIC_DESC           :Estilo de gramado para usar no clima ártico.
+STR_PARAM_GRASS_TROPICAL_NAME         :Gramado tropical
+STR_PARAM_GRASS_TROPICAL_DESC         :Estilo de gramado para usar no clima tropical.
+STR_PARAM_GRASS_TOYLAND_NAME          :Gramado da terra dos brinquedos
+STR_PARAM_GRASS_TOYLAND_DESC          :Estilo de gramado para usar no clima da terra dos brinquedos.
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Árvores de clima temperado
+STR_PARAM_TREES_TEMPERATE_DESC        :Estilo de árvore para usar em clima temperado.
+STR_PARAM_TREES_ARCTIC_NAME           :Árvores do ártico
+STR_PARAM_TREES_ARCTIC_DESC           :Estilo de árvore para usar no clima ártico.
+STR_PARAM_TREES_TROPICAL_NAME         :Árvores tropicais
+STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árvore para usar em clima tropical (não substitui as palmeiras e os cactos).
+STR_PARAM_TREES_TOYLAND_NAME          :Árvores da terra dos brinquedos
+STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árvore para usar no clima da terra dos brinquedos.
+
+
+
+STR_GRF_TREES_NAME                    :OpenGFX2+ Árvores
+
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objetos
+
+STR_CLASS_ROCK                        :Rocha
+STR_OBJECT_ROCKS                      :Rocha cinza
+STR_OBJECT_ROCKS_BLACK                :Rocha preta
+STR_OBJECT_ROCKS_DARKGRAY             :Rocha cinza escura
+STR_OBJECT_ROCKS_BROWN1               :Rocha marrom-avermelhada
+STR_OBJECT_ROCKS_BROWN2               :Rocha marrom
+STR_OBJECT_ROCKS_YELLOW               :Rocha amarela
+
+STR_CLASS_FLD_                        :Campos
+STR_OBJECT_FIELD                      :Campo
+STR_OBJECT_COMPANY_BARE               :Terra nua
+STR_OBJECT_COMPANY_PART1              :Grama pequena
+STR_OBJECT_COMPANY_PART2              :Mais grama
+STR_OBJECT_COMPANY_GRASS              :Gramado
+
+STR_CLASS_FRST                        :Florestas
+STR_OBJECT_FOREST                     :Floresta
+
+STR_CLASS_BLDG                        :Edifícios
+STR_OBJECT_LIGHTHOUSE                 :Farol
+STR_OBJECT_TRANSMITTER                :Transmissor
+STR_OBJECT_SUBSTATION                 :Subestação
+STR_OBJECT_GASOMETER                  :Gasômetro
+
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Estações e Pontos de Controle
+
+STR_WAYP_CLASS                        :Pontos de Controle
+STR_WAYP_RAIL                         :Ponto de Controle Ferroviário
+STR_WAYP_MONORAIL                     :Ponto de Controle Monotrilho
+STR_WAYP_MAGLEV                       :Ponto de Controle Maglev
+
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Bondes
+
+STR_TRAM_NAME_GEN1                    :Bonde Broom Mk1
+STR_TRAM_NAME_GEN2                    :Bonde Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :Bonde Broom D1
+STR_TRAM_NAME_GEN4                    :Bonde Broom Deluxe
+
+STR_TRAM_NAME_GEN1_TOYL               :Bonde Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Bonde Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Bonde Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Bonde Wizzowow

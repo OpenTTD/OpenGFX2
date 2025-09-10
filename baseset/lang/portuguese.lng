@@ -7,14 +7,14 @@ STR_GRF_NAME                          :OpenGFX2 Base
 STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Conjunto de gráficos base{BLACK}{}De Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Sítio Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
-STR_OBG_DESCRIPTION_CLASSIC           :Conjunto de gráficos base em estilo pixel art OpenGFX2 para OpenTTD, variante clássica (zoom normal de 8 bpp). Disponível gratuitamente nos termos da Licença Pública Geral, GNU versão 2+. [{STRING}]
-STR_OBG_DESCRIPTION_HIGHDEF           :Conjunto de gráficos base em estilo pixel art OpenGFX2 para OpenTTD, variante de alta definição (zoom extra de 32 bpp). Disponível gratuitamente nos termos da Licença Pública Geral, GNU versão 2+.  [{STRING}]
+STR_OBG_DESCRIPTION_CLASSIC           :Conjunto de gráficos base em estilo pixel art OpenGFX2 para OpenTTD, variante clássica (de 8 bpp, para ampliação normal). Disponível livremente nos termos da Licença Pública Geral, GNU versão 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Conjunto de gráficos base em estilo pixel art OpenGFX2 para OpenTTD, variante de alta definição (para ampliação extra de 32 bpp). Disponível livremente nos termos da Licença Pública Geral, GNU versão 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :A versão das configurações NewGRF do OpenGFX2 não corresponde à versão do conjunto base do OpenGFX. Poderá ter resultados inesperados!
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Configurações NewGRF do OpenGFX2 não são recomendadas para o OpenTTD 14.0 e outras versões mais recentes. Recomenda-se a utilização dos parâmetros do conjunto base!
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Parâmetros do conjunto base.
-STR_WARN_SETTINGSGRF_HARDCODED        :Parâmetros em código rígido
+STR_WARN_SETTINGSGRF_HARDCODED        :Parâmetros codificados
 STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Definições dos Parâmetros de NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Cursor do rato
@@ -31,7 +31,7 @@ STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Sem linhas de grelha
 STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Linhas de grelha do solo e da água
 
 STR_PARAM_LOGO_NAME                   :Estilo do logótipo
-STR_PARAM_LOGO_DESC                   :Estilo do logótipo OpenTTD para o ecrã de título.
+STR_PARAM_LOGO_DESC                   :Estilo do logótipo do OpenTTD para o ecrã de título.
 STR_PARAM_LOGO_VALUE_DEFAULT          :Predefinição
 STR_PARAM_LOGO_VALUE_UNDERGROUND      :Subterrâneo
 STR_PARAM_LOGO_VALUE_CABRIOLET        :Aerodinâmico
@@ -60,18 +60,18 @@ STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Estilo de fundação a utilizar no clima 
 STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fundações da terra dos brinquedos
 STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Estilo de fundação a utilizar no clima da terra dos brinquedos.
 
-STR_PARAM_GRASS_TEMPERATE_NAME        :Relva do clima temperado
-STR_PARAM_GRASS_TEMPERATE_DESC        :Estilo de relva para utilizar no clima temperado.
-STR_PARAM_GRASS_ARCTIC_NAME           :Relva árctica
-STR_PARAM_GRASS_ARCTIC_DESC           :Estilo de relva a utilizar no clima ártico.
-STR_PARAM_GRASS_TROPICAL_NAME         :Relva tropical
-STR_PARAM_GRASS_TROPICAL_DESC         :Estilo de relva para utilizar no clima tropical.
-STR_PARAM_GRASS_TOYLAND_NAME          :Relva da terra dos brinquedos
-STR_PARAM_GRASS_TOYLAND_DESC          :Estilo de relva para utilizar no clima da terra dos brinquedos.
+STR_PARAM_GRASS_TEMPERATE_NAME        :Prado do clima temperado
+STR_PARAM_GRASS_TEMPERATE_DESC        :Estilo de prado para utilizar no clima temperado.
+STR_PARAM_GRASS_ARCTIC_NAME           :Prado ártico
+STR_PARAM_GRASS_ARCTIC_DESC           :Estilo de prado a utilizar no clima ártico.
+STR_PARAM_GRASS_TROPICAL_NAME         :Prado tropical
+STR_PARAM_GRASS_TROPICAL_DESC         :Estilo de prado a utilizar no clima tropical.
+STR_PARAM_GRASS_TOYLAND_NAME          :Prado da terra dos brinquedos
+STR_PARAM_GRASS_TOYLAND_DESC          :Estilo de prado a utilizar no clima da terra dos brinquedos.
 
 STR_PARAM_TREES_TEMPERATE_NAME        :Árvores de clima temperado
 STR_PARAM_TREES_TEMPERATE_DESC        :Estilo de árvore a utilizar no clima temperado.
-STR_PARAM_TREES_ARCTIC_NAME           :Árvores árcticas
+STR_PARAM_TREES_ARCTIC_NAME           :Árvores árticas
 STR_PARAM_TREES_ARCTIC_DESC           :Estilo de árvore a utilizar no clima ártico.
 STR_PARAM_TREES_TROPICAL_NAME         :Árvores tropicais
 STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árvore a utilizar no clima tropical (não substitui as palmeiras e os cactos).
@@ -87,8 +87,8 @@ STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Paisagem. Paisagens no e
 STR_GRF_TREES_NAME                    :OpenGFX2+ Árvores
 STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Árvores. Árvores ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
-STR_GRF_OBJECTS_NAME                  :Objectos OpenGFX2+
-STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Objectos OpenGFX2+. Objectos no estilo OpenGFX2.{BLACK}{}Por Zephyris, apoiando-se na equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objetos
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objetos. Objetos no estilo OpenGFX2.{BLACK}{}Por Zephyris, apoiando-se na equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :Rochas
 STR_OBJECT_ROCKS                      :Rochas cinzentas
@@ -97,20 +97,20 @@ STR_OBJECT_ROCKS_DARKGRAY             :Rochas cinzentas escuras
 STR_OBJECT_ROCKS_BROWN1               :Rochas castanho-avermelhadas
 STR_OBJECT_ROCKS_BROWN2               :Rochas castanhas
 STR_OBJECT_ROCKS_YELLOW               :Rochas amarelas
-STR_OBJECT_ROCKS_BUY                  :Mosaico de terreno rochoso. Pode ser construído em terra, costa ou mar. Reconhece a inclinação e a neve.
+STR_OBJECT_ROCKS_BUY                  :Mosaico de terreno rochoso. Pode ser construído em terra, costa ou mar. Adapta-se à inclinação e à neve.
 
 STR_CLASS_FLD_                        :Campos
 STR_OBJECT_FIELD                      :Campo
-STR_OBJECT_FIELD_BUY                  :Mosaico de terreno de campo. Consciente da inclinação e da neve, com cercas ou sebes automáticas à volta de áreas do mesmo tipo de campo.
-STR_OBJECT_COMPANY_BARE               :Terra vazia
-STR_OBJECT_COMPANY_PART1              :Relva pequena
-STR_OBJECT_COMPANY_PART2              :Mais relva
-STR_OBJECT_COMPANY_GRASS              :Relva
-STR_OBJECT_COMPANY_BUY                :Mosaico de terreno vedado. Consciente da inclinação e da neve, com cercas automáticas da cor da empresa à volta de áreas do mesmo tipo de mosaico.
+STR_OBJECT_FIELD_BUY                  :Mosaico de terreno de campo. Adapta-se à inclinação à neve, com cercas ou sebes automáticas à volta de áreas do mesmo tipo de campo.
+STR_OBJECT_COMPANY_BARE               :Terra baldia
+STR_OBJECT_COMPANY_PART1              :Erva pequena
+STR_OBJECT_COMPANY_PART2              :Mais erva
+STR_OBJECT_COMPANY_GRASS              :Prado
+STR_OBJECT_COMPANY_BUY                :Mosaico de terreno vedado. Adapta-se à inclinação e à neve, com cercas automáticas da cor da empresa à volta de áreas do mesmo tipo de mosaico.
 
 STR_CLASS_FRST                        :Florestas
 STR_OBJECT_FOREST                     :Floresta
-STR_OBJECT_FOREST_BUY                 :Mosaico de terreno florestal. Consciente da inclinação e da neve, com cercas ou sebes automáticas à volta de áreas do mesmo tipo de terreno.
+STR_OBJECT_FOREST_BUY                 :Mosaico de terreno florestal. Adapta-se à inclinação e à neve, com cercas ou sebes automáticas à volta de áreas do mesmo tipo de terreno.
 
 STR_CLASS_BLDG                        :Edifícios
 STR_OBJECT_LIGHTHOUSE                 :Farol
@@ -118,13 +118,13 @@ STR_OBJECT_TRANSMITTER                :Transmissor
 STR_OBJECT_SUBSTATION                 :Sub-estação
 STR_OBJECT_GASOMETER                  :Gasómetro
 
-STR_GRF_STATIONS_NAME                 :OpenGFX2+ Estações e Pontos de passagem
-STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Estações e Pontos de passagem. Estações ferroviárias e pontos de passagem ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Estações e Pontos de Controlo
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Estações e Pontos de controlo. Estações ferroviárias e pontos de controlo ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
-STR_WAYP_CLASS                        :Pontos de passagem
-STR_WAYP_RAIL                         :Ponto de passagem ferroviário
-STR_WAYP_MONORAIL                     :Ponto de passagem de monocarril
-STR_WAYP_MAGLEV                       :Ponto de passagem de Maglev
+STR_WAYP_CLASS                        :Pontos de Controlo
+STR_WAYP_RAIL                         :Ponto de Controlo Ferroviário
+STR_WAYP_MONORAIL                     :Ponto de Controlo de Monocarril
+STR_WAYP_MAGLEV                       :Ponto de Controlo Maglev
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ Eléctricos
 STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Eléctricos. Eléctricos ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
