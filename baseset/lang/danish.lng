@@ -5,7 +5,12 @@ STR_GENERAL_DESC                      :OpenGFX2 basisgrafiksæt til OpenTTD. Fri
 
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art-stil baseret grafiksæt til OpenTTD, høj definitions-variant (ekstra zoom 32bpp). Frit tilgængeligt under GNU General Public License version 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Indstillinger NewGRF version passer ikke overens med denne version af OpenGFX basisset. Du vil måske opleve ikke-ventede resultater!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Indstilling NewGRF er ikke anbefalet for OpenTTD 14.0 og senere. Basisparametre er anbefalet i stedet!
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Basisparametre.
+STR_WARN_SETTINGSGRF_HARDCODED        :Faste parametre.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Indstillinger NewGRF parametre.
 
 STR_PARAM_CURSOR_NAME                 :Mussemarkør
 STR_PARAM_CURSOR_DESC                 :Stil og farve på mussemarkør.
@@ -21,9 +26,20 @@ STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Ingen gitterlinjer
 STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Land og vand gitterlinjer
 
 
+STR_PARAM_VALUE_TEMPERATE             :Tempereret
 STR_PARAM_VALUE_ARCTIC                :Arktis
+STR_PARAM_VALUE_TROPICAL              :Tropisk
+STR_PARAM_VALUE_TOYLAND               :Legetøjsland
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Tempereret (Standard)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arktisk (Standard)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropisk (Standard)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Legetøjsland (Standard)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Tempereret (Alternativ stil)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktisk (Alternativ stil)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropisk (Alternativ stil)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Legetøjsland (Alternativ stil)
 
 
 STR_PARAM_GRASS_TEMPERATE_NAME        :Tempereret græs
@@ -78,5 +94,11 @@ STR_OBJECT_GASOMETER                  :Gasometer
 
 
 STR_TRAM_NAME_GEN1                    :Broom Mk1 Sporvogn
+STR_TRAM_NAME_GEN2                    :Manley-Morel 'T' Sporvogn
+STR_TRAM_NAME_GEN3                    :Broom D1 Sporvogn
 STR_TRAM_NAME_GEN4                    :Broom Deluxe Sporvogn
 
+STR_TRAM_NAME_GEN1_TOYL               :Ploddyphut sporvogn
+STR_TRAM_NAME_GEN2_TOYL               :Powernaught Sporvogn
+STR_TRAM_NAME_GEN3_TOYL               :Mightymover Sporvogn
+STR_TRAM_NAME_GEN4_TOYL               :Wizzowow Sporvogn

@@ -101,7 +101,7 @@ STR_OBJECT_ROCKS_BUY                  :Mosaico de terreno rochoso. Pode ser cons
 
 STR_CLASS_FLD_                        :Campos
 STR_OBJECT_FIELD                      :Campo
-STR_OBJECT_FIELD_BUY                  :Mosaico de terreno de campo. Adapta-se à inclinação à neve, com cercas ou sebes automáticas à volta de áreas do mesmo tipo de campo.
+STR_OBJECT_FIELD_BUY                  :Mosaico de terreno de campo. Adapta-se à inclinação e à neve, com cercas ou sebes automáticas à volta de áreas do mesmo tipo de campo.
 STR_OBJECT_COMPANY_BARE               :Terra baldia
 STR_OBJECT_COMPANY_PART1              :Erva pequena
 STR_OBJECT_COMPANY_PART2              :Mais erva
