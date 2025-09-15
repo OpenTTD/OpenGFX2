@@ -33,7 +33,7 @@ STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Linhas de grelha do solo e da água
 STR_PARAM_LOGO_NAME                   :Estilo do logótipo
 STR_PARAM_LOGO_DESC                   :Estilo do logótipo do OpenTTD para o ecrã de título.
 STR_PARAM_LOGO_VALUE_DEFAULT          :Predefinição
-STR_PARAM_LOGO_VALUE_UNDERGROUND      :Subterrâneo
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Metro
 STR_PARAM_LOGO_VALUE_CABRIOLET        :Aerodinâmico
 
 STR_PARAM_VALUE_TEMPERATE             :Temperado

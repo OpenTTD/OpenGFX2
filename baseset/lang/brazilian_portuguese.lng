@@ -21,6 +21,7 @@ STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Estilo Windows, branco
 STR_PARAM_LOGO_NAME                   :Estilo do logotipo
 STR_PARAM_LOGO_DESC                   :Estilo do logotipo do OpenTTD para a tela de título.
 STR_PARAM_LOGO_VALUE_DEFAULT          :Padrão
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Metrô
 STR_PARAM_LOGO_VALUE_CABRIOLET        :Streamline Moderne
 
 STR_PARAM_VALUE_TEMPERATE             :Temperado
