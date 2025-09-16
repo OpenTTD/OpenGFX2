@@ -2,6 +2,8 @@
 ##plural 0
 STR_GENERAL_DESC                      :OpenGFX2 basisgrafiksæt til OpenTTD. Frit tilgængelig under vilkårene i GNU General Public License version 2. [OpenGFX2Base]
 
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Basis Grafiksæt{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art-stil baseret grafiksæt til OpenTTD, høj definitions-variant (ekstra zoom 32bpp). Frit tilgængeligt under GNU General Public License version 2+. [{STRING}]
 
@@ -41,6 +43,14 @@ STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktisk (Alternativ stil)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropisk (Alternativ stil)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Legetøjsland (Alternativ stil)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Tempereret fundamenter
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Fundamentstil til brug i the tempereret klima.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arktisk fundatmenter
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Fundamentstil til brug i the arktiske klima.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropiske fundamenter
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Fundamentstil til brug i det tropiske klima.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Legetøjsland fundamenter
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Fundamentstil til brug i legetøjsland klima.
 
 STR_PARAM_GRASS_TEMPERATE_NAME        :Tempereret græs
 STR_PARAM_GRASS_TEMPERATE_DESC        :Græs-stil til brug i tempereret klima.
@@ -51,16 +61,24 @@ STR_PARAM_GRASS_TROPICAL_DESC         :Græs stil til brug i det tropiske klima.
 STR_PARAM_GRASS_TOYLAND_NAME          :Legetøjslandgræs
 STR_PARAM_GRASS_TOYLAND_DESC          :Græs-stil til brug i legetøjsland-klimaet.
 
+STR_PARAM_TREES_TEMPERATE_NAME        :Tempereret træer
 STR_PARAM_TREES_TEMPERATE_DESC        :Træ-stil til brug i det tempereret klima.
 STR_PARAM_TREES_ARCTIC_NAME           :Arktiske træer
 STR_PARAM_TREES_ARCTIC_DESC           :Træ-stil til brug i det arktiske klima.
+STR_PARAM_TREES_TROPICAL_NAME         :Tropiske træer
+STR_PARAM_TREES_TROPICAL_DESC         :Træ-stil til brug i det tropiske klima (erstatter ikke palmetræer og kaktusser).
+STR_PARAM_TREES_TOYLAND_NAME          :Legetøjsland træer
+STR_PARAM_TREES_TOYLAND_DESC          :Træ-stil til brug i legetøjsland klima.
 
 STR_GRF_SETTINGS_NAME                 :Åbn GFX2 Indstillinger
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Indstillinger. Ændre parametre brugt af OpenGFX2 ekstra grf, hack for at tillade at sætte basissæt ekstra grf parametre.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landskab
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landskab. Landskaber I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objekter
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objekter. Objekter I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :Kipper
 STR_OBJECT_ROCKS                      :Grå klipper
