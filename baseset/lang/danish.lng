@@ -76,6 +76,7 @@ STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Indstillinger. Ændre pa
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landskab
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landskab. Landskaber I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :OpenGFX2+ Træer
 
 STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objekter
 STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objekter. Objekter I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
@@ -108,7 +109,13 @@ STR_OBJECT_TRANSMITTER                :Sender
 STR_OBJECT_SUBSTATION                 :Understation
 STR_OBJECT_GASOMETER                  :Gasometer
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Stationer & Rutepunkt
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Stationer og vejpunkter. Jernbanestationer og vejpunkter i OpenGFX2-stil.{BLACK}{}Af Zephyris, stående på skuldrene af OpenGFX-holdet{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Rutepunkter
+STR_WAYP_RAIL                         :Rail rutepunkt
+STR_WAYP_MONORAIL                     :Monorail rutepunkt
+STR_WAYP_MAGLEV                       :Maglev rutepunkt
 
 
 STR_TRAM_NAME_GEN1                    :Broom Mk1 Sporvogn
