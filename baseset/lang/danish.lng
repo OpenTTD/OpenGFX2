@@ -4,7 +4,9 @@ STR_GENERAL_DESC                      :OpenGFX2 basisgrafiksæt til OpenTTD. Fri
 
 STR_GRF_NAME                          :OpenGFX2Base
 STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Basis Grafiksæt{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 pixelkunst-stil basisgrafiksæt for OpenTTD, klassisk variant (normal zoom 8bpp). Frit tilgængeligt under vilkårene af GNU General Public License version 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art-stil baseret grafiksæt til OpenTTD, høj definitions-variant (ekstra zoom 32bpp). Frit tilgængeligt under GNU General Public License version 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Indstillinger NewGRF version passer ikke overens med denne version af OpenGFX basisset. Du vil måske opleve ikke-ventede resultater!
@@ -27,6 +29,11 @@ STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Kun land-gitterlinjer (Standard)
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Ingen gitterlinjer
 STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Land og vand gitterlinjer
 
+STR_PARAM_LOGO_NAME                   :Logo-stil
+STR_PARAM_LOGO_DESC                   :OpenTTD logo-stil på titelskærmen.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Standard
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Undergrund
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Strømlinjer
 
 STR_PARAM_VALUE_TEMPERATE             :Tempereret
 STR_PARAM_VALUE_ARCTIC                :Arktis
@@ -77,6 +84,7 @@ STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landskab
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landskab. Landskaber I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_TREES_NAME                    :OpenGFX2+ Træer
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Træer. Træer I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objekter
 STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objekter. Objekter I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
@@ -117,6 +125,8 @@ STR_WAYP_RAIL                         :Rail rutepunkt
 STR_WAYP_MONORAIL                     :Monorail rutepunkt
 STR_WAYP_MAGLEV                       :Maglev rutepunkt
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Sporvogne
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Sporvogne. Sporvogne I OpenGFX2-stil.{BLACK}{}Af Zephyris, bygget oven på arbejdet af OpenGFX holdet{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Hjemmeside: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1                    :Broom Mk1 Sporvogn
 STR_TRAM_NAME_GEN2                    :Manley-Morel 'T' Sporvogn
