@@ -103,6 +103,7 @@ STR_OBJECT_FIELD                      :Champ
 STR_OBJECT_COMPANY_BARE               :Terre nue
 STR_OBJECT_COMPANY_PART1              :Peu d'herbe
 STR_OBJECT_COMPANY_PART2              :Plus d'herbe
+STR_OBJECT_COMPANY_GRASS              :Herbe
 
 STR_CLASS_FRST                        :Forêts
 STR_OBJECT_FOREST                     :Forêt
@@ -124,4 +125,12 @@ STR_WAYP_MAGLEV                       :Point de contrôle de Maglev
 STR_GRF_TRAMS_NAME                    :Tramways OpenGFX2+
 STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Tramways OpenGFX+. Tramways dans le style OpenGFX2.{BLACK}{}Par Zephyris, s'appuyant sur les bases de l'équipe OpenGFX{}{BLACK}Licence : {SILVER}GPL v2+{}{BLACK}Site web : {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Tram Broom I
+STR_TRAM_NAME_GEN2                    :Tram Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :Tram Broom D1
+STR_TRAM_NAME_GEN4                    :Tram Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Tram Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Tram Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tram Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tram Wizzowow
