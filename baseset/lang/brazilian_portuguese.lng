@@ -1,14 +1,21 @@
 ##grflangid 0x37
 ##plural 2
 ##gender f m
+STR_GENERAL_DESC                      :Conjunto de gráficos base OpenGFX2 para OpenTTD. Disponível gratuitamente sob os termos da Licença Pública Geral GNU versão 2. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Conjunto de gráficos base{BLACK}{}De Zephyris, apoiado na equipe OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Conjunto de gráficos base em estilo pixel art OpenGFX2 para OpenTTD, variante clássica (de 8 bpp, para ampliação normal). Disponível gratuitamente sob os termos da Licença Pública Geral, GNU versão 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Conjunto de gráficos base em estilo pixel art OpenGFX2 para OpenTTD, variante de alta definição (para ampliação extra de 32 bpp). Disponível gratuitamente sob os termos da Licença Pública Geral, GNU versão 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :A versão das configurações NewGRF do OpenGFX2 não corresponde à versão do conjunto base do OpenGFX. Poderá ter resultados inesperados!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Configurações NewGRF do OpenGFX2 não são recomendadas para o OpenTTD 14.0 e outras versões mais recentes. Recomenda-se a utilização dos parâmetros do conjunto base!
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Parâmetros do conjunto básico.
 STR_WARN_SETTINGSGRF_HARDCODED        :Parâmetros codificados.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Definições dos parâmetros de NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Cursor do mouse
 STR_PARAM_CURSOR_DESC                 :Estilo e cor do cursor/ponteiro do mouse.
@@ -17,6 +24,11 @@ STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Estilo clássico, cinza
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Estilo OpenGFX, amarelo
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Estilo Windows, branco
 
+STR_PARAM_GRIDLINE_NAME               :Linhas de grade do terreno
+STR_PARAM_GRIDLINE_DESC               :Mostrar ou não linhas de grelha nas margens dos mosaicos de solo e água.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Somente linhas de grade de solo (Padrão)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Sem linhas de grade
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Linhas de grade de solo e água
 
 STR_PARAM_LOGO_NAME                   :Estilo do logotipo
 STR_PARAM_LOGO_DESC                   :Estilo do logotipo do OpenTTD para a tela de título.
@@ -39,6 +51,14 @@ STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Ártico (Estilo alternativo)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estilo alternativo)
 STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Terra dos Brinquedos (Estilo alternativo)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Fundações do clima temperado
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Estilo de fundação para usar no clima temperado.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Fundações do Ártico
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Estilo de fundação para uso no clima ártico.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Fundações tropicais
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Estilo de fundação para usar no clima tropical.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fundações da Toyland
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Estilo de fundação para usar no clima da toyland.
 
 STR_PARAM_GRASS_TEMPERATE_NAME        :Gramado do clima temperado
 STR_PARAM_GRASS_TEMPERATE_DESC        :Estilo de gramado para usar em clima temperado.
@@ -58,11 +78,17 @@ STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árvore para usar em clima trop
 STR_PARAM_TREES_TOYLAND_NAME          :Árvores da terra dos brinquedos
 STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árvore para usar no clima da terra dos brinquedos.
 
+STR_GRF_SETTINGS_NAME                 :Configurações de OpenGFX2
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Configurações do OpenGFX2. Altera os parâmetros utilizados pelo grf extra do OpenGFX2, hack para permitir a definição dos parâmetros do grf extra do conjunto base.{BLACK}{}Por Zephyris, apoiando-se na equipe do OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Paisagem
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Paisagem. Paisagens no estilo OpenGFX2.{BLACK}{}Por Zephyris, apoiado pela equipe OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site:{SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_TREES_NAME                    :OpenGFX2+ Árvores
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Árvores. Árvores no estilo do OpenGFX2. {BLACK}{}Por Zephyris, que apoia-se na equipe OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objetos
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objetos. Objetos no estilo OpenGFX2.{BLACK}{}Por Zephyris, apoiado na equipe OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :Rocha
 STR_OBJECT_ROCKS                      :Rocha cinza
@@ -71,16 +97,20 @@ STR_OBJECT_ROCKS_DARKGRAY             :Rocha cinza escura
 STR_OBJECT_ROCKS_BROWN1               :Rocha marrom-avermelhada
 STR_OBJECT_ROCKS_BROWN2               :Rocha marrom
 STR_OBJECT_ROCKS_YELLOW               :Rocha amarela
+STR_OBJECT_ROCKS_BUY                  :Terreno rochoso. Pode ser construído em terra, no litoral ou no mar. Resistente a declives e neve.
 
 STR_CLASS_FLD_                        :Campos
 STR_OBJECT_FIELD                      :Campo
+STR_OBJECT_FIELD_BUY                  :Terreno de campo. Declive e neve, com cercas ou sebes automáticas ao redor de áreas do mesmo tipo de campo.
 STR_OBJECT_COMPANY_BARE               :Terra nua
 STR_OBJECT_COMPANY_PART1              :Grama pequena
 STR_OBJECT_COMPANY_PART2              :Mais grama
 STR_OBJECT_COMPANY_GRASS              :Gramado
+STR_OBJECT_COMPANY_BUY                :Terreno cercado com ladrilhos. Resistente à inclinação e à neve, com cercas automáticas da cor da empresa em torno de áreas do mesmo tipo de ladrilho.
 
 STR_CLASS_FRST                        :Florestas
 STR_OBJECT_FOREST                     :Floresta
+STR_OBJECT_FOREST_BUY                 :Terreno florestal. Declive e sensível à neve, com cercas ou sebes automáticas ao redor de áreas do mesmo tipo de campo.
 
 STR_CLASS_BLDG                        :Edifícios
 STR_OBJECT_LIGHTHOUSE                 :Farol
@@ -89,6 +119,7 @@ STR_OBJECT_SUBSTATION                 :Subestação
 STR_OBJECT_GASOMETER                  :Gasômetro
 
 STR_GRF_STATIONS_NAME                 :OpenGFX2+ Estações e Pontos de Controle
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Estações e Pontos de controle. Estações ferroviárias e pontos de controle no estilo do OpenGFX2. {BLACK}{}Por Zephyris, que apoia-se na equipe OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Pontos de Controle
 STR_WAYP_RAIL                         :Ponto de Controle Ferroviário
@@ -96,6 +127,7 @@ STR_WAYP_MONORAIL                     :Ponto de Controle Monotrilho
 STR_WAYP_MAGLEV                       :Ponto de Controle Maglev
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ Bondes
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Bondes. Bondes no estilo do OpenGFX2. {BLACK}{}Por Zephyris, que apoia-se na equipe OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1                    :Bonde Broom Mk1
 STR_TRAM_NAME_GEN2                    :Bonde Manley-Morel 'T'
