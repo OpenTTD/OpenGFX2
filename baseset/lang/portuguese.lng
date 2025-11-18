@@ -14,7 +14,7 @@ STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :A versão das configurações NewGRF do O
 STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Configurações NewGRF do OpenGFX2 não são recomendadas para o OpenTTD 14.0 e outras versões mais recentes. Recomenda-se a utilização dos parâmetros do conjunto base!
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Parâmetros do conjunto base.
-STR_WARN_SETTINGSGRF_HARDCODED        :Parâmetros codificados
+STR_WARN_SETTINGSGRF_HARDCODED        :Parâmetros codificados.
 STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Definições dos Parâmetros de NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Cursor do rato
