@@ -709,6 +709,27 @@ template template_bridgeramps_wood(x, y, z) {
 	[   1*z+x*z, 1*z+y*z, 64*z, 47*z-1, -31*z, -24*z ]
 }
 
+// Template bridges: extra deck overlays
+template template_bridgedeckoverlay_general(x, y, z) {
+	[   1*z+x*z, 1*z+y*z, 64*z, 47*z-1, -31*z, -16*z ]
+	[ 131*z+x*z, 1*z+y*z, 64*z, 47*z-1, -31*z, -16*z ]
+
+	[ 261*z+x*z, 1*z+y*z, 64*z, 55*z-1, -31*z, -24*z ]
+	[ 456*z+x*z, 1*z+y*z, 64*z, 55*z-1, -31*z, -24*z ]
+	[ 326*z+x*z, 1*z+y*z, 64*z, 55*z-1, -31*z, -24*z ]
+	[ 391*z+x*z, 1*z+y*z, 64*z, 55*z-1, -31*z, -24*z ]
+}
+
+template template_bridgedeckoverlay_road(x, y, z) {
+	[ 131*z+x*z, 1*z+y*z, 64*z, 47*z-1, -31*z, -16*z ]
+	[   1*z+x*z, 1*z+y*z, 64*z, 47*z-1, -31*z, -16*z ]
+
+	[ 261*z+x*z, 1*z+y*z, 64*z, 55*z-1, -31*z, -24*z ]
+	[ 456*z+x*z, 1*z+y*z, 64*z, 55*z-1, -31*z, -24*z ]
+	[ 326*z+x*z, 1*z+y*z, 64*z, 55*z-1, -31*z, -24*z ]
+	[ 391*z+x*z, 1*z+y*z, 64*z, 55*z-1, -31*z, -24*z ]
+}
+
 // Template bridges: simple/core bridges
 template template_bridge_single_rear(x, y, z) {
 	[  1*z+x*z, 1*z+y*z, 64*z, 128*z-1, -31*z, -84*z ]
