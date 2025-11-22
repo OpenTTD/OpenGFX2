@@ -1,0 +1,37 @@
+// Bridge decks for overlay on NewGRF bridges
+if (climate != CLIMATE_TOYLAND) {
+    replacenew bridge_decks_spr0(BRIDGE_DECKS, "../graphics/bridges/64/pygen/ramps_deckonly_rail_8bpp.png", 0) { template_bridgedeckoverlay_general(0, 0, 1) }
+    #ez alternative_sprites(bridge_decks_spr0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/bridges/256/pygen/ramps_deckonly_rail_8bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    #32 alternative_sprites(bridge_decks_spr0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/bridges/64/pygen/ramps_deckonly_rail_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 1) }
+    #32 #ez alternative_sprites(bridge_decks_spr0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/bridges/256/pygen/ramps_deckonly_rail_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    replacenew bridge_decks_spr6(BRIDGE_DECKS, "../graphics/bridges/64/pygen/ramps_deckonly_monorail_8bpp.png", 6) { template_bridgedeckoverlay_general(0, 0, 1) }
+    #ez alternative_sprites(bridge_decks_spr6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/bridges/256/pygen/ramps_deckonly_monorail_8bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    #32 alternative_sprites(bridge_decks_spr6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/bridges/64/pygen/ramps_deckonly_monorail_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 1) }
+    #32 #ez alternative_sprites(bridge_decks_spr6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/bridges/256/pygen/ramps_deckonly_monorail_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    replacenew bridge_decks_spr12(BRIDGE_DECKS, "../graphics/bridges/64/pygen/ramps_deckonly_maglev_8bpp.png", 12) { template_bridgedeckoverlay_general(0, 0, 1) }
+    #ez alternative_sprites(bridge_decks_spr12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/bridges/256/pygen/ramps_deckonly_maglev_8bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    #32 alternative_sprites(bridge_decks_spr12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/bridges/64/pygen/ramps_deckonly_maglev_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 1) }
+    #32 #ez alternative_sprites(bridge_decks_spr12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/bridges/256/pygen/ramps_deckonly_maglev_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    replacenew bridge_decks_spr18(BRIDGE_DECKS, "../graphics/bridges/64/pygen/ramps_deckonly_road_8bpp.png", 18) { template_bridgedeckoverlay_road(0, 0, 1) }
+    #ez alternative_sprites(bridge_decks_spr18, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/bridges/256/pygen/ramps_deckonly_road_8bpp.png") { template_bridgedeckoverlay_road(0, 0, 4) }
+    #32 alternative_sprites(bridge_decks_spr18, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/bridges/64/pygen/ramps_deckonly_road_bt32bpp.png") { template_bridgedeckoverlay_road(0, 0, 1) }
+    #32 #ez alternative_sprites(bridge_decks_spr18, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/bridges/256/pygen/ramps_deckonly_road_bt32bpp.png") { template_bridgedeckoverlay_road(0, 0, 4) }
+}
+if (climate == CLIMATE_TOYLAND) {
+    replacenew bridge_decks_toyland_spr0(BRIDGE_DECKS, "../graphics/bridges/64/pygen/ramps_deckonly_toyland_rail_8bpp.png", 0) { template_bridgedeckoverlay_general(0, 0, 1) }
+    #ez alternative_sprites(bridge_decks_toyland_spr0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/bridges/256/pygen/ramps_deckonly_toyland_rail_8bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    #32 alternative_sprites(bridge_decks_toyland_spr0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/bridges/64/pygen/ramps_deckonly_toyland_rail_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 1) }
+    #32 #ez alternative_sprites(bridge_decks_toyland_spr0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/bridges/256/pygen/ramps_deckonly_toyland_rail_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    replacenew bridge_decks_toyland_spr6(BRIDGE_DECKS, "../graphics/bridges/64/pygen/ramps_deckonly_toyland_monorail_8bpp.png", 6) { template_bridgedeckoverlay_general(0, 0, 1) }
+    #ez alternative_sprites(bridge_decks_toyland_spr6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/bridges/256/pygen/ramps_deckonly_toyland_monorail_8bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    #32 alternative_sprites(bridge_decks_toyland_spr6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/bridges/64/pygen/ramps_deckonly_toyland_monorail_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 1) }
+    #32 #ez alternative_sprites(bridge_decks_toyland_spr6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/bridges/256/pygen/ramps_deckonly_toyland_monorail_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    replacenew bridge_decks_toyland_spr12(BRIDGE_DECKS, "../graphics/bridges/64/pygen/ramps_deckonly_toyland_maglev_8bpp.png", 12) { template_bridgedeckoverlay_general(0, 0, 1) }
+    #ez alternative_sprites(bridge_decks_toyland_spr12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/bridges/256/pygen/ramps_deckonly_toyland_maglev_8bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    #32 alternative_sprites(bridge_decks_toyland_spr12, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/bridges/64/pygen/ramps_deckonly_toyland_maglev_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 1) }
+    #32 #ez alternative_sprites(bridge_decks_toyland_spr12, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/bridges/256/pygen/ramps_deckonly_toyland_maglev_bt32bpp.png") { template_bridgedeckoverlay_general(0, 0, 4) }
+    replacenew bridge_decks_toyland_spr18(BRIDGE_DECKS, "../graphics/bridges/64/pygen/ramps_deckonly_toyland_road_8bpp.png", 18) { template_bridgedeckoverlay_road(0, 0, 1) }
+    #ez alternative_sprites(bridge_decks_toyland_spr18, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/bridges/256/pygen/ramps_deckonly_toyland_road_8bpp.png") { template_bridgedeckoverlay_road(0, 0, 4) }
+    #32 alternative_sprites(bridge_decks_toyland_spr18, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/bridges/64/pygen/ramps_deckonly_toyland_road_bt32bpp.png") { template_bridgedeckoverlay_road(0, 0, 1) }
+    #32 #ez alternative_sprites(bridge_decks_toyland_spr18, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/bridges/256/pygen/ramps_deckonly_toyland_road_bt32bpp.png") { template_bridgedeckoverlay_road(0, 0, 4) }
+}
