@@ -1,5 +1,47 @@
 # OpenGFX2 Changelog
 
+## v0.8
+Base set:
+
+* Sprites for new OpenTTD features
+    * Bridge deck overlays
+    * City and town icons for sprite font
+    * Left-pointing arrow to sprite font
+    * Vertical ellipsis used for badges menu (#196)
+* Graphics improvements
+    * Less repetitive toyland terrain style
+    * Sharper gridlines (#169)
+    * Revamped and 4x zoom underground-style logo
+    * 4x zoom streamliner logo
+    * Clearer NewGRF download list checkmark (#188)
+    * Toyland river slope rocks
+    * Improve water strobing and snow dither zoom out optimisations (#158)
+* Translation
+    * Numerous translations via eints
+    * More gracefully handle unknown language IDs and add Maori
+    * Consolidate string definitions to allow future NewGRF translation (#187)
+    * Avoid string concatenation for baseset description for better translation (#174)
+* Minor fixes
+    * Set background of endgame graphics to 0x69 dark brown
+    * Make cargo icons 10px tall to match normal font
+    * Correct sprite font offset and clipping errors
+    * Add missing baseset obg file url metadata
+    * Add missing tall office block ground tiles (#185)
+    * Add toyland rail tunnel icon (#182)
+    * Fix track orientation for monorail level crossing (#183)
+    * Fix cursors, caps lock and backspace on-screen keyboard icons (#166)
+    * Tidy river tile shapes
+    * Include 2x zoom tunnel icons in Classic baseset (#157)
+    * Farm field fence/hedge offsets to remain within tile
+    * Remove whole-tile flicker in toyland canal water animation
+    * Improve internal graphics and coding docs
+    * Incorrect image for 4x zoom 8bpp sprite for spr1545 (#168)
+
+High Def base set:
+* Graphics improvements
+    * Fix 4x zoom water gridlines
+    * Add various 4x zoom temperate town buildings
+
 ## v0.7
 Base set:
 * Redrawn 1x zoom train, monorail and maglev wagons.

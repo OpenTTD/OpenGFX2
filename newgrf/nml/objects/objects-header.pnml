@@ -3,7 +3,7 @@ grf {
 	name: string(STR_GRF_OBJECTS_NAME);
 	desc: string(STR_GRF_OBJECTS_DESCRIPTION);
 	url:  string(STR_GRF_URL);
-	version: 7;
+	version: 8;
 	min_compatible_version: version_openttd(1, 3, 0);
 }
 
