@@ -158,7 +158,7 @@ def generate_obg(base_path, type_string):
 
   # general, non-translateable, version string
   # version, never translated
-  descriptionversion = "OpenGFX2 0.7 " + typeshort
+  descriptionversion = "OpenGFX2 0.8 " + typeshort
   # used for the origin string
   descriptionorigin = "Available from the in-game content download system (BaNaNaS) or https://github.com/OpenTTD/OpenGFX2/"
   # fallback description for non-standard zoom and bit depth combinations, should never be in player-facing standard builds

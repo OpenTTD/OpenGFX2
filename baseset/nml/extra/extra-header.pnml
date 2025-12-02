@@ -4,7 +4,7 @@ grf {
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
 	url: string(STR_GRF_URL);
-	version: 7;
+	version: 8;
 	min_compatible_version: version_openttd(1, 3, 0);
 	param 1 {
 		param_cursors_ {
@@ -305,7 +305,7 @@ if (openttd_version < version_openttd(14, 0)) {
 if (grf_future_status("OGZ\1")==1) {
 	//error(WARNING, string(STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM));
 	// Check settings grf version, and warn if it's not the expected version to match this version of the base set
-	if (param["OGZ\1", 254]!=7) {
+	if (param["OGZ\1", 254]!=8) {
 		error(WARNING, string(STR_WARN_SETTINGSGRF_VERSIONMISMATCH));
 	}
 	// Check OpenTTD version, and warn if it's recommended to use base set parameters instead of the settings grf
