@@ -40,9 +40,7 @@ OpenGFX2 has graphical user preferences. These can be configured in `Game Option
 
 If you instead want for force a game or server to use OpenGFX2 graphics you can use the OpenGFX2 NewGRFs.
 
-Prior to OpenTTD 14.0 (specifically nightlies prior to 30/10/2023 or before Github commit e81313e) OpenTTD did not have a way to configure base set parameters. The `OpenGFX2 Settings` NewGRF provides a workaround: Go to `NewGRF Settings`, find `OpenGFX2 Settings` and add to `Active NewGRF files`. Then, select `OpenGFX2 Settings` in the `Active NewGRF files list` and select `Set parameters` then adjust the settings.
-
-Install other NewGRFs as normal using `NewGRF settings`.
+Install NewGRFs as normal using `NewGRF settings`.
 
 ## Building
 If you wish to build your own version of OpenGFX2 instead of using our prebuilt version, you can follow [these instructions](docs/building-opengfx2.md).
