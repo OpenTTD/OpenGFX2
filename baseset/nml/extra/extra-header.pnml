@@ -300,32 +300,3 @@ if (openttd_version < version_openttd(14, 0)) {
 	param_trees_tropical = param_trees_tropical_;
 	param_trees_toyland = param_trees_toyland_;
 }
-
-// Check if the settings grf will be loaded, and load from its parameter values
-if (grf_future_status("OGZ\1")==1) {
-	//error(WARNING, string(STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM));
-	// Check settings grf version, and warn if it's not the expected version to match this version of the base set
-	if (param["OGZ\1", 254]!=8) {
-		error(WARNING, string(STR_WARN_SETTINGSGRF_VERSIONMISMATCH));
-	}
-	// Check OpenTTD version, and warn if it's recommended to use base set parameters instead of the settings grf
-	if (openttd_version >= version_openttd(14, 0)) {
-		error(WARNING, string(STR_WARN_SETTINGSGRF_NOTRECOMMENDED));
-	}
-	// Load parameters from settings grf
-	param_cursors = param["OGZ\1", 1];
-	param_gridlines = param["OGZ\1", 2];
-	param_logos = param["OGZ\1", 3];
-	param_foundations_temperate = param["OGZ\1", 11];
-	param_foundations_arctic = param["OGZ\1", 21];
-	param_foundations_tropical = param["OGZ\1", 31];
-	param_foundations_toyland = param["OGZ\1", 41];
-	param_grass_temperate = param["OGZ\1", 10];
-	param_grass_arctic = param["OGZ\1", 20];
-	param_grass_tropical = param["OGZ\1", 30];
-	param_grass_toyland = param["OGZ\1", 40];
-	param_trees_temperate = param["OGZ\1", 12];
-	param_trees_arctic = param["OGZ\1", 22];
-	param_trees_tropical = param["OGZ\1", 32];
-	param_trees_toyland = param["OGZ\1", 42];
-}

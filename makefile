@@ -106,7 +106,7 @@ baseset/%_32ez.grf: graphics_4 baseset/lang/*.lng FORCE
 
 # NewGRFs
 .PHONY: newgrf
-NEWGRFS = landscape objects settings stations trees trams
+NEWGRFS = landscape objects stations trees trams
 newgrf: $(foreach grf,$(NEWGRFS),newgrf/ogfx2_$(grf).grf)
 
 # GRF, via NML intermediate, for NewGRFs
