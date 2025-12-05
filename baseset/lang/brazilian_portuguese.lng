@@ -122,9 +122,9 @@ STR_GRF_STATIONS_NAME                 :OpenGFX2+ Estações e Pontos de Controle
 STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Estações e Pontos de controle. Estações ferroviárias e pontos de controle no estilo do OpenGFX2. {BLACK}{}Por Zephyris, que apoia-se na equipe OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Pontos de Controle
-STR_WAYP_RAIL                         :Ponto de Controle Ferroviário
-STR_WAYP_MONORAIL                     :Ponto de Controle Monotrilho
-STR_WAYP_MAGLEV                       :Ponto de Controle Maglev
+STR_WAYP_RAIL                         :Ponto de controle ferroviário
+STR_WAYP_MONORAIL                     :Ponto de controle monotrilho
+STR_WAYP_MAGLEV                       :Ponto de controle Maglev
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ Bondes
 STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Bondes. Bondes no estilo do OpenGFX2. {BLACK}{}Por Zephyris, que apoia-se na equipe OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Site: {SILVER}https://github.com/OpenTTD/OpenGFX2

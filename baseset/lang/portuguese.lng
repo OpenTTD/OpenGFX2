@@ -92,12 +92,12 @@ STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objetos. Objetos no est
 
 STR_CLASS_ROCK                        :Rochas
 STR_OBJECT_ROCKS                      :Rochas cinzentas
-STR_OBJECT_ROCKS_BLACK                :Rochas negras
+STR_OBJECT_ROCKS_BLACK                :Rochas pretas
 STR_OBJECT_ROCKS_DARKGRAY             :Rochas cinzentas escuras
 STR_OBJECT_ROCKS_BROWN1               :Rochas castanho-avermelhadas
 STR_OBJECT_ROCKS_BROWN2               :Rochas castanhas
 STR_OBJECT_ROCKS_YELLOW               :Rochas amarelas
-STR_OBJECT_ROCKS_BUY                  :Mosaico de terreno rochoso. Pode ser construído em terra, costa ou mar. Adapta-se à inclinação e à neve.
+STR_OBJECT_ROCKS_BUY                  :Mosaico de terreno rochoso. Pode ser colocado em terra, na costa ou mar. Adapta-se à inclinação e à neve.
 
 STR_CLASS_FLD_                        :Campos
 STR_OBJECT_FIELD                      :Campo
@@ -122,9 +122,9 @@ STR_GRF_STATIONS_NAME                 :OpenGFX2+ Estações e Pontos de Controlo
 STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Estações e Pontos de controlo. Estações ferroviárias e pontos de controlo ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Pontos de Controlo
-STR_WAYP_RAIL                         :Ponto de Controlo Ferroviário
-STR_WAYP_MONORAIL                     :Ponto de Controlo de Monocarril
-STR_WAYP_MAGLEV                       :Ponto de Controlo Maglev
+STR_WAYP_RAIL                         :Ponto de controlo ferroviário
+STR_WAYP_MONORAIL                     :Ponto de controlo de monocarril
+STR_WAYP_MAGLEV                       :Ponto de controlo Maglev
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ Eléctricos
 STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Eléctricos. Eléctricos ao estilo do OpenGFX2. {BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
