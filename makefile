@@ -1,17 +1,35 @@
-# Always run version detection, so we always have an accurate modified
-# flag
+# Version reported to users
+USER_VERSION := 0.8
+
+# Always run version detection, so we always have an accurate modified flag
 REPO_VERSIONS := $(shell AWK="$(AWK)" "./findversion.sh")
 REPO_MODIFIED := $(shell echo "$(REPO_VERSIONS)" | cut -f 3 -d'	')
-
 # Use autodetected revisions
 REPO_VERSION := $(shell echo "$(REPO_VERSIONS)" | cut -f 1 -d'	')
 REPO_DATE := $(shell echo "$(REPO_VERSIONS)" | cut -f 2 -d'	')
 REPO_HASH := $(shell echo "$(REPO_VERSIONS)" | cut -f 4 -d'	')
 
-# Versions
-# nice user-facing version naming
+# File naming version
 NAMING_VERSION := $(REPO_VERSION)
 NAMING_CDN := opengfx2_classic
+# Version reported to OpenTTD, days since 2000
+BASESET_VERSION := $(shell python3 -c "from datetime import date; d='$(REPO_DATE)'; print((date(int(d[:4]),int(d[4:6]),int(d[6:8]))-date(2000,1,1)).days)")
+
+# Version information target, write if changed so that dependent targets can be updated based on changes
+makefile.vcs: FORCE
+	echo "REPO_HASH = $(REPO_HASH)" > $@.new
+	echo "REPO_DATE = $(REPO_DATE)" >> $@.new
+	echo "REPO_VERSION = $(REPO_VERSION)" >> $@.new
+	echo "BASESET_VERSION = $(BASESET_VERSION)" >> $@.new
+	echo "USER_VERSION = $(USER_VERSION)" >> $@.new
+	echo "NAMING_VERSION = $(NAMING_VERSION)" >> $@.new
+	echo "NAMING_CDN = $(NAMING_CDN)" >> $@.new
+	cmp -s $@.new $@ || mv $@.new $@
+	rm -f $@.new
+
+.PHONY: clean_version
+clean_version:
+	rm -f makefile.vcs
 
 # Default target
 .PHONY: all
@@ -20,24 +38,24 @@ all: baseset baseset_highdef newgrf
 # Basesets
 # "Classic" 8bpp 1x zoom baseset
 .PHONY: baseset
-baseset: baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip
+baseset: baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip makefile.vcs
 
-baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip: baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar
+baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip: baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar makefile.vcs
 	cd baseset && zip -9 -r OpenGFX2_Classic-$(NAMING_VERSION).zip OpenGFX2_Classic-$(NAMING_VERSION).tar
 
 # "High Def" 32bpp 4x zoom baseset
 .PHONY: baseset_highdef
-baseset_highdef: baseset/OpenGFX2_HighDef-$(NAMING_VERSION).zip
+baseset_highdef: baseset/OpenGFX2_HighDef-$(NAMING_VERSION).zip makefile.vcs
 
-baseset/OpenGFX2_HighDef-$(NAMING_VERSION).zip: baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar
+baseset/OpenGFX2_HighDef-$(NAMING_VERSION).zip: baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar makefile.vcs
 	cd baseset && zip -9 -r OpenGFX2_HighDef-$(NAMING_VERSION).zip OpenGFX2_HighDef-$(NAMING_VERSION).tar
 
 # Base set packaging
-.PRECIOUS: OpenGFX2_Classic-$(NAMING_VERSION).tar OpenGFX2_HighDef-$(NAMING_VERSION).tar
+.PRECIOUS: OpenGFX2_Classic-$(NAMING_VERSION).tar OpenGFX2_HighDef-$(NAMING_VERSION).tar makefile.vcs
 BASESET_GRFS = ogfx2c_arctic ogfx2e_extra ogfx2h_tropical ogfx2i_logos ogfx2t_toyland ogfx21_base
 BASESET_DOCS = README.md LICENSE CHANGELOG.md
 
-baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar: baseset/opengfx2_8.obg $(BASESET_DOCS) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.grf)
+baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar: baseset/opengfx2_8.obg $(BASESET_DOCS) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.grf) makefile.vcs
 	mkdir -p baseset/OpenGFX2_Classic-$(NAMING_VERSION)
 	cp README.md baseset/OpenGFX2_Classic-$(NAMING_VERSION)/readme.md
 	cp LICENSE baseset/OpenGFX2_Classic-$(NAMING_VERSION)/license.txt
@@ -47,7 +65,7 @@ baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar: baseset/opengfx2_8.obg $(BASESET
 	cd baseset && tar -cf OpenGFX2_Classic-$(NAMING_VERSION).tar OpenGFX2_Classic-$(NAMING_VERSION)/
 	rm -r baseset/OpenGFX2_Classic-$(NAMING_VERSION)
 
-baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar: baseset/opengfx2_32ez.obg $(BASESET_DOCS) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf)
+baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar: baseset/opengfx2_32ez.obg $(BASESET_DOCS) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf) makefile.vcs
 	mkdir -p baseset/OpenGFX2_HighDef-$(NAMING_VERSION)
 	cp README.md baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/readme.md
 	cp LICENSE baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/license.txt
@@ -128,16 +146,16 @@ graphics/fonts/openttd-ttf:
 
 # Clean
 .PHONY: clean
-clean: clean_baseset clean_newgrf clean_graphics
+clean: clean_baseset clean_newgrf clean_graphics clean_version
 
 # Clean baseset
-.PHONY: clean_baseset
+.PHONY: clean_baseset clean_version
 clean_baseset:
 	rm -f baseset/*.grf baseset/*.md5 baseset/*.obg baseset/*.tar baseset/*.nml
 	rm -rf baseset/.nmlcache
 
 # Clean NewGRFs
-.PHONY: clean_newgrf
+.PHONY: clean_newgrf clean_version
 clean_newgrf:
 	rm -f newgrf/*.grf newgrf/*.nml
 	rm -rf newgrf/.nmlcache
@@ -159,7 +177,7 @@ maintainer-clean: clean
 
 # Glue to work like OpenGFX Makefile
 .PHONY: bundle_zip
-bundle_zip: baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip
+bundle_zip: baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip makefile.vcs
 	cp baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip $(NAMING_CDN)-$(NAMING_VERSION)-all.zip
 
 # Glue to work like OpenGFX Makefile

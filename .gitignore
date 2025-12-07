@@ -16,6 +16,9 @@ pygen/
 *.grf.cacheindex
 grf/
 
+# other generated files
+makefile.vcs
+
 # working directories
 reference/
 previews/
