@@ -79,11 +79,11 @@ baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar: baseset/opengfx2_32ez.obg $(BASE
 # FORCE, as baseset_generate_obg checks for necessary updates
 .PRECIOUS: baseset/opengfx2_8.obg baseset/opengfx2_32ez.obg
 
-baseset/opengfx2_8.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.md5)
-	python3 baseset/baseset_generate_obg.py 8 baseset/
+baseset/opengfx2_8.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.md5) makefile.vcs
+	python3 baseset/baseset_generate_obg.py $(BASESET_VERSION) $(USER_VERSION) 8 baseset/
 
-baseset/opengfx2_32ez.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.md5)
-	python3 baseset/baseset_generate_obg.py 32ez baseset/
+baseset/opengfx2_32ez.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.md5) makefile.vcs
+	python3 baseset/baseset_generate_obg.py $(BASESET_VERSION) $(USER_VERSION) 32ez baseset/
 
 # GRF and MD5, via NML intermediate, for baseset
 # FORCE, as nml_preprocessor includes arbitrary pnml files
