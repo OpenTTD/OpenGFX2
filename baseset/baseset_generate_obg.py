@@ -2,7 +2,7 @@
 
 import sys, os, glob
 
-def generate_obg(base_path, type_string):
+def generate_obg(base_path, type_string, baseset_version, user_version):
   print("Generating obg file")
   print("Running in " + base_path)
 
@@ -158,7 +158,7 @@ def generate_obg(base_path, type_string):
 
   # general, non-translateable, version string
   # version, never translated
-  descriptionversion = "OpenGFX2 0.8 " + typeshort
+  descriptionversion = "OpenGFX2 " + user_version + " " + typeshort
   # used for the origin string
   descriptionorigin = "Available from the in-game content download system (BaNaNaS) or https://github.com/OpenTTD/OpenGFX2/"
   # fallback description for non-standard zoom and bit depth combinations, should never be in player-facing standard builds
@@ -211,7 +211,7 @@ def generate_obg(base_path, type_string):
     pad_length = 18
     obg.write(pad("name", pad_length, pad_left=False) + "= OpenGFX2 " + namesuffix + "\n")
     obg.write(pad("shortname", pad_length, pad_left=False) + "= " + namelookup[typeshort] + "\n")
-    obg.write(pad("version", pad_length, pad_left=False) + "= 7" + "\n")
+    obg.write(pad("version", pad_length, pad_left=False) + "= " + baseset_version + "\n")
     obg.write(pad("palette", pad_length, pad_left=False) + "= DOS" + "\n")
     obg.write(pad("blitter", pad_length, pad_left=False) + "= "+str(blitter)+"bpp" + "\n")
     obg.write(pad("url", pad_length, pad_left=False) + "= https://github.com/OpenTTD/OpenGFX2/" + "\n")
@@ -247,12 +247,17 @@ def generate_obg(base_path, type_string):
     obg.write("default = " + descriptionorigin + "\n")
 
 if __name__ == "__main__":
-  if len(sys.argv) > 1:
-    type_string = sys.argv[1]
+  if len(sys.argv) < 3:
+    print("Usage: baseset_generate_obg.py <baseset_version> <user_version> [type_string] [base_path]")
+    sys.exit(1)
+  baseset_version = sys.argv[1]
+  user_version = sys.argv[2]
+  if len(sys.argv) > 3:
+    type_string = sys.argv[3]
   else:
     type_string = "8"
-  if len(sys.argv) > 2:
-    base_path = sys.argv[2]
+  if len(sys.argv) > 4:
+    base_path = sys.argv[4]
   else:
     base_path = "."
-  generate_obg(base_path, type_string)
+  generate_obg(base_path, type_string, baseset_version, user_version)
