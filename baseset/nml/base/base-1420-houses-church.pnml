@@ -43,6 +43,8 @@ base_graphics spr1430(1430, "../graphics/towns/temperate/64/pygen/flats_8bpp.png
 #32 #ez alternative_sprites(spr1430, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/towns/temperate/256/pygen/flats_bt32bpp.png") { template_spr1430(4) }
 base_graphics spr1433(1433, "../graphics/towns/temperate/64/pygen/flats_base_8bpp.png") { template_house_1x1(0,	0, 1, 74) } // (Ground tile)
 #32 alternative_sprites(spr1433, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/temperate/64/pygen/flats_base_bt32bpp.png") { template_house_1x1(0, 0, 1, 74) }
+#ez alternative_sprites(spr1433, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/towns/temperate/256/pygen/flats_base_8bpp.png") { template_house_1x1(0, 0, 4, 74) }
+#32 #ez alternative_sprites(spr1433, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/towns/temperate/256/pygen/flats_base_bt32bpp.png") { template_house_1x1(0, 0, 4, 74) }
 
 //1434-1437 church
 template template_spr1434(z) {
@@ -56,3 +58,5 @@ base_graphics spr1434(1434, "../graphics/towns/temperate/64/pygen/churches_8bpp.
 #32 #ez alternative_sprites(spr1434, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/towns/temperate/256/pygen/churches_rm32bpp.png", "../graphics/towns/temperate/256/pygen/churches_8bpp.png") { template_spr1434(4) }
 base_graphics spr1437(1437, "../graphics/towns/temperate/64/pygen/churches_base_8bpp.png") { template_house_1x1(0,	0, 1, 64) }
 #32 alternative_sprites(spr1437, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/temperate/64/pygen/churches_base_bt32bpp.png") { template_house_1x1(0, 0, 1, 64) }
+#ez alternative_sprites(spr1437, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/towns/temperate/256/pygen/churches_base_8bpp.png") { template_house_1x1(0, 0, 4, 64) }
+#32 #ez alternative_sprites(spr1437, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/towns/temperate/256/pygen/churches_base_bt32bpp.png") { template_house_1x1(0, 0, 4, 64) }

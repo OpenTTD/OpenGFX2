@@ -2,6 +2,8 @@
 //4404-4405 cinema
 base_graphics spr4404(4404, "../graphics/towns/temperate/64/pygen/theatreandcinema_base_8bpp.png") { template_house_1x1( 65,  0, 1, 69) }
 #32 alternative_sprites(spr4404, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/temperate/64/pygen/theatreandcinema_base_bt32bpp.png") { template_house_1x1( 65,  0, 1, 69) }
+#ez alternative_sprites(spr4404, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/towns/temperate/256/pygen/theatreandcinema_base_8bpp.png") { template_house_1x1( 65,  0, 4, 69) }
+#32 #ez alternative_sprites(spr4404, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/towns/temperate/256/pygen/theatreandcinema_base_bt32bpp.png") { template_house_1x1( 65,  0, 4, 69) }
 base_graphics spr4405(4405, "../graphics/towns/temperate/64/pygen/theatreandcinema_8bpp.png") { template_house_1x1_anim( 65,  0, 1, 69) }
 #32 alternative_sprites(spr4405, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/towns/temperate/64/pygen/theatreandcinema_rm32bpp.png", "../graphics/towns/temperate/64/pygen/theatreandcinema_8bpp.png") { template_house_1x1_anim( 65,  0, 1, 69) }
 #ez alternative_sprites(spr4405, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/towns/temperate/256/pygen/theatreandcinema_8bpp.png") { template_house_1x1_anim( 65,  0, 4, 69) }
