@@ -190,7 +190,16 @@ if scale <= max_scale:
 scale = 4
 if scale <= max_scale:
     current_path = os.path.join(base_path, "towns", "temperate", str(scale * 64))
-    mask_tiles(os.path.join(current_path, "pygen", "2x1_hotel"), os.path.join(current_path, "2x1_hotel_tilemask.png"), scale)
+    #### flatten
+    flatten_list = ["bungalow"]
+    for name in flatten_list:
+        buildings_base_flatten(os.path.join(current_path, name), scale)
+    #### tile mask
+    mask_list = {
+        "2x1_hotel": "2x1_hotel_tilemask.png",
+    }
+    for name, mask in mask_list.items():
+        mask_tiles(os.path.join(current_path, "pygen", name), os.path.join(current_path, mask), scale)
 ## tropical
 ### scale 1
 scale = 1
