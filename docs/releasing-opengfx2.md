@@ -1,20 +1,16 @@
 # How to release a new version of OpenGFX2
 
-1. Update the changelog:
+1. Update the changelog and bump the version:
    * `CHANGELOG.md` with key fixes and features
+   * User-facing version `USER_VERSION` in `makefile`
 
-2. Bump the versions:
-   * Base set version in `baseset/baseset_generate_obg.py` (`descriptionversion`)
-   * Base set `extra.grf` version in `baseset/nml/extra-header.pnml` (`grf` block, `version`)
-   * NewGRF versions in `newgrf/nml/<newgrf_name>/<newgrf_name>-header.pmnl` (`grf` block, `version`)
-   * `extra.grf`/`opengfx2_settings.grf` co-compatibility check in `baseset/nml/extra-header.pnml` (in `if (grf_future_status("OGZ\1")==1)` block)
+Make a PR and, once merged:
 
-The main user facing version in `makefile` (`NAMING_VERSION`) is automatically taken from the repository version.
-
-For better or worse, base set currently uses fractional (0.1, 0.2, ...) versioning and NewGRFs use integer (1, 2, ...) versioning.
+2. Do a clean build of master:
+   * `make clean && make all`
 
 3. On Github, go to "Releases", "Draft a new release":
-   * Draft the release text (a refined copy of the changelog) and title.
-   * Attach baseset (both Classic and High Def) `tar`s and NewGRF `grf`s
-   * Create a new tag with the appropriate version.
-Creation of the new version tag on publishing the release will trigger a new release to the OpenTTD CDN.
+   * Draft the release text (a refined copy of the changelog) and title
+   * Attach baseset (both Classic and High Def) `tar`s from `baseset/` and NewGRF `grf`s from `newgrf`.
+   * Create a new tag with the user-facing version
+Creation of the new version tag on publishing the release will trigger a new release to the [OpenTTD CDN](https://cdn.openttd.org/opengfx2_classic-releases/) under the user-facing version.
