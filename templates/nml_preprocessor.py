@@ -141,7 +141,7 @@ def preprocess_pnml(pnml_path, high_bitdepth = False, extra_zoom = False, exclud
               print("File not found:", os.path(base_path, import_path))
           else:
             include_line = handle_alternates(line)
-            nml.write(line + "\n")
+            nml.write(include_line + "\n")
     except FileNotFoundError:
       print("File not found:", sys.argv[1] + ".pnml")
 
