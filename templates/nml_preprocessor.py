@@ -27,7 +27,7 @@ Only updates the output file if the input file, imported files, or the script ha
 
 import sys, os
 
-def preprocess_pnml(pnml_path, high_bitdepth = False, extra_zoom = False, exclude_name_suffix = False):  
+def preprocess_pnml(pnml_path, newgrf_version, high_bitdepth = False, extra_zoom = False, exclude_name_suffix = False):
   def get_name():
     """
     Set the name of the nml variant based on the options.
@@ -66,6 +66,18 @@ def preprocess_pnml(pnml_path, high_bitdepth = False, extra_zoom = False, exclud
       if os.path.getmtime(import_path) > os.path.getmtime(nml_path):
         return True
     return False
+
+  def handle_version_line(line):
+    """
+    Check if the line is a version line, and return the NML-formatted version if it is.
+    """
+    # comment defining version
+    comment_version = "# version_line_marker #"
+
+    if line.strip() == comment_version:
+      prefix = line.split(comment_version)[0]
+      return prefix + "version: " + newgrf_version + ";"
+    return line
 
   def check_import_line(line):
     """
@@ -135,27 +147,33 @@ def preprocess_pnml(pnml_path, high_bitdepth = False, extra_zoom = False, exclud
               with open(os.path.join(base_path, import_path), "r") as include:
                 include_lines = include.read().splitlines()
                 for include_line in include_lines:
+                  include_line = handle_version_line(include_line)
                   include_line = handle_alternates(include_line)
                   nml.write(include_line + "\n")
             except FileNotFoundError:
               print("File not found:", os.path(base_path, import_path))
           else:
-            include_line = handle_alternates(line)
+            include_line = handle_version_line(line)
+            include_line = handle_alternates(include_line)
             nml.write(include_line + "\n")
     except FileNotFoundError:
       print("File not found:", sys.argv[1] + ".pnml")
 
 if __name__ == "__main__":
+  if len(sys.argv) < 3:
+    print("Usage: baseset_generate_obg.py <pnml_path> <newgrf_version> [type_string] [exclude_name_suffix]")
+    sys.exit(1)
   pnml_path = sys.argv[1]
+  newgrf_version = sys.argv[2]
   high_bitdepth = False
   extra_zoom = False
-  if len(sys.argv) > 2:
-    if "32" in sys.argv[2]:
+  if len(sys.argv) > 3:
+    if "32" in sys.argv[3]:
       high_bitdepth = True
-    if "ez" in sys.argv[2]:
+    if "ez" in sys.argv[3]:
       extra_zoom = True
   exclude_name_suffix = False
-  if len(sys.argv) > 3:
-    if sys.argv[3] == "exclude_name_suffix":
+  if len(sys.argv) > 4:
+    if sys.argv[4] == "exclude_name_suffix":
       exclude_name_suffix = True
-  preprocess_pnml(pnml_path, high_bitdepth, extra_zoom, exclude_name_suffix)
+  preprocess_pnml(pnml_path, newgrf_version, high_bitdepth, extra_zoom, exclude_name_suffix)

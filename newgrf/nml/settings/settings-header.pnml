@@ -3,7 +3,7 @@ grf {
 	name: string(STR_GRF_SETTINGS_NAME);
 	desc: string(STR_GRF_SETTINGS_DESCRIPTION);
 	url:  string(STR_GRF_URL);
-	version: 8;
+	# version_line_marker #
 	min_compatible_version: version_openttd(1, 3, 0);
 	param 1 {
 		param_cursors_ {

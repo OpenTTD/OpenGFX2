@@ -93,7 +93,7 @@ baseset/%_8.grf: graphics_1 baseset/lang/*.lng FORCE
 	$(eval PREF=$(word 1, $(subst _, ,$(basename $(notdir $@)))))
 	$(eval NAME=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
 	$(eval ZOOM=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
-	python3 templates/nml_preprocessor.py baseset/$(PREF)_$(NAME).pnml $(ZOOM)
+	python3 templates/nml_preprocessor.py baseset/$(PREF)_$(NAME).pnml $(BASESET_VERSION) $(ZOOM)
 	cd baseset && nmlc -p DOS --quiet -c $(PREF)_$(NAME)_$(ZOOM).nml --md5 $(PREF)_$(NAME)_$(ZOOM).md5
 
 baseset/%_32ez.grf: graphics_4 baseset/lang/*.lng FORCE
@@ -101,7 +101,7 @@ baseset/%_32ez.grf: graphics_4 baseset/lang/*.lng FORCE
 	$(eval NAME=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
 	$(eval ZOOM=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
 	echo $(PREF) $(NAME) $(ZOOM)
-	python3 templates/nml_preprocessor.py baseset/$(PREF)_$(NAME).pnml $(ZOOM)
+	python3 templates/nml_preprocessor.py baseset/$(PREF)_$(NAME).pnml $(BASESET_VERSION) $(ZOOM)
 	cd baseset && nmlc -p DOS --quiet -c $(PREF)_$(NAME)_$(ZOOM).nml --md5 $(PREF)_$(NAME)_$(ZOOM).md5
 
 # NewGRFs
@@ -117,7 +117,7 @@ newgrf/%.grf: graphics_4 FORCE
 	$(eval PREF=$(word 1, $(subst _, ,$(basename $(notdir $@)))))
 	$(eval NAME=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
 	echo $(PREF) $(NAME)
-	python3 templates/nml_preprocessor.py newgrf/$(PREF)_$(NAME).pnml 32ez
+	python3 templates/nml_preprocessor.py newgrf/$(PREF)_$(NAME).pnml $(BASESET_VERSION) 32ez
 	mv newgrf/$(PREF)_$(NAME)_32ez.nml newgrf/$(PREF)_$(NAME).nml
 	cd newgrf && nmlc -p DOS --quiet -c -l ../baseset/lang $(PREF)_$(NAME).nml
 
