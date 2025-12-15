@@ -1,0 +1,140 @@
+##grflangid 0x3e
+##plural 1
+##case tamlanan
+STR_GENERAL_DESC                      :OpenTTD için OpenGFX2 temel grafik seti. GNU Genel Kamu Lisansı 2 sürümü şartlarına göre özgürce edinilebilir. [OpenGFX2Base]
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Taban Grafik Seti{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sayfası: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
+
+STR_OBG_DESCRIPTION_CLASSIC           :OpenTTD için OpenGFX2 piksel sanatı biçiminde temel grafik seti, klasik sürüm (normal yakınlaştırma 8bpp). GNU Genel Kamu Lisansı 2+ sürümü şartlarına göre özgürce edinilebilir. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenTTD için OpenGFX2 piksel sanatı biçiminde temel grafik seti, yüksek çözünürlüklü sürüm (fazladan yakınlaştırma 32bpp). GNU Genel Kamu Lisansı 2+ sürümü şartlarına göre özgürce edinilebilir. [{STRING}]
+
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Ayarlar NewGRF'si sürümü bu OpenGFX temel seti sürümüyle uyumsuzdur. Alışılmadık sonuçlar alabilirsiniz!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Ayarları NewGRF'si, OpenTTD 14.0 ve sonrası için önerilmez. Onun yerine temel set parametrelerini kullanmanız önerilir!
+
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Temelset parametreleri.
+STR_WARN_SETTINGSGRF_HARDCODED        :Kodlanmış parametreler.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Ayarlar NewGRF'si parametreleri.
+
+STR_PARAM_CURSOR_NAME                 :Fare işaretçisi
+STR_PARAM_CURSOR_DESC                 :Fare işaretçisinin biçimi ve rengi.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klasik-biçim, sarı (Öntanımlı)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klasik-biçim, gri
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-biçimi, sarı
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-biçimi, beyaz
+
+STR_PARAM_GRIDLINE_NAME               :Arazi ızgarası
+STR_PARAM_GRIDLINE_DESC               :Kara ve su karelerinin kenarlarında ızgara çizgilerinin görünüp görünmeyeceği.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Sadece karada ızgara (Öntanımlı)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Izgara çizgisi yok
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Karada ve suda ızgara
+
+STR_PARAM_LOGO_NAME                   :Logo biçimi
+STR_PARAM_LOGO_DESC                   :Giriş ekranındaki OpenTTD logosu biçimi.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Öntanımlı
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Yeraltı
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Aerodinamik
+
+STR_PARAM_VALUE_TEMPERATE             :Ilıman
+STR_PARAM_VALUE_ARCTIC                :Soğuk
+STR_PARAM_VALUE_TROPICAL              :Tropik
+STR_PARAM_VALUE_TOYLAND               :Oyuncak
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Ilıman (Öntanımlı)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Soğuk (Öntanımlı)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropik (Öntanımlı)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Oyuncak (Öntanımlı)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Ilıman (Alternatif biçim)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Soğuk (Alternatif biçim)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropik (Alternatif biçim)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Oyuncak (Alternatif biçim)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Ilıman temeller
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Ilıman iklimde kullanılacak temel biçimi.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Soğuk temeller
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Soğuk iklimde kullanılacak temel biçimi.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropik temeller
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Tropik iklimde kullanılacak temel biçimi.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Oyuncak temelleri
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Oyuncak ikliminde kullanılacak temel biçimi.
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :Ilıman çimen
+STR_PARAM_GRASS_TEMPERATE_DESC        :Ilıman iklimde kullanılacak çimen biçimi.
+STR_PARAM_GRASS_ARCTIC_NAME           :Soğuk çimen
+STR_PARAM_GRASS_ARCTIC_DESC           :Soğuk iklimde kullanılacak çimen biçimi.
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropik çimen
+STR_PARAM_GRASS_TROPICAL_DESC         :Tropik iklimde kullanılan çimen biçimi.
+STR_PARAM_GRASS_TOYLAND_NAME          :Oyuncak çimen
+STR_PARAM_GRASS_TOYLAND_DESC          :Oyuncak ikliminde kullanılacak çimen biçimi.
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Ilıman ağaçlar
+STR_PARAM_TREES_TEMPERATE_DESC        :Ilıman iklimde kullanılacak ağaç biçimi.
+STR_PARAM_TREES_ARCTIC_NAME           :Soğuk ağaçlar
+STR_PARAM_TREES_ARCTIC_DESC           :Soğuk iklimde kullanılacak ağaç biçimi.
+STR_PARAM_TREES_TROPICAL_NAME         :Tropik ağaçlar
+STR_PARAM_TREES_TROPICAL_DESC         :Tropik iklimde kullanılacak ağaç biçimini (kaktüs ve palmiyeleri etkilemez)
+STR_PARAM_TREES_TOYLAND_NAME          :Oyuncak ağaçlar
+STR_PARAM_TREES_TOYLAND_DESC          :Oyuncak ikliminde kullanılacak ağaç biçimi.
+
+STR_GRF_SETTINGS_NAME                 :OpenGFX2 Ayarları
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Ayarları. OpenGFX2 fazladan grf tarafından kullanılan parametreleri değiştirir, taban setteki fazladan grf parametrelerini değiştirmeye izin veren hek.{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sitesi: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Manzarası
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Manzarası. OpenGFX2 biçiminde manzaralar.{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sayfası: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_TREES_NAME                    :OpenGFX2+ Ağaçları
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Ağaçları. OpenGFX2 biçiminde ağaçlar.{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sitesi: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Öğeleri
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Öğeleri. OpenGFX2 biçiminde öğeler.{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sitesi: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_CLASS_ROCK                        :Kayalar
+STR_OBJECT_ROCKS                      :Gri kayalar
+STR_OBJECT_ROCKS_BLACK                :Siyah kayalar
+STR_OBJECT_ROCKS_DARKGRAY             :Koyu gri kayalar
+STR_OBJECT_ROCKS_BROWN1               :Kızıl-kahverengi kayalar
+STR_OBJECT_ROCKS_BROWN2               :Kahverengi kayalar
+STR_OBJECT_ROCKS_YELLOW               :Sarı kayalar
+STR_OBJECT_ROCKS_BUY                  :Kayalık arazi karesi. Kara sahil veya denize inşa edilebilir. Eğim ve kar destekli.
+
+STR_CLASS_FLD_                        :Alanlar
+STR_OBJECT_FIELD                      :Alan
+STR_OBJECT_FIELD_BUY                  :Alan arazi karesi. Eğim ve kar destekli, aynı türdeki kareler çevresinde otomatik çitlerle.
+STR_OBJECT_COMPANY_BARE               :Çıplak dünya
+STR_OBJECT_COMPANY_PART1              :Küçük çimen
+STR_OBJECT_COMPANY_PART2              :Daha fazla çimen
+STR_OBJECT_COMPANY_GRASS              :Çimen
+STR_OBJECT_COMPANY_BUY                :Çitli arazi karesi. Eğim ve kar destekli, aynı türdeki kareler çevresinde otomatik şirket rengiyle.
+
+STR_CLASS_FRST                        :Ormanlar
+STR_OBJECT_FOREST                     :Orman
+STR_OBJECT_FOREST_BUY                 :Orman arazi karesi. Eğim ve kar destekli, aynı türdeki kareler çevresinde otomatik çitlerle.
+
+STR_CLASS_BLDG                        :Binalar
+STR_OBJECT_LIGHTHOUSE                 :Fener
+STR_OBJECT_TRANSMITTER                :Verici
+STR_OBJECT_SUBSTATION                 :Alt istasyon
+STR_OBJECT_GASOMETER                  :Gazometre
+
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ İstasyonları ve Yerimleri
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ İstasyon ve Yerimleri. OpenGFX2 biçiminde tren istasyonları ve yerimleri.{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sitesi: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_WAYP_CLASS                        :Yerimleri
+STR_WAYP_RAIL                         :Ray yerimi
+STR_WAYP_MONORAIL                     :Monoray yerimi
+STR_WAYP_MAGLEV                       :Maglev yerimi
+
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Tramvayları
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Tramvayları. OpenGFX2 biçiminde tramvaylar.{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sitesi: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_TRAM_NAME_GEN1                    :Broom Mk1 Tramvayı
+STR_TRAM_NAME_GEN2                    :Manley-Morel 'T' Tramvayı
+STR_TRAM_NAME_GEN3                    :Broom D1 Tramvayı
+STR_TRAM_NAME_GEN4                    :Broom Deluxe Tramvayı
+
+STR_TRAM_NAME_GEN1_TOYL               :Ploddyphut Tramvayı
+STR_TRAM_NAME_GEN2_TOYL               :Powernaught Tramvayı
+STR_TRAM_NAME_GEN3_TOYL               :Mightymover Tramvayı
+STR_TRAM_NAME_GEN4_TOYL               :Wizzowow Tramvayı

@@ -1,30 +1,139 @@
 ##grflangid 0x1f
 ##plural 0
+STR_GENERAL_DESC                      :OpenGFX2-basisset grafische elementen voor OpenTTD. Vrij beschikbaar onder de GNU General Public License versie 2. [OpenGFX2Base]
 
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2-basisset grafische elementen{BLACK}{}Door Zephyris, op basis van het OpenGFX-team{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Basisset grafische elementen in OpenGFX2-pixelstijl voor OpenTTD, klassieke variant (normale zoom 8bpp). Vrij beschikbaar onder de GNU General Public License versie 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Basisset grafische elementen in OpenGFX2-pixelstijl voor OpenTTD, variant hoge resolutie (extra zoom 32bpp). Vrij beschikbaar onder de GNU General Public License versie 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :NewGRF-versie van OpenGFX2-instellingen komen niet overeen met deze versie van de OpenGFX-basisset. Je kunt hele rare resultaten krijgen!
+STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :NewGRF-OpenGFX2-instellingen worden niet aanbevolen voor OpenTTD 14.0 en later. Gebruik liever basisset-parameters!
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Parameters basisset.
+STR_WARN_SETTINGSGRF_HARDCODED        :Vast gecodeerde parameters.
+STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Instellingen NewGRF-parameters.
 
+STR_PARAM_CURSOR_NAME                 :Muiscursor
+STR_PARAM_CURSOR_DESC                 :Stijl en kleur van de muiscursor.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klassieke stijl, geel (standaard)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klassieke stijl, grijs
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-stijl, geel
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-stijl, wit
 
+STR_PARAM_GRIDLINE_NAME               :Terrein-rasterlijnen
+STR_PARAM_GRIDLINE_DESC               :Al dan niet rasterlijnen weergeven op randen van bodem- en watertegels.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Alleen bodem-rasterlijnen (standaard)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Geen rasterlijnen
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Bodem- en waterrasterlijnen
 
+STR_PARAM_LOGO_NAME                   :Logostijl
+STR_PARAM_LOGO_DESC                   :Open TTD-logostijl voor het titelvenster.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Standaard
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Ondergrond
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Stroomlijner
 
+STR_PARAM_VALUE_TEMPERATE             :Gematigd
+STR_PARAM_VALUE_ARCTIC                :Arctisch
+STR_PARAM_VALUE_TROPICAL              :Tropisch
+STR_PARAM_VALUE_TOYLAND               :Speelgoed
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Gematigd (standaard)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctisch (standaard)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropisch (standaard)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Speelgoed (standaard)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Gematigd (alternatieve stijl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctisch (alternatieve stijl)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropisch (alternatieve stijl)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Speelgoed (alternatieve stijl)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Gematigde funderingen
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Funderingstijl voor gebruik in gematigd klimaat.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arctische funderingen
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Funderingstijl voor gebruik in arctisch klimaat.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropische funderingen
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Funderingstijl voor gebruik in tropisch klimaat
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Speelgoedfunderingen
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Funderingstijl voor gebruik in speelgoedklimaat.
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Gematigd gras
+STR_PARAM_GRASS_TEMPERATE_DESC        :Grasstijl voor gebruik in het gematigde klimaat.
+STR_PARAM_GRASS_ARCTIC_NAME           :Arctisch gras
+STR_PARAM_GRASS_ARCTIC_DESC           :Grasstijl voor gebruik in het arctisch klimaat.
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropisch gras
+STR_PARAM_GRASS_TROPICAL_DESC         :Grasstijl voor gebruik in het tropisch klimaat.
+STR_PARAM_GRASS_TOYLAND_NAME          :Speelgoedgras
+STR_PARAM_GRASS_TOYLAND_DESC          :Grasstijl voor gebruik in het speelgoedklimaat.
 
+STR_PARAM_TREES_TEMPERATE_NAME        :Gematigde bomen
+STR_PARAM_TREES_TEMPERATE_DESC        :Boomstijl voor gebruik in het gematigde klimaat.
+STR_PARAM_TREES_ARCTIC_NAME           :Arctische bomen
+STR_PARAM_TREES_ARCTIC_DESC           :Boomstijl voor gebruik in het arctische klimaat.
+STR_PARAM_TREES_TROPICAL_NAME         :Tropische bomen
+STR_PARAM_TREES_TROPICAL_DESC         :Boomstijl voor gebruik in het tropische klimaat (vervangt geen palmbomen en cactussen).
+STR_PARAM_TREES_TOYLAND_NAME          :Speelgoedbomen
+STR_PARAM_TREES_TOYLAND_DESC          :Boomstijl voor gebruik in het speelgoedklimaat.
 
+STR_GRF_SETTINGS_NAME                 :OpenGFX2-instellingen
+STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2-instellingen. Wijzigt parameters in gebruik bij de extra OpenGFX2-grf, hack om extra grf-parameters voor de basisset mogelijk te maken.{BLACK}{}Door Zephyris, op basis van het OpenGFX-team{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+-landschap
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX2-landschap. Landschappen in OpenGFX2-stijl.{BLACK}Door Zephyris, op basis van het OpenGFX-team{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :OpenGFX2+-bomen
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+-bomen. Bomen in OpenGFX2-stijl.{BLACK}{}Door Zephyris, op basis van het OpenGFX-team{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+-objecten
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+-objecten. Objecten in de OpenGFX2-stijl.{BLACK}{}Door Zephyris, op basis van het OpenGFX-team{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Rotsen
+STR_OBJECT_ROCKS                      :Grijze rotsen
+STR_OBJECT_ROCKS_BLACK                :Zwarte rotsen
+STR_OBJECT_ROCKS_DARKGRAY             :Donkergrijze rotsen
+STR_OBJECT_ROCKS_BROWN1               :Rood-bruine rotsen
+STR_OBJECT_ROCKS_BROWN2               :Bruine rotsen
+STR_OBJECT_ROCKS_YELLOW               :Gele rotsen
+STR_OBJECT_ROCKS_BUY                  :Rotsterreintegel. Kan worden gebouwd op land, kust en zee. Houdt rekening met helling en sneeuw.
 
+STR_CLASS_FLD_                        :Velden
+STR_OBJECT_FIELD                      :Veld
+STR_OBJECT_FIELD_BUY                  :Veldterreintegel. Houdt rekening met helling en sneeuw, met automatisch hekken rond gebieden met hetzelfde terreintype.
+STR_OBJECT_COMPANY_BARE               :Kale aarde
+STR_OBJECT_COMPANY_PART1              :Laag gras
+STR_OBJECT_COMPANY_PART2              :Meer gras
+STR_OBJECT_COMPANY_GRASS              :Gras
+STR_OBJECT_COMPANY_BUY                :Tegel voor afgeschut terrein. Houdt rekening met helling en sneeuw, met automatisch hekken in de bedrijfskleur rond gebieden met hetzelfde terreintype.
 
+STR_CLASS_FRST                        :Bossen
+STR_OBJECT_FOREST                     :Bos
+STR_OBJECT_FOREST_BUY                 :Bosterreintegel. Houdt rekening met helling en sneeuw, met automatisch hekken of heggen rond gebieden met hetzelfde terreintype.
 
+STR_CLASS_BLDG                        :Gebouwen
+STR_OBJECT_LIGHTHOUSE                 :Vuurtoren
+STR_OBJECT_TRANSMITTER                :Zender
+STR_OBJECT_SUBSTATION                 :Substation
+STR_OBJECT_GASOMETER                  :Gasometer
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+-stations en -routepunten
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+-stations en -routepunten. Spoorwegstations en routepunten in OpenGFX2-stijle{BLACK}{}Door Zephyris, op basis van het OpenGFX-team{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Routepunten
+STR_WAYP_RAIL                         :Spoor-routepunt
+STR_WAYP_MONORAIL                     :Monorail-routepunt
+STR_WAYP_MAGLEV                       :Maglev-routepunt
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+-trams
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+-trams. Trams in de OpenGFX2-stijl.{BLACK}{}Door Zephyris, op basis van het OpenGFX-team{}{BLACK}Licentie: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1                    :Broom Mk1 Tram
+STR_TRAM_NAME_GEN2                    :Manley-Morel 'T'-tram
 STR_TRAM_NAME_GEN3                    :Broom D1 Tram
+STR_TRAM_NAME_GEN4                    :Broom Deluxe-tram
 
+STR_TRAM_NAME_GEN1_TOYL               :Ploddyphut-tram
+STR_TRAM_NAME_GEN2_TOYL               :Powernaught-tram
+STR_TRAM_NAME_GEN3_TOYL               :Mightymover-tram
+STR_TRAM_NAME_GEN4_TOYL               :Wizzowow-tram
