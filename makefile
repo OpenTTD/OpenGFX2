@@ -1,5 +1,5 @@
 # Version reported to users
-USER_VERSION := 0.8
+USER_VERSION := 0.8.1
 
 # Always run version detection, so we always have an accurate modified flag
 REPO_VERSIONS := $(shell AWK="$(AWK)" "./findversion.sh")
