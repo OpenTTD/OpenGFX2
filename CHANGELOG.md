@@ -1,5 +1,9 @@
 # OpenGFX2 Changelog
 
+## v0.8.1
+Base sets:
+* Fix internal baseset version (#223)
+
 ## v0.8
 Base set:
 
