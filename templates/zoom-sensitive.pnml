@@ -22,7 +22,7 @@ template template_general(x, y, w, h, ox, oy, z) {
 
 //Template for house sprite with additional offset
 template template_house_1x1_addoffs_master(x, y, z, h, ox, oy, flags) {
-	[	 1*z+x*z, 1*z+y*z, 64*z, h*z+z-1, -31*z+ox*z, 32*z-h*z+oy*z-int((z-1)/2)-1, flags]
+	[	 1*z+x*z, 1*z+y*z, 64*z, h*z+z-1, -31*z+ox*z, 32*z-h*z+oy*z-z, flags]
 }
 template template_house_1x1_addoffs(x, y, z, h, ox, oy) {
 	template_house_1x1_addoffs_master(x, y, z, h, ox, oy, 0)
