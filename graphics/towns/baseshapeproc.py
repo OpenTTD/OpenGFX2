@@ -184,6 +184,14 @@ def buildings_baseshapeproc(scale, climate, snow, base_path, verbose=True):
     # Overlay texture image
     image_32bit.paste(image_overlay, (0, 0), image_mask)
     return image_32bit
+  
+  def open_texture(base_path, texture_name, scale):
+    scale_specific_path = os.path.join(base_path, "../../textures", str(scale*64), texture_name+".png")
+    general_path = os.path.join(base_path, "../../textures", texture_name+".png")
+    if os.path.exists(scale_specific_path):
+      return Image.open(scale_specific_path).convert("RGBA")
+    elif os.path.exists(general_path):
+      return Image.open(general_path).convert("RGBA")
 
   # ==Adds value noise to masked indices==
   #image_32bit: RGB image to modify
@@ -228,7 +236,7 @@ def buildings_baseshapeproc(scale, climate, snow, base_path, verbose=True):
       climatename = "toyland_"
     image_unshaded_name = os.path.join(base_path, "pygen", input_name[:-len(suffix)]+"_"+namesuffix+"base_palmask.png")
     image_shaded_name = os.path.join(base_path, "pygen", input_name[:-len(suffix)]+"_"+namesuffix+"base_32bpp.png")
-    if check_update_needed([__file__, input_file, normal_overlay_name, alpha_overlay_name, shading_overlay_name] + glob.glob("../../textures/*.png"), image_shaded_name):
+    if check_update_needed([__file__, input_file, normal_overlay_name, alpha_overlay_name, shading_overlay_name] + glob.glob(os.path.join(base_path, "../../textures/*.png")) + glob.glob(os.path.join(base_path, "../../textures/*/*.png")), image_shaded_name):
       print("  ", "Generating", os.path.basename(image_shaded_name))
       with Image.open(input_file) as image:
         # Open shape image
@@ -302,25 +310,25 @@ def buildings_baseshapeproc(scale, climate, snow, base_path, verbose=True):
         # Ground textures
         texture_opacity = 255
         if snow == True:
-          image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_alt_arctic.png")), [index_groundtextures[0]])
+          image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_alt_arctic", scale), [index_groundtextures[0]])
         elif climate == "temperate":
-          image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_grass_temperate.png")), [index_groundtextures[0]])
+          image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_grass_temperate", scale), [index_groundtextures[0]])
         elif climate == "arctic":
-          image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_grass_arctic.png")), [index_groundtextures[0]])
+          image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_grass_arctic", scale), [index_groundtextures[0]])
         elif climate == "tropical":
-          image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_grass_tropical.png")), [index_groundtextures[0]])
+          image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_grass_tropical", scale), [index_groundtextures[0]])
         elif climate == "tropicaldesert":
-          image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_alt_tropical.png")), [index_groundtextures[0]])
+          image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_alt_tropical", scale), [index_groundtextures[0]])
         else:
-          image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_grass_temperate.png")), [index_groundtextures[0]])
-        image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_bare.png")), [index_groundtextures[1]])
-        image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_concrete.png")), [index_groundtextures[2]])
-        image_32bit = simple_overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/ground_tarmac.png")), [index_groundtextures[3]])
+          image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_grass_temperate", scale), [index_groundtextures[0]])
+        image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_bare", scale), [index_groundtextures[1]])
+        image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_concrete", scale), [index_groundtextures[2]])
+        image_32bit = simple_overlay_texture(image_32bit, image_shape, open_texture(base_path, "ground_tarmac", scale), [index_groundtextures[3]])
         # Greenery noise and shading
         if scale == 1:
           image_32bit = add_value_noise(image_32bit, image_shape, index_greenery, 27)
         elif scale == 4:
-          image_32bit = overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/foliage.png")), index_greenery, 92/255, "overlay")
+          image_32bit = overlay_texture(image_32bit, image_shape, open_texture(base_path, "foliage", scale), index_greenery, 92/255, "overlay")
         image_32bit = inout_blur(image_32bit, image_shape, index_greenery, 1, -1, 2, (0, 0, 0), 191/255, "overlay", "inset")
         image_32bit = inout_blur(image_32bit, image_shape, index_greenery, -1, 1, 2, (255, 255, 255), 191/255, "overlay", "inset")
         # Wall noise and shading

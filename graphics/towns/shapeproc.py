@@ -176,6 +176,14 @@ def buildings_shapeproc(scale, climate, snow, base_path, verbose=True):
     image_blended_arr = numpy.uint8(image_blended_arr_float)
     image_out = Image.fromarray(image_blended_arr)
     return image_out
+  
+  def open_texture(base_path, texture_name, scale):
+    scale_specific_path = os.path.join(base_path, "../../textures", str(scale*64), texture_name+".png")
+    general_path = os.path.join(base_path, "../../textures", texture_name+".png")
+    if os.path.exists(scale_specific_path):
+      return Image.open(scale_specific_path).convert("RGBA")
+    elif os.path.exists(general_path):
+      return Image.open(general_path).convert("RGBA")
 
   # ==Adds value noise to masked indices==
   #image_32bit: RGB image to modify
@@ -220,7 +228,7 @@ def buildings_shapeproc(scale, climate, snow, base_path, verbose=True):
     toyland_overlay_name = input_file[:-len(suffix)]+"_toylandoverlaynormal.png"
     image_shaded_name = os.path.join(base_path, "pygen", input_name[:-len(suffix)]+"_"+namesuffix+"32bpp.png")
     image_unshaded_name = os.path.join(base_path, "pygen", input_name[:-len(suffix)]+"_"+namesuffix+"palmask.png")
-    if check_update_needed([__file__, input_file, shading_overlay_name, normal_overlay_name, toyland_overlay_name] + glob.glob(os.path.join(base_path, "../../textures/*.png")), image_shaded_name):
+    if check_update_needed([__file__, input_file, shading_overlay_name, normal_overlay_name, toyland_overlay_name] + glob.glob(os.path.join(base_path, "../../textures/*.png")) + glob.glob(os.path.join(base_path, "../../textures/*/*.png")), image_shaded_name):
       print("  ", "Generating", os.path.basename(image_shaded_name))
       with Image.open(input_file) as image:
         # Open shape image
@@ -303,8 +311,8 @@ def buildings_shapeproc(scale, climate, snow, base_path, verbose=True):
           # Wall and roof textures, brick texture only on primary wall style
           if climate != "toyland":
             texture_opacity = 191
-            image_32bit = overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/bricks_l.png")), [index_walls[0]], texture_opacity/255, "overlay")
-            image_32bit = overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/bricks_r.png")), [index_walls[1]], texture_opacity/255, "overlay")
+            image_32bit = overlay_texture(image_32bit, image_shape, open_texture(base_path, "bricks_l", scale), [index_walls[0]], texture_opacity/255, "overlay")
+            image_32bit = overlay_texture(image_32bit, image_shape, open_texture(base_path, "bricks_r", scale), [index_walls[1]], texture_opacity/255, "overlay")
           # Roof shading
           image_32bit = inout_blur(image_32bit, image_shape, index_roofs, 0, 0, 2, (0, 0, 0), 191/255, "overlay", "inset")
           # Wall shading
@@ -319,9 +327,9 @@ def buildings_shapeproc(scale, climate, snow, base_path, verbose=True):
           image_32bit = inout_blur(image_32bit, image_shape, index_ironwork, -1, 1, 1, (0, 0, 0), 127/255, "normal", "outset")
           image_32bit = inout_blur(image_32bit, image_shape, index_ironwork, -1, 1, 1, (255, 255, 255), 127/255, "overlay", "inset")
         texture_opacity = 255
-        image_32bit = overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/window_l.png")), [index_windows[0]], texture_opacity/255, "overlay")
-        image_32bit = overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/window_r.png")), [index_windows[1]], texture_opacity/255, "overlay")
-        image_32bit = overlay_texture(image_32bit, image_shape, Image.open(os.path.join(base_path, "../../textures/window_t.png")), [index_windows[2]], texture_opacity/255, "overlay")
+        image_32bit = overlay_texture(image_32bit, image_shape, open_texture(base_path, "window_l", scale), [index_windows[0]], texture_opacity/255, "overlay")
+        image_32bit = overlay_texture(image_32bit, image_shape, open_texture(base_path, "window_r", scale), [index_windows[1]], texture_opacity/255, "overlay")
+        image_32bit = overlay_texture(image_32bit, image_shape, open_texture(base_path, "window_t", scale), [index_windows[2]], texture_opacity/255, "overlay")
         # Add manual overlays, if the files exist
         # Shading/overlay mode overlay
         if os.path.isfile(shading_overlay_name):
