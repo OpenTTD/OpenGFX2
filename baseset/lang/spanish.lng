@@ -4,6 +4,7 @@
 
 STR_GRF_NAME                          :OpenGFX2Base
 STR_GRF_DESCRIPTION                   :Set de gráficos básico {ORANGE}OpenGFX2+{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 
 
