@@ -10,12 +10,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :OpenTTD용 클래식 버전 (8bpp) OpenGFX2 픽셀 아트 스타일 기본 그래픽 세트입니다. GNU 일반 공중 라이선스(GPL) 버전 2 이상의 약관에 의거하여 자유롭게 사용할 수 있습니다. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenTTD용 고해상도 버전 (32bpp) OpenGFX2 픽셀 아트 스타일 기본 그래픽 세트입니다. GNU 일반 공중 라이선스(GPL) 버전 2 이상의 약관에 의거하여 자유롭게 사용할 수 있습니다. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 설정 NewGRF 버전이 이 OpenGFX 기본 세트의 버전과 일치하지 않습니다. 예기치 않은 결과를 목격할 수도 있습니다!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 설정 NewGRF는 OpenTTD 14.0 이상의 버전에서 사용하는 것을 추천하지 않습니다. 대신 기본 세트 매개 변수를 사용하는 것을 추천합니다!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :기본 세트 매개 변수
 STR_WARN_SETTINGSGRF_HARDCODED        :하드코딩된 매개 변수
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :설정 NewGRF 매개 변수
 
 STR_PARAM_CURSOR_NAME                 :마우스 커서
 STR_PARAM_CURSOR_DESC                 :마우스 커서/포인터의 스타일과 색상을 설정합니다.
@@ -77,9 +73,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :아열대 나무
 STR_PARAM_TREES_TROPICAL_DESC         :아열대 기후에서 사용할 나무 스타일입니다. (야자수와 선인장은 바뀌지 않습니다)
 STR_PARAM_TREES_TOYLAND_NAME          :장난감나라 나무
 STR_PARAM_TREES_TOYLAND_DESC          :장난감나라 기후에서 사용할 나무 스타일입니다.
-
-STR_GRF_SETTINGS_NAME                 :OpenGFX2 설정
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 설정. OpenGFX2 추가 GRF가 기본 세트 추가 GRF 매개 변수의 설정을 수정할 수 있도록 하기 위해 사용하는 대체 매개 변수입니다.{BLACK}{}제작: Zephyris, OpenGFX 팀의 작업을 바탕으로 제작{}{BLACK}라이선스: {SILVER}GPL v2+{}{BLACK}웹사이트: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ 풍경
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ 풍경. OpenGFX2 스타일의 풍경입니다.{BLACK}{}제작: Zephyris, OpenGFX 팀의 작업을 바탕으로 제작{}{BLACK}라이선스: {SILVER}GPL v2+{}{BLACK}웹사이트: {SILVER}https://github.com/OpenTTD/OpenGFX2

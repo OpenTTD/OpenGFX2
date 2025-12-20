@@ -9,12 +9,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Set grafică de bază în stil pixelat OpenGFX2 pentru OpenTTD, varianta clasică (zoom normal 8bpp). Disponibil gratuit în conformitate cu termenii GNU General Public License version 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Set grafică de bază în stil pixelat OpenGFX2 pentru OpenTTD, variantă de înaltă definiție (zoom suplimentar 32bpp). Disponibil gratuit în conformitate cu termenii GNU General Public License version 2+. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Setări OpenGFX2 Versiunea NewGRF nu corespunde acestei versiuni a setului de bază OpenGFX. Este posibil să vedeți rezultate neobișnuite!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Setările OpenGFX2 NewGRF nu este recomandat pentru OpenTTD 14.0 și versiunile ulterioare. Se recomandă în schimb parametrii de bază!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Parametrii setului de bază.
 STR_WARN_SETTINGSGRF_HARDCODED        :Parametri codați în joc.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Setări pentru parametrii NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Cursorul
 STR_PARAM_CURSOR_DESC                 :Stilul și culoarea cursorului.
@@ -76,9 +72,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Copaci tropicali
 STR_PARAM_TREES_TROPICAL_DESC         :Stil de copac folosit în climat tropical (nu înlocuiește palmieri și cactuși)
 STR_PARAM_TREES_TOYLAND_NAME          :Copaci din tărâmul jucăriilor
 STR_PARAM_TREES_TOYLAND_DESC          :Stil de copac folosit în climatul tărâmului jucariilor.
-
-STR_GRF_SETTINGS_NAME                 :Setări OpenGFX2
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Setări OpenGFX2. Modifică parametrii utilizați de grf-ul suplimentar OpenGFX2, modificare pentru a permite setarea parametrilor grf-ului suplimentar din setul de bază.{BLACK}{}De Zephyris, sprijinită de echipa OpenGFX{}{BLACK}Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :Peisaj OpenGFX2+
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Peisaj OpenGFX+. Peisaj în stil OpenGFX2.{BLACK}{}De Zephyris, sprijinită de echipa OpenGFX{}{BLACK} Licență: {SILVER}GPL v2+{}{BLACK}Site web: {SILVER}https://github.com/OpenTTD/OpenGFX2

@@ -9,12 +9,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :OpenTTD 向け・ピクセルアートスタイルの OpenGFX2 ベースグラフィックセットのクラシック仕様(Normal Zoom 8bpp)。GNU General Public License version 2+ のもとで自由に利用できます。[{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenTTD 向け・ピクセルアートスタイルの OpenGFX2 ベースグラフィックセットの高精細仕様(Extra Zoom 32bpp)。GNU General Public License version 2+ のもとで自由に利用できます。[{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Settings のバージョンが OpenGFX ベースセットのバージョンと合致しません。予期しない結果が起きる可能性があります!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Settings の使用は OpenTTD 14.0 以降では推奨されません。ベースセットのパラメーターを代わりにお使いください!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :ベースセットのパラメーター。
 STR_WARN_SETTINGSGRF_HARDCODED        :ハードコードされたパラメーター。
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Settings NewGRF のパラメーター。
 
 STR_PARAM_CURSOR_NAME                 :マウスカーソル
 STR_PARAM_CURSOR_DESC                 :マウスカーソルのスタイルと色を指定します。
@@ -76,9 +72,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :亜熱帯の木
 STR_PARAM_TREES_TROPICAL_DESC         :亜熱帯で用いる木のスタイルを指定します (ヤシの木やサボテンを置き換えるものではありません)。
 STR_PARAM_TREES_TOYLAND_NAME          :おもちゃの国仕様
 STR_PARAM_TREES_TOYLAND_DESC          :おもちゃの国で用いる木のスタイルを指定します。
-
-STR_GRF_SETTINGS_NAME                 :OpenGFX2 Settings
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. OpenGFX2 のパラメーター設定を書き換えて、追加の NewGRF パラメーターを利用できるようにします。{BLACK}{}OpenGFX チームの助力と Zephyris による提供でお送りします。{}{BLACK}ライセンス: {SILVER}GPL v2+{}{BLACK}ウェブサイト: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landscape
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX2+ Landscape: OpenGFX2 スタイルの景観セット。{BLACK}{}OpenGFX チームの助力と Zephyris による提供でお送りします。{}{BLACK}ライセンス: {SILVER}GPL v2+{}{BLACK}ウェブサイト: {SILVER}https://github.com/OpenTTD/OpenGFX2

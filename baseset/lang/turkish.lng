@@ -10,12 +10,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :OpenTTD için OpenGFX2 piksel sanatı biçiminde temel grafik seti, klasik sürüm (normal yakınlaştırma 8bpp). GNU Genel Kamu Lisansı 2+ sürümü şartlarına göre özgürce edinilebilir. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenTTD için OpenGFX2 piksel sanatı biçiminde temel grafik seti, yüksek çözünürlüklü sürüm (fazladan yakınlaştırma 32bpp). GNU Genel Kamu Lisansı 2+ sürümü şartlarına göre özgürce edinilebilir. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Ayarlar NewGRF'si sürümü bu OpenGFX temel seti sürümüyle uyumsuzdur. Alışılmadık sonuçlar alabilirsiniz!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Ayarları NewGRF'si, OpenTTD 14.0 ve sonrası için önerilmez. Onun yerine temel set parametrelerini kullanmanız önerilir!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Temelset parametreleri.
 STR_WARN_SETTINGSGRF_HARDCODED        :Kodlanmış parametreler.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Ayarlar NewGRF'si parametreleri.
 
 STR_PARAM_CURSOR_NAME                 :Fare işaretçisi
 STR_PARAM_CURSOR_DESC                 :Fare işaretçisinin biçimi ve rengi.
@@ -77,9 +73,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Tropik ağaçlar
 STR_PARAM_TREES_TROPICAL_DESC         :Tropik iklimde kullanılacak ağaç biçimini (kaktüs ve palmiyeleri etkilemez)
 STR_PARAM_TREES_TOYLAND_NAME          :Oyuncak ağaçlar
 STR_PARAM_TREES_TOYLAND_DESC          :Oyuncak ikliminde kullanılacak ağaç biçimi.
-
-STR_GRF_SETTINGS_NAME                 :OpenGFX2 Ayarları
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Ayarları. OpenGFX2 fazladan grf tarafından kullanılan parametreleri değiştirir, taban setteki fazladan grf parametrelerini değiştirmeye izin veren hek.{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sitesi: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Manzarası
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Manzarası. OpenGFX2 biçiminde manzaralar.{BLACK}{}OpenGFX takımının omuzlarında Zephyris tarafından yapıldı{}{BLACK}Lisans: {SILVER}GPL v2+{}{BLACK}Web sayfası: {SILVER}https://github.com/OpenTTD/OpenGFX2

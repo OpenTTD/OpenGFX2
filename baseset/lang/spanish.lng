@@ -11,7 +11,6 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 
 
-
 STR_PARAM_VALUE_TEMPERATE             :Templado
 STR_PARAM_VALUE_ARCTIC                :Ártico
 STR_PARAM_VALUE_TROPICAL              :Tropical
@@ -37,9 +36,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Árboles tropicales
 STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árbol para utilizar en el clima tropical (no reemplaza a palmeras ni cactus).
 STR_PARAM_TREES_TOYLAND_NAME          :Árboles de "mundo de juguete"
 STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árbol para utilizar en el clima "mundo de juguete".
-
-STR_GRF_SETTINGS_NAME                 :Ajustes OpenGFX2
-STR_GRF_SETTINGS_DESCRIPTION          :Ajustes {ORANGE}OpenGFX2+. Altera los parámetros usados por OpenGFX2+ extra grf, hack para permitir la configuración de parámetros baseset extra grf.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :Paisaje OpenGFX2+
 STR_GRF_LANDSCAPE_DESCRIPTION         :Paisaje {ORANGE}OpenGFX2+. Paisajes en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2

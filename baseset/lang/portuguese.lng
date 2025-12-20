@@ -10,12 +10,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Conjunto de gráficos base em estilo pixel art OpenGFX2 para OpenTTD, variante clássica (de 8 bpp, para ampliação normal). Disponível livremente nos termos da Licença Pública Geral, GNU versão 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Conjunto de gráficos base em estilo pixel art OpenGFX2 para OpenTTD, variante de alta definição (para ampliação extra de 32 bpp). Disponível livremente nos termos da Licença Pública Geral, GNU versão 2+. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :A versão das configurações NewGRF do OpenGFX2 não corresponde à versão do conjunto base do OpenGFX. Poderá ter resultados inesperados!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Configurações NewGRF do OpenGFX2 não são recomendadas para o OpenTTD 14.0 e outras versões mais recentes. Recomenda-se a utilização dos parâmetros do conjunto base!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Parâmetros do conjunto base.
 STR_WARN_SETTINGSGRF_HARDCODED        :Parâmetros codificados.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Definições dos Parâmetros de NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Cursor do rato
 STR_PARAM_CURSOR_DESC                 :Estilo e cor do cursor/ponteiro do rato.
@@ -77,9 +73,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Árvores tropicais
 STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árvore a utilizar no clima tropical (não substitui as palmeiras e os cactos).
 STR_PARAM_TREES_TOYLAND_NAME          :Árvores da terra dos brinquedos
 STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árvore a utilizar no clima da terra dos brinquedos.
-
-STR_GRF_SETTINGS_NAME                 :Configurações de OpenGFX2
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Configurações do OpenGFX2. Altera os parâmetros utilizados pelo grf extra do OpenGFX2, hack para permitir a definição dos parâmetros do grf extra do conjunto base.{BLACK}{}Por Zephyris, apoiando-se na equipa do OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Paisagem
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Paisagem. Paisagens no estilo OpenGFX2.{BLACK}{}Por Zephyris, que se apoia nos ombros da equipa OpenGFX{}{BLACK}Licença: {SILVER}GPL v2+{}{BLACK}Sítio Web:{SILVER}https://github.com/OpenTTD/OpenGFX2

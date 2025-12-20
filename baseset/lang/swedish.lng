@@ -9,12 +9,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Basgrafik i OpenGFX2 pixelstil för OpenTTD, klassisk (normal zoom 8bpp). Fritt tillgänglig under GNU General Public License version 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Basgrafik i OpenGFX2 pixelstil för OpenTTD, högupplöst (extra zoom 32bpp). Fritt tillgänglig under GNU General Public License version 2+. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Inställningar för NewGRF versionen matchar inte OpenGFX versionens gruninställningar. Du kan uppleva ovanliga resultat!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Inställningen NewGRF rekommenderas inte för OpenTTD 14.0 och senare. Grundinställningar rekommenderas!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Grundparametrar
 STR_WARN_SETTINGSGRF_HARDCODED        :Hårdkodade parametrar.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :NewGRF parametrar.
 
 STR_PARAM_CURSOR_NAME                 :Muspekare
 STR_PARAM_CURSOR_DESC                 :Muspekarens stil och färg
@@ -76,9 +72,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Tropiska träd
 STR_PARAM_TREES_TROPICAL_DESC         :Trädstil som ska användas i det tropiska klimatet (ersätter inte palmerna och kaktusarna).
 STR_PARAM_TREES_TOYLAND_NAME          :Leksakslandsträd
 STR_PARAM_TREES_TOYLAND_DESC          :Trädstil som ska användas i leksakslandsklimatet.
-
-STR_GRF_SETTINGS_NAME                 :OpenGFX2-inställningar
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Ändrar inställningar som används av OpenGFX2 extra grf, hack för att tillåta extra grf parametrar.{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+-landskap
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Landskap i OpenGFX2 stil.{BLACK}{}Av Zephyris, på OpenGFX teamets axlar{}{BLACK}Licens: {SILVER}GPL v2+{}{BLACK}Websida: {SILVER}https://github.com/OpenTTD/OpenGFX2

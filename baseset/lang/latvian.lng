@@ -8,13 +8,11 @@
 
 
 
-
 STR_PARAM_LOGO_NAME                   :Logotipa stils
 STR_PARAM_LOGO_DESC                   :OpenTTD logotipa stils titullapai.
 STR_PARAM_LOGO_VALUE_DEFAULT          :Noklusējuma
 STR_PARAM_LOGO_VALUE_UNDERGROUND      :Pazemes
 STR_PARAM_LOGO_VALUE_CABRIOLET        :Racionalizētājs
-
 
 
 

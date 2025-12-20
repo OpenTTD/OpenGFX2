@@ -10,12 +10,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 pixel art style base graphics set for OpenTTD, classic variant (normal zoom 8bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art style base graphics set for OpenTTD, high definition variant (extra zoom 32bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :A versión de OpenGFX2 Settings NewGRF non coincide coa versión do OpenGFX baseset. Pode que vexas resultados inusuais!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 Settings NewGRF non se recomenda para OpenTTD 14.0 ou posterior. Recoméndase utilizar no seu lugar os parámetros do set básico.
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Parámetros do set básico.
 STR_WARN_SETTINGSGRF_HARDCODED        :Parámetros postos a fogo.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :parámetros do Settings NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Cursor do rato
 STR_PARAM_CURSOR_DESC                 :Estilo e cor do punteiro/cursor do rato.
@@ -77,9 +73,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Árbores tropicais
 STR_PARAM_TREES_TROPICAL_DESC         :Estilo das árbores a usar no clima tropical (non reempraza as palmeiras nin cactos)
 STR_PARAM_TREES_TOYLAND_NAME          :Árbores da terra dos xoguetes
 STR_PARAM_TREES_TOYLAND_DESC          :Estilo das árbores a usar na terra dos xoguetes.
-
-STR_GRF_SETTINGS_NAME                 :OpenGFX2 Settings
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Alters parameters used by the OpenGFX2 extra grf, hack to allow setting of baseset extra grf parameters.{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landscape
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Landscapes in the OpenGFX2 style.{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2

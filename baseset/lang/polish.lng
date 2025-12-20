@@ -11,12 +11,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2, podstawowy zestaw grafik dla OpenTTD w stylu „pixel art”, wariant klasyczny (normalne przybliżenie, 8-bitowa paleta kolorów). Dostępny swobodnie na warunkach licencji GNU General Public License w wersji 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2, podstawowy zestaw grafik dla OpenTTD w stylu „pixel art”, wariant wysokiej rozdzielczości (większe przybliżenie, 32-bitowa paleta kolorów). Dostępny swobodnie na warunkach licencji GNU General Public License w wersji 2+. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Wersja NewGRF „OpenGFX2 Settings” nie pasuje do tej wersji zestawu podstawowych grafik OpenGFX. Mogą pojawić się nietypowe błędy!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :NewGRF „OpenGFX2 Settings” nie jest zalecany dla OpenTTD 14.0 i nowszych. Zamiast tego zaleca się użycie parametrów zestawu podstawowego!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Parametry podstawowego zestawu.
 STR_WARN_SETTINGSGRF_HARDCODED        :Parametry zakodowane na stałe.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Ustawienia parametrów NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Kursor myszy
 STR_PARAM_CURSOR_DESC                 :Styl i kolor kursora myszy/wskaźnika.
@@ -78,9 +74,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Drzewa w krajobrazie tropikalnym
 STR_PARAM_TREES_TROPICAL_DESC         :Styl drzew używany w krajobrazie tropikalnym (nie zastępuje palm i kaktusów).
 STR_PARAM_TREES_TOYLAND_NAME          :Drzewa w krajobrazie zabawkowym
 STR_PARAM_TREES_TOYLAND_DESC          :Styl drzew używany w krajobrazie zabawkowym.
-
-STR_GRF_SETTINGS_NAME                 :Ustawienia OpenGFX2
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Umożliwienie wykorzystania parametrów używanych przez podstawowy zestaw grafik OpenGFX2 jako NewGRF.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Krajobraz
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Krajobrazy w stylu OpenGFX2.{BLACK}{}Autor: Zephyris, opierający się na pracy zespołu OpenGFX{}{BLACK}Licencja: {SILVER}GPL v2+{}{BLACK}Strona internetowa: {SILVER}https://github.com/zephyris/OpenGFX2

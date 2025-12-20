@@ -9,12 +9,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Kohinga whakairoiro toi tongi mātāmua o OpenGFX2 mō OpenTTD, tangongitanga taketake (topa māori 8bpp). Kei te wātea noa i ngā ture o te GNU General Public License, whakaputanga 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Kohinga whakairoiro toi tongi mātāmua o OpenGFX2 mō OpenTTD, tangongitanga arinui (topa tāpiri 32bpp). Kei te wātea noa i ngā ture o te GNU General Public License, whakaputanga 2+. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Kāore te whakaputanga o te newGRF tautuhinga o OpenGFX2 i te taurite ki tēnei whakaputanga o te kohinga mātāmua o OpenGFX. Ka kite pea koe i ētahi otinga whanokē!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Ehara i te pai te newGRF ko OpenGFX2 Settings mō OpenTTD 14.0, muri atu rānei. Whakamahia rā ngā tawhā mātāmua!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Tawhā mātāmua
 STR_WARN_SETTINGSGRF_HARDCODED        :Tawhā tūmau
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Tawhā o te newGRF tautuhinga
 
 STR_PARAM_CURSOR_NAME                 :Pehu
 STR_PARAM_CURSOR_DESC                 :Tāera me te kara o te pehu
@@ -76,9 +72,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Rākau wera
 STR_PARAM_TREES_TROPICAL_DESC         :Te tāera rākau hei whakamahi i te taiao wera (kāore e whakakapi i ngā nīkau me ngā tātātiotio)
 STR_PARAM_TREES_TOYLAND_NAME          :Rākau taonga tākaro
 STR_PARAM_TREES_TOYLAND_DESC          :Te tāera rākau hei whakamahi i te taiao taonga tākaro
-
-STR_GRF_SETTINGS_NAME                 :OpenGFX2 Settings
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Settings. Ka whakarerekē i ētahi tawhā e whakamahia ana e te grf tāpiri o OpenGFX2, he mūrere kia tautuhitia ai ngā tawhā grf tāpiri.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landscape
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Whenua i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2

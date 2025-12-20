@@ -10,12 +10,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Az OpenGFX2 pixelgrafikás grafikus alapkészlet az OpenTTD-hez, klasszikus változat (normál nagyítás, 8bpp). Szabadon elérhető a GNU General Public License 2-es verziójának feltételei szerint. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Az OpenGFX2 pixelgrafikás grafikus alapkészlet az OpenTTD-hez, nagyfelbontású változat (extra nagyítás, 32bpp). Szabadon elérhető a GNU General Public License 2-es verziójának feltételei szerint. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Az OpenGFX2 beállításainak NewGRF verziója nem egyezik meg az OpenGFX alapkészletével. Szokatlan eredményt láthatsz!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Az OpenGFX2 beállításai NewGRF nem javasolt az OpenTTD 14.0 és újabb esetén. Helyette az alapkészlet paraméterei javasoltak!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Alapkészlet paraméterei.
 STR_WARN_SETTINGSGRF_HARDCODED        :Beégetett paraméterek.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :A beállítások NewGRF paraméterei.
 
 STR_PARAM_CURSOR_NAME                 :Egérkurzor
 STR_PARAM_CURSOR_DESC                 :Az egérmutató stílusa és színe.
@@ -77,9 +73,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Szubtrópusi fák
 STR_PARAM_TREES_TROPICAL_DESC         :Szubtrópusi táj esetén használandó fastílus (nem cseréli le a pálmafákat és a kaktuszokat).
 STR_PARAM_TREES_TOYLAND_NAME          :Játékvilági fák
 STR_PARAM_TREES_TOYLAND_DESC          :Játékvilág táj esetén használandó fastílus.
-
-STR_GRF_SETTINGS_NAME                 :Az OpenGFX2 beállításai
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Az OpenGFX2 beállításai. Módosítja az OpenGFX2 extra GRF-t, módosítsd az alapkészlet extra GRF-paramétereinek megváltoztatásához.{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ táj
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ táj. Tájak az OpenGFX2 stílusában.{BLACK}{}Zephyris készítésében, az OpenGFX csapat vállain állva{}{BLACK}Licenc: {SILVER}GPL v2+{}{BLACK}Webhely: {SILVER}https://github.com/OpenTTD/OpenGFX2

@@ -9,12 +9,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Bộ đồ họa nền tảng OpenGFX2 kiểu pixel art dành cho OpenTTD, phiên bản cổ điển (phóng lên 8bpp). Được phát hành miễn phí dưới các điều khoản của Giấy phép công cộng GNU phiên bản 2 hoặc mọi phiên bản sau. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Bộ đồ họa nền tảng OpenGFX2 kiểu pixel art dành cho OpenTTD, phiên bản độ phân giải cao (phóng lên 32bpp). Được phát hành miễn phí dưới các điều khoản của Giấy phép công cộng GNU phiên bản 2 hoặc mọi phiên bản sau. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :Phiên bản cài đặt OpenGFX2 NewGRF không khớp với phiên bản này của gói cơ sở OpenGFX. Có thể dẫn tới những kết quả bất thường!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Không nên dùng cài đặt NewGRF của OpenGFX2 cho OpenTTD phiên bản 14.0 trở đi. Thay vào đó, dùng thông số gói cơ sở!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Thông số gói cơ sở.
 STR_WARN_SETTINGSGRF_HARDCODED        :Thông số cố định.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Cài đặt thông số NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Con trỏ chuột
 STR_PARAM_CURSOR_DESC                 :Kiểu dáng và màu của con trỏ chuột.
@@ -76,9 +72,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Cây cối nhiệt đới
 STR_PARAM_TREES_TROPICAL_DESC         :Kiểu cây cối dùng trong khí hậu nhiệt đới (không thay thế cây cọ và xương rồng)
 STR_PARAM_TREES_TOYLAND_NAME          :Cây cối đồ chơi
 STR_PARAM_TREES_TOYLAND_DESC          :Kiểu cây cối dùng trong khí hậu đồ chơi.
-
-STR_GRF_SETTINGS_NAME                 :Cài đặt OpenGFX2
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Cài đặt OpenGFX2. Chỉnh thông số được dùng bởi grf phụ của OpenGFX2, hack để cho phép chỉnh thông số grf phụ của gói cơ sở.{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :Cảnh quan của OpenGFX2+
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Cảnh quan của OpenGFX+. Những cảnh quan theo phong cách OpenGFX2.{BLACK}{}Từ Zephyris, đứng trên vai đội ngũ OpenGFX{}{BLACK}Giấy phép: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2

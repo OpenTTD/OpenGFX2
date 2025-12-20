@@ -9,12 +9,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 – pikselitaidetyylinen perusgrafiikkakokoelma OpenTTD:lle, perinteinen muunnelma (tavallinen lähennys, 8 bittiä/pikseli). Vapaasti saatavilla GNU General Public License version 2+ -lisenssin ehdoin. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 – pikselitaidetyylinen perusgrafiikkakokoelma OpenTTD:lle, teräväpiirtomuunnelma (lisälähennys, 32 bittiä/pikseli). Vapaasti saatavilla GNU General Public License version 2+ -lisenssin ehdoin. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 Settings -NewGRF:n versio ei vastaa OpenGFX-perusgrafiikkakokoelman tätä versiota. Tulokset saattavat olla odottamattomia!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2-asetukset-NewGRF:ää ei suositella OpenTTD 14.0:n ja uudempien kanssa käytettäväksi. Suotavampaa on käyttää perusgrafiikan parametreja!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Perusgrafiikkakokoelman parametrit.
 STR_WARN_SETTINGSGRF_HARDCODED        :Kiinteästi koodatut parametrit.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Asetus-NewGRF:n parametrit.
 
 STR_PARAM_CURSOR_NAME                 :Hiiren osoitin
 STR_PARAM_CURSOR_DESC                 :Hiiren osoittimen tyyli ja väri.
@@ -76,9 +72,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Puut subtrooppisessa
 STR_PARAM_TREES_TROPICAL_DESC         :Puiden tyyli, jota käytetään subtrooppisessa maastotyypissä (ei korvaa palmuja eikä kaktuksia).
 STR_PARAM_TREES_TOYLAND_NAME          :Puut lelumaassa
 STR_PARAM_TREES_TOYLAND_DESC          :Puiden tyyli, jota käytetään lelumaan maastotyypissä.
-
-STR_GRF_SETTINGS_NAME                 :OpenGFX2-asetukset
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2-asetukset. Muuttaa OpenGFX2-lisä-GRF:n parametreja; viritelmä perusgrafiikkalisäpaketin parametrien asettamiseksi.{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+-maisema
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+-maisema. Maisemia OpenGFX2-tyyliin.{BLACK}{}Tehnyt Zephyris OpenGFX-tiimin harteilla seisten{}{BLACK}Lisenssi: {SILVER}GPL v2+{}{BLACK}Verkkosivusto: {SILVER}https://github.com/OpenTTD/OpenGFX2

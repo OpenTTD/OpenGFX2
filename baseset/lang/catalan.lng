@@ -10,12 +10,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Paquet de gràfics base d'estil píxel art OpenGFX2 per a l'OpenTTD amb la variant clàssica (nivell de zoom normal 8bpp). Disponible sota els termes de la GNU General Public License version 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Paquet de gràfics base d'estil píxel art OpenGFX2 per a l'OpenTTD amb la variant d'alta definició (nivell de zoom extra de 32bpp). Disponible sota els termes de la GNU General Public License version 2+. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :La versió dels paràmetres OpenGFX2 NewGRF i la versió dels paràmetres base OpenGFX són diferents. Això pot resultar en comportaments inesperats!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :Els paràmetres OpenGFX2 NewGRF no es recomanen per a l'OpenTTD 14.0 i superiors. Utilitzeu els paràmetres base!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Paràmetres base.
 STR_WARN_SETTINGSGRF_HARDCODED        :Paràmetres fixats al codi (hardcoded).
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Paràmetres de configuració NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :Punter del ratolí
 STR_PARAM_CURSOR_DESC                 :Estil i color del punter del ratolí.
@@ -77,9 +73,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Arbres de clima tropical
 STR_PARAM_TREES_TROPICAL_DESC         :Estil d'arbres per a zones de clima tropical (no substitueix les palmeres ni els cactus).
 STR_PARAM_TREES_TOYLAND_NAME          :Arbres del paisatge de joguines
 STR_PARAM_TREES_TOYLAND_DESC          :Estil d'arbres del paisatge de joguines.
-
-STR_GRF_SETTINGS_NAME                 :Configuració de l'OpenGFX2
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}Configuració de l'OpenGFX2. Altera els paràmetres que fa servir el GRF addicional OpenGFX2, que permet establir paràmetres GRF addicionals.{BLACK}{}D'en Zephyris, amb l'ajuda de l'equip de l'OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :Paisatges de l'OpenGFX2+
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Paisatges de l'OpenGFX+. Paisatges de l'estil de l'OpenGFX2.{BLACK}{}D'en Zephyris, amb l'ajuda de l'equip de l'OpenGFX{}{BLACK}Llicència: {SILVER}GPL v2+{}{BLACK}Lloc web: {SILVER}https://github.com/OpenTTD/OpenGFX2

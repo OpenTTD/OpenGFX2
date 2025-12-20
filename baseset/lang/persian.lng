@@ -9,12 +9,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :مجموعه گرافیکی پایه OpenGFX2 با سبک هنری پیکسلی برای OpenTTD، نسخه کلاسیک (بزرگنمایی معمولی 8 بیتی). به صورت رایگان تحت شرایط مجوز عمومی همگانی گنو نسخه 2+ در دسترس است. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :مجموعه گرافیکی پایه OpenGFX2 با سبک هنری پیکسلی برای OpenTTD، نسخه با کیفیت بالا (بزرگنمایی اضافی 32 بیتی). به صورت رایگان تحت شرایط مجوز عمومی همگانی گنو نسخه 2+ در دسترس است. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :نسخه‌ی NewGRF تنظیمات OpenGFX2 با این نسخه‌ی مجموعه پایه‌ی OpenGFX مطابقت ندارد. ممکن است نتایج غیرمعمولی مشاهده کنید!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :استفاده از NewGRF تنظیمات OpenGFX2 برای OpenTTD 14.0 و نسخه‌های بعدی توصیه نمی‌شود. به جای آن، استفاده از پارامترهای مجموعه پایه توصیه می‌شود!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :پارامترهای مجموعه پایه توصیه
 STR_WARN_SETTINGSGRF_HARDCODED        :پارامترهای کدگذاری شده.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :تنظیمات پارامترهای NewGRF.
 
 STR_PARAM_CURSOR_NAME                 :نشانگر ماوس
 STR_PARAM_CURSOR_DESC                 :سبک و رنگ مکان‌نما/اشاره‌گر ماوس.
@@ -76,9 +72,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :درختان گرمسیری
 STR_PARAM_TREES_TROPICAL_DESC         :سبک درختی برای استفاده در آب و هوای گرمسیری (جایگزین درختان نخل و کاکتوس نمی‌شود).
 STR_PARAM_TREES_TOYLAND_NAME          :درخت های سرزمین اسباب بازی ها
 STR_PARAM_TREES_TOYLAND_DESC          :سبک درختی برای استفاده در آب و هوای سرزمین اسباب‌بازی‌ها.
-
-STR_GRF_SETTINGS_NAME                 :تنظیمات OpenGFX2
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}تنظیمات OpenGFX2. پارامترهای مورد استفاده توسط grf اضافی OpenGFX2 را تغییر می‌دهد، ترفندی برای اجازه تنظیم پارامترهای grf اضافی مجموعه پایه.{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)
 
 STR_GRF_LANDSCAPE_NAME                :چشم‌انداز OpenGFX2+
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}چشم‌انداز OpenGFX+. چشم‌اندازهایی به سبک OpenGFX2.{BLACK}{}توسط زفیرس، با تکیه بر تلاش‌های تیم OpenGFX{}{BLACK}مجوز: {SILVER}GPL v2+{}{BLACK}وب‌سایت: {SILVER}[https://github.com/OpenTTD/OpenGFX2](https://github.com/OpenTTD/OpenGFX2)

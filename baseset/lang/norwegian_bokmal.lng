@@ -11,12 +11,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 pixel-art grafikkstilgrunnpakke for OpenTTD, høyoppløst variant (normal zoom 8bpp). Fritt tilgjengelig under vilkårene til GNU General Public License version 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel-art grafikkstilgrunnpakke for OpenTTD, høyoppløst variant (ekstra zoom 32bpp). Fritt tilgjengelig under vilkårene til GNU General Public License version 2+. [{STRING}]
 
-STR_WARN_SETTINGSGRF_VERSIONMISMATCH  :OpenGFX2 innstilinger NewGRF-versjon stemmer ikke med denne versjonen av OpenGFX grunnpakke. Uvanlige resultater kan oppstå!
-STR_WARN_SETTINGSGRF_NOTRECOMMENDED   :OpenGFX2 innstillinger NewGRF er ikke anbefalt for OpenTTD 14.0 og nyere. Parametere for grunnpakke anbefales i stedet!
-
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Grunnpakke parametere.
 STR_WARN_SETTINGSGRF_HARDCODED        :Hardkodede parametere.
-STR_WARN_SETTINGSGRF_SETTINGSGRFPARAM :Innstillinger NewGRF parametere.
 
 STR_PARAM_CURSOR_NAME                 :Musepeker
 STR_PARAM_CURSOR_DESC                 :Stil og farge for musepekeren.
@@ -79,9 +75,6 @@ STR_PARAM_TREES_TROPICAL_NAME         :Tropiske trær
 STR_PARAM_TREES_TROPICAL_DESC         :Trestil å bruke i tropisk klima (erstatter ikke palmetrær og kaktus).
 STR_PARAM_TREES_TOYLAND_NAME          :Lekeland-trær
 STR_PARAM_TREES_TOYLAND_DESC          :Trestil å bruke i lekeland-klima.
-
-STR_GRF_SETTINGS_NAME                 :OpenGFX2-innstillinger
-STR_GRF_SETTINGS_DESCRIPTION          :{ORANGE}OpenGFX2 Innstillinger. Endrer parametere brukt av OpenGFX2 extra grf, hack for å tillate å sette parametere til grunngrafikkpakke extra grf.{BLACK}{}Av Zephyris, stående på skuldrene til OpenGFX-teamet{}{BLACK} Lisens: {SILVER}GPL v2+{}{BLACK} Nettsted: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landkskap
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ landskap. Landskap i OpenGFX2-stil.{BLACK}{}Av Zephyris, stående på skuldrene til OpenGFX-teamet{}{BLACK}Lisens: {SILVER}GPL v2+{}{BLACK}Nettsted: {SILVER}https://github.com/OpenTTD/OpenGFX2
