@@ -1,0 +1,70 @@
+##grflangid 0x1e
+##plural 2
+##gender n f m
+##case subs geniki date
+STR_GENERAL_DESC                      :Βασικό σετ γραφικών OpenGFX2 για το OpenTTD. Διατίθεται δωρεάν σύμφωνα με τους όρους της GNU General Public License έκδοση 2. [OpenGFX2Base]
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}Βασικό Σετ Γραφικών OpenGFX2{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
+
+STR_OBG_DESCRIPTION_CLASSIC           :Βασικό σετ γραφικών OpenGFX2 σε στυλ pixel art για το OpenTTD, κλασική παραλλαγή (κανονική μεγέθυνση 8 bit ανά pixel). Διατίθεται δωρεάν σύμφωνα με τους όρους της GNU General Public License έκδοση 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Βασικό σετ γραφικών OpenGFX2 σε στυλ pixel art για το OpenTTD, παραλλαγή υψηλής ευκρίνειας (περισσότερη μεγέθυνση, 32 bit ανά pixel). Διατίθεται δωρεάν σύμφωνα με τους όρους της GNU General Public License έκδοση 2+. [{STRING}]
+
+
+STR_PARAM_CURSOR_NAME                 :Δρομέας ποντικιού
+STR_PARAM_CURSOR_DESC                 :Εμφάνιση και χρώμα του δρομέα/δείκτη του ποντικιού.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Κλασικό στυλ, κίτρινος (Προκαθορισμένος)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Κλασικό στυλ, γκρίζος
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Στυλ OpenGFX, κίτρινος
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Στυλ Windows, λευκός
+
+
+
+
+
+
+
+
+
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landscape
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Τοπία OpenGFX+. Τοπία με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_TREES_NAME                    :OpenGFX2+ Trees
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Δέντρα OpenGFX+. Δέντρα με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objects
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Αντικείμενα OpenGFX2+. Αντικείμενα με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_CLASS_ROCK                        :Βράχοι
+STR_OBJECT_ROCKS                      :Γκρίζοι βράχοι
+STR_OBJECT_ROCKS_BLACK                :Μαύροι βράχοι
+STR_OBJECT_ROCKS_DARKGRAY             :Σκούροι γκρι βράχοι
+STR_OBJECT_ROCKS_BROWN1               :Κοκκινωποί βράχοι
+STR_OBJECT_ROCKS_BROWN2               :Καφέ βράχοι
+STR_OBJECT_ROCKS_YELLOW               :Κίτρινοι βράχοι
+
+STR_CLASS_FLD_                        :Χωράφια
+STR_OBJECT_FIELD                      :Χωράφι
+STR_OBJECT_COMPANY_BARE               :Γυμνό έδαφος
+STR_OBJECT_COMPANY_PART1              :Λίγο γρασίδι
+STR_OBJECT_COMPANY_PART2              :Περισσότερο γρασίδι
+STR_OBJECT_COMPANY_GRASS              :Γρασίδι
+
+STR_CLASS_FRST                        :Δάση
+STR_OBJECT_FOREST                     :Δάσος
+
+STR_CLASS_BLDG                        :Κτίρια
+
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Stations & Waypoints
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Σταθμοί & Σημεία Καθοδήγησης OpenGFX+. Σιδηροδρομικοί σταθμοί και σημεία καθοδήγησης με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+STR_WAYP_CLASS                        :Σημεία Καθοδήσης
+STR_WAYP_RAIL                         :Σημείο καθοδήγησης σιδηροτροχιάς
+STR_WAYP_MONORAIL                     :Σημείο καθοδήγησης μονοτρόχιου
+STR_WAYP_MAGLEV                       :Σημείο καθοδήγησης maglev
+
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Trams
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Τραμ OpenGFX+. Τραμ με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+
