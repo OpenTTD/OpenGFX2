@@ -11,6 +11,8 @@ STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 STR_OBG_DESCRIPTION_CLASSIC           :Βασικό σετ γραφικών OpenGFX2 σε στυλ pixel art για το OpenTTD, κλασική παραλλαγή (κανονική μεγέθυνση 8 bit ανά pixel). Διατίθεται δωρεάν σύμφωνα με τους όρους της GNU General Public License έκδοση 2+. [{STRING}]
 STR_OBG_DESCRIPTION_HIGHDEF           :Βασικό σετ γραφικών OpenGFX2 σε στυλ pixel art για το OpenTTD, παραλλαγή υψηλής ευκρίνειας (περισσότερη μεγέθυνση, 32 bit ανά pixel). Διατίθεται δωρεάν σύμφωνα με τους όρους της GNU General Public License έκδοση 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Παράμετροι βασικού σετ.
+STR_WARN_SETTINGSGRF_HARDCODED        :Ενσωματωμένες παράμετροι.
 
 STR_PARAM_CURSOR_NAME                 :Δρομέας ποντικιού
 STR_PARAM_CURSOR_DESC                 :Εμφάνιση και χρώμα του δρομέα/δείκτη του ποντικιού.
@@ -19,28 +21,74 @@ STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Κλασικό στυλ, γκρίζος
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Στυλ OpenGFX, κίτρινος
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Στυλ Windows, λευκός
 
+STR_PARAM_GRIDLINE_NAME               :Γραμμές πλέγματος στο έδαφος
+STR_PARAM_GRIDLINE_DESC               :Εάν θα εμφανίζονται γραμμές πλέγματος στις άκρες των πλακιδίων εδάφους και νερού.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Γραμμές πλέγματος εδάφους μόνο (Προκαθορισμένο)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Χωρίς γραμμών πλέγματος
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Γραμμές πλέγματος εδάφους και νερού
 
+STR_PARAM_LOGO_NAME                   :Στυλ λογότυπου
+STR_PARAM_LOGO_DESC                   :Στυλ λογότυπου OpenTTD που εμφανίζεται στην οθόνη τίτλου.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Κανονικό
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Μετρό
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Αεροδυναμικό
 
+STR_PARAM_VALUE_TEMPERATE             :Εύκρατο
+STR_PARAM_VALUE_ARCTIC                :Πολικό
+STR_PARAM_VALUE_TROPICAL              :Τροπικό
+STR_PARAM_VALUE_TOYLAND               :Παιχνιδότοπου
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Έυκρατο (Προκαθορισμένο)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Πολικό (Προκαθορισμένο)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Τροπικό (Προκαθορισμένο)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Παιχνιδότοπου (Προκαθορισμένο)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Εύκρατο (Εναλλακτικό στυλ)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Πολικό (Εναλλακτικό στυλ)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Τροπικό (Εναλλακτικό στυλ)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Παιχνιδότοπου (Εναλλακτικό στυλ)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Εύκρατα θεμέλια
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Στυλ θεμελίων για χρήση σε εύκρατο κλίμα.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Πολικά «θεμέλια»
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Στυλ θεμελίων για χρήση σε πολικό κλίμα.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Τροπικά θεμέλια
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Στυλ θεμελίων για χρήση σε τροπικό κλίμα.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Θεμέλια παιχνιδότοπου
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Στυλ θεμελίων για χρήση στον παιχνιδότοπο.
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Εύκρατο γρασίδι
+STR_PARAM_GRASS_TEMPERATE_DESC        :Στυλ γρασιδιού για χρήση σε εύκρατο κλίμα.
+STR_PARAM_GRASS_ARCTIC_NAME           :Πολικό γρασίδι
+STR_PARAM_GRASS_ARCTIC_DESC           :Στυλ γρασιδιού για χρήση σε πολικό κλίμα.
+STR_PARAM_GRASS_TROPICAL_NAME         :Τροπικό γρασίδι
+STR_PARAM_GRASS_TROPICAL_DESC         :Στυλ γρασιδιού για χρήση σε τροπικό κλίμα.
+STR_PARAM_GRASS_TOYLAND_NAME          :Γρασίδι παιχνιδότοπου
+STR_PARAM_GRASS_TOYLAND_DESC          :Στυλ γρασιδιού για χρήση στον παιχνιδότοπο.
 
+STR_PARAM_TREES_TEMPERATE_NAME        :Εύκρατα δέντρα
+STR_PARAM_TREES_TEMPERATE_DESC        :Στυλ δέντρων για χρήση σε εύκρατο κλίμα.
+STR_PARAM_TREES_ARCTIC_NAME           :Πολικά δέντρα
+STR_PARAM_TREES_ARCTIC_DESC           :Στυλ δέντρων για χρήση σε πολικό κλίμα.
+STR_PARAM_TREES_TROPICAL_NAME         :Τροπικά δέντρα
+STR_PARAM_TREES_TROPICAL_DESC         :Στυλ δέντρων για χρήση στον παιχνιδότοπο (δεν αντικαθιστά τους φοίνικες και κάκτους).
+STR_PARAM_TREES_TOYLAND_NAME          :Δέντρα παιχνιδότοπου
+STR_PARAM_TREES_TOYLAND_DESC          :Στυλ δέντρων για χρήση στον παιχνιδότοπο.
 
-STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landscape
+STR_GRF_LANDSCAPE_NAME                :Τοπία OpenGFX2+
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Τοπία OpenGFX+. Τοπία με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
-STR_GRF_TREES_NAME                    :OpenGFX2+ Trees
+STR_GRF_TREES_NAME                    :Δέντρα OpenGFX2+
 STR_GRF_TREES_DESCRIPTION             :{ORANGE}Δέντρα OpenGFX+. Δέντρα με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
-STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objects
+STR_GRF_OBJECTS_NAME                  :Αντικείμενα OpenGFX2+
 STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Αντικείμενα OpenGFX2+. Αντικείμενα με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :Βράχοι
 STR_OBJECT_ROCKS                      :Γκρίζοι βράχοι
 STR_OBJECT_ROCKS_BLACK                :Μαύροι βράχοι
 STR_OBJECT_ROCKS_DARKGRAY             :Σκούροι γκρι βράχοι
-STR_OBJECT_ROCKS_BROWN1               :Κοκκινωποί βράχοι
+STR_OBJECT_ROCKS_BROWN1               :Καφετί-κοκκινωποί βράχοι
 STR_OBJECT_ROCKS_BROWN2               :Καφέ βράχοι
 STR_OBJECT_ROCKS_YELLOW               :Κίτρινοι βράχοι
 
@@ -55,8 +103,11 @@ STR_CLASS_FRST                        :Δάση
 STR_OBJECT_FOREST                     :Δάσος
 
 STR_CLASS_BLDG                        :Κτίρια
+STR_OBJECT_LIGHTHOUSE                 :Φάρος
+STR_OBJECT_TRANSMITTER                :Αναμεταδότης
+STR_OBJECT_GASOMETER                  :Αεροφυλάκιο
 
-STR_GRF_STATIONS_NAME                 :OpenGFX2+ Stations & Waypoints
+STR_GRF_STATIONS_NAME                 :Σταθμοί & Σημεία Καθοδήγησης OpenGFX2+
 STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Σταθμοί & Σημεία Καθοδήγησης OpenGFX+. Σιδηροδρομικοί σταθμοί και σημεία καθοδήγησης με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Σημεία Καθοδήσης
@@ -64,7 +115,7 @@ STR_WAYP_RAIL                         :Σημείο καθοδήγησης σι�
 STR_WAYP_MONORAIL                     :Σημείο καθοδήγησης μονοτρόχιου
 STR_WAYP_MAGLEV                       :Σημείο καθοδήγησης maglev
 
-STR_GRF_TRAMS_NAME                    :OpenGFX2+ Trams
+STR_GRF_TRAMS_NAME                    :Τραμ OpenGFX2+
 STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Τραμ OpenGFX+. Τραμ με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 

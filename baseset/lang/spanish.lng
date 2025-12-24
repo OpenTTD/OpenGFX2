@@ -1,60 +1,133 @@
 ##grflangid 0x04
 ##plural 0
 ##gender f m
+STR_GENERAL_DESC                      :Conjunto de Gráficos Base OpenGFX2+ para OpenTTD. Disponible gratuitamente bajo los términos de la Licencia Pública General GNU versión 2. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
-STR_GRF_DESCRIPTION                   :Set de gráficos básico {ORANGE}OpenGFX2+{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}Conjunto de Gráficos Base OpenGFX2+{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Conjunto de gráficos base en estilo "pixel art" OpenGFX2+ para OpenTTD, versión clásica (acercamiento normal 8bpp). Disponible gratuitamente bajo los términos de la Licencia Pública General GNU versión 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Conjunto de gráficos base en estilo "pixel art" OpenGFX2+ para OpenTTD, versión en alta definición (acercamiento adicional 32bpp). Disponible gratuitamente bajo los términos de la Licencia Pública General GNU versión 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Parámetros del conjunto base.
+STR_WARN_SETTINGSGRF_HARDCODED        :Parámetros codificados de forma fija (hardcodeados)
 
+STR_PARAM_CURSOR_NAME                 :Cursor del ratón
+STR_PARAM_CURSOR_DESC                 :Estilo y color del cursor/puntero del ratón
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Estilo clásico, amarillo (Predeterminado)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Estilo clásico, gris
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Estilo OpenGFX, amarillo
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Estilo Windows, blanco
 
+STR_PARAM_GRIDLINE_NAME               :Cuadrícula del terreno
+STR_PARAM_GRIDLINE_DESC               :Mostrar u ocultar la cuadrícula en los bordes de las casillas de tierra y agua
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Cuadrícula sólo en casillas de tierra (Predeterminado)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Sin cuadrícula
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Cuadrícula en casillas de tierra y agua
 
+STR_PARAM_LOGO_NAME                   :Estilo del logo
+STR_PARAM_LOGO_DESC                   :Estilo del logo de OpenTTD para la pantalla principal
+STR_PARAM_LOGO_VALUE_DEFAULT          :Predeterminado
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Alternativo (Underground)
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Aerodinámico (Streamliner)
 
 STR_PARAM_VALUE_TEMPERATE             :Templado
 STR_PARAM_VALUE_ARCTIC                :Ártico
 STR_PARAM_VALUE_TROPICAL              :Tropical
-STR_PARAM_VALUE_TOYLAND               :Mundo de juguete
+STR_PARAM_VALUE_TOYLAND               :País de los Juguetes
 
 STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Templado (Predeterminado)
 STR_PARAM_VALUE_ARCTIC_DEFAULT        :Ártico (Predeterminado)
 STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropical (Predeterminado)
-STR_PARAM_VALUE_TOYLAND_DEFAULT       :Mundo de juguete (Predeterminado)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :País de los Juguetes (Predeterminado)
 
 STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Templado (Estilo alternativo)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Ártico (Estilo alternativo)
 STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropical (Estilo alternativo)
-STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Mundo de juguete (Estilo alternativo)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :País de los Juguetes (Estilo alternativo)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Cimientos de clima templado
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Estilo de cimientos para usar en el clima templado
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Cimientos del clima ártico
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Estilo de cimientos para usar en el clima ártico
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Cimientos del clima tropical
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Estilo de cimientos para usar en el clima tropical
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Cimientos del "país de los juguetes"
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Estilo de cimientos para usar en el "país de los juguetes"
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Hierba de clima templado
+STR_PARAM_GRASS_TEMPERATE_DESC        :Estilo de hierba para usar en el clima templado
+STR_PARAM_GRASS_ARCTIC_NAME           :Hierba ártica
+STR_PARAM_GRASS_ARCTIC_DESC           :Estilo de hierba para usar en el clima ártico
+STR_PARAM_GRASS_TROPICAL_NAME         :Hierba tropical
+STR_PARAM_GRASS_TROPICAL_DESC         :Estilo de hierba para usar en el clima tropical
+STR_PARAM_GRASS_TOYLAND_NAME          :Hierba del "país de los juguetes"
+STR_PARAM_GRASS_TOYLAND_DESC          :Estilo de hierba para usar en el "país de los juguetes".
 
-STR_PARAM_TREES_TEMPERATE_NAME        :Árboles de hoja caduca.
+STR_PARAM_TREES_TEMPERATE_NAME        :Árboles de clima templado.
 STR_PARAM_TREES_TEMPERATE_DESC        :Estilo de árbol para usar en el clima templado.
 STR_PARAM_TREES_ARCTIC_NAME           :Árboles árticos.
-STR_PARAM_TREES_ARCTIC_DESC           :Estilo de árbol para utilizar en climas árticos.
+STR_PARAM_TREES_ARCTIC_DESC           :Estilo de árbol para utilizar en el clima ártico
 STR_PARAM_TREES_TROPICAL_NAME         :Árboles tropicales
-STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árbol para utilizar en el clima tropical (no reemplaza a palmeras ni cactus).
-STR_PARAM_TREES_TOYLAND_NAME          :Árboles de "mundo de juguete"
-STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árbol para utilizar en el clima "mundo de juguete".
+STR_PARAM_TREES_TROPICAL_DESC         :Estilo de árbol para utilizar en el clima tropical (no reemplaza las palmeras ni los cactus).
+STR_PARAM_TREES_TOYLAND_NAME          :Árboles del "país de los juguetes"
+STR_PARAM_TREES_TOYLAND_DESC          :Estilo de árbol para utilizar en el "país de los juguetes".
 
-STR_GRF_LANDSCAPE_NAME                :Paisaje OpenGFX2+
-STR_GRF_LANDSCAPE_DESCRIPTION         :Paisaje {ORANGE}OpenGFX2+. Paisajes en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_LANDSCAPE_NAME                :Clima OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Climas OpenGFX2+. Climas en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :Árboles OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Árboles OpenGFX2+. Árboles en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_OBJECTS_NAME                  :Objetos OpenGFX2+
-STR_GRF_OBJECTS_DESCRIPTION           :Objetos {ORANGE}OpenGFX2+. Objectos en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Objetos OpenGFX2+. Objetos en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :Rocas
+STR_OBJECT_ROCKS                      :Rocas grises
+STR_OBJECT_ROCKS_BLACK                :Rocas negras
+STR_OBJECT_ROCKS_DARKGRAY             :Rocas gris oscuro
+STR_OBJECT_ROCKS_BROWN1               :Rocas marrón rojizo
+STR_OBJECT_ROCKS_BROWN2               :Rocas marrones
+STR_OBJECT_ROCKS_YELLOW               :Rocas amarillas
+STR_OBJECT_ROCKS_BUY                  :Casilla de terreno rocoso. Se puede construir sobre tierra, costa o sobre el mar. Se adapta según la pendiente y la nieve
 
 STR_CLASS_FLD_                        :Campos
+STR_OBJECT_FIELD                      :Campo
+STR_OBJECT_FIELD_BUY                  :Casilla de terreno de campo. Se adapta según la pendiente y la nieve, con vallas y setos automáticos alrededor de las áreas del mismo tipo de casilla.
+STR_OBJECT_COMPANY_BARE               :Tierra desnuda
+STR_OBJECT_COMPANY_PART1              :Hierba pequeña
+STR_OBJECT_COMPANY_PART2              :Hierba crecida
+STR_OBJECT_COMPANY_GRASS              :Hierba
+STR_OBJECT_COMPANY_BUY                :Casilla de terreno vallada. Se adapta según la pendiente y la nieve, con vallas automáticas del color de la compañía alrededor de las áreas del mismo tipo de casilla.
 
 STR_CLASS_FRST                        :Bosques
+STR_OBJECT_FOREST                     :Bosque
+STR_OBJECT_FOREST_BUY                 :Casilla de terreno de bosque. Se adapta según la pendiente y la nieve, con vallas y setos automáticos alrededor de las áreas del mismo tipo de casilla.
 
 STR_CLASS_BLDG                        :Edificios
+STR_OBJECT_LIGHTHOUSE                 :Faro
+STR_OBJECT_TRANSMITTER                :Transmisor
+STR_OBJECT_SUBSTATION                 :Subestación
+STR_OBJECT_GASOMETER                  :Gasómetro
 
-STR_GRF_STATIONS_NAME                 :Estaciones y Marcadores OpenGFX2+
-STR_GRF_STATIONS_DESCRIPTION          :Estaciones y Marcadores {ORANGE}OpenGFX2+. Estaciones de tren y marcadores en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_STATIONS_NAME                 :Estaciones y Puntos de Ruta OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Estaciones y Puntos de Ruta OpenGFX2+. Estaciones de ferrocarril y puntos de ruta en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Puntos de ruta
+STR_WAYP_RAIL                         :Punto de ruta de ferrocarril
+STR_WAYP_MONORAIL                     :Punto de ruta de monorraíl
+STR_WAYP_MAGLEV                       :Punto de ruta de levitación magnética
 
+STR_GRF_TRAMS_NAME                    :Tranvías  OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Tranvías OpenGFX2+. Tranvías en el estilo OpenGFX2+.{BLACK}{}Por Zephyris, apoyado por el equipo de OpenGFX{}{BLACK}Licencia: {SILVER}GPL v2+{}{BLACK}Página web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Tranvía Broom Mk1
+STR_TRAM_NAME_GEN2                    :Tranvía Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :Tranvía Broom D1
+STR_TRAM_NAME_GEN4                    :Tranvía Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Tranvía Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Tranvía Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tranvía Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tranvía Wizzowow
