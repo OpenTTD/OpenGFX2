@@ -1,0 +1,219 @@
+##grflangid 0x15
+##plural 10
+##gender mnp fp np m map n f
+##case loc gen nom small dat acc voc big ins
+STR_GENERAL_DESC.loc                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC.gen                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC.nom                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC.small                :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC.dat                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC.acc                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC.voc                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC.big                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC.ins                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+STR_GENERAL_DESC                      :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+
+
+
+
+
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.loc  :pouze mřížce terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.gen  :pouze mřížky terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.nom  :pouze mřížka terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.small:mřížička
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.dat  :pouze mřížce terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.acc  :pouze mřížku terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.voc  :pouze mřížko terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.big  :velká mřížka
+STR_PARAM_GRIDLINE_VALUE_DEFAULT.ins  :pouze mřížkou terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Pouze mřížka terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.loc:bez mřížky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.gen:bez mřížky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.nom:bez mřížky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.small:bez mřížičky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.dat:bez mřížky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.acc:bez mřížky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.voc:bez mřížky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.big:bez velké mřížky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.ins:bez mřížky
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Bez mřížky
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.loc:mřízce terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.gen:mřížky terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.nom:mřížka terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.small:mřížička terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.dat:mřízce terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.acc:mřížku terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.voc:mřížko terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.big:velká mřížka terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID.ins:mřížkou terénu a vody
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Mřížka terénu a vody
+
+
+STR_PARAM_VALUE_ARCTIC.loc            :Arktiděd
+STR_PARAM_VALUE_ARCTIC.gen            :Arktidy
+STR_PARAM_VALUE_ARCTIC.nom            :Arktida
+STR_PARAM_VALUE_ARCTIC.small          :Arktidka
+STR_PARAM_VALUE_ARCTIC.dat            :Arktiděd
+STR_PARAM_VALUE_ARCTIC.acc            :Arktidu
+STR_PARAM_VALUE_ARCTIC.voc            :Arktido
+STR_PARAM_VALUE_ARCTIC.big            :Arktida
+STR_PARAM_VALUE_ARCTIC.ins            :Arktidou
+STR_PARAM_VALUE_ARCTIC                :Arktida
+
+STR_PARAM_VALUE_ARCTIC_DEFAULT.loc    :Arctic (Default)
+STR_PARAM_VALUE_ARCTIC_DEFAULT.gen    :Arktidy (výchozí)
+STR_PARAM_VALUE_ARCTIC_DEFAULT.nom    :Arktida (výchozí)
+STR_PARAM_VALUE_ARCTIC_DEFAULT.small  :Arktidka (výchozí)
+STR_PARAM_VALUE_ARCTIC_DEFAULT.dat    :Arktiděd (výchozí)
+STR_PARAM_VALUE_ARCTIC_DEFAULT.acc    :Arktidu (výchozí)
+STR_PARAM_VALUE_ARCTIC_DEFAULT.voc    :Arktido (výchozí)
+STR_PARAM_VALUE_ARCTIC_DEFAULT.big    :velká Arktida (výchozí)
+STR_PARAM_VALUE_ARCTIC_DEFAULT.ins    :Arktidou (výchozí)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arktida (výchozí)
+
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.loc  :Arctic (Alternate style)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.gen  :Arktidy (alternativní styl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.nom  :Arktida (alternativní styl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.small:Arktidka (alternativní styl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.dat  :Arktiděd (alternativní styl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.acc  :Arktidu (alternativní styl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.voc  :Arktido (alternativní styl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.big  :velká Arktida (alternativní styl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE.ins  :Arktidou (alternativní styl)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktida (alternativní styl)
+
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :Mírná tráva
+
+
+STR_GRF_LANDSCAPE_NAME.loc            :OpenGFX2+ krajině
+STR_GRF_LANDSCAPE_NAME.gen            :OpenGFX2+ krajiny
+STR_GRF_LANDSCAPE_NAME.nom            :OpenGFX2+ krajina
+STR_GRF_LANDSCAPE_NAME.small          :OpenGFX2+ krajinka
+STR_GRF_LANDSCAPE_NAME.dat            :OpenGFX2+ krajině
+STR_GRF_LANDSCAPE_NAME.acc            :OpenGFX2+ krajinu
+STR_GRF_LANDSCAPE_NAME.voc            :OpenGFX2+ krajino
+STR_GRF_LANDSCAPE_NAME.big            :velká OpenGFX2+ krajina
+STR_GRF_LANDSCAPE_NAME.ins            :OpenGFX2+ krajinou
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Krajina
+
+
+
+STR_OBJECT_ROCKS                      :Šedé skály
+STR_OBJECT_ROCKS_BLACK                :Černé skály
+STR_OBJECT_ROCKS_DARKGRAY.loc         :tmavě šedých skalách
+STR_OBJECT_ROCKS_DARKGRAY.gen         :tmavě šedých skal
+STR_OBJECT_ROCKS_DARKGRAY.nom         :tmavě šedé skály
+STR_OBJECT_ROCKS_DARKGRAY.small       :tmavě šedá skaliska
+STR_OBJECT_ROCKS_DARKGRAY.dat         :tmavě šedým skalám
+STR_OBJECT_ROCKS_DARKGRAY.acc         :tmavě šedé skály
+STR_OBJECT_ROCKS_DARKGRAY.voc         :tmavě šedé skály
+STR_OBJECT_ROCKS_DARKGRAY.big         :tmavě šedé velehory
+STR_OBJECT_ROCKS_DARKGRAY.ins         :tmavě šedými skalami
+STR_OBJECT_ROCKS_DARKGRAY             :Tmavě šedé skály
+STR_OBJECT_ROCKS_BROWN1.loc           :červenohnědých skalách
+STR_OBJECT_ROCKS_BROWN1.gen           :červenohnědých skal
+STR_OBJECT_ROCKS_BROWN1.nom           :červenohnědé skály
+STR_OBJECT_ROCKS_BROWN1.small         :červenohnědá skaliska
+STR_OBJECT_ROCKS_BROWN1.dat           :červenohnědým skalám
+STR_OBJECT_ROCKS_BROWN1.acc           :červenohnědé skály
+STR_OBJECT_ROCKS_BROWN1.voc           :červenohnědé skály
+STR_OBJECT_ROCKS_BROWN1.big           :červenohnědé velehory
+STR_OBJECT_ROCKS_BROWN1.ins           :červenohnědými skalami
+STR_OBJECT_ROCKS_BROWN1               :Červenohnědé skály
+STR_OBJECT_ROCKS_BROWN2.loc           :Hnědých skalách
+STR_OBJECT_ROCKS_BROWN2.gen           :Hnědých skal
+STR_OBJECT_ROCKS_BROWN2.nom           :Hnědé skály
+STR_OBJECT_ROCKS_BROWN2.small         :Hnědá skaliska
+STR_OBJECT_ROCKS_BROWN2.dat           :Hnědým skalám
+STR_OBJECT_ROCKS_BROWN2.acc           :Hnědé skály
+STR_OBJECT_ROCKS_BROWN2.voc           :Hnědé skály
+STR_OBJECT_ROCKS_BROWN2.big           :Hnědé velehory
+STR_OBJECT_ROCKS_BROWN2.ins           :Hnědými skalami
+STR_OBJECT_ROCKS_BROWN2               :Hnědé skály
+STR_OBJECT_ROCKS_YELLOW.loc           :žlutých skalách
+STR_OBJECT_ROCKS_YELLOW.gen           :žlutých skal
+STR_OBJECT_ROCKS_YELLOW.nom           :žluté skály
+STR_OBJECT_ROCKS_YELLOW.small         :žlutá skaliska
+STR_OBJECT_ROCKS_YELLOW.dat           :žlutým skalám
+STR_OBJECT_ROCKS_YELLOW.acc           :žluté skály
+STR_OBJECT_ROCKS_YELLOW.voc           :žluté skály
+STR_OBJECT_ROCKS_YELLOW.big           :žluté velehory
+STR_OBJECT_ROCKS_YELLOW.ins           :žlutými skalami
+STR_OBJECT_ROCKS_YELLOW               :Žluté skály
+STR_OBJECT_ROCKS_BUY                  :Dlaždicе skalnatého terénu. Lze stavět na souši, na pobřeží nebo na moři. Zohledňuje sklon a sníh.
+
+STR_OBJECT_FIELD                      :Pole
+STR_OBJECT_FIELD_BUY.loc              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblastí stejného typu pole.
+STR_OBJECT_FIELD_BUY.gen              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_FIELD_BUY.nom              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_FIELD_BUY.small            :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_FIELD_BUY.dat              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_FIELD_BUY.acc              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_FIELD_BUY.voc              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_FIELD_BUY.big              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_FIELD_BUY.ins              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_FIELD_BUY                  :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
+STR_OBJECT_COMPANY_BARE               :Holá zem
+STR_OBJECT_COMPANY_PART1.loc          :trávničku
+STR_OBJECT_COMPANY_PART1.gen          :trávničku
+STR_OBJECT_COMPANY_PART1.nom          :trávniček
+STR_OBJECT_COMPANY_PART1.small        :malý trávniček
+STR_OBJECT_COMPANY_PART1.dat          :trávničku
+STR_OBJECT_COMPANY_PART1.acc          :trávniček
+STR_OBJECT_COMPANY_PART1.voc          :trávničku
+STR_OBJECT_COMPANY_PART1.big          :velký trávniček
+STR_OBJECT_COMPANY_PART1.ins          :trávničkem
+STR_OBJECT_COMPANY_PART1              :trávniček
+STR_OBJECT_COMPANY_PART2.loc          :husté trávě
+STR_OBJECT_COMPANY_PART2.gen          :husté trávy
+STR_OBJECT_COMPANY_PART2.nom          :hustá tráva
+STR_OBJECT_COMPANY_PART2.small        :malá hustá tráva
+STR_OBJECT_COMPANY_PART2.dat          :husté trávě
+STR_OBJECT_COMPANY_PART2.acc          :hustou trávu
+STR_OBJECT_COMPANY_PART2.voc          :hustá trávo
+STR_OBJECT_COMPANY_PART2.big          :velká hustá tráva
+STR_OBJECT_COMPANY_PART2.ins          :hustou trávou
+STR_OBJECT_COMPANY_PART2              :hustá tráva
+STR_OBJECT_COMPANY_GRASS.loc          :trávě
+STR_OBJECT_COMPANY_GRASS.gen          :trávy
+STR_OBJECT_COMPANY_GRASS.small        :malá tráva
+STR_OBJECT_COMPANY_GRASS.dat          :trávě
+STR_OBJECT_COMPANY_GRASS.acc          :trávu
+STR_OBJECT_COMPANY_GRASS.voc          :trávo
+STR_OBJECT_COMPANY_GRASS.big          :velká tráva
+STR_OBJECT_COMPANY_GRASS.ins          :trávou
+STR_OBJECT_COMPANY_GRASS              :tráva
+STR_OBJECT_COMPANY_BUY                :Oplocená dlaždice terénu. Zohledňuje sklon a sníh, s automatickými ploty v barvě společnosti kolem oblastí stejného typu dlaždice.
+
+STR_OBJECT_FOREST                     :les
+STR_OBJECT_FOREST_BUY.loc             :Forest terrain tile. Slope and snow-aware, with automatic fences or hedges around areas of the same field type.
+STR_OBJECT_FOREST_BUY                 :Dlaždice terénu s lesem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblastí stejného typu pole.
+
+STR_OBJECT_LIGHTHOUSE                 :Majáka
+STR_OBJECT_TRANSMITTER.loc            :vysílači
+STR_OBJECT_TRANSMITTER.gen            :vysílače
+STR_OBJECT_TRANSMITTER.nom            :vysílač
+STR_OBJECT_TRANSMITTER.small          :vysílačék
+STR_OBJECT_TRANSMITTER.dat            :vysílači
+STR_OBJECT_TRANSMITTER.acc            :vysílač
+STR_OBJECT_TRANSMITTER.voc            :vysílači
+STR_OBJECT_TRANSMITTER.big            :velký vysílač
+STR_OBJECT_TRANSMITTER.ins            :vysílačem
+STR_OBJECT_TRANSMITTER                :Vysílač
+STR_OBJECT_SUBSTATION.loc             :trafostanici
+STR_OBJECT_SUBSTATION.gen             :trafostanice
+STR_OBJECT_SUBSTATION.nom             :trafostanice
+STR_OBJECT_SUBSTATION.small           :trafostaničká
+STR_OBJECT_SUBSTATION.dat             :trafostanici
+STR_OBJECT_SUBSTATION.acc             :trafostanici
+STR_OBJECT_SUBSTATION.voc             :trafostanice
+STR_OBJECT_SUBSTATION.big             :velká trafostanice
+STR_OBJECT_SUBSTATION.ins             :trafostanici
+STR_OBJECT_SUBSTATION                 :Trafostanice
+STR_OBJECT_GASOMETER                  :Plynojem
+
+
+
+
+
