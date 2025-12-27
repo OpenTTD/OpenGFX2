@@ -2,6 +2,7 @@
 ##plural 10
 ##gender mnp fp np m map n f
 ##case loc gen nom small dat acc voc big ins
+STR_GENERAL_DESC                      :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
 STR_GENERAL_DESC.loc                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
 STR_GENERAL_DESC.gen                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
 STR_GENERAL_DESC.nom                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
@@ -11,12 +12,30 @@ STR_GENERAL_DESC.acc                  :Základní grafická sada OpenGFX2 pro Op
 STR_GENERAL_DESC.voc                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
 STR_GENERAL_DESC.big                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
 STR_GENERAL_DESC.ins                  :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
-STR_GENERAL_DESC                      :Základní grafická sada OpenGFX2 pro OpenTTD. Volně dostupná pod podmínkami licence GNU General Public License verze 2. [OpenGFX2Base]
+
+STR_GRF_NAME                          :Základ OpenGFX2
+STR_GRF_NAME.loc                      :základu OpenGFX2
+STR_GRF_NAME.gen                      :základu OpenGFX2
+STR_GRF_NAME.nom                      :základ OpenGFX2
+STR_GRF_NAME.small                    :základik OpenGFX2
+STR_GRF_NAME.dat                      :základu OpenGFX2
+STR_GRF_NAME.acc                      :základ OpenGFX2
+STR_GRF_NAME.voc                      :základе OpenGFX2
+STR_GRF_NAME.big                      :velký základ OpenGFX2
+STR_GRF_NAME.ins                      :základem OpenGFX2
+STR_GRF_DESCRIPTION                   :{ORANGE}Základní grafická sada OpenGFX2{BLACK}{}Autor: Zephyris, s využitím práce týmu OpenGFX{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Parametry základní sady
+STR_WARN_SETTINGSGRF_HARDCODED        :Pevně zakódované parametry
 
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klasický styl, žlutá (Výchozi)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klasický styl, šedá
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Styl OpenGFX, žlutá
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Styl Windows, bílá
 
-
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Pouze mřížka terénu (výchozi)
 STR_PARAM_GRIDLINE_VALUE_DEFAULT.loc  :pouze mřížce terénu (výchozi)
 STR_PARAM_GRIDLINE_VALUE_DEFAULT.gen  :pouze mřížky terénu (výchozi)
 STR_PARAM_GRIDLINE_VALUE_DEFAULT.nom  :pouze mřížka terénu (výchozi)
@@ -26,7 +45,7 @@ STR_PARAM_GRIDLINE_VALUE_DEFAULT.acc  :pouze mřížku terénu (výchozi)
 STR_PARAM_GRIDLINE_VALUE_DEFAULT.voc  :pouze mřížko terénu (výchozi)
 STR_PARAM_GRIDLINE_VALUE_DEFAULT.big  :velká mřížka
 STR_PARAM_GRIDLINE_VALUE_DEFAULT.ins  :pouze mřížkou terénu (výchozi)
-STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Pouze mřížka terénu (výchozi)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Bez mřížky
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.loc:bez mřížky
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.gen:bez mřížky
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.nom:bez mřížky
@@ -36,7 +55,7 @@ STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.acc:bez mřížky
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.voc:bez mřížky
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.big:bez velké mřížky
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE.ins:bez mřížky
-STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Bez mřížky
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Mřížka terénu a vody
 STR_PARAM_GRIDLINE_VALUE_WATERGRID.loc:mřízce terénu a vody
 STR_PARAM_GRIDLINE_VALUE_WATERGRID.gen:mřížky terénu a vody
 STR_PARAM_GRIDLINE_VALUE_WATERGRID.nom:mřížka terénu a vody
@@ -46,9 +65,10 @@ STR_PARAM_GRIDLINE_VALUE_WATERGRID.acc:mřížku terénu a vody
 STR_PARAM_GRIDLINE_VALUE_WATERGRID.voc:mřížko terénu a vody
 STR_PARAM_GRIDLINE_VALUE_WATERGRID.big:velká mřížka terénu a vody
 STR_PARAM_GRIDLINE_VALUE_WATERGRID.ins:mřížkou terénu a vody
-STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Mřížka terénu a vody
 
 
+STR_PARAM_VALUE_TEMPERATE             :Mírné pásmo
+STR_PARAM_VALUE_ARCTIC                :Arktida
 STR_PARAM_VALUE_ARCTIC.loc            :Arktiděd
 STR_PARAM_VALUE_ARCTIC.gen            :Arktidy
 STR_PARAM_VALUE_ARCTIC.nom            :Arktida
@@ -58,8 +78,38 @@ STR_PARAM_VALUE_ARCTIC.acc            :Arktidu
 STR_PARAM_VALUE_ARCTIC.voc            :Arktido
 STR_PARAM_VALUE_ARCTIC.big            :Arktida
 STR_PARAM_VALUE_ARCTIC.ins            :Arktidou
-STR_PARAM_VALUE_ARCTIC                :Arktida
+STR_PARAM_VALUE_TROPICAL              :Tropické podnebi
+STR_PARAM_VALUE_TROPICAL.loc          :tropickém podnebi
+STR_PARAM_VALUE_TROPICAL.gen          :tropického podnebi
+STR_PARAM_VALUE_TROPICAL.nom          :tropické podnebi
+STR_PARAM_VALUE_TROPICAL.small        :malé tropické podnebi
+STR_PARAM_VALUE_TROPICAL.dat          :tropickému podnebi
+STR_PARAM_VALUE_TROPICAL.acc          :tropické podnebi
+STR_PARAM_VALUE_TROPICAL.voc          :tropické podnebi
+STR_PARAM_VALUE_TROPICAL.big          :velké tropické podnebi
+STR_PARAM_VALUE_TROPICAL.ins          :tropickým podnebím
+STR_PARAM_VALUE_TOYLAND               :Krajina hráček
+STR_PARAM_VALUE_TOYLAND.loc           :krajině hraček
+STR_PARAM_VALUE_TOYLAND.gen           :krajiny hraček
+STR_PARAM_VALUE_TOYLAND.nom           :krajina hraček
+STR_PARAM_VALUE_TOYLAND.small         :krajinka hraček
+STR_PARAM_VALUE_TOYLAND.dat           :krajině hraček
+STR_PARAM_VALUE_TOYLAND.acc           :krajinu hraček
+STR_PARAM_VALUE_TOYLAND.voc           :krajino hraček
+STR_PARAM_VALUE_TOYLAND.big           :velká krajina hraček
+STR_PARAM_VALUE_TOYLAND.ins           :krajinou hraček
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Mírné podnebi (vychozi)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.loc :mírném podnebi (vychozim)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.gen :mirného podnebi (vychoziho)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.nom :mírné podnebi (vychozi)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.small:malé mirné podnebi (vychozi)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.dat :mirmému podnebi (vychozímu)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.acc :mírné podnebi (vychozi)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.voc :mírné podnebi (vychozi)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.big :velké mirné podnebi (vychozi)
+STR_PARAM_VALUE_TEMPERATE_DEFAULT.ins :mirným podnebím (vychozim)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arktida (výchozí)
 STR_PARAM_VALUE_ARCTIC_DEFAULT.loc    :Arctic (Default)
 STR_PARAM_VALUE_ARCTIC_DEFAULT.gen    :Arktidy (výchozí)
 STR_PARAM_VALUE_ARCTIC_DEFAULT.nom    :Arktida (výchozí)
@@ -69,8 +119,38 @@ STR_PARAM_VALUE_ARCTIC_DEFAULT.acc    :Arktidu (výchozí)
 STR_PARAM_VALUE_ARCTIC_DEFAULT.voc    :Arktido (výchozí)
 STR_PARAM_VALUE_ARCTIC_DEFAULT.big    :velká Arktida (výchozí)
 STR_PARAM_VALUE_ARCTIC_DEFAULT.ins    :Arktidou (výchozí)
-STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arktida (výchozí)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropické podnebi (výchozi)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.loc  :tropickém podnebi (výchozim)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.gen  :tropického podnebi (výchoziho)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.nom  :tropické podnebi (výchozi)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.small:malé tropické podnebi (výchozi)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.dat  :tropickému podnebi (výchozimu)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.acc  :tropické podnebi (výchozi)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.voc  :tropické podnebi (výchozi)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.big  :velké tropické podnebi (výchozi)
+STR_PARAM_VALUE_TROPICAL_DEFAULT.ins  :tropickým podnebim (výchozim)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Krajina hráček (výchozi)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.loc   :krajině hraček (výchozím)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.gen   :krajiny hraček (výchozího)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.nom   :krajina hraček (výchozí)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.small :krajinka hraček (výchozí)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.dat   :krajině hraček (výchozímu)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.acc   :krajinu hraček (výchozí)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.voc   :krajino hraček (výchozí)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.big   :velká krajina hraček (výchozí)
+STR_PARAM_VALUE_TOYLAND_DEFAULT.ins   :krajinou hraček (výchozím)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Mírné podnebi (alternativní styl)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.loc:mírném podnebi (alternativním stylu)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.gen:mirného podnebi (alternativního stylu)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.nom:mírné podnebi (alternativní styl)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.small:malé mirné podnebi (alternativní styl)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.dat:mirmému podnebi (alternativnímu stylu)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.acc:mírné podnebi (alternativní styl)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.voc:mírné podnebi (alternativní styl)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.big:velké mirné podnebi (alternativní styl)
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE.ins:mirným podnebím (alternativním stylem)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktida (alternativní styl)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE.loc  :Arctic (Alternate style)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE.gen  :Arktidy (alternativní styl)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE.nom  :Arktida (alternativní styl)
@@ -80,12 +160,186 @@ STR_PARAM_VALUE_ARCTIC_ALTERNATE.acc  :Arktidu (alternativní styl)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE.voc  :Arktido (alternativní styl)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE.big  :velká Arktida (alternativní styl)
 STR_PARAM_VALUE_ARCTIC_ALTERNATE.ins  :Arktidou (alternativní styl)
-STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktida (alternativní styl)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropické podnebi (alternativní styl)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.loc:tropick\u00e9m podnebi (alternativn\u00edm stylu)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.gen:tropického podnebi (alternativniho stylu)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.nom:tropické podnebi (alternativní styl)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.small:malé tropické podnebi (alternativní styl)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.dat:tropickému podnebi (alternativnimu stylu)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.acc:tropické podnebi (alternativní styl)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.voc:tropické podnebi (alternativní styl)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.big:velké tropické podnebi (alternativní styl)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE.ins:tropickým podnebím (alternativním stylem)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Krajina hráček (alternativní styl)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.loc :krajině hraček (alternativním stylu)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.gen :krajiny hraček (alternativního stylu)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.nom :krajina hraček (alternativní styl)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.small:krajinka hraček (alternativní styl)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.dat :krajině hraček (alternativnímu stylu)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.acc :krajinu hraček (alternativní styl)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.voc :krajino hraček (alternativní styl)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.big :velká krajina hraček (alternativní styl)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE.ins :krajinou hraček (alternativním stylem)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Základy v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.loc:základech v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.gen:základů v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.nom:základy v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.small:základiky v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.dat:základům v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.acc:základy v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.voc:základy v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.big:velké základy v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME.ins:základy v mírném podnebí
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Styl základů v mírném podnebí
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arktické základy
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.loc :arktických základech
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.gen :arktických základů
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.nom :arktické základy
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.small:arktické základiky
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.dat :arctickým základům
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.acc :arktické základy
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.voc :arktické základy
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.big :velké arktické základy
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME.ins :arctickými základy
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Styl základů v arktickém podnebí
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC.gen :stylu základů v arktickém podnebí
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC.nom :styl základů v arktickém podnebí
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC.small:stylik základů v arktickém podnebí
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC.dat :stylu základů v arktickém podnebí
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC.voc :style základů v arktickém podnebí
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC.big :velký styl základů v arktickém podnebí
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC.ins :stylem základů v arktickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropické základy
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.loc:tropických základech
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.gen:tropických základů
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.nom:tropické základy
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.small:tropické základiky
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.dat:tropickým základům
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.acc:tropické základy
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.voc:tropické základy
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.big:velké tropické základy
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME.ins:tropickými základy
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Styl základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC.gen:stylu základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC.nom:styl základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC.small:stylik základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC.dat:stylu základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC.acc:styl základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC.voc:style základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC.big:velký styl základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC.ins:stylem základů v tropickém podnebí
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Základy v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.loc:základech v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.gen:základů v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.nom:základy v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.small:základiky v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.dat:základům v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.acc:základy v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.voc:základy v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.big:velké základy v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME.ins:základy v krajině hraček
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Styl základů v krajině hraček
 
 STR_PARAM_GRASS_TEMPERATE_NAME        :Mírná tráva
+STR_PARAM_GRASS_TEMPERATE_DESC        :Styl trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.loc    :stylu trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.gen    :stylu trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.nom    :styl trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.small  :stylik trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.dat    :stylu trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.acc    :styl trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.voc    :style trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.big    :velký styl trávy v mírném podnebí
+STR_PARAM_GRASS_TEMPERATE_DESC.ins    :stylem trávy v mírném podnebí
+STR_PARAM_GRASS_ARCTIC_NAME           :Arktická tráva
+STR_PARAM_GRASS_ARCTIC_NAME.loc       :arktické trávy
+STR_PARAM_GRASS_ARCTIC_NAME.gen       :arktické trávy
+STR_PARAM_GRASS_ARCTIC_NAME.nom       :arktická tráva
+STR_PARAM_GRASS_ARCTIC_NAME.small     :arktická travička
+STR_PARAM_GRASS_ARCTIC_NAME.dat       :arktické trávy
+STR_PARAM_GRASS_ARCTIC_NAME.acc       :arktickou trávu
+STR_PARAM_GRASS_ARCTIC_NAME.voc       :arktická trávo
+STR_PARAM_GRASS_ARCTIC_NAME.big       :velká arktická tráva
+STR_PARAM_GRASS_ARCTIC_NAME.ins       :arktickou trávou
+STR_PARAM_GRASS_ARCTIC_DESC           :Styl trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.loc       :stylu trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.gen       :stylu trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.nom       :styl trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.small     :stylem trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.dat       :stylu trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.acc       :styl trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.voc       :styl trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.big       :velký styl trávy v arktickém podnebí
+STR_PARAM_GRASS_ARCTIC_DESC.ins       :stylem trávy v arktickém podnebí
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropická tráva
+STR_PARAM_GRASS_TROPICAL_NAME.loc     :tropické trávě
+STR_PARAM_GRASS_TROPICAL_NAME.gen     :tropické trávy
+STR_PARAM_GRASS_TROPICAL_NAME.nom     :tropická tráva
+STR_PARAM_GRASS_TROPICAL_NAME.small   :tropická trávčka
+STR_PARAM_GRASS_TROPICAL_NAME.dat     :tropické trávě
+STR_PARAM_GRASS_TROPICAL_NAME.acc     :tropickou trávu
+STR_PARAM_GRASS_TROPICAL_NAME.voc     :tropická trávo
+STR_PARAM_GRASS_TROPICAL_NAME.big     :velká tropická tráva
+STR_PARAM_GRASS_TROPICAL_DESC         :Styl trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.loc     :stylu trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.gen     :stylu trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.nom     :styl trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.small   :stylik trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.dat     :stylu trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.acc     :styl trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.voc     :style trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.big     :velký styl trávy v tropickém podnebí
+STR_PARAM_GRASS_TROPICAL_DESC.ins     :stylem trávy v tropickém podnebí
+STR_PARAM_GRASS_TOYLAND_NAME          :Tráva v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.loc      :tráva v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.gen      :trávy v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.nom      :tráva v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.small    :tráva v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.dat      :trávě v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.acc      :trávu v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.voc      :trávo v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.big      :velká tráva v krajině hraček
+STR_PARAM_GRASS_TOYLAND_NAME.ins      :trávou v krajině hraček
+STR_PARAM_GRASS_TOYLAND_DESC          :Styl trávy v krajině hraček
+STR_PARAM_GRASS_TOYLAND_DESC.loc      :stylu trávy v krajinĚ hraček
+STR_PARAM_GRASS_TOYLAND_DESC.gen      :stylu trávy v krajinĚ hraček
+STR_PARAM_GRASS_TOYLAND_DESC.nom      :styl trávy v krajinĚ hraček
+STR_PARAM_GRASS_TOYLAND_DESC.small    :stylik trávy v krajinĚ hraček
+STR_PARAM_GRASS_TOYLAND_DESC.dat      :stylu trávy v krajinĚ hraček
+STR_PARAM_GRASS_TOYLAND_DESC.acc      :styl trávy v krajinĚ hraček
+STR_PARAM_GRASS_TOYLAND_DESC.voc      :style trávy v krajinĚ hraček
+STR_PARAM_GRASS_TOYLAND_DESC.big      :velký styl trávy v krajinĚ hraček
+STR_PARAM_GRASS_TOYLAND_DESC.ins      :stylem trávy v krajinĚ hraček
 
+STR_PARAM_TREES_TEMPERATE_NAME        :Mírné stromy
+STR_PARAM_TREES_TEMPERATE_DESC        :Styl stromů v mírném podnebí
+STR_PARAM_TREES_ARCTIC_NAME           :Arktické stromy
+STR_PARAM_TREES_ARCTIC_DESC           :Styl stromů v arktickém podnebí
+STR_PARAM_TREES_TROPICAL_NAME         :Tropické stromy
+STR_PARAM_TREES_TROPICAL_NAME.loc     :tropickych stromech
+STR_PARAM_TREES_TROPICAL_NAME.gen     :tropickych stromu
+STR_PARAM_TREES_TROPICAL_NAME.nom     :tropicke stromy
+STR_PARAM_TREES_TROPICAL_NAME.small   :tropicke stromky
+STR_PARAM_TREES_TROPICAL_NAME.dat     :tropickym stromum
+STR_PARAM_TREES_TROPICAL_NAME.acc     :tropicke stromy
+STR_PARAM_TREES_TROPICAL_NAME.voc     :tropicke stromy
+STR_PARAM_TREES_TROPICAL_NAME.big     :velke tropicke stromy
+STR_PARAM_TREES_TROPICAL_NAME.ins     :tropickými stromy
+STR_PARAM_TREES_TROPICAL_DESC         :Styl stromů v tropickém podnebí (nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.loc     :stylu stromů v tropickém podnebí (který nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.gen     :stylu stromů v tropickém podnebí (který nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.nom     :styl stromů v tropickém podnebí (nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.small   :stylik stromů v tropickém podnebí (nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.dat     :stylu stromů v tropickém podnebí (který nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.acc     :styl stromů v tropickém podnebí (nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.voc     :style stromů v tropickém podnebí (nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.big     :velký styl stromů v tropickém podnebí (nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TROPICAL_DESC.ins     :stylem stromů v tropickém podnebí (který nenařazuje palmy a kaktusy)
+STR_PARAM_TREES_TOYLAND_NAME          :Stromy v krajině hraček
+STR_PARAM_TREES_TOYLAND_DESC          :Styl stromů v krajině hraček
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Krajina
 STR_GRF_LANDSCAPE_NAME.loc            :OpenGFX2+ krajině
 STR_GRF_LANDSCAPE_NAME.gen            :OpenGFX2+ krajiny
 STR_GRF_LANDSCAPE_NAME.nom            :OpenGFX2+ krajina
@@ -95,12 +349,45 @@ STR_GRF_LANDSCAPE_NAME.acc            :OpenGFX2+ krajinu
 STR_GRF_LANDSCAPE_NAME.voc            :OpenGFX2+ krajino
 STR_GRF_LANDSCAPE_NAME.big            :velká OpenGFX2+ krajina
 STR_GRF_LANDSCAPE_NAME.ins            :OpenGFX2+ krajinou
-STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Krajina
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Krajina. Krajiny ve stylu OpenGFX2.{BLACK}{}Autor: Zephyris, s využitím práce týmu OpenGFX{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :Stromy OpenGFX2+
+STR_GRF_TREES_NAME.loc                :stromech OpenGFX2+
+STR_GRF_TREES_NAME.gen                :stromů OpenGFX2+
+STR_GRF_TREES_NAME.nom                :stromy OpenGFX2+
+STR_GRF_TREES_NAME.small              :stromky OpenGFX2+
+STR_GRF_TREES_NAME.dat                :stromům OpenGFX2+
+STR_GRF_TREES_NAME.acc                :stromy OpenGFX2+
+STR_GRF_TREES_NAME.voc                :stromy OpenGFX2+
+STR_GRF_TREES_NAME.big                :velké stromy OpenGFX2+
+STR_GRF_TREES_NAME.ins                :stromy OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Stromy. Stromy ve stylu OpenGFX2.{BLACK}{}Autor: Zephyris, s využitím práce týmu OpenGFX{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :Objekty OpenGFX2+
+STR_GRF_OBJECTS_NAME.loc              :objektech OpenGFX2+
+STR_GRF_OBJECTS_NAME.gen              :objektů OpenGFX2+
+STR_GRF_OBJECTS_NAME.nom              :objekty OpenGFX2+
+STR_GRF_OBJECTS_NAME.small            :objektiky OpenGFX2+
+STR_GRF_OBJECTS_NAME.dat              :objektům OpenGFX2+
+STR_GRF_OBJECTS_NAME.acc              :objekty OpenGFX2+
+STR_GRF_OBJECTS_NAME.voc              :objekty OpenGFX2+
+STR_GRF_OBJECTS_NAME.big              :velké objekty OpenGFX2+
+STR_GRF_OBJECTS_NAME.ins              :objekty OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objekty. Objekty ve stylu OpenGFX2.{BLACK}{}Autor: Zephyris, s využitím práce týmu OpenGFX{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Skály
+STR_CLASS_ROCK.loc                    :skalásch
+STR_CLASS_ROCK.gen                    :skal
+STR_CLASS_ROCK.nom                    :skály
+STR_CLASS_ROCK.small                  :skalky
+STR_CLASS_ROCK.dat                    :skalám
+STR_CLASS_ROCK.acc                    :skály
+STR_CLASS_ROCK.voc                    :skály
+STR_CLASS_ROCK.big                    :velké skály
+STR_CLASS_ROCK.ins                    :skalami
 STR_OBJECT_ROCKS                      :Šedé skály
 STR_OBJECT_ROCKS_BLACK                :Černé skály
+STR_OBJECT_ROCKS_DARKGRAY             :Tmavě šedé skály
 STR_OBJECT_ROCKS_DARKGRAY.loc         :tmavě šedých skalách
 STR_OBJECT_ROCKS_DARKGRAY.gen         :tmavě šedých skal
 STR_OBJECT_ROCKS_DARKGRAY.nom         :tmavě šedé skály
@@ -110,7 +397,7 @@ STR_OBJECT_ROCKS_DARKGRAY.acc         :tmavě šedé skály
 STR_OBJECT_ROCKS_DARKGRAY.voc         :tmavě šedé skály
 STR_OBJECT_ROCKS_DARKGRAY.big         :tmavě šedé velehory
 STR_OBJECT_ROCKS_DARKGRAY.ins         :tmavě šedými skalami
-STR_OBJECT_ROCKS_DARKGRAY             :Tmavě šedé skály
+STR_OBJECT_ROCKS_BROWN1               :Červenohnědé skály
 STR_OBJECT_ROCKS_BROWN1.loc           :červenohnědých skalách
 STR_OBJECT_ROCKS_BROWN1.gen           :červenohnědých skal
 STR_OBJECT_ROCKS_BROWN1.nom           :červenohnědé skály
@@ -120,7 +407,7 @@ STR_OBJECT_ROCKS_BROWN1.acc           :červenohnědé skály
 STR_OBJECT_ROCKS_BROWN1.voc           :červenohnědé skály
 STR_OBJECT_ROCKS_BROWN1.big           :červenohnědé velehory
 STR_OBJECT_ROCKS_BROWN1.ins           :červenohnědými skalami
-STR_OBJECT_ROCKS_BROWN1               :Červenohnědé skály
+STR_OBJECT_ROCKS_BROWN2               :Hnědé skály
 STR_OBJECT_ROCKS_BROWN2.loc           :Hnědých skalách
 STR_OBJECT_ROCKS_BROWN2.gen           :Hnědých skal
 STR_OBJECT_ROCKS_BROWN2.nom           :Hnědé skály
@@ -130,7 +417,7 @@ STR_OBJECT_ROCKS_BROWN2.acc           :Hnědé skály
 STR_OBJECT_ROCKS_BROWN2.voc           :Hnědé skály
 STR_OBJECT_ROCKS_BROWN2.big           :Hnědé velehory
 STR_OBJECT_ROCKS_BROWN2.ins           :Hnědými skalami
-STR_OBJECT_ROCKS_BROWN2               :Hnědé skály
+STR_OBJECT_ROCKS_YELLOW               :Žluté skály
 STR_OBJECT_ROCKS_YELLOW.loc           :žlutých skalách
 STR_OBJECT_ROCKS_YELLOW.gen           :žlutých skal
 STR_OBJECT_ROCKS_YELLOW.nom           :žluté skály
@@ -140,10 +427,20 @@ STR_OBJECT_ROCKS_YELLOW.acc           :žluté skály
 STR_OBJECT_ROCKS_YELLOW.voc           :žluté skály
 STR_OBJECT_ROCKS_YELLOW.big           :žluté velehory
 STR_OBJECT_ROCKS_YELLOW.ins           :žlutými skalami
-STR_OBJECT_ROCKS_YELLOW               :Žluté skály
 STR_OBJECT_ROCKS_BUY                  :Dlaždicе skalnatého terénu. Lze stavět na souši, na pobřeží nebo na moři. Zohledňuje sklon a sníh.
 
+STR_CLASS_FLD_                        :Pole
+STR_CLASS_FLD_.loc                    :polích
+STR_CLASS_FLD_.gen                    :polí
+STR_CLASS_FLD_.nom                    :pole
+STR_CLASS_FLD_.small                  :políčka
+STR_CLASS_FLD_.dat                    :polím
+STR_CLASS_FLD_.acc                    :pole
+STR_CLASS_FLD_.voc                    :pole
+STR_CLASS_FLD_.big                    :velká pole
+STR_CLASS_FLD_.ins                    :poli
 STR_OBJECT_FIELD                      :Pole
+STR_OBJECT_FIELD_BUY                  :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
 STR_OBJECT_FIELD_BUY.loc              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblastí stejného typu pole.
 STR_OBJECT_FIELD_BUY.gen              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
 STR_OBJECT_FIELD_BUY.nom              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
@@ -153,8 +450,8 @@ STR_OBJECT_FIELD_BUY.acc              :Dlaždice terénu s polem. Zohledňuje sk
 STR_OBJECT_FIELD_BUY.voc              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
 STR_OBJECT_FIELD_BUY.big              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
 STR_OBJECT_FIELD_BUY.ins              :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
-STR_OBJECT_FIELD_BUY                  :Dlaždice terénu s polem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblasti stejného typu pole.
 STR_OBJECT_COMPANY_BARE               :Holá zem
+STR_OBJECT_COMPANY_PART1              :trávniček
 STR_OBJECT_COMPANY_PART1.loc          :trávničku
 STR_OBJECT_COMPANY_PART1.gen          :trávničku
 STR_OBJECT_COMPANY_PART1.nom          :trávniček
@@ -164,7 +461,7 @@ STR_OBJECT_COMPANY_PART1.acc          :trávniček
 STR_OBJECT_COMPANY_PART1.voc          :trávničku
 STR_OBJECT_COMPANY_PART1.big          :velký trávniček
 STR_OBJECT_COMPANY_PART1.ins          :trávničkem
-STR_OBJECT_COMPANY_PART1              :trávniček
+STR_OBJECT_COMPANY_PART2              :hustá tráva
 STR_OBJECT_COMPANY_PART2.loc          :husté trávě
 STR_OBJECT_COMPANY_PART2.gen          :husté trávy
 STR_OBJECT_COMPANY_PART2.nom          :hustá tráva
@@ -174,7 +471,7 @@ STR_OBJECT_COMPANY_PART2.acc          :hustou trávu
 STR_OBJECT_COMPANY_PART2.voc          :hustá trávo
 STR_OBJECT_COMPANY_PART2.big          :velká hustá tráva
 STR_OBJECT_COMPANY_PART2.ins          :hustou trávou
-STR_OBJECT_COMPANY_PART2              :hustá tráva
+STR_OBJECT_COMPANY_GRASS              :tráva
 STR_OBJECT_COMPANY_GRASS.loc          :trávě
 STR_OBJECT_COMPANY_GRASS.gen          :trávy
 STR_OBJECT_COMPANY_GRASS.small        :malá tráva
@@ -183,14 +480,34 @@ STR_OBJECT_COMPANY_GRASS.acc          :trávu
 STR_OBJECT_COMPANY_GRASS.voc          :trávo
 STR_OBJECT_COMPANY_GRASS.big          :velká tráva
 STR_OBJECT_COMPANY_GRASS.ins          :trávou
-STR_OBJECT_COMPANY_GRASS              :tráva
 STR_OBJECT_COMPANY_BUY                :Oplocená dlaždice terénu. Zohledňuje sklon a sníh, s automatickými ploty v barvě společnosti kolem oblastí stejného typu dlaždice.
 
+STR_CLASS_FRST                        :Lesy
+STR_CLASS_FRST.loc                    :lesech
+STR_CLASS_FRST.gen                    :lesů
+STR_CLASS_FRST.nom                    :lesy
+STR_CLASS_FRST.small                  :lesíky
+STR_CLASS_FRST.dat                    :lesům
+STR_CLASS_FRST.acc                    :lesy
+STR_CLASS_FRST.voc                    :lesy
+STR_CLASS_FRST.big                    :velké lesy
+STR_CLASS_FRST.ins                    :lesy
 STR_OBJECT_FOREST                     :les
-STR_OBJECT_FOREST_BUY.loc             :Forest terrain tile. Slope and snow-aware, with automatic fences or hedges around areas of the same field type.
 STR_OBJECT_FOREST_BUY                 :Dlaždice terénu s lesem. Zohledňuje sklon a sníh, s automatickými ploty nebo živými ploty kolem oblastí stejného typu pole.
+STR_OBJECT_FOREST_BUY.loc             :Forest terrain tile. Slope and snow-aware, with automatic fences or hedges around areas of the same field type.
 
+STR_CLASS_BLDG                        :Budovy
+STR_CLASS_BLDG.loc                    :budovách
+STR_CLASS_BLDG.gen                    :budov
+STR_CLASS_BLDG.nom                    :budovy
+STR_CLASS_BLDG.small                  :budovycký
+STR_CLASS_BLDG.dat                    :budovám
+STR_CLASS_BLDG.acc                    :budovy
+STR_CLASS_BLDG.voc                    :budovy
+STR_CLASS_BLDG.big                    :velké budovy
+STR_CLASS_BLDG.ins                    :budovami
 STR_OBJECT_LIGHTHOUSE                 :Majáka
+STR_OBJECT_TRANSMITTER                :Vysílač
 STR_OBJECT_TRANSMITTER.loc            :vysílači
 STR_OBJECT_TRANSMITTER.gen            :vysílače
 STR_OBJECT_TRANSMITTER.nom            :vysílač
@@ -200,7 +517,7 @@ STR_OBJECT_TRANSMITTER.acc            :vysílač
 STR_OBJECT_TRANSMITTER.voc            :vysílači
 STR_OBJECT_TRANSMITTER.big            :velký vysílač
 STR_OBJECT_TRANSMITTER.ins            :vysílačem
-STR_OBJECT_TRANSMITTER                :Vysílač
+STR_OBJECT_SUBSTATION                 :Trafostanice
 STR_OBJECT_SUBSTATION.loc             :trafostanici
 STR_OBJECT_SUBSTATION.gen             :trafostanice
 STR_OBJECT_SUBSTATION.nom             :trafostanice
@@ -210,10 +527,117 @@ STR_OBJECT_SUBSTATION.acc             :trafostanici
 STR_OBJECT_SUBSTATION.voc             :trafostanice
 STR_OBJECT_SUBSTATION.big             :velká trafostanice
 STR_OBJECT_SUBSTATION.ins             :trafostanici
-STR_OBJECT_SUBSTATION                 :Trafostanice
 STR_OBJECT_GASOMETER                  :Plynojem
 
+STR_GRF_STATIONS_NAME                 :Stanice a body trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.loc             :stanicích a bodech trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.gen             :stanic a bodů trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.nom             :stanice a body trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.small           :staničky a bodiky trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.dat             :stanicím a bodům trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.acc             :stanice a body trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.voc             :stanice a body trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.big             :velké stanice a body trasy OpenGFX2+
+STR_GRF_STATIONS_NAME.ins             :stanicemi a body trasy OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Stations & Waypoints. Rail stations and waypoints in the OpenGFX2 style.{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_MAGLEV                       :Návěstidlo maglevu
+STR_WAYP_MAGLEV.gen                   :návěstidla maglevu
+STR_WAYP_MAGLEV.small                 :návěstidylko maglevu
+STR_WAYP_MAGLEV.voc                   :návěstidlo maglevu
+STR_WAYP_MAGLEV.big                   :velké návěstidlo maglevu
+STR_WAYP_MAGLEV.ins                   :návěstidlem maglevu
 
+STR_GRF_TRAMS_NAME                    :Tramvaje OpenGFX2+
+STR_GRF_TRAMS_NAME.loc                :tramvajích OpenGFX2+
+STR_GRF_TRAMS_NAME.gen                :tramvají OpenGFX2+
+STR_GRF_TRAMS_NAME.nom                :tramvaje OpenGFX2+
+STR_GRF_TRAMS_NAME.small              :tramvajky OpenGFX2+
+STR_GRF_TRAMS_NAME.dat                :tramvajím OpenGFX2+
+STR_GRF_TRAMS_NAME.acc                :tramvaje OpenGFX2+
+STR_GRF_TRAMS_NAME.voc                :tramvaje OpenGFX2+
+STR_GRF_TRAMS_NAME.big                :velké tramvaje OpenGFX2+
+STR_GRF_TRAMS_NAME.ins                :tramvajemi OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Tramvaje. Tramvaje ve stylu OpenGFX2.{BLACK}{}Autor: Zephyris, s využitím práce týmu OpenGFX{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Tramvaj Broom Mk1
+STR_TRAM_NAME_GEN1.loc                :tramvaji Broom Mk1
+STR_TRAM_NAME_GEN1.gen                :tramvaje Broom Mk1
+STR_TRAM_NAME_GEN1.nom                :tramvaj Broom Mk1
+STR_TRAM_NAME_GEN1.small              :tramvajka Broom Mk1
+STR_TRAM_NAME_GEN1.dat                :tramvaji Broom Mk1
+STR_TRAM_NAME_GEN1.acc                :tramvaj Broom Mk1
+STR_TRAM_NAME_GEN1.voc                :tramvaji Broom Mk1
+STR_TRAM_NAME_GEN1.big                :velká tramvaj Broom Mk1
+STR_TRAM_NAME_GEN1.ins                :tramvají Broom Mk1
+STR_TRAM_NAME_GEN2                    :Tramvaj Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.loc                :tramvaji Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.gen                :tramvaje Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.nom                :tramvaj Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.small              :tramvajka Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.dat                :tramvaji Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.acc                :tramvaj Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.voc                :tramvaji Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.big                :velká tramvaj Manley-Morel 'T'
+STR_TRAM_NAME_GEN2.ins                :tramvají Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :tramvaj Broom D1
+STR_TRAM_NAME_GEN3.loc                :tramvaji Broom D1
+STR_TRAM_NAME_GEN3.gen                :tramvaje Broom D1
+STR_TRAM_NAME_GEN3.nom                :tramvaj Broom D1
+STR_TRAM_NAME_GEN3.small              :tramvajka Broom D1
+STR_TRAM_NAME_GEN3.dat                :tramvaji Broom D1
+STR_TRAM_NAME_GEN3.acc                :tramvaj Broom D1
+STR_TRAM_NAME_GEN3.voc                :tramvaji Broom D1
+STR_TRAM_NAME_GEN3.big                :velká tramvaj Broom D1
+STR_TRAM_NAME_GEN3.ins                :tramvaji Broom D1
+STR_TRAM_NAME_GEN4                    :tramvaj Broom Deluxe
+STR_TRAM_NAME_GEN4.loc                :tramvaji Broom Deluxe
+STR_TRAM_NAME_GEN4.gen                :tramvaje Broom Deluxe
+STR_TRAM_NAME_GEN4.nom                :tramvaj Broom Deluxe
+STR_TRAM_NAME_GEN4.small              :tramvajka Broom Deluxe
+STR_TRAM_NAME_GEN4.dat                :tramvaji Broom Deluxe
+STR_TRAM_NAME_GEN4.acc                :tramvaj Broom Deluxe
+STR_TRAM_NAME_GEN4.voc                :tramvaji Broom Deluxe
+STR_TRAM_NAME_GEN4.big                :velká tramvaj Broom Deluxe
+STR_TRAM_NAME_GEN4.ins                :tramvaji Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Tramvaj Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.loc           :tramvaji Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.gen           :tramvaje Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.nom           :tramvaj Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.small         :tramvajka Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.dat           :tramvaji Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.acc           :tramvaj Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.voc           :tramvaji Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.big           :velká tramvaj Ploddyphut
+STR_TRAM_NAME_GEN1_TOYL.ins           :tramvají Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :tramvaj Powernaught
+STR_TRAM_NAME_GEN2_TOYL.loc           :tramvaji Powernaught
+STR_TRAM_NAME_GEN2_TOYL.gen           :tramvaje Powernaught
+STR_TRAM_NAME_GEN2_TOYL.nom           :tramvaj Powernaught
+STR_TRAM_NAME_GEN2_TOYL.small         :tramvajka Powernaught
+STR_TRAM_NAME_GEN2_TOYL.dat           :tramvaji Powernaught
+STR_TRAM_NAME_GEN2_TOYL.acc           :tramvaj Powernaught
+STR_TRAM_NAME_GEN2_TOYL.voc           :tramvaji Powernaught
+STR_TRAM_NAME_GEN2_TOYL.big           :velká tramvaj Powernaught
+STR_TRAM_NAME_GEN2_TOYL.ins           :tramvaji Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :tramvaj Mightymover
+STR_TRAM_NAME_GEN3_TOYL.loc           :tramvaji Mightymover
+STR_TRAM_NAME_GEN3_TOYL.gen           :tramvaje Mightymover
+STR_TRAM_NAME_GEN3_TOYL.nom           :tramvaj Mightymover
+STR_TRAM_NAME_GEN3_TOYL.small         :tramvajka Mightymover
+STR_TRAM_NAME_GEN3_TOYL.dat           :tramvaji Mightymover
+STR_TRAM_NAME_GEN3_TOYL.acc           :tramvaj Mightymover
+STR_TRAM_NAME_GEN3_TOYL.voc           :tramvaji Mightymover
+STR_TRAM_NAME_GEN3_TOYL.big           :velká tramvaj Mightymover
+STR_TRAM_NAME_GEN3_TOYL.ins           :tramvaji Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tramvaj Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.loc           :tramvaji Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.gen           :tramvaje Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.nom           :tramvaj Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.small         :tramvajka Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.dat           :tramvaji Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.acc           :tramvaj Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.voc           :tramvaji Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.big           :velká tramvaj Wizzowow
+STR_TRAM_NAME_GEN4_TOYL.ins           :tramvaji Wizzowow

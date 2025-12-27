@@ -22,7 +22,7 @@ STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Στυλ OpenGFX, κίτρινος
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Στυλ Windows, λευκός
 
 STR_PARAM_GRIDLINE_NAME               :Γραμμές πλέγματος στο έδαφος
-STR_PARAM_GRIDLINE_DESC               :Εάν θα εμφανίζονται γραμμές πλέγματος στις άκρες των πλακιδίων εδάφους και νερού.
+STR_PARAM_GRIDLINE_DESC               :Εάν θα εμφανίζονται γραμμές πλέγματος στις άκρες των τετραγωνίδιων εδάφους και νερού.
 STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Γραμμές πλέγματος εδάφους μόνο (Προκαθορισμένο)
 STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Χωρίς γραμμών πλέγματος
 STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Γραμμές πλέγματος εδάφους και νερού
