@@ -1,26 +1,132 @@
 ##grflangid 0x0f
 ##plural 0
+STR_GENERAL_DESC                      :Set graffigau sylfaen OpenGFX2 ar gyfer OpenTTD. Ar gael yn rhydd o dan amodau'r trwydded GNU General Public License fersiwn 2. [OpenGFX2Base]
 
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}Set Graffigau Sylfaenol OpenGFX2{BLACK}{}Gan Zephyris, trwy sefyll ar ysgwyddau'r tîm OpenGFX{}{BLACK}Trwydded: {SILVER}GPL v2+{}{BLACK}Gwefan: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Set graffigau sylfaen arddull picsel OpenGFX2 ar gyfer OpenTTD, amrywiad traddodiadol (mwyhau sylfaenol 8bpp). Ar gael yn rhydd o dan amodau'r trwydded GNU General Public License fersiwn 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Set graffigau sylfaen arddull picsel OpenGFX2 ar gyfer OpenTTD, amrywiad diffiniad uchel (mwyhau ychwanegol 32bpp). Ar gael yn rhydd o dan amodau'r trwydded GNU General Public License fersiwn 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Paramedrau set sylfaen.
+STR_WARN_SETTINGSGRF_HARDCODED        :Paramedrau diffiniedig.
 
+STR_PARAM_CURSOR_NAME                 :Cyrchydd llygoden
+STR_PARAM_CURSOR_DESC                 :Arddull a lliw cyrchydd y llygoden.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Traddodiadol, melyn (Rhagosodiad)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Traddodiadol, llwyd
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Arddull OpenGFX, melyn
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Arddull Windows, gwyn
 
+STR_PARAM_GRIDLINE_NAME               :Llinellau grid tir
+STR_PARAM_GRIDLINE_DESC               :A ddylid dangos llinellau grid ar ymylon teiliau tir a dŵr
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Llinellau grid tir yn unig (Rhagosodiad)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Dim llinellau grid
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Llinellau grid tir a dŵr
 
+STR_PARAM_LOGO_NAME                   :Arddull logo
+STR_PARAM_LOGO_DESC                   :Arddull logo OpenTTD ar gyfer y sgrin deitl.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Rhagosodiad
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Tanddaearol
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Streamliner
 
+STR_PARAM_VALUE_TEMPERATE             :Tymherus
+STR_PARAM_VALUE_ARCTIC                :Arctig
+STR_PARAM_VALUE_TROPICAL              :Trofannol
+STR_PARAM_VALUE_TOYLAND               :Teganau
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Tymherus (Rhagosodiad)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arctig (Rhagosodiad)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Trofannol (Rhagosodiad)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Teganau (Rhagosodiad)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Tymherus (Arddull amgen)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arctig (Arddull amgen)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Trofannol (Ardull amgen)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Teganau (Arddull amgen)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Sylfeini tymherus
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Arddull sylfaen i'w ddefnyddio yn y tirwedd tymherus.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Sylfeini arctig
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Arddull sylfaen i'w ddefnyddio yn y tirwedd arctig.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Sylfeini trofannol
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Arddull sylfaen i'w ddefnyddio yn y tirwedd trofannol.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Sylfeini tirwedd teganau
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Arddull sylfaen i'w ddefnyddio yn y tirwedd teganau.
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Gwair tymherus
+STR_PARAM_GRASS_TEMPERATE_DESC        :Arddull gwair i'w ddefnyddio yn y tirwedd tymherus.
+STR_PARAM_GRASS_ARCTIC_NAME           :Gwair arctig
+STR_PARAM_GRASS_ARCTIC_DESC           :Arddull gwair i'w defnyddio yn y tirwedd arctig.
+STR_PARAM_GRASS_TROPICAL_NAME         :Gwair trofannol
+STR_PARAM_GRASS_TROPICAL_DESC         :Arddull gwair i'w ddefnyddio yn y tirwedd trofannol.
+STR_PARAM_GRASS_TOYLAND_NAME          :Gwair tirwedd teganau
+STR_PARAM_GRASS_TOYLAND_DESC          :Arddull gwair i'w ddefnyddio yn y tirwedd teganau.
 
+STR_PARAM_TREES_TEMPERATE_NAME        :Coed tymherus
+STR_PARAM_TREES_TEMPERATE_DESC        :Arddull coed i'w ddefnydido yn y tirwedd tymherus.
+STR_PARAM_TREES_ARCTIC_NAME           :Coed arctig
+STR_PARAM_TREES_ARCTIC_DESC           :Arddull coed i'w defnyddio yn y tirwedd arctig.
+STR_PARAM_TREES_TROPICAL_NAME         :Coed trofannol
+STR_PARAM_TREES_TROPICAL_DESC         :Arddull coed i'w ddefnyddio yn y tirwedd trofannol (nid yw'n disodli'r coed palmwydd a chactws).
+STR_PARAM_TREES_TOYLAND_NAME          :Coed tirwedd teganau
+STR_PARAM_TREES_TOYLAND_DESC          :Arddull coed i'w ddefnyddio yn y tirwedd teganau.
 
+STR_GRF_LANDSCAPE_NAME                :Tirwedd OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Tirwedd OpenGFX+. Tirweddau yn yr arddul OpenGFX2.{BLACK}{}Gan Zephyris, trwy sefyll ar ysgwyddau'r tîm OpenGFX{}{BLACK}Trwydded: {SILVER}GPL v2+{}{BLACK}Gwefan: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :Coed OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Coed OpenGFX+. Coed yn yr arddull OpenGFX2.{BLACK}{}Gan Zephyris, trwy sefyll ar ysgwyddau'r tîm OpenGFX{}{BLACK}Trwydded: {SILVER}GPL v2+{}{BLACK}Gwefan: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :Gwrthrychau OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Gwrthrychau OpenGFX2+. Gwrthrychau yn yr arddull OpenGFX2.{BLACK}{}Gan Zephyris, trwy sefyll ar ysgwyddau'r tîm OpenGFX{}{BLACK}Trwydded: {SILVER}GPL v2+{}{BLACK}Gwefan: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Cerrig
+STR_OBJECT_ROCKS                      :Cerrig llwyd
+STR_OBJECT_ROCKS_BLACK                :Cerrig du
+STR_OBJECT_ROCKS_DARKGRAY             :Cerrig llwyd tywyll
+STR_OBJECT_ROCKS_BROWN1               :Cerrig browngoch
+STR_OBJECT_ROCKS_BROWN2               :Cerrig brown
+STR_OBJECT_ROCKS_YELLOW               :Cerrig melyn
+STR_OBJECT_ROCKS_BUY                  :Teil tir creigion. Gellir ei adeiladu ar dir, arfordir neu fôr. Ymwybodol o lethrau ac eira.
 
+STR_CLASS_FLD_                        :Caeau
+STR_OBJECT_FIELD                      :Cae
+STR_OBJECT_FIELD_BUY                  :Teil tir cae. Ymwybodol o lethrau ac eira, gyda ffensys lliw cwmni diofyn o amgylch ardaloedd o'r un math teil.
+STR_OBJECT_COMPANY_BARE               :Daear noeth
+STR_OBJECT_COMPANY_PART1              :Gwair bach
+STR_OBJECT_COMPANY_PART2              :Mwy o wair
+STR_OBJECT_COMPANY_GRASS              :Gwair
+STR_OBJECT_COMPANY_BUY                :Teil tir ffens. Ymwybodol o lethrau ac eira, gyda ffensys lliw cwmni diofyn o amgylch ardaloedd o'r un math teil
 
+STR_CLASS_FRST                        :Coedwigoedd
+STR_OBJECT_FOREST                     :Coedwig
+STR_OBJECT_FOREST_BUY                 :Teil tir coedwig. Ymwybodol o lethrau ac eira, gyda ffensys lliw cwmni diofyn o amgylch ardaloedd o'r un math teil.
 
+STR_CLASS_BLDG                        :Adeiladau
+STR_OBJECT_LIGHTHOUSE                 :Goleudy
+STR_OBJECT_TRANSMITTER                :Darlledydd
+STR_OBJECT_SUBSTATION                 :Is-orsaf
+STR_OBJECT_GASOMETER                  :Gasomedr
 
+STR_GRF_STATIONS_NAME                 :Gorsafoedd a Phwyntiau Llwybro OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Gorsafoedd a phwyntiau llwybro OpenGFX+. Gorsafoedd rheilffordd a phwyntiau llwynro yn yr arddull OpenGFX2.{BLACK}{}Gan Zephyris, trwy sefyll ar ysgwyddau'r tîm OpenGFX{}{BLACK}Trwydded: {SILVER}GPL v2+{}{BLACK}Gwefan: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Pwyntiau llwybro
+STR_WAYP_RAIL                         :Pwynt llwybro rheilffordd
+STR_WAYP_MONORAIL                     :Pwynt llwybro monoreilffordd
+STR_WAYP_MAGLEV                       :Pwynt llwybro maglef
 
+STR_GRF_TRAMS_NAME                    :Tramiau OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Tramiau OpenGFX+. Tramiau yn yr arddull OpenGFX2.{BLACK}{}Gan Zephyris, trwy sefyll ar ysgwyddau'r tîm OpenGFX{}{BLACK}Trwydded: {SILVER}GPL v2+{}{BLACK}Gwefan: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Tram Broom Mk1
+STR_TRAM_NAME_GEN2                    :Tram Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :Tram Broom D1
+STR_TRAM_NAME_GEN4                    :Tram Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Tram Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Tram Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tram Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tram Wizzowow

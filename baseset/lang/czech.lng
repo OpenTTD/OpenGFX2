@@ -26,15 +26,21 @@ STR_GRF_NAME.ins                      :základem OpenGFX2
 STR_GRF_DESCRIPTION                   :{ORANGE}Základní grafická sada OpenGFX2{BLACK}{}Autor: Zephyris, s využitím práce týmu OpenGFX{}{BLACK}Licence: {SILVER}GPL v2+{}{BLACK}Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :{STRING} Sada grafiky OpenGFX2 ve stylu pixelového umění pro OpenTTD, klasická varianta (normální přiblížení 8bpp). Volně dostupná pod podmínkami licence GNU General Public License verze 2+.
+STR_OBG_DESCRIPTION_HIGHDEF           :{STRING} Sada grafiky OpenGFX2 ve stylu pixelového umění pro OpenTTD, varianta s vyšší definicí (extra přiblížení 32bpp). Volně dostupná pod podmínkami licence GNU General Public License verze 2+.
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Parametry základní sady
 STR_WARN_SETTINGSGRF_HARDCODED        :Pevně zakódované parametry
 
+STR_PARAM_CURSOR_NAME                 :Kurzor myši
+STR_PARAM_CURSOR_DESC                 :Styl a barva kurzoru/pointeru myši.
 STR_PARAM_CURSOR_VALUE_DEFAULT        :Klasický styl, žlutá (Výchozi)
 STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klasický styl, šedá
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Styl OpenGFX, žlutá
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Styl Windows, bílá
 
+STR_PARAM_GRIDLINE_NAME               :Mřížka terénu
+STR_PARAM_GRIDLINE_DESC               :Zda zobrazit mřížku na okrajích terénu a vodní plochy.
 STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Pouze mřížka terénu (výchozi)
 STR_PARAM_GRIDLINE_VALUE_DEFAULT.loc  :pouze mřížce terénu (výchozi)
 STR_PARAM_GRIDLINE_VALUE_DEFAULT.gen  :pouze mřížky terénu (výchozi)
@@ -66,6 +72,11 @@ STR_PARAM_GRIDLINE_VALUE_WATERGRID.voc:mřížko terénu a vody
 STR_PARAM_GRIDLINE_VALUE_WATERGRID.big:velká mřížka terénu a vody
 STR_PARAM_GRIDLINE_VALUE_WATERGRID.ins:mřížkou terénu a vody
 
+STR_PARAM_LOGO_NAME                   :Styl loga
+STR_PARAM_LOGO_DESC                   :Styl loga OpenTTD na titulní obrazovce.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Výchozí
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Podzemní
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Aerodynamický
 
 STR_PARAM_VALUE_TEMPERATE             :Mírné pásmo
 STR_PARAM_VALUE_ARCTIC                :Arktida
@@ -541,6 +552,9 @@ STR_GRF_STATIONS_NAME.big             :velké stanice a body trasy OpenGFX2+
 STR_GRF_STATIONS_NAME.ins             :stanicemi a body trasy OpenGFX2+
 STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Stations & Waypoints. Rail stations and waypoints in the OpenGFX2 style.{BLACK}{}By Zephyris, standing on the shoulders of the OpenGFX team{}{BLACK}License: {SILVER}GPL v2+{}{BLACK}Website: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Orientační body
+STR_WAYP_RAIL                         :Orientační bod na železnici
+STR_WAYP_MONORAIL                     :Orientační bod na monorailu
 STR_WAYP_MAGLEV                       :Návěstidlo maglevu
 STR_WAYP_MAGLEV.gen                   :návěstidla maglevu
 STR_WAYP_MAGLEV.small                 :návěstidylko maglevu
