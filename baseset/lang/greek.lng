@@ -118,4 +118,12 @@ STR_WAYP_MAGLEV                       :Σημείο καθοδήγησης magle
 STR_GRF_TRAMS_NAME                    :Τραμ OpenGFX2+
 STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Τραμ OpenGFX+. Τραμ με το ύφος του OpenGFX2.{BLACK}{}Από Zephyris, που στηρίζεται πάνω στην ομάδα του OpenGFX{}{BLACK}Άδεια χρήσης: {SILVER}GPL v2+{}{BLACK}Ιστοσελίδα: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Τραμ Broom Mk1
+STR_TRAM_NAME_GEN2                    :Τραμ Manley-Morel «T»
+STR_TRAM_NAME_GEN3                    :Τραμ Broom D1
+STR_TRAM_NAME_GEN4                    :Τραμ Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Τραμ Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Τραμ Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tram Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Τραμ Wizzowow
