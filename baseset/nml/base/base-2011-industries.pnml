@@ -15,6 +15,8 @@ template template_spr2011(z) {
 }
 base_graphics spr2011(2011, "../graphics/industries/temperate/64/pygen/coalmine_idmap_8bpp.png") { template_spr2011(1) }
 #32 alternative_sprites(spr2011, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/industries/temperate/64/pygen/coalmine_idmap_bt32bpp.png") { template_spr2011(1) }
+#ez alternative_sprites(spr2011, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/industries/temperate/256/pygen/coalmine_idmap_8bpp.png") { template_spr2011(4) }
+#32 #ez alternative_sprites(spr2011, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/industries/temperate/256/pygen/coalmine_idmap_bt32bpp.png") { template_spr2011(4) }
 template template_spr2022(z) {
 	template_house_1x1(  0,  0, z, 74) // also used elsewhere, including gold mine, factory 2nd construction stage
 	template_house_1x1( 65,  0, z, 74)
@@ -23,6 +25,8 @@ template template_spr2022(z) {
 }
 base_graphics spr2022(2022, "../graphics/industries/temperate/64/pygen/coalmine_base_tiles_8bpp.png") { template_spr2022(1) }
 #32 alternative_sprites(spr2022, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/industries/temperate/64/pygen/coalmine_base_tiles_bt32bpp.png") { template_spr2022(1) }
+#ez alternative_sprites(spr2022, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/industries/temperate/256/pygen/coalmine_base_tiles_8bpp.png") { template_spr2022(4) }
+#32 #ez alternative_sprites(spr2022, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/industries/temperate/256/pygen/coalmine_base_tiles_bt32bpp.png") { template_spr2022(4) }
 
 //2026-2039 copper ore mine
 template template_spr2026(z) {
