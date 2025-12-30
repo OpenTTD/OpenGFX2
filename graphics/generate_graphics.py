@@ -315,6 +315,7 @@ if scale <= max_scale:
     #### tile mask
     mask_list = {
         "factory_combo": "factory_tilemask.png",
+        "coalmine_base": "coalmine_base_tilemask.png",
         "bank": "bank_tilemask.png",
         "bank_base": "bank_tilemask.png",
     }
