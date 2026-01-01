@@ -1,0 +1,41 @@
+##grflangid 0x05
+##plural 0
+##case n
+
+
+
+
+
+
+
+
+
+
+
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Moderarboj
+STR_PARAM_TREES_TEMPERATE_DESC        :Arbstilo por uzo en moderklimato.
+STR_PARAM_TREES_ARCTIC_NAME           :Arktarboj
+STR_PARAM_TREES_ARCTIC_DESC           :Arbstilo por uzo en arktklimato.
+STR_PARAM_TREES_TROPICAL_NAME         :Tropikaj arboj
+STR_PARAM_TREES_TROPICAL_DESC         :Arbstilo por uzo en tropiklimato (ne anstataŭigas la palmojn kaj kaktojn)
+STR_PARAM_TREES_TOYLAND_NAME          :Ludillandarboj
+STR_PARAM_TREES_TOYLAND_DESC          :Arbstilo por uzo en ludillandklimato.
+
+
+
+
+STR_CLASS_ROCK                        :Rokaro
+
+STR_CLASS_FLD_                        :Kampoj
+STR_OBJECT_FIELD                      :Kampo
+STR_OBJECT_COMPANY_BARE               :Nuda tero
+
+STR_CLASS_FRST                        :Arbaroj
+
+STR_CLASS_BLDG                        :Konstruaĵoj
+
+
+
+
+
