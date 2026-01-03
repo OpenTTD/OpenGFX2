@@ -219,6 +219,8 @@ template template_spr2146(z) {
 }
 base_graphics spr2146(2146, "../graphics/industries/temperate/64/pygen/factory_combo_tiles_8bpp.png") { template_spr2146(1) }
 #32 alternative_sprites(spr2146, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/industries/temperate/64/pygen/factory_combo_tiles_rm32bpp.png", "../graphics/industries/temperate/64/pygen/factory_combo_tiles_8bpp.png") { template_spr2146(1) }
+#ez alternative_sprites(spr2146, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/industries/temperate/256/pygen/factory_combo_tiles_8bpp.png") { template_spr2146(4) }
+#32 #ez alternative_sprites(spr2146, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/industries/temperate/256/pygen/factory_combo_tiles_rm32bpp.png", "../graphics/industries/temperate/256/pygen/factory_combo_tiles_8bpp.png") { template_spr2146(4) }
 
 //2161-2172 printworks
 template template_spr2161(z) {
