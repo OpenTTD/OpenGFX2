@@ -308,8 +308,13 @@ if scale <= max_scale:
 scale = 4
 if scale <= max_scale:
     current_path = os.path.join(base_path, "industries", "temperate", str(scale * 64))
+    #### flatten
+    flatten_list = ["factory"]
+    for name in flatten_list:
+        buildings_base_flatten(os.path.join(current_path, name), scale)
     #### tile mask
     mask_list = {
+        "factory_combo": "factory_tilemask.png",
         "bank": "bank_tilemask.png",
         "bank_base": "bank_tilemask.png",
     }
