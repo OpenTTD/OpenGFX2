@@ -2,46 +2,88 @@
 base_graphics spr2733(2733, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 0, 1) } // temperate rail passenger wagon (full + empty)
 #ez alternative_sprites(spr2733, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 0, 4) }
 base_graphics spr2737(2737, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 1, 1) } // temperate rail coal wagon (empty)
+#ez alternative_sprites(spr2737, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 1, 4) }
 base_graphics spr2741(2741, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 2, 1) } // temperate rail mail wagon (full + empty)
+#ez alternative_sprites(spr2741, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 2, 4) }
 base_graphics spr2745(2745, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 3, 1) } // temperate rail oil wagon (full + empty)
+#ez alternative_sprites(spr2745, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 3, 4) }
 base_graphics spr2749(2749, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 4, 1) } // temperate rail livestock wagon (full + empty)
+#ez alternative_sprites(spr2749, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 4, 4) }
 base_graphics spr2753(2753, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 5, 1) } // temperate rail goods wagon (full + empty)
+#ez alternative_sprites(spr2753, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 5, 4) }
 base_graphics spr2757(2757, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 6, 1) } // arctic rail food wagon (full + empty)
+#ez alternative_sprites(spr2757, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 6, 4) }
 base_graphics spr2761(2761, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 7, 1) } // temperate rail grain wagon (empty)
+#ez alternative_sprites(spr2761, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 7, 4) }
 base_graphics spr2765(2765, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 8, 1) } // temperate rail wood wagon (empty)
+#ez alternative_sprites(spr2765, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 8, 4) }
 base_graphics spr2769(2769, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 9, 1) } // temperate rail steel/paper wagon (empty)
-base_graphics spr2773(2773, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 10, 1) } // temperate rail iron/coer ore wagon (empty)
+#ez alternative_sprites(spr2769, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 9, 4) }
+base_graphics spr2773(2773, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 10, 1) } // temperate rail iron/copper ore wagon (empty)
+#ez alternative_sprites(spr2773, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 10, 4) }
 base_graphics spr2777(2777, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 11, 1) } // temperate rail valuables wagon (full + empty)
+#ez alternative_sprites(spr2777, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 11, 4) }
 base_graphics spr2781(2781, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 1, 1) } // temperate rail coal wagon (full)
+#ez alternative_sprites(spr2781, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 1, 4) }
 base_graphics spr2785(2785, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 7, 1) } // temperate rail grain wagon (full)
+#ez alternative_sprites(spr2785, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 7, 4) }
 base_graphics spr2789(2789, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 8, 1) } // temperate rail wood wagon (full)
+#ez alternative_sprites(spr2789, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 8, 4) }
 base_graphics spr2793(2793, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 9, 1) } // temperate rail steel wagon (full)
+#ez alternative_sprites(spr2793, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 9, 4) }
 base_graphics spr2797(2797, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 10, 1) } // temperate rail iron ore wagon (full)
+#ez alternative_sprites(spr2797, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 10, 4) }
 base_graphics spr2801(2801, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(2, 9, 1) } // arctic rail paper wagon (full)
+#ez alternative_sprites(spr2801, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(2, 9, 4) }
 base_graphics spr2805(2805, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 10, 1) } // tropical rail copper ore wagon (full)
+#ez alternative_sprites(spr2805, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 10, 4) }
 base_graphics spr2809(2809, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 12, 1) } // tropical rail water wagon (full + empty)
+#ez alternative_sprites(spr2809, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 12, 4) }
 base_graphics spr2813(2813, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 13, 1) } // tropical rail fruit wagon (empty)
+#ez alternative_sprites(spr2813, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 13, 4) }
 base_graphics spr2817(2817, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 13, 1) } // tropical rail fruit wagon (full)
+#ez alternative_sprites(spr2817, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 13, 4) }
 base_graphics spr2821(2821, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 14, 1) } // tropical rail rubber wagon (empty)
+#ez alternative_sprites(spr2821, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(0, 14, 4) }
 base_graphics spr2825(2825, "../graphics/vehicles/64/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 14, 1) } // tropical rail rubber wagon (full)
+#ez alternative_sprites(spr2825, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_8bpp.png") { template_vehicle_rail_4view(1, 14, 4) }
 
 //2829-2904 monolev wagons
 base_graphics spr2829(2829, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 0, 1) } // monorail passenger (empty + full)
+#ez alternative_sprites(spr2829, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 0, 4) }
 base_graphics spr2833(2833, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 1, 1) } // monorail coal (empty)
+#ez alternative_sprites(spr2833, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 1, 4) }
 base_graphics spr2837(2837, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 2, 1) } // monorail mail (empty + full)
+#ez alternative_sprites(spr2837, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 2, 4) }
 base_graphics spr2841(2841, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 3, 1) } // monorail oil (empty + full)
+#ez alternative_sprites(spr2841, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 3, 4) }
 base_graphics spr2845(2845, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 4, 1) } // monorail livestock (empty + full)
+#ez alternative_sprites(spr2845, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 4, 4) }
 base_graphics spr2849(2849, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 5, 1) } // monorail goods (empty + full)
+#ez alternative_sprites(spr2849, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 5, 4) }
 base_graphics spr2853(2853, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 6, 1) } // monorail food (empty + full)
+#ez alternative_sprites(spr2853, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 6, 4) }
 base_graphics spr2857(2857, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 7, 1) } // monorail grain (empty)
+#ez alternative_sprites(spr2857, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 7, 4) }
 base_graphics spr2861(2861, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 8, 1) } // monorail wood (empty)
+#ez alternative_sprites(spr2861, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 8, 4) }
 base_graphics spr2865(2865, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 9, 1) } // monorail steel + paper (empty)
+#ez alternative_sprites(spr2865, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 9, 4) }
 base_graphics spr2869(2869, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 10, 1) } // monorail iron/copper ore (empty)
+#ez alternative_sprites(spr2869, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 10, 4) }
 base_graphics spr2873(2873, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 11, 1) } // monorail valuables (empty + full)
+#ez alternative_sprites(spr2873, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(0, 11, 4) }
 base_graphics spr2877(2877, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 1, 1) } // monorail coal (full)
+#ez alternative_sprites(spr2877, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 1, 4) }
 base_graphics spr2881(2881, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 7, 1) } // monorail grain (full)
+#ez alternative_sprites(spr2881, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 7, 4) }
 base_graphics spr2885(2885, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 8, 1) } // monorail wood (full)
+#ez alternative_sprites(spr2885, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 8, 4) }
 base_graphics spr2889(2889, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 9, 1) } // monorail steel (full)
+#ez alternative_sprites(spr2889, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 9, 4) }
 base_graphics spr2893(2893, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 10, 1) } // monorail iron ore (full)
-base_graphics spr2897(2897, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(2, 9, 1) } // monorail paper (full)
+#ez alternative_sprites(spr2893, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(1, 10, 4) }
+base_graphics spr2897(2897, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(2, 9, 1) } // monolev paper (full)
+#ez alternative_sprites(spr2897, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(2, 9, 4) }
 base_graphics spr2901(2901, "../graphics/vehicles/64/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(2, 10, 1) } // monorail copper ore (full)
+#ez alternative_sprites(spr2901, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_8bpp.png") { template_vehicle_rail_4view(2, 10, 4) }
