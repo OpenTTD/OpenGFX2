@@ -1,17 +1,30 @@
 // Arctic-specific cargo appearance variants, rail
 // rail
 replace arctic_spr2733(2733, "../graphics/vehicles/64/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 0, 1) } // rail passenger wagon (full + empty)
+#ez alternative_sprites(arctic_spr2733, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 0, 4) }
 replace arctic_spr2737(2737, "../graphics/vehicles/64/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 1, 1) } // rail coal wagon (empty)
+#ez alternative_sprites(arctic_spr2737, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 1, 4) }
 replace arctic_spr2741(2741, "../graphics/vehicles/64/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 2, 1) } // rail mail wagon (full + empty)
+#ez alternative_sprites(arctic_spr2741, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 2, 4) }
 replace arctic_spr2753(2753, "../graphics/vehicles/64/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 5, 1) } // rail goods wagon (full + empty)
+#ez alternative_sprites(arctic_spr2753, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 5, 4) }
 replace arctic_spr2769(2769, "../graphics/vehicles/64/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 9, 1) } // rail steel/paper wagon (empty)
+#ez alternative_sprites(arctic_spr2769, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 9, 4) }
 replace arctic_spr2777(2777, "../graphics/vehicles/64/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 11, 1) } // rail valuables wagon (full + empty)
+#ez alternative_sprites(arctic_spr2777, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 11, 4) }
 replace arctic_spr2781(2781, "../graphics/vehicles/64/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(1, 1, 1) } // rail coal wagon (full)
+#ez alternative_sprites(arctic_spr2781, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(1, 1, 4) }
 replace arctic_spr2801(2801, "../graphics/vehicles/64/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(2, 9, 1) } // rail paper wagon (full)
+#ez alternative_sprites(arctic_spr2801, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/rail_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(2, 9, 4) }
 
 // monolev
 replace arctic_spr2833(2833, "../graphics/vehicles/64/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 1, 1) } // monorail coal (empty)
+#ez alternative_sprites(arctic_spr2833, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 1, 4) }
 replace arctic_spr2849(2849, "../graphics/vehicles/64/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 5, 1) } // monorail goods (empty + full)
+#ez alternative_sprites(arctic_spr2849, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 5, 4) }
 replace arctic_spr2865(2865, "../graphics/vehicles/64/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 9, 1) } // monorail steel + paper (empty)
+#ez alternative_sprites(arctic_spr2865, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(0, 9, 4) }
 replace arctic_spr2877(2877, "../graphics/vehicles/64/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(1, 1, 1) } // monorail coal (full)
+#ez alternative_sprites(arctic_spr2877, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(1, 1, 4) }
 replace arctic_spr2897(2897, "../graphics/vehicles/64/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(2, 9, 1) } // monorail paper (full)
+#ez alternative_sprites(arctic_spr2897, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/monolev_wagons_arctic_8bpp.png") { template_vehicle_rail_4view(2, 9, 4) }
