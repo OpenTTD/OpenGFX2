@@ -1,13 +1,13 @@
 ##grflangid 0x0c
 ##plural 1
-STR_GENERAL_DESC                      :適用於 OpenTTD 使用的 OpenGFX2 基本圖形集。根據 GNU 通用公共授權條款第 2 版的許可下自由使用。［OpenGFX2Base］
+STR_GENERAL_DESC                      :在 OpenTTD 中使用的 OpenGFX2 基礎圖形集。根據 GNU 通用公共授權條款第 2 版的授權下自由使用。［OpenGFX2Base］
 
-STR_GRF_NAME                          :OpenGFX2 基本圖形集
-STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基本圖形集{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_NAME                          :OpenGFX2 基礎圖形集
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 基礎圖形集{BLACK}{}作者：Zephyris，基於 OpenGFX 團隊的成果{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
-STR_OBG_DESCRIPTION_CLASSIC           :適用於 OpenTTD 使用的 OpenGFX2 像素藝術風格基本圖形集，經典變體（正常縮放 8bpp）。根據 GNU 通用公共授權條款第 2 版及以上之版本的許可下自由使用。［{STRING}］
-STR_OBG_DESCRIPTION_HIGHDEF           :適用於 OpenTTD 使用的 OpenGFX2 像素藝術風格基本圖形集，高畫質變體（額外縮放 32bpp）。根據 GNU 通用公共授權條款第 2 版及以上之版本的許可下自由使用。［{STRING}］
+STR_OBG_DESCRIPTION_CLASSIC           :在 OpenTTD 中使用的 OpenGFX2 像素藝術風格的基礎圖形集，經典版本（正常縮放，8bpp）。根據 GNU 通用公共授權條款第 2 版及以上之版本的授權下自由使用。［{STRING}］
+STR_OBG_DESCRIPTION_HIGHDEF           :在 OpenTTD 中使用的 OpenGFX2 像素藝術風格的基礎圖形集，高畫質版本（額外縮放，32bpp）。根據 GNU 通用公共授權條款第 2 版及以上之版本的授權下自由使用。［{STRING}］
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :圖形集參數。
 STR_WARN_SETTINGSGRF_HARDCODED        :寫死參數。
@@ -74,13 +74,13 @@ STR_PARAM_TREES_TOYLAND_NAME          :玩具樂園樹木
 STR_PARAM_TREES_TOYLAND_DESC          :在玩具樂園景觀下使用的樹木品種。
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ 地形
-STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ 地形。適用於 OpenGFX2 的地形款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ 地形。適用於 OpenGFX2 的地形款式。{BLACK}{}作者：Zephyris，基於 OpenGFX 團隊的成果{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_TREES_NAME                    :OpenGFX2+ 樹木
-STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ 樹木。適用於 OpenGFX2 的樹木款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ 樹木。適用於 OpenGFX2 的樹木款式。{BLACK}{}作者：Zephyris，基於 OpenGFX 團隊的成果{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_OBJECTS_NAME                  :OpenGFX2+ 物件
-STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ 物件。適用於 OpenGFX2 的物件款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ 物件。適用於 OpenGFX2 的物件款式。{BLACK}{}作者：Zephyris，基於 OpenGFX 團隊的成果{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :岩石
 STR_OBJECT_ROCKS                      :灰色岩石
@@ -110,16 +110,16 @@ STR_OBJECT_TRANSMITTER                :發射機
 STR_OBJECT_SUBSTATION                 :變電站
 STR_OBJECT_GASOMETER                  :瓦斯罐
 
-STR_GRF_STATIONS_NAME                 :OpenGFX2+ 車站及號誌站
-STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ 車站及號誌站。適用於 OpenGFX2 鐵道車站及號誌站的款式。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ 車站及中途站
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ 車站及中途站。適用於 OpenGFX2 鐵道車站及中途站的款式。{BLACK}{}作者：Zephyris，基於 OpenGFX 團隊的成果{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
-STR_WAYP_CLASS                        :號誌站
-STR_WAYP_RAIL                         :鐵道號誌站
-STR_WAYP_MONORAIL                     :單軌鐵道號誌站
-STR_WAYP_MAGLEV                       :磁浮號誌站
+STR_WAYP_CLASS                        :中途站
+STR_WAYP_RAIL                         :鐵道中途站
+STR_WAYP_MONORAIL                     :單軌鐵道中途站
+STR_WAYP_MAGLEV                       :磁浮中途站
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ 電車
-STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ 電車。適用於 OpenGFX2 款式的電車。{BLACK}{}作者：Zephyris，建基於 OpenGFX 團隊之作品上{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ 電車。適用於 OpenGFX2 款式的電車。{BLACK}{}作者：Zephyris，基於 OpenGFX 團隊的成果{}{BLACK}受權條款：{SILVER}GPL v2+{}{BLACK}網站：{SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1                    :Broom Mk1 型電車
 STR_TRAM_NAME_GEN2                    :Manley-Morel 'T' 型電車
