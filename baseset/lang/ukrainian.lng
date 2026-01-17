@@ -6,6 +6,12 @@
 
 
 
+STR_PARAM_CURSOR_NAME                 :Курсор миші
+STR_PARAM_CURSOR_DESC                 :Стиль і колір вказівника/курсора миші.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Класичний жовтий стиль (стандартно)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Класичний сірий стиль
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Жовтий стиль OpenGFX
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Білий стиль Windows
 
 
 
