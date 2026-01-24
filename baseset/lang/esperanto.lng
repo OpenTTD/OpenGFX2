@@ -1,41 +1,133 @@
 ##grflangid 0x05
 ##plural 0
 ##case n
+STR_GENERAL_DESC                      :OpenGFX2 - Baza grafikaro por OpenTTD. Libere havebla per kondiĉoj de la Ĝenerala Publika Permesilo de GNU, versio 2. [OpenGFX2Base]
 
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}Baza grafikaro OpenGFX2{BLACK}{}Farita de Zephyris, staranta sur la ŝultroj de la teamo OpenGFX{}{BLACK}Permesilo: {SILVER}GPL v2+{}{BLACK}Retejo: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 - bildero-arta baza grafikaro por OpenTTD, klasika variaĵo (norma zomo, po 8 bitoj por bildero). Libere havebla per kondiĉoj de la Ĝenerala Publika Permesilo de GNU, versioj 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 - bildero-arta baza grafikaro por OpenTTD, alt-dinina variaĵo (etendita zomo, po 32 bitoj por bildero). Libere havebla per kondiĉoj de la Ĝenerala Publika Permesilo de GNU, versioj 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Agordoj de fundamenta grafikaro.
+STR_WARN_SETTINGSGRF_HARDCODED        :Neŝanĝeblaj agordoj.
 
+STR_PARAM_CURSOR_NAME                 :Musmontrilo
+STR_PARAM_CURSOR_DESC                 :Stilo kaj koloro de musmontrilo.
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klasik-stila, flava (defaŭlto)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klasik-stila, griza
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-stila, flava
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-stila, blanka
 
+STR_PARAM_GRIDLINE_NAME               :Terenaj kradlinioj
+STR_PARAM_GRIDLINE_DESC               :Agordi, ĉu montrŭ kradliniojn ĉe la bordoj de teraj kaj akvaj kaheloj.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Nur teraj kradlinioj (defaŭlto)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Neniuj kradlinioj
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Teraj kaj akvaj kradlinioj
 
+STR_PARAM_LOGO_NAME                   :Stilo de logotipo
+STR_PARAM_LOGO_DESC                   :Stilo de OpenTTD-logotipo por la titola ekrano.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Defaŭlta
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Londona metroo
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Aerodinamika vagonaro
 
+STR_PARAM_VALUE_TEMPERATE             :Modera
+STR_PARAM_VALUE_ARCTIC                :Arkta
+STR_PARAM_VALUE_TROPICAL              :Tropika
+STR_PARAM_VALUE_TOYLAND               :Ludlanda
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Modera (defaŭlto)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arkta (defaŭlto)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropika (defaŭlto)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Ludlanda (defaŭlto)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Modera (alternativa stilo)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arkta (alternativa stilo)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropika (alternativa stilo)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Ludlanda (alternativa stilo)
 
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Moderklimaj bazoj
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Baza stilo por uzo en modera klimato.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arktaj bazoj
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Baza stilo por uzo en la arkta klimato.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropikaj bazoj
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Baza stilo por uzo en la tropika klimato.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Ludlandaj bazoj
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Baza stilo por uzo en ludlanda klimato.
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Moderklima herbo
+STR_PARAM_GRASS_TEMPERATE_DESC        :Herba stilo por uzo en la modera klimato.
+STR_PARAM_GRASS_ARCTIC_NAME           :Arkta herbo
+STR_PARAM_GRASS_ARCTIC_DESC           :Herba stilo por uzo en la arkta klimato.
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropika herbo
+STR_PARAM_GRASS_TROPICAL_DESC         :Herba stilo por uzo en la modera klimato.
+STR_PARAM_GRASS_TOYLAND_NAME          :Ludlanda herbo
+STR_PARAM_GRASS_TOYLAND_DESC          :Herba stilo por uzo en la ludlanda klimato.
 
 STR_PARAM_TREES_TEMPERATE_NAME        :Moderarboj
-STR_PARAM_TREES_TEMPERATE_DESC        :Arbstilo por uzo en moderklimato.
+STR_PARAM_TREES_TEMPERATE_DESC        :Arbstilo por uzo en modera klimato.
 STR_PARAM_TREES_ARCTIC_NAME           :Arktarboj
 STR_PARAM_TREES_ARCTIC_DESC           :Arbstilo por uzo en arktklimato.
 STR_PARAM_TREES_TROPICAL_NAME         :Tropikaj arboj
-STR_PARAM_TREES_TROPICAL_DESC         :Arbstilo por uzo en tropiklimato (ne anstataŭigas la palmojn kaj kaktojn)
+STR_PARAM_TREES_TROPICAL_DESC         :Arbstilo por uzo en la tropika klimato (ne anstataŭigas la palmojn kaj kaktojn).
 STR_PARAM_TREES_TOYLAND_NAME          :Ludillandarboj
 STR_PARAM_TREES_TOYLAND_DESC          :Arbstilo por uzo en ludillandklimato.
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ - Terenaro
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Terenaro OpenGFX+. Terenaj grafikoj en stilo de OpenGFX2.{BLACK}{}Farita de Zephyris, staranta sur la ŝultroj de la teamo OpenGFX{}{BLACK}Permesilo: {SILVER}GPL v2+{}{BLACK}Retejo: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :OpenGFX2+ - Arboj
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Arboj OpenGFX+. Arboj en la stilo de OpenGFX2.{BLACK}{}Farita de Zephyris, staranta sur la ŝultroj de la teamo OpenGFX{}{BLACK}Permesilo: {SILVER}GPL v2+{}{BLACK}Retejo: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ - Objektoj
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Objektoj OpenGFX2+. Objektoj en stilo de OpenGFX2.{BLACK}{}Farita de Zephyris, staranta sur la ŝultroj de la teamo OpenGFX{}{BLACK}Permesilo: {SILVER}GPL v2+{}{BLACK}Retejo: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :Rokaro
+STR_OBJECT_ROCKS                      :Grizaj rokoj
+STR_OBJECT_ROCKS_BLACK                :Nigraj rokoj
+STR_OBJECT_ROCKS_DARKGRAY             :Malhelgrizaj rokoj
+STR_OBJECT_ROCKS_BROWN1               :Ruĝ-brunaj rokoj
+STR_OBJECT_ROCKS_BROWN2               :Brunaj rokoj
+STR_OBJECT_ROCKS_YELLOW               :Flavaj rokoj
+STR_OBJECT_ROCKS_BUY                  :Kahelo de rokkovrita tereno. Povas esti konstruita sur lando, marbordoj aŭ maro. Ŝanĝas laŭ dekliveco kaj neĝo.
 
 STR_CLASS_FLD_                        :Kampoj
 STR_OBJECT_FIELD                      :Kampo
+STR_OBJECT_FIELD_BUY                  :Kahelo de kampa tereno. Ŝanĝas laŭ dekliveco kaj neĝo, kun aŭtomataj ŝtelaj aŭ arbustaj bariloj ĉirkaŭ areoj se sama kampotipo.
 STR_OBJECT_COMPANY_BARE               :Nuda tero
+STR_OBJECT_COMPANY_PART1              :Eta herbo
+STR_OBJECT_COMPANY_PART2              :Pli da herbo
+STR_OBJECT_COMPANY_GRASS              :Herbo
+STR_OBJECT_COMPANY_BUY                :Kahelo de barita tereno. Ŝanĝas laŭ dekliveco kaj neĝo, kun aŭtomataj bariloj de kompania koloro ĉirkaŭ areoj se sama kahelotipo.
 
 STR_CLASS_FRST                        :Arbaroj
+STR_OBJECT_FOREST                     :Arbaro
+STR_OBJECT_FOREST_BUY                 :Kahelo de arbara tereno. Ŝanĝas laŭ dekliveco kaj neĝo, kun aŭtomataj ŝtelaj aŭ arbustaj bariloj ĉirkaŭ areoj se sama kampotipo.
 
 STR_CLASS_BLDG                        :Konstruaĵoj
+STR_OBJECT_LIGHTHOUSE                 :Lumturo
+STR_OBJECT_TRANSMITTER                :Transmitilo
+STR_OBJECT_SUBSTATION                 :Subcentralo
+STR_OBJECT_GASOMETER                  :Gasujo
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ - Stacioj & vojpunktoj
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Stacioj kaj vojpunktoj OpenGFX+. Relaj stacioj kaj vojpunktoj en la stilo de OpenGFX2.{BLACK}{}Farita de Zephyris, staranta sur la ŝultroj de la teamo OpenGFX{}{BLACK}Permesilo: {SILVER}GPL v2+{}{BLACK}Retejo: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Vojpunktoj
+STR_WAYP_RAIL                         :Fervoja vojpunkto
+STR_WAYP_MONORAIL                     :Unurela vojpunkto
+STR_WAYP_MAGLEV                       :Magleva vojpunkto
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ - Tramoj
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Tramoj OpenGFX+. Tramoj en la stilo de OpenGFX2.{BLACK}{}Farita de Zephyris, staranta sur la ŝultroj de la teamo OpenGFX{}{BLACK}Permesilo: {SILVER}GPL v2+{}{BLACK}Retejo: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Tramo Broom Mk1
+STR_TRAM_NAME_GEN2                    :Tramo Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :Tramo Broom D1
+STR_TRAM_NAME_GEN4                    :Tramo Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Tramo Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Tramo Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Tramo Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Tramo Wizzowow
