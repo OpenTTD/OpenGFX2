@@ -24,7 +24,7 @@ template template_objects_farmfences(z) {
 }
 replace objects_farmfences(field_fence_start, "../graphics/terrain/64/farm_fences_8bpp.png") { template_objects_farmfences(1) }
 #32 alternative_sprites(objects_farmfences, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/terrain/64/farm_fences_bt32bpp.png") { template_objects_farmfences(1) }
-#ez alternative_sprites(objects_farmfences, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/terrain/256/farm_fences_8bpp.png") { template_objects_farmfences(4) }
+#ez alternative_sprites(objects_farmfences, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/terrain/256/farm_fences_8bpp.png") { template_objects_farmfences(4) }
 #32 #ez alternative_sprites(objects_farmfences, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/terrain/256/farm_fences_bt32bpp.png") { template_objects_farmfences(4) }
 
 rail_fence_start = reserve_sprites(1 * 6);
@@ -44,7 +44,7 @@ template template_objects_railasfarmfences(z) {
 }
 replace objects_railasfarmfences(rail_fence_start, "../graphics/infrastructure/64/rail_fences_8bpp.png") { template_objects_railasfarmfences(1) }
 #32 alternative_sprites(objects_railasfarmfences, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/infrastructure/64/rail_fences_rm32bpp.png", "../graphics/infrastructure/64/rail_fences_8bpp.png") { template_objects_railasfarmfences(1) }
-#ez alternative_sprites(objects_railasfarmfences, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/infrastructure/256/rail_fences_8bpp.png") { template_objects_railasfarmfences(4) }
+#ez alternative_sprites(objects_railasfarmfences, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/infrastructure/256/rail_fences_8bpp.png") { template_objects_railasfarmfences(4) }
 #32 #ez alternative_sprites(objects_railasfarmfences, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "../graphics/infrastructure/256/rail_fences_rm32bpp.png", "../graphics/infrastructure/256/rail_fences_8bpp.png") { template_objects_railasfarmfences(4) }
 
 // no fence
