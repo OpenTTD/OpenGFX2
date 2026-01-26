@@ -9,7 +9,7 @@ Requires a system with `make`, `nmlc`, `git` and  `python3` (3.11+) with `PIL`, 
 Clone the repository, navigate to the repository root directory and run `make all`. It will take a long time...
 
 The built baseset will be in `baseset/`, making different versions called `OpenGFX2_<variant>-<version>.tar` and `.zip`.
-You can (re)build only the "Classic" 8bpp 1x zoom baseset using `make baseset` or the "High Def" 32bpp 4x zoom baseset using `make baseset_highdef`.
+You can (re)build only the "Classic" 8bpp 1x zoom baseset using `make baseset` or the "High Def" 8bpp 4x zoom baseset using `make baseset_highdef`.
 
 The built NewGRF(s) will be in `newgrf/`, making various `.grf` files.
 You can (re)build only the NewGRFs using `make newgrf`.
@@ -17,6 +17,8 @@ You can (re)build only the NewGRFs using `make newgrf`.
 You can (re)build only the graphics using `make graphics`.
 
 Intermediate files can be removed for a clean build using `make clean`, or `make clean_graphics`, `make clean_baseset` or `make clean_newgrf` for graphics, baseset and newgrf files respectively.
+
+If you want to adapt the build process to make different base set versions, you'll want modify rules or make new rules with the following suffixes: `_8` for 1x 8bpp, `_32` 1x 32bpp, `_8ez` 4x 8bpp, `_32ez` for 4x 32bpp. Then the various bits of the build pipleine should interpret this correctly and make the correct variant.
 
 ### Build process notes
 Image processing makes a bunch of intermediate files, particularly `*_8bpp.png` and things in `pygen` directories. Others are `_bt32bpp.png`, `_rm32bpp.png`. These files are assumed to be temporary intermediates, and any user-modified versions will be blindly overwritten. Make sure you look at `.gitignore` see which files this applies to.

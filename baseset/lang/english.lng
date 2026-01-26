@@ -6,7 +6,7 @@ STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Base Graphics Set{BLACK}
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 pixel art style base graphics set for OpenTTD, classic variant (normal zoom 8bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
-STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art style base graphics set for OpenTTD, high definition variant (extra zoom 32bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 pixel art style base graphics set for OpenTTD, high definition variant (extra zoom 8bpp). Freely available under the terms of the GNU General Public License version 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Baseset parameters.
 STR_WARN_SETTINGSGRF_HARDCODED        :Hardcoded parameters.

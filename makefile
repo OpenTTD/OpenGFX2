@@ -43,7 +43,7 @@ baseset: baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip makefile.vcs
 baseset/OpenGFX2_Classic-$(NAMING_VERSION).zip: baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar makefile.vcs
 	cd baseset && zip -9 -r OpenGFX2_Classic-$(NAMING_VERSION).zip OpenGFX2_Classic-$(NAMING_VERSION).tar
 
-# "High Def" 32bpp 4x zoom baseset
+# "High Def" 8bpp 4x zoom baseset
 .PHONY: baseset_highdef
 baseset_highdef: baseset/OpenGFX2_HighDef-$(NAMING_VERSION).zip makefile.vcs
 
@@ -65,25 +65,25 @@ baseset/OpenGFX2_Classic-$(NAMING_VERSION).tar: baseset/opengfx2_8.obg $(BASESET
 	cd baseset && tar -cf OpenGFX2_Classic-$(NAMING_VERSION).tar OpenGFX2_Classic-$(NAMING_VERSION)/
 	rm -r baseset/OpenGFX2_Classic-$(NAMING_VERSION)
 
-baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar: baseset/opengfx2_32ez.obg $(BASESET_DOCS) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf) makefile.vcs
+baseset/OpenGFX2_HighDef-$(NAMING_VERSION).tar: baseset/opengfx2_8ez.obg $(BASESET_DOCS) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8ez.grf) makefile.vcs
 	mkdir -p baseset/OpenGFX2_HighDef-$(NAMING_VERSION)
 	cp README.md baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/readme.md
 	cp LICENSE baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/license.txt
 	cp CHANGELOG.md baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/changelog.md
-	cp $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf) baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/
-	cp baseset/opengfx2_32ez.obg baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/
+	cp $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8ez.grf) baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/
+	cp baseset/opengfx2_8ez.obg baseset/OpenGFX2_HighDef-$(NAMING_VERSION)/
 	cd baseset && tar -cf OpenGFX2_HighDef-$(NAMING_VERSION).tar OpenGFX2_HighDef-$(NAMING_VERSION)/
 	rm -r baseset/OpenGFX2_HighDef-$(NAMING_VERSION)
 
 # OBG for baseset
 # FORCE, as baseset_generate_obg checks for necessary updates
-.PRECIOUS: baseset/opengfx2_8.obg baseset/opengfx2_32ez.obg
+.PRECIOUS: baseset/opengfx2_8.obg baseset/opengfx2_8ez.obg
 
 baseset/opengfx2_8.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8.md5) makefile.vcs
 	python3 baseset/baseset_generate_obg.py $(BASESET_VERSION) $(USER_VERSION) 8 baseset/
 
-baseset/opengfx2_32ez.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_32ez.md5) makefile.vcs
-	python3 baseset/baseset_generate_obg.py $(BASESET_VERSION) $(USER_VERSION) 32ez baseset/
+baseset/opengfx2_8ez.obg: baseset/baseset_generate_obg.py baseset/lang/*.lng $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8ez.grf) $(foreach grf,$(BASESET_GRFS),baseset/$(grf)_8ez.md5) makefile.vcs
+	python3 baseset/baseset_generate_obg.py $(BASESET_VERSION) $(USER_VERSION) 8ez baseset/
 
 # GRF and MD5, via NML intermediate, for baseset
 # FORCE, as nml_preprocessor includes arbitrary pnml files
@@ -96,7 +96,7 @@ baseset/%_8.grf: graphics_1 baseset/lang/*.lng FORCE
 	python3 templates/nml_preprocessor.py baseset/$(PREF)_$(NAME).pnml $(BASESET_VERSION) $(ZOOM)
 	cd baseset && nmlc -p DOS --quiet -c $(PREF)_$(NAME)_$(ZOOM).nml --md5 $(PREF)_$(NAME)_$(ZOOM).md5
 
-baseset/%_32ez.grf: graphics_4 baseset/lang/*.lng FORCE
+baseset/%_8ez.grf: graphics_4 baseset/lang/*.lng FORCE
 	$(eval PREF=$(word 1, $(subst _, ,$(basename $(notdir $@)))))
 	$(eval NAME=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
 	$(eval ZOOM=$(word 3, $(subst _, ,$(basename $(notdir $@)))))
@@ -117,8 +117,8 @@ newgrf/%.grf: graphics_4 FORCE
 	$(eval PREF=$(word 1, $(subst _, ,$(basename $(notdir $@)))))
 	$(eval NAME=$(word 2, $(subst _, ,$(basename $(notdir $@)))))
 	echo $(PREF) $(NAME)
-	python3 templates/nml_preprocessor.py newgrf/$(PREF)_$(NAME).pnml $(BASESET_VERSION) 32ez
-	mv newgrf/$(PREF)_$(NAME)_32ez.nml newgrf/$(PREF)_$(NAME).nml
+	python3 templates/nml_preprocessor.py newgrf/$(PREF)_$(NAME).pnml $(BASESET_VERSION) 8ez
+	mv newgrf/$(PREF)_$(NAME)_8ez.nml newgrf/$(PREF)_$(NAME).nml
 	cd newgrf && nmlc -p DOS --quiet -c -l ../baseset/lang $(PREF)_$(NAME).nml
 
 # Graphics
