@@ -109,7 +109,7 @@ def preprocess_pnml(pnml_path, newgrf_version, high_bitdepth = False, extra_zoom
     # define alternate comment strings
     comment_alternate = ["#ez ", "#32 "]
 
-    settings_alternate = [high_bitdepth, extra_zoom]
+    settings_alternate = [extra_zoom, high_bitdepth]
     for c in range(len(comment_alternate)):
       comment = comment_alternate[c]
       if comment in line:
