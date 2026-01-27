@@ -91,20 +91,25 @@ STR_OBJECT_ROCKS_DARKGRAY             :Σκούροι γκρι βράχοι
 STR_OBJECT_ROCKS_BROWN1               :Καφετί-κοκκινωποί βράχοι
 STR_OBJECT_ROCKS_BROWN2               :Καφέ βράχοι
 STR_OBJECT_ROCKS_YELLOW               :Κίτρινοι βράχοι
+STR_OBJECT_ROCKS_BUY                  :Πλακίδιο για βραχώδες έδαφος. Μπορεί να κατασκευαστεί σε στεριά, ακτές ή θάλασσα. Με επίγνωση της κλίσης και του χιονιού.
 
 STR_CLASS_FLD_                        :Χωράφια
 STR_OBJECT_FIELD                      :Χωράφι
+STR_OBJECT_FIELD_BUY                  :Πλακίδιο εδάφους χωραφιού. Με επίνγωση κλίσης και χιονιού, με αυτόματους φράκτες ή φράκτες γύρω από περιοχές του ίδιου τύπου χωραφιού.
 STR_OBJECT_COMPANY_BARE               :Γυμνό έδαφος
 STR_OBJECT_COMPANY_PART1              :Λίγο γρασίδι
 STR_OBJECT_COMPANY_PART2              :Περισσότερο γρασίδι
 STR_OBJECT_COMPANY_GRASS              :Γρασίδι
+STR_OBJECT_COMPANY_BUY                :Πλακίδιο περιφραγμένου εδάφους. Με επίνγωση κλίσης και χιονιού, με αυτόματους εταιρικούς χρωματιστούς φράχτες γύρω από περιοχές του ίδιου τύπου πλακιδίων.
 
 STR_CLASS_FRST                        :Δάση
 STR_OBJECT_FOREST                     :Δάσος
+STR_OBJECT_FOREST_BUY                 :Πλακίδιο δασικού εδάφους. Με επίνγωση κλίσης και χιονιού, με αυτόματους φράκτες ή φράκτες γύρω από περιοχές του ίδιου τύπου χωραφιού.
 
 STR_CLASS_BLDG                        :Κτίρια
 STR_OBJECT_LIGHTHOUSE                 :Φάρος
 STR_OBJECT_TRANSMITTER                :Αναμεταδότης
+STR_OBJECT_SUBSTATION                 :Υποσταθμός
 STR_OBJECT_GASOMETER                  :Αεροφυλάκιο
 
 STR_GRF_STATIONS_NAME                 :Σταθμοί & Σημεία Καθοδήγησης OpenGFX2+
