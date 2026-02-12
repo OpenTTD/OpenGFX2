@@ -3,6 +3,7 @@
 ##gender f m s mn
 ##case z r d
 
+STR_GRF_DESCRIPTION                   :{ORANGE}Базова графіка OpenGFX2{BLACK}{}Автор Zephyris, на основі розробки команди OpenGFX{}{BLACK}Ліцензія: {SILVER}GPL v2+{}{BLACK}Сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 
 
@@ -24,7 +25,11 @@ STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Арктичний (альтернати�
 
 
 
+STR_GRF_LANDSCAPE_NAME                :Краєвид OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Краєвид OpenGFX+. Краєвид у стилі OpenGFX2.{BLACK}{}Автор Zephyris, на основі розробки команди OpenGFX{}{BLACK}Ліцензія: {SILVER}GPL v2+{}{BLACK}Сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :Дерева OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Дерева OpenGFX+. Дерева у стилі OpenGFX2.{BLACK}{}Автор Zephyris, на основі розробки команди OpenGFX{}{BLACK}Ліцензія: {SILVER}GPL v2+{}{BLACK}Сайт: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 
 
