@@ -37,9 +37,9 @@ base_graphics spr4642(4642, "../graphics/towns/toyland/64/tall_8bpp.png") {
 }
 //4645-4648 short 3
 base_graphics spr4645(4645, "../graphics/towns/toyland/64/short_8bpp.png") {
-	template_house_1x1(195,150, 1, 74)
-	template_house_1x1(195, 75, 1, 74)
-	template_house_1x1(195,	0, 1, 74)
+	template_house_1x1(130,150, 1, 74)
+	template_house_1x1(130, 75, 1, 74)
+	template_house_1x1(130,	 0, 1, 74)
 }
 //4648-4651 tall 4
 base_graphics spr4648(4648, "../graphics/towns/toyland/64/tall_8bpp.png") {
@@ -56,7 +56,7 @@ base_graphics spr4651(4651, "../graphics/towns/toyland/64/pygen/2x1_boot_tiles_8
 	template_house_1x1( 0,  0, 1, 107)
 	template_house_1x1(65,  0, 1, 107)
 }
-//4657-4660 tall 5
+//4657-4659 tall 5
 base_graphics spr4657(4657, "../graphics/towns/toyland/64/tall_8bpp.png") {
 	template_house_1x1(260,248, 1, 123)
 	template_house_1x1(260,124, 1, 123)
@@ -64,9 +64,9 @@ base_graphics spr4657(4657, "../graphics/towns/toyland/64/tall_8bpp.png") {
 }
 //4660-4663 short 4, igloo
 base_graphics spr4660(4660, "../graphics/towns/toyland/64/short_8bpp.png") {
-	template_house_1x1(325,150, 1, 74)
-	template_house_1x1(325, 75, 1, 74)
-	template_house_1x1(325,	0, 1, 74)
+	template_house_1x1(195,150, 1, 74)
+	template_house_1x1(195, 75, 1, 74)
+	template_house_1x1(195,	0, 1, 74)
 }
 //4663-4666 short 5, tipi
 base_graphics spr4663(4663, "../graphics/towns/toyland/64/short_8bpp.png") {
