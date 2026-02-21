@@ -90,16 +90,20 @@ STR_OBJECT_ROCKS_DARKGRAY             :Roches gris foncé
 STR_OBJECT_ROCKS_BROWN1               :Roches rouge-brun
 STR_OBJECT_ROCKS_BROWN2               :Roches marron
 STR_OBJECT_ROCKS_YELLOW               :Roches jaunes
+STR_OBJECT_ROCKS_BUY                  :Case de terrain rocheuse. Peut être construite sur terre, littoral ou mer. Dessus, pas de pente ni de neige possible.
 
 STR_CLASS_FLD_                        :Champs
 STR_OBJECT_FIELD                      :Champ
+STR_OBJECT_FIELD_BUY                  :Case de terrain avec champ. Dessus, pas de pente ni de neige possible, avec des barrières ou haies placées automatiquement aux alentours d'aires du même type de case.
 STR_OBJECT_COMPANY_BARE               :Terre nue
 STR_OBJECT_COMPANY_PART1              :Peu d'herbe
 STR_OBJECT_COMPANY_PART2              :Plus d'herbe
 STR_OBJECT_COMPANY_GRASS              :Herbe
+STR_OBJECT_COMPANY_BUY                :Case de terrain avec implatation de barrières. Dessus, pas de pente ni de neige possible, avec des barrières de la couleur de la compagnie placées automatiquement aux alentours d'aires du même type de case.
 
 STR_CLASS_FRST                        :Forêts
 STR_OBJECT_FOREST                     :Forêt
+STR_OBJECT_FOREST_BUY                 :Case de terrain avec forêt. Dessus, pas de pente ni de neige possible, avec des barrières ou haies placées automatiquement aux alentours d'aires du même type de case.
 
 STR_CLASS_BLDG                        :Bâtiments
 STR_OBJECT_LIGHTHOUSE                 :Phare
