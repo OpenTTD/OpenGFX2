@@ -59,7 +59,7 @@ item(FEAT_ROADVEHS, item_tram_gen1) {
         weight: 21 ton;
         /* tractive_effort_coefficient and air_drag_coefficient is left at default */
         cargo_capacity: 26;
-        sound_effect: 0xFF;
+        sound_effect: sound("sfx/bell.opus");
         visual_effect: visual_effect(VISUAL_EFFECT_ELECTRIC, 0);
         length: 8;
     }
@@ -154,7 +154,7 @@ item(FEAT_ROADVEHS, item_tram_gen2) {
         weight: 34 ton;
         /* tractive_effort_coefficient and air_drag_coefficient is left at default */
         cargo_capacity: 28;
-        sound_effect: 0xFF;
+        sound_effect: sound("sfx/bell.opus");
         visual_effect: visual_effect(VISUAL_EFFECT_ELECTRIC, 0);
         length: 8;
     }
@@ -265,7 +265,7 @@ item(FEAT_ROADVEHS, item_tram_gen3) {
         weight: 46 ton;
         /* tractive_effort_coefficient and air_drag_coefficient is left at default */
         cargo_capacity: 30;
-        sound_effect: 0xFF;
+        sound_effect: sound("sfx/bell.opus");
         visual_effect: visual_effect(VISUAL_EFFECT_ELECTRIC, 0);
         length: 8;
     }
@@ -377,7 +377,7 @@ item(FEAT_ROADVEHS, item_tram_gen4) {
         weight: 54 ton;
         /* tractive_effort_coefficient and air_drag_coefficient is left at default */
         cargo_capacity: 34;
-        sound_effect: 0xFF;
+        sound_effect: sound("sfx/bell.opus");
         visual_effect: visual_effect(VISUAL_EFFECT_ELECTRIC, 0);
         length: 8;
     }

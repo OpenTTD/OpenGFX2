@@ -44,3 +44,7 @@ Install NewGRFs as normal using `NewGRF settings`.
 
 ## Building
 If you wish to build your own version of OpenGFX2 instead of using our prebuilt version, you can follow [these instructions](docs/building-opengfx2.md).
+
+## Credits
+
+Tramway bell sound derived from [Boxing Bell Signals by Mateusz_Chenc](https://freesound.org/s/520998/) under Creative Commons 0 license.
