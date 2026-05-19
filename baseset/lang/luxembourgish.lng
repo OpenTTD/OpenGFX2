@@ -11,14 +11,44 @@
 
 
 
+STR_PARAM_GRASS_TEMPERATE_NAME        :Temperéiert Gras
+STR_PARAM_GRASS_TEMPERATE_DESC        :Grasstil den an der temperéierter Landschaft benotzt gëtt
+STR_PARAM_GRASS_ARCTIC_NAME           :Arktëscht Gras
+STR_PARAM_GRASS_ARCTIC_DESC           :Grasstil den an der arktëscher Landschaft benotzt gëtt
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropëscht Gras
+STR_PARAM_GRASS_TROPICAL_DESC         :Grasstil den an der tropëscher Landschaft benotzt gëtt
+STR_PARAM_GRASS_TOYLAND_NAME          :Spillsaachelandgras
+STR_PARAM_GRASS_TOYLAND_DESC          :Grasstil den am Spillsaacheland benotzt gëtt
+
+STR_PARAM_TREES_ARCTIC_NAME           :Arktësch Beem
+STR_PARAM_TREES_ARCTIC_DESC           :Bamstil den an der arktëscher Landschaft benotzt gëtt
 
 
 
 
+STR_OBJECT_ROCKS                      :Gro Fielsen
+STR_OBJECT_ROCKS_BLACK                :Schwaarz Fielsen
+STR_OBJECT_ROCKS_DARKGRAY             :Donkelgro Fielsen
+STR_OBJECT_ROCKS_BROWN1               :Roud-brong Fielsen
+STR_OBJECT_ROCKS_BROWN2               :Brong Fielsen
+STR_OBJECT_ROCKS_YELLOW               :Giel Fielsen
+STR_OBJECT_ROCKS_BUY                  :Fielsegt Terrainfeld.  Kann op Land, Küst oder Séi gebaut ginn. Ennerstëtzt Gefäll a Schnéi.
 
+STR_OBJECT_FIELD                      :Feld
+STR_OBJECT_FIELD_BUY                  :Feld Terrainfeld. Ënnerstëtzt Gefäll a Schnéi, mat Zonk den automatesch d'Faarw vun der Firma unhëllt fir ugrenzend Felder vum selweschten Feldertyp.
+STR_OBJECT_COMPANY_BARE               :kahl Äerd
+STR_OBJECT_COMPANY_PART1              :Kléngt Gras
+STR_OBJECT_COMPANY_PART2              :Méi Gras
+STR_OBJECT_COMPANY_GRASS              :Gras
+STR_OBJECT_COMPANY_BUY                :Terrainfeld mat Zonk. Ënnerstëtzt Gefäll a Schnéi, mat Zonk den automatesch d'Faarw vun der Firma unhëllt fir ugrenzend Felder vum selweschten Feldertyp.
 
+STR_OBJECT_FOREST                     :Bësch
+STR_OBJECT_FOREST_BUY                 :Bëschfeld. Ënnerstëtzt Gefäll a Schnéi, mat Zonk den automatesch d'Faarw vun der Firma unhëllt fir ugrenzend Felder vum selweschten Feldertyp.
 
-
+STR_OBJECT_LIGHTHOUSE                 :Liichttuerm
+STR_OBJECT_TRANSMITTER                :Sendeanlag
+STR_OBJECT_SUBSTATION                 :Ëmspanwierk
+STR_OBJECT_GASOMETER                  :Gasometer
 
 
 
