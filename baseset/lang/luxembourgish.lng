@@ -1,31 +1,78 @@
 ##grflangid 0x23
 ##plural 0
 
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Basis Grafikset{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Basisset Parameter.
+STR_WARN_SETTINGSGRF_HARDCODED        :Hardcodéiert Parameter.
+
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Klassesche Stil, giel (Standard)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klassesche Stil, gro
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-Stil, giel
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-Stil, wäiss
 
 
+STR_PARAM_LOGO_NAME                   :Logostil
+STR_PARAM_LOGO_DESC                   :OpenTTD Logostil fir de Titelbildschirm
+STR_PARAM_LOGO_VALUE_DEFAULT          :Standard
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Ënnergrond
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Stromlinnenzuch
 
+STR_PARAM_VALUE_TEMPERATE             :Temperéiert
+STR_PARAM_VALUE_ARCTIC                :Arktesch
+STR_PARAM_VALUE_TROPICAL              :Tropesch
+STR_PARAM_VALUE_TOYLAND               :Spillsaacheland
 
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Temperéiert (Standard)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arktesch (Standard)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropesch (Standard)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Spillsaacheland (Standard)
 
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Temperéiert (Alternative Stil)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktësch (Alternative Stil)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropesch (Alternative Stil)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Spillsaacheland (Alternative Stil)
 
-
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Temperéiert Fundamenter
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Fundamentstil den an der temperéierter Landschaft benotzt gëtt.
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Arktesch Fundamenter
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Fundamentstil den an der arktescher Landschaft benotzt gëtt.
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Tropesch Fundamenter
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Fundamentstil den an der tropescher Landschaft benotzt gëtt.
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Spillsaacheland Fundamenter
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Fundamentstil den an der Spillsaacheland benotzt gëtt.
 
 STR_PARAM_GRASS_TEMPERATE_NAME        :Temperéiert Gras
 STR_PARAM_GRASS_TEMPERATE_DESC        :Grasstil den an der temperéierter Landschaft benotzt gëtt
-STR_PARAM_GRASS_ARCTIC_NAME           :Arktëscht Gras
-STR_PARAM_GRASS_ARCTIC_DESC           :Grasstil den an der arktëscher Landschaft benotzt gëtt
-STR_PARAM_GRASS_TROPICAL_NAME         :Tropëscht Gras
-STR_PARAM_GRASS_TROPICAL_DESC         :Grasstil den an der tropëscher Landschaft benotzt gëtt
+STR_PARAM_GRASS_ARCTIC_NAME           :Arktescht Gras
+STR_PARAM_GRASS_ARCTIC_DESC           :Grasstil den an der arktescher Landschaft benotzt gëtt.
+STR_PARAM_GRASS_TROPICAL_NAME         :Tropescht Gras
+STR_PARAM_GRASS_TROPICAL_DESC         :Grasstil den an der tropescher Landschaft benotzt gëtt
 STR_PARAM_GRASS_TOYLAND_NAME          :Spillsaachelandgras
 STR_PARAM_GRASS_TOYLAND_DESC          :Grasstil den am Spillsaacheland benotzt gëtt
 
+STR_PARAM_TREES_TEMPERATE_NAME        :Temperéiert Beem
+STR_PARAM_TREES_TEMPERATE_DESC        :Bamstil den an der temperéierter Landschaft benotzt gëtt
 STR_PARAM_TREES_ARCTIC_NAME           :Arktësch Beem
-STR_PARAM_TREES_ARCTIC_DESC           :Bamstil den an der arktëscher Landschaft benotzt gëtt
+STR_PARAM_TREES_ARCTIC_DESC           :Bamstil den an der arktescher Landschaft benotzt gëtt.
+STR_PARAM_TREES_TROPICAL_NAME         :Tropësch Beem
+STR_PARAM_TREES_TROPICAL_DESC         :Bamstil den an der tropescher Landschaft benotzt gëtt (ersetzt keng Palmen a Kaktussen).
+STR_PARAM_TREES_TOYLAND_NAME          :Spillsaacheland Beem
+STR_PARAM_TREES_TOYLAND_DESC          :Bamstil den an der Spillsaacheland benotzt gëtt
 
+STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landschaft
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landschaft. Landschaft am OpenGFX2 Stil.{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :OpenGFX2+ Beem
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Beem. Beem am OpenGFX2 Stil.{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objekter
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX+ Objekter. Objekter am OpenGFX2 Stil.{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Fielsen
 STR_OBJECT_ROCKS                      :Gro Fielsen
 STR_OBJECT_ROCKS_BLACK                :Schwaarz Fielsen
 STR_OBJECT_ROCKS_DARKGRAY             :Donkelgro Fielsen
@@ -34,6 +81,7 @@ STR_OBJECT_ROCKS_BROWN2               :Brong Fielsen
 STR_OBJECT_ROCKS_YELLOW               :Giel Fielsen
 STR_OBJECT_ROCKS_BUY                  :Fielsegt Terrainfeld.  Kann op Land, Küst oder Séi gebaut ginn. Ennerstëtzt Gefäll a Schnéi.
 
+STR_CLASS_FLD_                        :Felder
 STR_OBJECT_FIELD                      :Feld
 STR_OBJECT_FIELD_BUY                  :Feld Terrainfeld. Ënnerstëtzt Gefäll a Schnéi, mat Zonk den automatesch d'Faarw vun der Firma unhëllt fir ugrenzend Felder vum selweschten Feldertyp.
 STR_OBJECT_COMPANY_BARE               :kahl Äerd
@@ -42,15 +90,30 @@ STR_OBJECT_COMPANY_PART2              :Méi Gras
 STR_OBJECT_COMPANY_GRASS              :Gras
 STR_OBJECT_COMPANY_BUY                :Terrainfeld mat Zonk. Ënnerstëtzt Gefäll a Schnéi, mat Zonk den automatesch d'Faarw vun der Firma unhëllt fir ugrenzend Felder vum selweschten Feldertyp.
 
+STR_CLASS_FRST                        :Bëscher
 STR_OBJECT_FOREST                     :Bësch
 STR_OBJECT_FOREST_BUY                 :Bëschfeld. Ënnerstëtzt Gefäll a Schnéi, mat Zonk den automatesch d'Faarw vun der Firma unhëllt fir ugrenzend Felder vum selweschten Feldertyp.
 
+STR_CLASS_BLDG                        :Gebäier
 STR_OBJECT_LIGHTHOUSE                 :Liichttuerm
 STR_OBJECT_TRANSMITTER                :Sendeanlag
 STR_OBJECT_SUBSTATION                 :Ëmspanwierk
 STR_OBJECT_GASOMETER                  :Gasometer
 
+STR_GRF_STATIONS_NAME                 :OpenGFX2+ Garen & Weepunkter
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Garen & Weepunkter. Garen a Weepunkter am OpenGFX2 Stil.{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_WAYP_CLASS                        :Weepunkter
 
+STR_GRF_TRAMS_NAME                    :OpenGFX2+ Tramen
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Tramen. Tramen am OpenGFX2 Stil.{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Broom Mk1 Tram
+STR_TRAM_NAME_GEN2                    :Manley-Morel 'T' Tram
+STR_TRAM_NAME_GEN3                    :Broom D1 Tram
+STR_TRAM_NAME_GEN4                    :Broom Deluxe Tram
 
+STR_TRAM_NAME_GEN1_TOYL               :Ploddyphut Tram
+STR_TRAM_NAME_GEN2_TOYL               :Powernaught Tram
+STR_TRAM_NAME_GEN3_TOYL               :Mightymover Tram
+STR_TRAM_NAME_GEN4_TOYL               :Wizzowow Tram
