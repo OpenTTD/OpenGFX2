@@ -1,19 +1,29 @@
 ##grflangid 0x23
 ##plural 0
+STR_GENERAL_DESC                      :OpenGFX2 Basis Grafikset fir OpenTTD. Gratis verfügbar ënnert der GNU General Public License version 2. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
 STR_GRF_DESCRIPTION                   :{ORANGE}OpenGFX2 Basis Grafikset{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
 STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :OpenGFX2 Pixelart-Stil Basis Grafikset fir OpenTTD, klassësch Variant (normale Zoom 8bpp). Gratis verfügbar ënnert der GNU General Public License version 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :OpenGFX2 Pixelart-Stil Basis Grafikset fir OpenTTD, HD Variant (extra Zoom 32bpp). Gratis verfügbar ënnert der GNU General Public License version 2+. [{STRING}]
 
 STR_WARN_SETTINGSGRF_BASESETPARAM     :Basisset Parameter.
 STR_WARN_SETTINGSGRF_HARDCODED        :Hardcodéiert Parameter.
 
+STR_PARAM_CURSOR_NAME                 :Mauszeiger
+STR_PARAM_CURSOR_DESC                 :Stil a Faarw vum Mauszeiger
 STR_PARAM_CURSOR_VALUE_DEFAULT        :Klassesche Stil, giel (Standard)
 STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Klassesche Stil, gro
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :OpenGFX-Stil, giel
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Windows-Stil, wäiss
 
+STR_PARAM_GRIDLINE_NAME               :Terrain Rasterlinnen
+STR_PARAM_GRIDLINE_DESC               :Ob oder net Rasterlinnen un de Kante vu Buedem a Waasserfelder ugewise ginn.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Nëmme Buedemrasterlinne (Standard)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Keng Rasterlinnen
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Buedem- a Waasserrasterlinnen
 
 STR_PARAM_LOGO_NAME                   :Logostil
 STR_PARAM_LOGO_DESC                   :OpenTTD Logostil fir de Titelbildschirm
@@ -104,6 +114,9 @@ STR_GRF_STATIONS_NAME                 :OpenGFX2+ Garen & Weepunkter
 STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Garen & Weepunkter. Garen a Weepunkter am OpenGFX2 Stil.{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Weepunkter
+STR_WAYP_RAIL                         :Schinne Weepunkt
+STR_WAYP_MONORAIL                     :Monorail Weepunkt
+STR_WAYP_MAGLEV                       :Magnéitschwiewbunn Weepunkt
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ Tramen
 STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Tramen. Tramen am OpenGFX2 Stil.{BLACK}{}Vum Zephyris, op de Schëller vum OpenGFX Team{}{BLACK}Lizenz: {SILVER}GPL v2+{}{BLACK}Websäit: {SILVER}https://github.com/OpenTTD/OpenGFX2
