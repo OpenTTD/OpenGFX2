@@ -39,7 +39,7 @@ replacenew presignalsemaphorepbs_208(PRE_SIGNAL_SEMAPHORE_PBS, "../graphics/sign
 replacenew presignalsemaphorepbs_224(PRE_SIGNAL_SEMAPHORE_PBS, "../graphics/signals/64/pbs_semaphore_leftside_unusedalt_8bpp.png", 224) { template_signals_base_empty() } //unused
 
 //German-style for TRAFFIC_SIDE_RIGHT
-if ((traffic_side == TRAFFIC_SIDE_RIGHT)) {
+if ((traffic_side == TRAFFIC_SIDE_RIGHT) == signals_on_traffic_side) {
 	replacenew presignalsemaphorepbs_48_rightside(PRE_SIGNAL_SEMAPHORE_PBS, "../graphics/signals/64/base_semaphore_rightside_8bpp.png", 48) { template_signals_base(1, 0) } //base/block
 	#ez alternative_sprites(presignalsemaphorepbs_48_rightside, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/signals/256/base_semaphore_rightside_8bpp.png") { template_signals_base(4, 0) }
 	replacenew presignalsemaphorepbs_64_rightside(PRE_SIGNAL_SEMAPHORE_PBS, "../graphics/signals/64/presignal_semaphore_rightside_entry_8bpp.png", 64) { template_signals_base(1, 0) } //pre-signal, entry
