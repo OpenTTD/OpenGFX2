@@ -1,0 +1,93 @@
+##grflangid 0x5a
+##plural 1
+
+STR_GRF_NAME                          :OpenGFX2Base
+STR_GRF_DESCRIPTION                   :{ORANGE}Set Grafik Dasar OpenGFX2{BLACK}{}Oleh Zephyris, berdiri di pundak tim OpenGFX{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+
+
+STR_PARAM_CURSOR_VALUE_DEFAULT        :Gaya klasik, kuning (Standar)
+STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Gaya klasik, abu-abu
+STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Gaya OpenGFX, kuning
+STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Gaya Windows, putih
+
+
+
+STR_PARAM_VALUE_TEMPERATE             :Sedang
+STR_PARAM_VALUE_ARCTIC                :Arktik
+STR_PARAM_VALUE_TROPICAL              :Tropis
+STR_PARAM_VALUE_TOYLAND               :Taman Bermain
+
+STR_PARAM_VALUE_TEMPERATE_DEFAULT     :Sedang (Standar)
+STR_PARAM_VALUE_ARCTIC_DEFAULT        :Arktik (Standar)
+STR_PARAM_VALUE_TROPICAL_DEFAULT      :Tropis (Standar)
+STR_PARAM_VALUE_TOYLAND_DEFAULT       :Taman Bermain (Standar)
+
+STR_PARAM_VALUE_TEMPERATE_ALTERNATE   :Sedang (Gaya alternatif)
+STR_PARAM_VALUE_ARCTIC_ALTERNATE      :Arktik (Gaya alternatif)
+STR_PARAM_VALUE_TROPICAL_ALTERNATE    :Tropis (Gaya alternatif)
+STR_PARAM_VALUE_TOYLAND_ALTERNATE     :Taman Bermain (Gaya alternatif)
+
+STR_PARAM_FOUNDATIONS_TEMPERATE_NAME  :Fondasi sedang
+STR_PARAM_FOUNDATIONS_TEMPERATE_DESC  :Gaya fondasi untuk dipakai di iklim sedang
+STR_PARAM_FOUNDATIONS_ARCTIC_NAME     :Fondasi arktik
+STR_PARAM_FOUNDATIONS_ARCTIC_DESC     :Gaya fondasi untuk dipakai di iklim arktik
+STR_PARAM_FOUNDATIONS_TROPICAL_NAME   :Fondasi tropis
+STR_PARAM_FOUNDATIONS_TROPICAL_DESC   :Gaya fondasi untuk dipakai di iklim tropis
+STR_PARAM_FOUNDATIONS_TOYLAND_NAME    :Fondasi taman bermain
+STR_PARAM_FOUNDATIONS_TOYLAND_DESC    :Gaya fondasi untuk dipakai di iklim taman bermain
+
+STR_PARAM_GRASS_TEMPERATE_NAME        :Rumput sedang
+STR_PARAM_GRASS_TEMPERATE_DESC        :Gaya rumput untuk dipakai di iklim sedang
+STR_PARAM_GRASS_ARCTIC_NAME           :Rumput arktik
+STR_PARAM_GRASS_ARCTIC_DESC           :Gaya rumput untuk dipakai di iklim arktik
+STR_PARAM_GRASS_TROPICAL_NAME         :Rumput tropis
+STR_PARAM_GRASS_TROPICAL_DESC         :Gaya rumput untuk dipakai di iklim tropis
+STR_PARAM_GRASS_TOYLAND_NAME          :Rumput taman bermain
+STR_PARAM_GRASS_TOYLAND_DESC          :Gaya rumput untuk dipakai di iklim taman bermain
+
+STR_PARAM_TREES_TEMPERATE_NAME        :Pepohonan sedang
+STR_PARAM_TREES_TEMPERATE_DESC        :Gaya pohon untuk dipakai di iklim sedang
+STR_PARAM_TREES_ARCTIC_NAME           :Pepohonan arktik
+STR_PARAM_TREES_ARCTIC_DESC           :Gaya pohon untuk dipakai di iklim arktik
+STR_PARAM_TREES_TROPICAL_NAME         :Pepohonan tropis
+STR_PARAM_TREES_TROPICAL_DESC         :Gaya pohon untuk dipakai di iklim tropis (tidak akan mengganti pohon palem dan kaktus)
+STR_PARAM_TREES_TOYLAND_NAME          :Pepohonan taman bermain
+STR_PARAM_TREES_TOYLAND_DESC          :Gaya pohon untuk dipakai di iklim taman bermain
+
+STR_GRF_LANDSCAPE_NAME                :Lanskap OpenGFX2+
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Lanskap OpenGFX+. Lanskap dengan gaya OpenGFX2.{BLACK}{}Oleh Zephyris, berdiri di pundak tim OpenGFX{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+
+
+
+STR_OBJECT_ROCKS                      :Bebatuan abu-abu
+STR_OBJECT_ROCKS_BLACK                :Bebatuan hitam
+STR_OBJECT_ROCKS_DARKGRAY             :Bebatuan abu-abu gelap
+STR_OBJECT_ROCKS_BROWN1               :Bebatuan merah gelap
+STR_OBJECT_ROCKS_BROWN2               :Bebatuan cokelat
+STR_OBJECT_ROCKS_YELLOW               :Bebatuan kuning
+STR_OBJECT_ROCKS_BUY                  :Ubin lahan berbatu. Dapat dibangun di tanah, pesisir atau laut. Sensitif terhadap kemiringan dan salju.
+
+STR_OBJECT_FIELD                      :Ladang
+STR_OBJECT_FIELD_BUY                  :Ubin lahan ladang. Sensitif terhadap kemiringan dan salju, dengan pagar atau tanaman pagar otomatis di sekitar area ladang yang sama.
+STR_OBJECT_COMPANY_BARE               :Tanah kosong
+STR_OBJECT_COMPANY_PART1              :Rumput kecil
+STR_OBJECT_COMPANY_PART2              :Lebih banyak rumput
+STR_OBJECT_COMPANY_GRASS              :Rumput
+STR_OBJECT_COMPANY_BUY                :Ubin lahan dengan pagar. Sensitif terhadap kemiringan dan salju, dengan pagar berwarna perusahaan secara otomatis di sekitar jenis ubin yang sama.
+
+STR_OBJECT_FOREST                     :Hutan
+STR_OBJECT_FOREST_BUY                 :Ubin lahan hutan. Sensitif terhadap kemiringan dan salju, dengan pagar atau tanaman pagar otomatis di sekitar area hutan yang sama.
+
+STR_CLASS_BLDG                        :Bangunan
+STR_OBJECT_LIGHTHOUSE                 :Mercusuar
+STR_OBJECT_GASOMETER                  :Tangki penyimpanan gas
+
+
+STR_WAYP_CLASS                        :Titik jalan
+STR_WAYP_RAIL                         :Titik jalan rel
+STR_WAYP_MONORAIL                     :Titik jalan monorel
+STR_WAYP_MAGLEV                       :Titik jalan maglev
+
+
+
