@@ -1,17 +1,35 @@
 ##grflangid 0x5a
 ##plural 1
+STR_GENERAL_DESC                      :Set grafis dasar OpenGFX2 untuk OpenTTD. Tersedia secara bebas di bawah Lisensi Publik Umum GNU versi 2. [OpenGFX2Base]
 
 STR_GRF_NAME                          :OpenGFX2Base
 STR_GRF_DESCRIPTION                   :{ORANGE}Set Grafik Dasar OpenGFX2{BLACK}{}Oleh Zephyris, berdiri di pundak tim OpenGFX{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_URL                           :https://github.com/OpenTTD/OpenGFX2
 
+STR_OBG_DESCRIPTION_CLASSIC           :Setelan grafis dasar OpenGFX2 gaya seni piksel untuk OpenTTD, varian klasik (zum normal 8bpp). Tersedia secara bebas di bawah Lisensi Publik Umum GNU versi 2+. [{STRING}]
+STR_OBG_DESCRIPTION_HIGHDEF           :Set grafis dasar OpenGFX2 gaya seni piksel untuk OpenTTD, varian definisi tinggi (zum ekstra 32bpp). Tersedia secara bebas di bawah Lisensi Publik Umum GNU versi 2+. [{STRING}]
 
+STR_WARN_SETTINGSGRF_BASESETPARAM     :Parameter set fondasi.
+STR_WARN_SETTINGSGRF_HARDCODED        :Parameter tetap.
 
+STR_PARAM_CURSOR_NAME                 :Kursor tetikus
+STR_PARAM_CURSOR_DESC                 :Gaya dan warna kursor tetikus.
 STR_PARAM_CURSOR_VALUE_DEFAULT        :Gaya klasik, kuning (Standar)
 STR_PARAM_CURSOR_VALUE_CLASSIC_GRAY   :Gaya klasik, abu-abu
 STR_PARAM_CURSOR_VALUE_OPENGFX_YELLOW :Gaya OpenGFX, kuning
 STR_PARAM_CURSOR_VALUE_WIN_WHITE      :Gaya Windows, putih
 
+STR_PARAM_GRIDLINE_NAME               :Garis kisi lahan
+STR_PARAM_GRIDLINE_DESC               :Menampilkan atau tidak menampilkan garis kisi di tepian ubin tanah dan perairan.
+STR_PARAM_GRIDLINE_VALUE_DEFAULT      :Hanya ada garis kisi tanah (Standar)
+STR_PARAM_GRIDLINE_VALUE_NOGRIDLINE   :Tidak ada garis kisi
+STR_PARAM_GRIDLINE_VALUE_WATERGRID    :Garis kisi tanah dan perairan
 
+STR_PARAM_LOGO_NAME                   :Gaya logo
+STR_PARAM_LOGO_DESC                   :Gaya logo OpenTTD untuk layar judul.
+STR_PARAM_LOGO_VALUE_DEFAULT          :Standar
+STR_PARAM_LOGO_VALUE_UNDERGROUND      :Bawah tanah
+STR_PARAM_LOGO_VALUE_CABRIOLET        :Streamliner
 
 STR_PARAM_VALUE_TEMPERATE             :Sedang
 STR_PARAM_VALUE_ARCTIC                :Arktik
@@ -58,8 +76,13 @@ STR_PARAM_TREES_TOYLAND_DESC          :Gaya pohon untuk dipakai di iklim taman b
 STR_GRF_LANDSCAPE_NAME                :Lanskap OpenGFX2+
 STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}Lanskap OpenGFX+. Lanskap dengan gaya OpenGFX2.{BLACK}{}Oleh Zephyris, berdiri di pundak tim OpenGFX{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_TREES_NAME                    :Pepohonan OpenGFX2+
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}Pepohonan OpenGFX+. Pepohonan dengan gaya OpenGFX2.{BLACK}{}Oleh Zephyris, berdiri di pundak tim OpenGFX{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_GRF_OBJECTS_NAME                  :Objek OpenGFX2+
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}Objek OpenGFX2+. Objek dengan gaya OpenGFX2.{BLACK}{}Oleh Zephyris, berdiri di pundak tim OpenGFX{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_CLASS_ROCK                        :Bebatuan
 STR_OBJECT_ROCKS                      :Bebatuan abu-abu
 STR_OBJECT_ROCKS_BLACK                :Bebatuan hitam
 STR_OBJECT_ROCKS_DARKGRAY             :Bebatuan abu-abu gelap
@@ -68,6 +91,7 @@ STR_OBJECT_ROCKS_BROWN2               :Bebatuan cokelat
 STR_OBJECT_ROCKS_YELLOW               :Bebatuan kuning
 STR_OBJECT_ROCKS_BUY                  :Ubin lahan berbatu. Dapat dibangun di tanah, pesisir atau laut. Sensitif terhadap kemiringan dan salju.
 
+STR_CLASS_FLD_                        :Ladang
 STR_OBJECT_FIELD                      :Ladang
 STR_OBJECT_FIELD_BUY                  :Ubin lahan ladang. Sensitif terhadap kemiringan dan salju, dengan pagar atau tanaman pagar otomatis di sekitar area ladang yang sama.
 STR_OBJECT_COMPANY_BARE               :Tanah kosong
@@ -76,18 +100,33 @@ STR_OBJECT_COMPANY_PART2              :Lebih banyak rumput
 STR_OBJECT_COMPANY_GRASS              :Rumput
 STR_OBJECT_COMPANY_BUY                :Ubin lahan dengan pagar. Sensitif terhadap kemiringan dan salju, dengan pagar berwarna perusahaan secara otomatis di sekitar jenis ubin yang sama.
 
+STR_CLASS_FRST                        :Hutan
 STR_OBJECT_FOREST                     :Hutan
 STR_OBJECT_FOREST_BUY                 :Ubin lahan hutan. Sensitif terhadap kemiringan dan salju, dengan pagar atau tanaman pagar otomatis di sekitar area hutan yang sama.
 
 STR_CLASS_BLDG                        :Bangunan
 STR_OBJECT_LIGHTHOUSE                 :Mercusuar
+STR_OBJECT_TRANSMITTER                :Pemancar
+STR_OBJECT_SUBSTATION                 :Sub-stasiun
 STR_OBJECT_GASOMETER                  :Tangki penyimpanan gas
 
+STR_GRF_STATIONS_NAME                 :Stasiun & Titik Jalan OpenGFX2+
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}Stasiun & Titik Jalan OpenGFX+. Stasiun kereta dan titik jalan dengan gaya OpenGFX2.{BLACK}{}Oleh Zephyris, berdiri di pundak tim OpenGFX{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Titik jalan
 STR_WAYP_RAIL                         :Titik jalan rel
 STR_WAYP_MONORAIL                     :Titik jalan monorel
 STR_WAYP_MAGLEV                       :Titik jalan maglev
 
+STR_GRF_TRAMS_NAME                    :Trem OpenGFX2+
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}Trem OpenGFX+. Trem dengan gaya OpenGFX2.{BLACK}{}Oleh Zephyris, berdiri di pundak tim OpenGFX{}{BLACK}Lisensi: {SILVER}GPL v2+{}{BLACK}Situs Web: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
+STR_TRAM_NAME_GEN1                    :Trem Broom Mk1
+STR_TRAM_NAME_GEN2                    :Trem Manley-Morel 'T'
+STR_TRAM_NAME_GEN3                    :Trem Broom D1
+STR_TRAM_NAME_GEN4                    :Trem Broom Deluxe
 
+STR_TRAM_NAME_GEN1_TOYL               :Trem Ploddyphut
+STR_TRAM_NAME_GEN2_TOYL               :Trem Powernaught
+STR_TRAM_NAME_GEN3_TOYL               :Trem Mightymover
+STR_TRAM_NAME_GEN4_TOYL               :Trem Wizzowow
