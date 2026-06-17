@@ -74,13 +74,13 @@ STR_PARAM_TREES_TOYLAND_NAME          :Rākau taonga tākaro
 STR_PARAM_TREES_TOYLAND_DESC          :Te tāera rākau hei whakamahi i te taiao taonga tākaro
 
 STR_GRF_LANDSCAPE_NAME                :OpenGFX2+ Landscape
-STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Whenua i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_LANDSCAPE_DESCRIPTION         :{ORANGE}OpenGFX+ Landscape. Whenua e whai ana i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_TREES_NAME                    :Rākau nō OpenGFX2+
-STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Trees. Rākau i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_TREES_DESCRIPTION             :{ORANGE}OpenGFX+ Trees. Rākau e whai ana i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_GRF_OBJECTS_NAME                  :OpenGFX2+ Objects
-STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objects. Mea i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_OBJECTS_DESCRIPTION           :{ORANGE}OpenGFX2+ Objects. Mea e whai ana i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_CLASS_ROCK                        :Toka
 STR_OBJECT_ROCKS                      :Toka kiwikiwi
@@ -111,7 +111,7 @@ STR_OBJECT_SUBSTATION                 :Teihana mātārua
 STR_OBJECT_GASOMETER                  :Inerehu
 
 STR_GRF_STATIONS_NAME                 :OpenGFX2+ Stations & Waypoints
-STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Stations & Waypoints. Teihana rerewhenua me ētahi aratohu i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_STATIONS_DESCRIPTION          :{ORANGE}OpenGFX+ Stations & Waypoints. Teihana rerewhenua me ētahi aratohu e whai ana i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_WAYP_CLASS                        :Aratohu
 STR_WAYP_RAIL                         :Aratohu rerewhenua
@@ -119,7 +119,7 @@ STR_WAYP_MONORAIL                     :Aratohu rēra tōtahi
 STR_WAYP_MAGLEV                       :Aratohu rēra autō
 
 STR_GRF_TRAMS_NAME                    :OpenGFX2+ Trams
-STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Trams. Taramu i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
+STR_GRF_TRAMS_DESCRIPTION             :{ORANGE}OpenGFX+ Trams. Taramu e whai ana i te tāera o OpenGFX2.{BLACK}{}Nā Zephyris, e tū ana i ngā pokohiwi o te kapa o OpenGFX{}{BLACK}Raihana: {SILVER}GPL v2+{}{BLACK}Paetukutuku: {SILVER}https://github.com/OpenTTD/OpenGFX2
 
 STR_TRAM_NAME_GEN1                    :Taramu Puruma Mk1
 STR_TRAM_NAME_GEN2                    :Taramu Mānare-Marera T
