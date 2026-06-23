@@ -533,12 +533,12 @@ template template_road_lights_tall(x, y, z) {
 
 // Infrastructure buildings: Road depots
 template template_road_depot(x, y, z) {
-	template_house_1x1_addoffs( 65,   0, z, 64,   0,   1)
-	template_house_1x1_addoffs(  0,   0, z, 64,  30, -14)
-	template_house_1x1_addoffs( 65,  65, z, 64,   0,   1)
-	template_house_1x1_addoffs(  0,  65, z, 64, -30, -14)
-	template_house_1x1_addoffs(  0, 195, z, 64, -30, -14)
-	template_house_1x1_addoffs(  0, 130, z, 64,  30, -14)
+	template_house_1x1_addoffs( 65,   0, z, 64,   0,   0)
+	template_house_1x1_addoffs(  0,   0, z, 64,  30, -15)
+	template_house_1x1_addoffs( 65,  65, z, 64,   0,   0)
+	template_house_1x1_addoffs(  0,  65, z, 64, -30, -15)
+	template_house_1x1_addoffs(  0, 195, z, 64, -30, -15)
+	template_house_1x1_addoffs(  0, 130, z, 64,  30, -15)
 }
 
 // Infrastructure: Road reconstruction
@@ -675,12 +675,12 @@ template template_farms_fences(x, y, z) {
 
 //Template infrastructure building: Ship depots
 template template_ship_depot(x, y, z) {
-	template_house_1x1_addoffs(  0,  65, z, 64, -30, -14)
-	template_house_1x1_addoffs(  0,   0, z, 64,  30, -14)
-	template_house_1x1_addoffs(  0, 195, z, 64, -30, -14)
-	template_house_1x1_addoffs(  0, 130, z, 64,  30, -14)
-	template_house_1x1_addoffs( 65,  65, z, 64,   0,   1)
-	template_house_1x1_addoffs( 65,   0, z, 64,   0,   1)
+	template_house_1x1_addoffs(  0,  65, z, 64, -30, -15)
+	template_house_1x1_addoffs(  0,   0, z, 64,  30, -15)
+	template_house_1x1_addoffs(  0, 195, z, 64, -30, -15)
+	template_house_1x1_addoffs(  0, 130, z, 64,  30, -15)
+	template_house_1x1_addoffs( 65,  65, z, 64,   0,   0)
+	template_house_1x1_addoffs( 65,   0, z, 64,   0,   0)
 }
 
 //Template bridges: General ramps
@@ -1320,8 +1320,8 @@ template template_modernairport_buildings_core(x, y, z) {
 	template_house_1x1_addoffs(  0,  97, z, 96,  -6,  -3)
 }
 template template_modernairport_depot_core(x, y, z) {
-	template_house_1x1_addoffs(  0,   0, z, 64,  28, -13)
-	template_house_1x1_addoffs( 65,   0, z, 64,   0,   1)
+	template_house_1x1_addoffs(  0,   0, z, 64,  28, -14)
+	template_house_1x1_addoffs( 65,   0, z, 64,   0,   0)
 }
 template template_modernairport_walkwaysfences(x, y, z) {
 	template_house_1x1_addoffs(260,   0, z, 96,  -8, -18)
