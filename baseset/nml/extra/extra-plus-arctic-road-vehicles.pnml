@@ -1,10 +1,15 @@
 // Arctic-specific cargo appearance variants, road
 // first generation
 replace arctic_spr3292(3292, "../graphics/vehicles/64/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 0, 1) } //coal unloaded
+#ez alternative_sprites(arctic_spr3292, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 0, 4) }
 replace arctic_spr3324(3324, "../graphics/vehicles/64/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 4, 1) } //goods
+#ez alternative_sprites(arctic_spr3324, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 4, 4) }
 replace arctic_spr3356(3356, "../graphics/vehicles/64/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 8, 1) } //steel/paper unloaded
+#ez alternative_sprites(arctic_spr3356, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 8, 4) }
 replace arctic_spr3380(3380, "../graphics/vehicles/64/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(1, 0, 1) } //coal loaded
+#ez alternative_sprites(arctic_spr3380, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(1, 0, 4) }
 replace arctic_spr3420(3420, "../graphics/vehicles/64/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(2, 8, 1) } //paper loaded
+#ez alternative_sprites(arctic_spr3420, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_firstgeneration_arctic_8bpp.png") { template_vehicle_road_8view(2, 8, 4) }
 
 // second generation
 replace arctic_spr3100(3100, "../graphics/vehicles/64/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 0, 1) } //coal unloaded
