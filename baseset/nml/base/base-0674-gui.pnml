@@ -110,7 +110,7 @@ base_graphics spr716( 716, "../graphics/cursors/1/pygen/default_8bpp.png") {
     template_cursor_matrix(2, 4, 1) // vehicle orders: 3/3
     template_cursor_matrix(0, 1, 1) // cursor: land area information
     template_cursor_matrix(1, 1, 1) // cursor: build hq
-    template_cursor_matrix(0, 6, 1) // cursor: build depot
+    template_cursor_matrix(0, 13, 1) // cursor: build ship depot
     template_cursor_matrix(2, 1, 1) // cursor: place sign
 }
 //723-746 toolbar icons
