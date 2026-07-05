@@ -115,6 +115,7 @@ def cursors_cursoroverlay(base_path, scale, verbose=True):
     {"sx": 6, "sy": 21, "tx": 10, "ty": 10}, # ship clone
     {"sx": 7, "sy": 21, "tx": 10, "ty": 11}, # aircraft clone
     {"sx": 3.5, "sy": 7, "tx": 0, "ty": 12}, # airport
+    {"sx": 2, "sy": 8, "tx": 0, "ty": 13}, # waterway depot
     {"sx": 3, "sy": 8, "tx": 1, "ty": 13}, # waterway lock
     {"sx": 7, "sy": 8, "tx": 2, "ty": 13}, # waterway canal
     {"sx": 4, "sy": 15, "tx": 3, "ty": 13}, # waterway river

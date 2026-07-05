@@ -23,7 +23,7 @@ template template_spr716(z) {
     template_cursor_matrix(2, 4, z) // vehicle orders: 3/3
     template_cursor_matrix(0, 1, z) // cursor: land area information
     template_cursor_matrix(1, 1, z) // cursor: build hq
-    template_cursor_matrix(0, 6, z) // cursor: build depot
+    template_cursor_matrix(0, 13, z) // cursor: build ship depot
     template_cursor_matrix(2, 1, z) // cursor: place sign
 }
 template template_spr1263(z) {
