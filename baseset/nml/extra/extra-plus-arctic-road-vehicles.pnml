@@ -13,10 +13,15 @@ replace arctic_spr3420(3420, "../graphics/vehicles/64/road_lorries_firstgenerati
 
 // second generation
 replace arctic_spr3100(3100, "../graphics/vehicles/64/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 0, 1) } //coal unloaded
+#ez alternative_sprites(arctic_spr3100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 0, 4) }
 replace arctic_spr3132(3132, "../graphics/vehicles/64/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 4, 1) } //goods
+#ez alternative_sprites(arctic_spr3132, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 4, 4) }
 replace arctic_spr3164(3164, "../graphics/vehicles/64/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 8, 1) } //steel/paper unloaded
+#ez alternative_sprites(arctic_spr3164, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 8, 4) }
 replace arctic_spr3188(3188, "../graphics/vehicles/64/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(1, 0, 1) } //coal loaded
+#ez alternative_sprites(arctic_spr3188, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(1, 0, 4) }
 replace arctic_spr3228(3228, "../graphics/vehicles/64/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(2, 8, 1) } //paper loaded
+#ez alternative_sprites(arctic_spr3228, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_arctic_8bpp.png") { template_vehicle_road_8view(2, 8, 4) }
 
 // third generation
 replace arctic_spr3484(3484, "../graphics/vehicles/64/road_lorries_thirdgeneration_arctic_8bpp.png") { template_vehicle_road_8view(0, 0, 1) } //coal unloaded

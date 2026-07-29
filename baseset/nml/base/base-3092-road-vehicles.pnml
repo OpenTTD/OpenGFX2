@@ -1,28 +1,51 @@
 //3092-3283 2nd generation road vehicles
 base_graphics spr3092(3092, "../graphics/vehicles/64/road_buses_8bpp.png") { template_vehicle_road_8view(0, 1, 1) } // bus
 base_graphics spr3100(3100, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 0, 1) } //coal unloaded
+#ez alternative_sprites(spr3100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 0, 4) }
 base_graphics spr3108(3108, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 1, 1) } //mail
+#ez alternative_sprites(spr3108, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 1, 4) }
 base_graphics spr3116(3116, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 2, 1) } //oil
+#ez alternative_sprites(spr3116, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 2, 4) }
 base_graphics spr3124(3124, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 3, 1) } //livestock
+#ez alternative_sprites(spr3124, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 3, 4) }
 base_graphics spr3132(3132, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 4, 1) } //goods
+#ez alternative_sprites(spr3132, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 4, 4) }
 base_graphics spr3140(3140, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 5, 1) } //food
+#ez alternative_sprites(spr3140, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 5, 4) }
 base_graphics spr3148(3148, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 6, 1) } //grain unloaded
+#ez alternative_sprites(spr3148, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 6, 4) }
 base_graphics spr3156(3156, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 7, 1) } //wood unloaded
+#ez alternative_sprites(spr3156, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 7, 4) }
 base_graphics spr3164(3164, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 8, 1) } //steel/paper unloaded
+#ez alternative_sprites(spr3164, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 8, 4) }
 base_graphics spr3172(3172, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 9, 1) } //iron/copper ore unloaded
+#ez alternative_sprites(spr3172, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 9, 4) }
 base_graphics spr3180(3180, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 10, 1) } //armoured
+#ez alternative_sprites(spr3180, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 10, 4) }
 base_graphics spr3188(3188, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 0, 1) } //coal loaded
+#ez alternative_sprites(spr3188, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 0, 4) }
 base_graphics spr3196(3196, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 6, 1) } //grain loaded
+#ez alternative_sprites(spr3196, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 6, 4) }
 base_graphics spr3204(3204, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 7, 1) } //wood loaded
+#ez alternative_sprites(spr3204, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 7, 4) }
 base_graphics spr3212(3212, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 8, 1) } //steel loaded
+#ez alternative_sprites(spr3212, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 8, 4) }
 base_graphics spr3220(3220, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 9, 1) } //iron ore loaded
+#ez alternative_sprites(spr3220, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 9, 4) }
 base_graphics spr3228(3228, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(2, 8, 1) } //paper loaded
+#ez alternative_sprites(spr3228, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(2, 8, 4) }
 base_graphics spr3236(3236, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(2, 9, 1) } //copper ore loaded
+#ez alternative_sprites(spr3236, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(2, 9, 4) }
 base_graphics spr3244(3244, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 11, 1) } //water
+#ez alternative_sprites(spr3244, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 11, 4) }
 base_graphics spr3252(3252, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 12, 1) } //fruit unloaded
+#ez alternative_sprites(spr3252, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 12, 4) }
 base_graphics spr3260(3260, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 13, 1) } //rubber unloaded
+#ez alternative_sprites(spr3260, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(0, 13, 4) }
 base_graphics spr3268(3268, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 12, 1) } //fruit loaded
+#ez alternative_sprites(spr3268, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 12, 4) }
 base_graphics spr3276(3276, "../graphics/vehicles/64/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 13, 1) } //rubber loaded
+#ez alternative_sprites(spr3276, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "../graphics/vehicles/256/road_lorries_secondgeneration_8bpp.png") { template_vehicle_road_8view(1, 13, 4) }
 
 //3284-3465 1st generation road vehicles
 base_graphics spr3284(3284, "../graphics/vehicles/64/road_buses_8bpp.png") { template_vehicle_road_8view(0, 0, 1) } // bus
