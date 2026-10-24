@@ -11,7 +11,7 @@ on:
 jobs:
   release:
     name: Release
-    uses: OpenTTD/actions/.github/workflows/rw-entry-release-baseset.yml@v6
+    uses: OpenTTD/actions/.github/workflows/rw-entry-release-baseset.yml@v7
     secrets: inherit
     with:
       apt-packages: git
