@@ -168,9 +168,14 @@ def fonts_charactergrab(base_path):
     image = Image.new("RGBA", (font["size"] * scale * maxwidthfactor, (font["ascent"] + font["descent"] + shadowoffset) * scale), (0, 0, 0, 0))
     draw = ImageDraw.Draw(image)
     draw.fontmode = "1" # aliased
+    # get character, with check for safe ranges
+    char = chr(code)
+    if code in range(1, 31 + 1) or code in range(127, 159 + 1):
+      # control characters, don't draw anything
+      char = ""
     if font["name"] == "medium":
-      draw.text((shadowoffset * scale, shadowoffset * scale + font["ydrawoffs"] * scale), chr(code) + additionalstring, font=font["imfont"], fill=(32, 32, 32, 255))
-    draw.text((0, 0 + font["ydrawoffs"] * scale), chr(code) + additionalstring, font=font["imfont"], fill=(16, 16, 16, 255))
+      draw.text((shadowoffset * scale, shadowoffset * scale + font["ydrawoffs"] * scale), char + additionalstring, font=font["imfont"], fill=(32, 32, 32, 255))
+    draw.text((0, 0 + font["ydrawoffs"] * scale), char + additionalstring, font=font["imfont"], fill=(16, 16, 16, 255))
     imagebox = image.getbbox()
     if imagebox is None:
       # if no bounding box then no glyph
