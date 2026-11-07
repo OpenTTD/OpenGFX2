@@ -5,7 +5,7 @@ grf {
 	desc: string(STR_GRF_DESCRIPTION);
 	url: string(STR_GRF_URL);
 	# version_line_marker #
-	min_compatible_version: version_openttd(1, 3, 0);
+	min_compatible_version: 0;
 	param 1 {
 		param_cursors_ {
 			name: string(STR_PARAM_CURSOR_NAME);
