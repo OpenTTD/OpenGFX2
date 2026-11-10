@@ -6,9 +6,17 @@ spriteset (waterfeature_locks_general, "../graphics/stations/general/64/pygen/do
 spriteset (waterfeature_locks_arctic_snow, "../graphics/stations/general/64/pygen/docksandlocks_snow_8bpp.png") { template_locks(0, 0, 1) } //snowy
 #32 alternative_sprites(waterfeature_locks_arctic_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "../graphics/stations/general/64/pygen/docksandlocks_snow_rm32bpp.png", "../graphics/stations/general/64/pygen/docksandlocks_snow_8bpp.png") { template_locks(0, 0, 1) }
 
+// switch for canal banks (for better behaviour when neighbouring sea-level canals)
+switch (FEAT_CANALS, SELF, switch_waterfeature_locks_banks,
+	getbits(dike_map,0,1) || getbits(dike_map,1,1) || getbits(dike_map,2,1) || getbits(dike_map,3,1)
+) {
+	1: waterfeature_locks_general;
+	waterfeature_locks_sealevel;
+}
+
 // switch for elevation
 switch (FEAT_CANALS, SELF, switch_waterfeature_locks_elevation, tile_height) {
-	0: waterfeature_locks_sealevel;
+	0: switch_waterfeature_locks_banks;
 	waterfeature_locks_general;
 }
 
